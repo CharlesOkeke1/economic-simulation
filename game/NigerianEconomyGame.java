@@ -99,7 +99,7 @@ public class NigerianEconomyGame {
         PrintReports.printStateReport(states, fed, state, currentMonth, "Final"); 
         for (StateEconomy s : sorted) {              
             MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 5);
-            MyUtils.SteppedPrinting(s.name + "'s Gdp is: " + MyUtils.formatNumber(s.gdp) + ", State Reserve: " + MyUtils.formatNumber(s.stateReserve) + " and Operating Cash " + String.format("%.2f", s.cash) , 5);
+            MyUtils.SteppedPrinting(s.name + "'s Gdp is: " + MyUtils.formatNumber(s.gdp) + ", State Reserve: " + MyUtils.formatNumber(s.stateReserve) + " and Operating Cash " + MyUtils.formatNumber(s.cash) , 5);
              
         }  
 
