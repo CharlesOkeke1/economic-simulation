@@ -1,0 +1,11 @@
+*.class
+bin/
+out/
+target/
+*.log
+.idea/
+.vscode/
+.DS_Store
+game/States.java
+game/NigerianEconomyUpdates.java
+
