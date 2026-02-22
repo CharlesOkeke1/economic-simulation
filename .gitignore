@@ -8,4 +8,5 @@ target/
 .DS_Store
 game/States.java
 game/NigerianEconomyUpdates.java
-
+run.sh
+upload.sh
