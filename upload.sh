@@ -2,6 +2,8 @@
 
 # Ask for commit message
 read -p "Enter commit message: " message
+read -p "Enter Version tag: " vTag
+read -p "Enter tag message: " tagMessage
 
 # Stop if message is empty
 if [ -z "$message" ]; then
@@ -14,6 +16,9 @@ git add .
 
 echo "Committing..."
 git commit -m "$message"
+
+echo "tagging..."
+git tag -a "$vTag" -m "$tagMessage"
 
 echo "Pushing to origin/main..."
 git push origin main

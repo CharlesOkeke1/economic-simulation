@@ -18,7 +18,6 @@ import game.ui.PrintReports;
 
 public class NigerianEconomyGame {
     public static void main(String[] args) {
-        //Initializer.initializer();
         Scanner sc = new Scanner(System.in);
         HashMap<String, StateEconomy> states = EconomyInitializer.createStates();
         FederalEconomy fed = EconomyInitializer.createFederal();
@@ -30,6 +29,13 @@ public class NigerianEconomyGame {
         String policy = "";
         String stateChoice = "";
         String state = "";
+        String admin = "admin"; //Prompt user for admin password which is used for testing purposes
+
+        System.out.println("Are you a developer? If so enter the developer password. If you are not a developer just enter no: ");
+        String devPass = sc.nextLine();
+        if (devPass.equals(admin) == false) {
+            Initializer.initializer();
+        }
 
         MyUtils.SteppedPrinting("Now choose a state: All 36 states are available", 30);
         MyUtils.SteppedPrinting("To select a state, type out the state name with the First letter in caps. Eg Lagos: ", 30);
@@ -60,23 +66,14 @@ public class NigerianEconomyGame {
                 PrintReports.printFederationReport(fed, numMonths, "Initial");   
             } 
 
-            /*
-            System.out.println(" ");
-            MyUtils.SteppedPrinting("Do you want random policies or you want to choose yours? (y for random/n for your own): ", 30);
-            String choice = sc.nextLine();
-
-            if (choice.equals("n")) {
-                MyUtils.SteppedPrinting("What is your " + MyUtils.Ordinalize(currentMonth + 1) + " month's policy?: ", 30);
-                policy = sc.nextLine();
-            } else { 
+            if (devPass.equals(admin)) {
                 policy = TurnRandomizer.randomP();
                 MyUtils.SteppedPrinting("Your random policy for month " + MyUtils.Ordinalize(currentMonth + 1) + " is: " + policy, 30);  
+            } else { 
+                MyUtils.SteppedPrinting("What is your " + MyUtils.Ordinalize(currentMonth + 1) + " month's policy?: ", 30);
+                policy = sc.nextLine();
             }
-            */
-
-            policy = TurnRandomizer.randomP();
-            MyUtils.SteppedPrinting("Your random policy for month " + MyUtils.Ordinalize(currentMonth + 1) + " is: " + policy, 30);  
-
+            
             SimulationResult result = SimulationEngine.simulate(states, fed, state, policy, currentMonth); 
             List<StateEconomy> sorted = new ArrayList<>(states.values());
             sorted.sort(Comparator.comparingInt(s -> s.position));
@@ -99,7 +96,7 @@ public class NigerianEconomyGame {
         PrintReports.printStateReport(states, fed, state, currentMonth, "Final"); 
         for (StateEconomy s : sorted) {              
             MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 5);
-            MyUtils.SteppedPrinting(s.name + "'s Gdp is: " + MyUtils.formatNumber(s.gdp) + ", State Reserve: " + MyUtils.formatNumber(s.stateReserve) + " and Operating Cash " + String.format("%.2f", s.cash) , 5);
+            MyUtils.SteppedPrinting(s.name + "'s Gdp is: " + MyUtils.formatNumber(s.gdp) + ", State Reserve: " + MyUtils.formatNumber(s.stateReserve) + " and Operating Cash " + MyUtils.formatNumber(s.cash) , 5);
              
         }  
 
