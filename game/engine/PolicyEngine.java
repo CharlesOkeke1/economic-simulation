@@ -37,7 +37,7 @@ public class PolicyEngine {
                 break;
 
             case "Invest Infrastructure":
-                double infraSpend = state.gdp * 0.031; //Each infrastructure expenditure costs 0.15% of state gdp
+                double infraSpend = state.gdp * 0.026; //Each infrastructure expenditure costs 0.15% of state gdp
                 state.infrastructure += 2;
                 // Spread cost over a year
                 state.policySpend += infraSpend; 
@@ -46,11 +46,11 @@ public class PolicyEngine {
 
             case "Invest Education":
                 //When educational investment occurs, education increases, then policy spend increases and cash decreases by policyspend
-                double eduSpend = state.gdp * 0.026;  // 0.1% of gdp
+                double eduSpend = state.gdp * 0.022;  // 0.1% of gdp
                 state.policySpend += eduSpend;
                 state.stability += 1.2;  // gradual social effect
                 // long-term productivity bump
-                state.gdp += (state.gdp * 0.029);  // +0.08%
+                state.gdp += (state.gdp * 0.019);  // +0.08%
                 break;
             
             case "Boost Security":
@@ -69,12 +69,12 @@ public class PolicyEngine {
                 break;
 
             case "Market Trader Support":
-                double grantCost = state.gdp * 0.0285;  // 0.2%
+                double grantCost = state.gdp * 0.02;  // 2%
                 // finance logic
                 state.policySpend += grantCost;
                 state.stability += 1;
                 // productivity micro-boost
-                state.gdp += (state.gdp * 0.008);
+                state.gdp += (state.gdp * 0.0125);
                 state.infrastructure += 1;  // soft boost
                 break;
 
@@ -89,10 +89,10 @@ public class PolicyEngine {
             
             case "Austerity":
                 //Austerity is harsh economic times. Cut govt. spending and raise tax aggresively.
-                state.policySpend = 0.825 * state.policySpend;
+                state.policySpend = 0.925 * state.policySpend;
                 state.taxRate += 0.005;  // smaller increase
                 state.stability -= 2;
-                state.gdp = state.gdp * 0.995;  // short-term contraction
+                state.gdp = state.gdp * 0.992;  // short-term contraction
                 state.infrastructure -= 2.3;  // soft boost
                 state.population -= 950;  // short-term contraction
                 break; 
@@ -140,7 +140,7 @@ public class PolicyEngine {
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
         double efficiency;
-        double nonTaxRevenue = state.gdp * 0.06;
+        double nonTaxRevenue = state.gdp * 0.055;
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
@@ -149,7 +149,7 @@ public class PolicyEngine {
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 
         /*GOVERNMENT SPENDING GROWTH MODDEL */
-        double baseSpend = state.gdp * 0.02; // 2% monthly
+        double baseSpend = state.gdp * 0.035; // 3.5% monthly
         baseSpend *= (1 + state.inflationRate);
 
         double populationBurden = state.population * 3.5;
@@ -162,7 +162,7 @@ public class PolicyEngine {
         state.cash += state.monthlyProfit;
 
         /*State's Contribute 21.75% of their operating cash at the end of the month*/
-        double stateRemittance = 0.26 * state.cash;
+        double stateRemittance = 0.36 * state.cash;
         state.cash -= stateRemittance;
         federal.federalReserve += stateRemittance;
 
@@ -198,7 +198,7 @@ public class PolicyEngine {
         if (state.cash > 0) {
             //Save 30% of the months profit
             if (state.monthlyProfit > 0) {
-                double reserveTransfer = state.cash * 0.0375;
+                double reserveTransfer = state.cash * 0.0875;
                 state.stateReserve += reserveTransfer;
                 state.cash -= reserveTransfer;
             }
@@ -231,7 +231,7 @@ public class PolicyEngine {
         
         /*CALCULATE NEXT MONTH'S INFLATION RATE*/
         double deficitRatio = (-state.monthlyProfit/state.gdp);
-        state.inflationRate = ((cashGrowth - gdpGrowth) * 0.7) - (deficitRatio * 0.3);
+        state.inflationRate = ((cashGrowth - gdpGrowth) * 0.7) + (deficitRatio * 0.3);
 
         state.inflationRate = Math.max(-0.0775, Math.min(state.inflationRate, 0.35));
 

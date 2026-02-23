@@ -124,3 +124,9 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Minor bug fixes - Adjusted revenue and expenditure sources to be more realistic
 
 ---
+
+***Version 1.7.1*** - *2026-02-23*
+- File Updates - updated fields in state creation
+- Minor Bug Fix - To improve realism adjusted reserve growth rate, adjusted base spend, adjusted inflation metric and adjusted gdp growth rate.
+
+---
