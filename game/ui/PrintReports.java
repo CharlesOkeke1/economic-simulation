@@ -2,6 +2,7 @@ package game.ui;
 import game.economies.StateEconomy;
 import game.economies.FederalEconomy;
 import utils.MyUtils;
+import utils.EnumToString;
 import java.util.*;
 
 
@@ -22,7 +23,7 @@ public class PrintReports {
                 MyUtils.SteppedPrinting("===== Final State of " + countyName + "'s Economic Situation =====", 30);
                 break;
         }
-        MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + county.governmentType, 20);   
+        MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + EnumToString.govtType(county.governmentType), 20);   
         MyUtils.SteppedPrinting("GDP: " + MyUtils.formatNumber(county.gdp)  + " Naira", 20);
         MyUtils.SteppedPrinting("POPULATION: " + MyUtils.formatNumber(county.population)  + " People", 20);
         MyUtils.SteppedPrinting("POSITION: " + MyUtils.Ordinalize(county.position) + " position out of 37 the states (Including Abuja)", 20);

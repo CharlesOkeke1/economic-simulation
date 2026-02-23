@@ -68,34 +68,34 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.4.2*** - *2026-02-23*
+***Version 1.4.2*** - *2026-02-22*
 - Implemented probabilistic AI selection tiers (best/mid/worst bands)
 - Added weighted randomness control (single-roll selection logic)
 - Made AI decision-making more realistic and less deterministic
 
 ---
 
-***Version 1.4.3*** - *2026-02-23*
+***Version 1.4.3*** - *2026-02-22*
 - Tuned probabilistic tier weights (e.g., 75% / 20% / 5%)
 - Minor cleanup of AI indexing and selection assumptions
 - Cleaned AI policy engine comments and improved readability
 
 ---
 
-***Version 1.5.0*** - *2026-02-23*
+***Version 1.5.0*** - *2026-02-22*
 - Added balanced initialization pass for states (normalized GDP/debt/stability/reserve ranges)
 - Preserved population, tax rate, and government type consistency
 - Introduced State Remittances feature to strengthen federal reserve mechanics
 
 ---
 
-***Version 1.5.1*** - *2026-02-23*
+***Version 1.5.1*** - *2026-02-22*
 - Fixed duplicate-file and restructuring compile issues
 - Improved repository hygiene (.gitignore cleanup, structural organization)
 
 ---
 
-***Version 1.6.0*** - *2026-02-23*
+***Version 1.6.0*** - *2026-02-22*
 - Implemented Git versioning workflow (commit discipline + release tagging)
 - Added structured `ChangeLog.md` documentation system
 
@@ -105,5 +105,11 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Enhanced upload script with commit message prompt
 - Added optional tag creation in upload workflow
 - Added developer admin check to reduce wait time during testing
+
+---
+
+***Version 1.6.2*** - *2026-02-23*
+- Added a function to properly display government types
+- Updated the report printer with the new function
 
 ---
