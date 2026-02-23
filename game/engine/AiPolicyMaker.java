@@ -22,15 +22,15 @@ public class AiPolicyMaker {
         HashMap<String, PolicyClass> policyMap = new HashMap<>();
         String policy = "";
 
-        int raiseTaxScore = 0; //+5
-        int cutTaxScore = 0; //+5
-        int securityScore = 0; //+4
-        int borrowScore = 0; //+4
-        int eduScore = 0; //+6
-        int infraScore = 0; //+6
-        int traderSupportScore = 0; //+4
-        int subsidyScore = 0; //+4
-        int austerityScore =  0; //+4
+        int raiseTaxScore = 0;
+        int cutTaxScore = 0; 
+        int securityScore = 0;
+        int borrowScore = 0; 
+        int eduScore = 0; 
+        int infraScore = 0; 
+        int traderSupportScore = 0; 
+        int subsidyScore = 0; 
+        int austerityScore =  0; 
 
         /*FISCAL CRISIS POLICIES*/
         //Monthly Profit Shortage
@@ -107,27 +107,27 @@ public class AiPolicyMaker {
         }
 
         switch (state.governmentType) {
-            case GROWTH_FOCUSED:
+            case GROWTH_FOCUSED: //Growth focused economies care more about investments
                 infraScore += 6;
                 eduScore += 6;
                 break;
 
-            case SOCIALIST:
+            case SOCIALIST: //socialists are more about welfare and subsidies
                 subsidyScore += 6;
                 cutTaxScore += 5;
                 traderSupportScore += 5;
                 break;
 
-            case FISCAL_CONSERVATIVE:
+            case FISCAL_CONSERVATIVE: //Heavy on reducing government speding
                 austerityScore += 5;
                 raiseTaxScore += 5;
                 break;
 
-            case DEBT_FIGHTER:
+            case DEBT_FIGHTER: //Debt clearers are also more austerous
                 austerityScore += 4;
                 break;
 
-            case SECURITY_ORIENTED:
+            case SECURITY_ORIENTED: //Security Oriented value boosting security and ensuring stabilityy
                 securityScore += 6;
                 state.stability += 3;
                 break;

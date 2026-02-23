@@ -1,24 +1,109 @@
-# Nigerian Economy Simulation Game ChangeLog
+# Changelog
 
-### *Version 1.1.0*
-- Uploaded the main game to git hub
+_This project uses **MAJOR.MINOR.PATCH** versioning:_
+- **MAJOR** increments for foundational system stages
+- **MINOR** increments for new features or significant system expansions
+- **PATCH** increments for bug fixes, balancing, tooling, and minor improvements
 
-### *Version 1.2.0*
-- Added State Government types that influence ai decision making
-- Added a GovType enum as a class under game.economies 
-- Gov Type is now a field in StateEconomy
+---
 
-### *Version 1.3.0*
-- Made the AI policy choices more realistic
-- A policy Class object was added in the ai policy file to facilitate the new system
-- AI policy Update was made to AiPolicyMaker.java in game.engine
+***Version 1.0.0*** - *2026-02-20*
+- Added core month-by-month simulation loop (states + federal)
+- Added basic policy application flow (player + AI)
+- Added state/federal reporting outputs 
 
-### *Version 1.3.1*
-- Minor bug fixes made to the gdp accumulation and cash dispersion
-- Added a minor feature - State remittances - to strengthen the federal reserve
+---
 
-### *Version 1.3.2*
-- Updated the upload script to now have tags and version history
-- Introduced the changelog file
-- Introduced the admin check to shorten wait time for developers
+***Version 1.1.0*** - *2026-02-20*
+- Refactored simulation into separate engine modules (SimulationEngine, PolicyEngine, Accounting, etc.)
+- Added state ranking + position system (sorted by performance)
+- Initial upload of core simulation engine to GitHub
+- Established repository structure and baseline project state
 
+---
+
+***Version 1.2.0*** - *2026-02-21*
+- Added economic crash model (risk-based GDP/stability/infrastructure reductions)
+- Added bailout logic trigger (federal support under crash conditions)
+- Updated AI policy decision logic to be more strategic and deterministic
+- Expanded policy set (infrastructure, education, security, borrow, austerity, subsidies, trader support)
+
+---
+
+***Version 1.2.1*** - *2026-02-21*
+- Fixed policy-selection “same output every time” behaviour
+- Tuned stability/debt/profit threshold conditions
+- Minor balancing adjustments
+- Added all the states with real world scaled down figures
+
+---
+
+***Version 1.3.0*** - *2026-02-22*
+- Introduced Government Type system per state
+- Added `GovType` enum under `game.economies`
+- Integrated government type as a field in `StateEconomy`
+- Added government ideology biasing to policy scoring
+
+---
+
+***Version 1.3.1*** - *2026-02-22*
+- Fixed enum placement/import issues
+- Cleaned government type output formatting
+- Minor structural cleanup in state initialization
+
+---
+
+***Version 1.4.0*** - *2026-02-22*
+- Added policy scoring system via `PolicyClass`
+- Implemented score accumulation model per policy
+- Introduced ranked policy sorting using `Comparator`
+
+---
+
+***Version 1.4.1*** - *2026-02-22*
+- Fixed comparator/generics inference issue (lambda treated items as `Object`)
+- Corrected incorrect policy score wiring
+- Fixed GDP accumulation inconsistencies
+- Corrected state/federal cash dispersion logic
+
+---
+
+***Version 1.4.2*** - *2026-02-23*
+- Implemented probabilistic AI selection tiers (best/mid/worst bands)
+- Added weighted randomness control (single-roll selection logic)
+- Made AI decision-making more realistic and less deterministic
+
+---
+
+***Version 1.4.3*** - *2026-02-23*
+- Tuned probabilistic tier weights (e.g., 75% / 20% / 5%)
+- Minor cleanup of AI indexing and selection assumptions
+- Cleaned AI policy engine comments and improved readability
+
+---
+
+***Version 1.5.0*** - *2026-02-23*
+- Added balanced initialization pass for states (normalized GDP/debt/stability/reserve ranges)
+- Preserved population, tax rate, and government type consistency
+- Introduced State Remittances feature to strengthen federal reserve mechanics
+
+---
+
+***Version 1.5.1*** - *2026-02-23*
+- Fixed duplicate-file and restructuring compile issues
+- Improved repository hygiene (.gitignore cleanup, structural organization)
+
+---
+
+***Version 1.6.0*** - *2026-02-23*
+- Implemented Git versioning workflow (commit discipline + release tagging)
+- Added structured `ChangeLog.md` documentation system
+
+---
+
+***Version 1.6.1*** - *2026-02-23*
+- Enhanced upload script with commit message prompt
+- Added optional tag creation in upload workflow
+- Added developer admin check to reduce wait time during testing
+
+---
