@@ -11,7 +11,7 @@ public class FederalAccountingEngine {
         int noOfStates = 0;
         Random rand = new Random();
         for (StateEconomy s : states.values()) {
-            natGdp = natGdp + s.gdp;
+            natGdp = natGdp + s.realGdp;
             natPop = natPop + s.population;
             noOfStates++;
         }

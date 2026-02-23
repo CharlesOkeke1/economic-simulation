@@ -59,14 +59,15 @@ public class RankingEngine {
             double stabilityScore = s.stability / 100.0;
 
             s.rankingScore =
-                    (0.35 * gdpScore) +
-                    (0.25 * fiscalScore) +
+                    (0.30 * gdpScore) +
+                    (0.20 * fiscalScore) +
                     (0.20 * stabilityScore) +
                     (0.10 * infraScore) +
+                    (0.10 * s.inflationRate) +
                     (0.10 * popScore);
 
             if (Double.isNaN(s.rankingScore) || Double.isInfinite(s.rankingScore)) {
-                s.rankingScore = -5.0; // hard fallback
+                s.rankingScore = 0.10; // hard fallback
             }
 
         }

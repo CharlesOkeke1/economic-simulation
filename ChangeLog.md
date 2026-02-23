@@ -113,3 +113,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Updated the report printer with the new function
 
 ---
+
+***Version 1.7.0*** - *2026-02-23*
+- Added Inflation Rate and Real GDP to each state
+- Inflation affects GDP, debt, base expenditure and stability
+- Updated the states file to have gov type and GDP growth
+- Updated national GDP to be based of real GDP and not nominal
+- Added inflation as a metric in state ranking
+- Updated report printing to display real and not nominal GDP
+- Minor bug fixes - Adjusted revenue and expenditure sources to be more realistic
+
+---

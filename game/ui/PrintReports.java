@@ -12,7 +12,7 @@ public class PrintReports {
 
         switch(type) {
             case "Initial":
-                MyUtils.SteppedPrinting("===== Here is the Current State of " + countyName + " State's Economic Situation =====", 30);
+                MyUtils.SteppedPrinting("===== Here is " + countyName + " State's Current Economic Situation =====", 30);
                 break;
             
             case "Monthly":
@@ -24,7 +24,7 @@ public class PrintReports {
                 break;
         }
         MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + EnumToString.govtType(county.governmentType), 20);   
-        MyUtils.SteppedPrinting("GDP: " + MyUtils.formatNumber(county.gdp)  + " Naira", 20);
+        MyUtils.SteppedPrinting("REAL GDP: " + MyUtils.formatNumber(county.realGdp)  + " Naira", 20);
         MyUtils.SteppedPrinting("POPULATION: " + MyUtils.formatNumber(county.population)  + " People", 20);
         MyUtils.SteppedPrinting("POSITION: " + MyUtils.Ordinalize(county.position) + " position out of 37 the states (Including Abuja)", 20);
         MyUtils.SteppedPrinting("PERFORMANCE SCORE: " + String.format("%.2f", county.rankingScore), 20);
@@ -45,7 +45,7 @@ public class PrintReports {
     public static void printFederationReport(FederalEconomy fed, int count, String type) {  
         switch(type) {
             case "Initial":
-                MyUtils.SteppedPrinting("===== Here is the Current State of Nigeria's Economic Situation =====", 30);
+                MyUtils.SteppedPrinting("===== Here is Nigeria's Current Economic Situation =====", 30);
                 break;
             
             case "Monthly":

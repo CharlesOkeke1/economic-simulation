@@ -5,6 +5,7 @@ import game.economies.GovType;
 public class StateEconomy {
         public String name;
         public double gdp;
+        public double realGdp;
         public long population;
         public double stability;
         public double taxRate;
@@ -24,15 +25,17 @@ public class StateEconomy {
         public double federalAllocation;
         public double gdpGrowth;
         public GovType governmentType;
+        public double inflationRate;
 
-        public StateEconomy(String name, double gdp, long population, double stability, 
-                            double taxRate, double debt, double debtPayment, double cash, int crashCount, 
-                            int infrastructure, double monthlyRevenue, double monthlySpend, double monthlyProfit, 
-                            double policySpend, double stateReserve, double debtToGdpRatio, double rankingScore,
-                            int position, double federalAllocation, double gdpGrowth, GovType governmentType) {
+        public StateEconomy(String name, double gdp, double realGdp, long population, double stability, double taxRate, double debt, 
+                            double debtPayment, double cash, int crashCount, int infrastructure, double monthlyRevenue, 
+                            double monthlySpend, double monthlyProfit, double policySpend, double stateReserve, 
+                            double debtToGdpRatio, double rankingScore, int position, double federalAllocation, 
+                            double gdpGrowth, GovType governmentType, double inflationRate) {
             
             this.name = name;
             this.gdp = gdp;
+            this.realGdp = realGdp;
             this.population = population;
             this.stability = stability;
             this.taxRate = taxRate;
@@ -52,11 +55,13 @@ public class StateEconomy {
             this.federalAllocation = federalAllocation;
             this.gdpGrowth = gdpGrowth;
             this.governmentType = governmentType;
+            this.inflationRate = inflationRate;
         }
 
         public StateEconomy(StateEconomy other) {
             this.name = other.name;
             this.gdp = other.gdp;
+            this.realGdp = other.realGdp;
             this.population = other.population;
             this.stability = other.stability;
             this.taxRate = other.taxRate;
@@ -76,5 +81,6 @@ public class StateEconomy {
             this.federalAllocation = other.federalAllocation;
             this.gdpGrowth = other.gdpGrowth;
             this.governmentType = other.governmentType;
+            this.inflationRate = other.inflationRate;
         }
     }

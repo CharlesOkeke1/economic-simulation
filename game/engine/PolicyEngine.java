@@ -129,12 +129,18 @@ public class PolicyEngine {
         /*Calculate GDP and monthly growth rate is capped at  */
         growthRate = Math.max(-0.1, Math.min(0.1, growthRate));
         state.gdpGrowth = growthRate;
+        double lastGdp = state.gdp; //Set last gdp
         state.gdp = state.gdp * (1 + (state.gdpGrowth));
+        double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.
+        state.realGdp = state.gdp/(1 + state.inflationRate); // Calculate real gdp
+
+        
+        state.stability -= state.inflationRate * 2.5; //Inflation effect
 
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
         double efficiency;
-        double nonTaxRevenue = state.gdp * 0.1;
+        double nonTaxRevenue = state.gdp * 0.06;
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
@@ -144,7 +150,9 @@ public class PolicyEngine {
 
         /*GOVERNMENT SPENDING GROWTH MODDEL */
         double baseSpend = state.gdp * 0.02; // 2% monthly
-        double populationBurden = state.population * 2;
+        baseSpend *= (1 + state.inflationRate);
+
+        double populationBurden = state.population * 3.5;
         
         state.monthlySpend = baseSpend + populationBurden + state.policySpend;   
         
@@ -158,17 +166,22 @@ public class PolicyEngine {
         state.cash -= stateRemittance;
         federal.federalReserve += stateRemittance;
 
+        //Calculate cash growth
+        double cashGrowth = state.monthlyProfit - stateRemittance + state.federalAllocation;
+
         if (state.monthlyProfit > 0) {//Only pay debt if there's a surplus     
             if (state.debt > 0) {
                 double interestPayment = state.debt * federalDebtInterest;
                 state.cash -= interestPayment;
                 state.debtPayment = interestPayment; // Amount of Debt Cleared (Interest only)
+                if (state.inflationRate > 0.175) state.debtPayment *= 1.075;
 
-                if (state.monthlyProfit > state.gdp * 0.002) {
+                if (state.monthlyProfit > state.gdp * 0.02) {
                     double principalRepayment = state.monthlyProfit * 0.35;
                     state.debt -= principalRepayment;
                     state.cash -= principalRepayment;
                     state.debtPayment += principalRepayment; // If there's profit, monthly debt payment should also payoff principal
+                    if (state.inflationRate > 0.175) state.debtPayment *= 1.075;
                 }
             } else {
                 state.cash += Math.abs(state.debt);
@@ -215,7 +228,13 @@ public class PolicyEngine {
         if (Double.isNaN(state.cash) || Double.isNaN(state.gdp)) {
             BailOutCalculator.stateBailOut(states, federal, state.name); //If reserve depletes federal government bailsout the state;
         }
-               
+        
+        /*CALCULATE NEXT MONTH'S INFLATION RATE*/
+        double deficitRatio = (-state.monthlyProfit/state.gdp);
+        state.inflationRate = ((cashGrowth - gdpGrowth) * 0.7) - (deficitRatio * 0.3);
+
+        state.inflationRate = Math.max(-0.0775, Math.min(state.inflationRate, 0.35));
+
         
         
     }
