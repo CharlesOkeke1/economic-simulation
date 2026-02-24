@@ -7,14 +7,14 @@ public class PolicyEngine {
     public static final double minimumCash = 300000.0;
     public static final long minimumPop = 10000;
     public static final double minimumGdp = 750000.0;
-    public static final long inflationConstant = 250000;
+    public static final long inflationConstant = 275000;
 
     public static void applyPolicy(Map<String, StateEconomy> states, 
                                     FederalEconomy federal, String stat, String policy) {
         StateEconomy state = states.get(stat);
 
         double serviceCostFactor = 50; // A hundreth of the ratio of average Nigerian state spending to population
-        double baseGrowth = 0.0015; // 0.2% per month
+        double baseGrowth = 0.00275; // 0.35% per month
         double growthRate;
         double infraFactor;
         double stabFactor;
@@ -32,7 +32,7 @@ public class PolicyEngine {
                 state.taxRate += 0.005; //Increase taxes by 0.5% percent
                 state.stability -= 0.8; //Mild Populace disapproval
                 state.population -= 700;
-                state.gdp *= 0.998; 
+                state.gdp *= 0.996; 
                 break;
             
             case "Cut Taxes":
@@ -47,7 +47,7 @@ public class PolicyEngine {
                 state.infrastructure += 3.5;
                 // Spread cost over a year
                 state.policySpend += infraSpend; 
-                state.gdp += (state.gdp * 0.0185);  // +1.85% supply-side boost
+                state.gdp *= 1.0175;  // +1.75% supply-side boost
                 break;
 
             case "Invest Education":
@@ -56,7 +56,7 @@ public class PolicyEngine {
                 state.policySpend += eduSpend;
                 state.stability += 1.2;  // gradual social effect
                 // long-term productivity bump
-                state.gdp += (state.gdp * 0.019);  // +0.08%
+                state.gdp *= 1.0125;  // +1.25%
                 break;
             
             case "Boost Security":
@@ -70,23 +70,20 @@ public class PolicyEngine {
                 // finance logic
                 state.policySpend += subsidyCost;
                 state.stability += 1;
-                // slight inflation pressure (model later)
-                state.gdp = state.gdp * 0.996;  // slight distortion
+                state.gdp *= 1.0275;  // +2.75% slight boost
                 break;
 
             case "Market Trader Support":
                 double grantCost = state.gdp * 0.02;  // 2%
-                // finance logic
-                state.policySpend += grantCost;
+                state.policySpend += grantCost; // finance logic
                 state.stability += 1;
-                // productivity micro-boost
-                state.gdp += (state.gdp * 0.0125);
+                state.gdp *= 1.0125; // productivity micro-boost
                 state.infrastructure += 1;  // soft boost
                 break;
 
             case "Borrow":
                 //When borrowing, increase state cash, state debt and reduce allocation pool by 2% of gdp
-                double borrowAmount = state.gdp * 0.01;  // 1%
+                double borrowAmount = state.gdp * 0.03;  // 3%
                 state.cash += borrowAmount;
                 state.debt += borrowAmount;
                 state.stability -= 0.5;
@@ -95,11 +92,10 @@ public class PolicyEngine {
             
             case "Austerity":
                 //Austerity is harsh economic times. Cut govt. spending and raise tax aggresively.
-                state.policySpend = 0.925 * state.policySpend;
+                state.policySpend = 0.93 * state.policySpend;
                 state.taxRate += 0.005;  // smaller increase
                 state.stability -= 2;
-                state.gdp = state.gdp * 0.992;  // short-term contraction
-                state.infrastructure -= 1.3;  // small infrastructure sell off
+                state.infrastructure -= 1;  // small infrastructure sell off
                 state.population -= 900;  // short-term contraction
                 break; 
 
@@ -116,8 +112,8 @@ public class PolicyEngine {
         stabFactor = 1 + ((state.stability - 50) * 0.0015);
         stabFactor = Math.max(0.75, Math.min(1.15, stabFactor)); //clamp the Satbility factor between 0.75 and 1.15
 
-        taxDistortion = Math.max(0, (state.taxRate - 0.18) * 0.5);
-        if (state.taxRate > 0.20) {
+        taxDistortion = Math.max(0, (state.taxRate - 0.008) * 0.5);
+        if (state.taxRate > 0.67) {
             taxDistortion = Math.pow(state.taxRate - 0.20, 2) * 3.36; //states should only have a tax distortion if their taxes are too high
         }
         
@@ -125,7 +121,7 @@ public class PolicyEngine {
         debtPenalty = 1 - Math.min(0.4, debtRatio * 0.25); //debt penalty should not be less than 0.4
 
         growthRate = (baseGrowth * infraFactor * stabFactor * debtPenalty);
-        double infraEffect = 0.001 * Math.log(1 + state.infrastructure);
+        double infraEffect = 0.002 * Math.log(1 + state.infrastructure);
         growthRate += (infraEffect - taxDistortion);
 
         state.debtToGdpRatio = (state.debt/Math.max(state.gdp, 1e-6));
@@ -134,41 +130,41 @@ public class PolicyEngine {
 
         /*Calculate GDP and monthly growth rate is capped at  */
         growthRate = Math.max(-0.0375, Math.min(0.0375, growthRate));
-        state.gdpGrowth = growthRate;
+        state.gdpGrowth = growthRate + 0.05;
         double lastGdp = state.gdp; //Set last gdp
-        state.gdp = state.gdp * (1 + (state.gdpGrowth + 0.0175));
+        state.gdp = state.gdp * (1 + state.gdpGrowth);
         double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.
         state.realGdp = state.gdp/(1 + state.inflationRate); // Calculate real gdp
 
         
-        state.stability -= state.inflationRate * 1.25; //Inflation effect
+        state.stability -= state.inflationRate * 3; //Inflation effect
 
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
         double efficiency;
-        double nonTaxRevenue = state.gdp * 0.055;
+        double nonTaxRevenue = state.gdp * 0.03;
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
-        taxRevenue = state.gdp * (efficiency / 9);
+        taxRevenue = state.gdp * (efficiency / 6);
         
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 
         /*GOVERNMENT SPENDING GROWTH MODDEL */
-        double baseSpend = state.gdp * 0.035; // 3.5% monthly
+        double baseSpend = state.gdp * 0.065; // 6.5% monthly
         baseSpend *= (1 + state.inflationRate);
 
-        double populationBurden = state.population * 3.5;
+        double populationBurden = state.population * 4.5;
         
         state.monthlySpend = baseSpend + populationBurden + state.policySpend;   
         
         /*DEBT AND CASH MODEL */
-        double federalDebtInterest = 0.006 + (state.debt / Math.max(state.gdp, 1e-6)) * 0.01;
+        double federalDebtInterest = 0.008 + (state.debt / Math.max(state.gdp, 1e-6)) * 0.01;
         state.monthlyProfit = state.monthlyRevenue - state.monthlySpend;
         state.cash += state.monthlyProfit;
 
-        /*State's Contribute 29% of their operating cash at the end of the month*/
-        double stateRemittance = 0.29 * state.cash;
+        /*State's Contribute 30% of their operating cash at the end of the month*/
+        double stateRemittance = 0.3 * state.cash;
         state.cash -= stateRemittance;
         federal.federalReserve += stateRemittance;
 
@@ -233,7 +229,7 @@ public class PolicyEngine {
 
         /*CALCULATE NEXT MONTH'S INFLATION RATE AND ADJUST BY ITS CONSTANT*/
         double deficitRatio = (-state.monthlyProfit/state.gdp);
-        state.inflationRate = ((cashGrowth - gdpGrowth) * 0.035) + (deficitRatio * 0.015);
+        state.inflationRate = ((cashGrowth - gdpGrowth) * 0.03) + (deficitRatio * 0.0125);
         state.inflationRate /= inflationConstant;
 
         state.inflationRate = Math.max(-0.05, Math.min(state.inflationRate, 0.075));//Cap inflation rate

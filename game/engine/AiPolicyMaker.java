@@ -151,11 +151,11 @@ public class AiPolicyMaker {
         PolicyClass chosen;
 
         //choose between the best 2 options 75% of the time
-        if (roll < 0.75) {
+        if (roll < 0.5) {
             int index = rand.nextDouble() < 0.5 ? 0 : 1;
             chosen = sortedList.get(index);
         //choose between the middle 3 options 20% of the time
-        } else if (roll < 0.95) {
+        } else if (roll < 0.75) {
             if (midRoll < 0.333) {
                 chosen = sortedList.get(3);  // Best
             } else if (midRoll < 0.667) {

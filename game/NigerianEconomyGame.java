@@ -78,15 +78,18 @@ public class NigerianEconomyGame {
             List<StateEconomy> sorted = new ArrayList<>(states.values());
             sorted.sort(Comparator.comparingInt(s -> s.position));
             PrintReports.printStateReport(states, fed, state, currentMonth, "Monthly"); 
+            System.out.println(" ");
+            PrintReports.printFederationReport(fed, currentMonth, "Monthly");   
             
             
-
+            /*
             MyUtils.SteppedPrinting("===== PEFORMANCE OF OTHER STATES THIS MONTH =====", 30);
             for (StateEconomy s : sorted) {              
                 if (s.position < 6) {
                     MyUtils.SteppedPrinting(s.name + "'s peformance score this month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 5);
                 }
             }
+            */
             currentMonth++;        
 
         }
@@ -102,5 +105,7 @@ public class NigerianEconomyGame {
 
         System.out.println(" ");
         PrintReports.printFederationReport(fed, numMonths, "Final");   
+
+        
     }
 }
