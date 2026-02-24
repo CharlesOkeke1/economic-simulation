@@ -150,7 +150,7 @@ public class PolicyEngine {
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
-        taxRevenue = state.gdp * (efficiency / 6);
+        taxRevenue = state.gdp * (efficiency / 9);
         
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 
@@ -219,10 +219,10 @@ public class PolicyEngine {
  
 
         /*POPULATION GROWTH METRIC*/
-        double popGrowth = 0.0025; // 0.25% monthly
+        double popGrowth = 0.015; // 0.25% monthly
  
-        if (state.stability < 40) popGrowth -= 0.0005;
-        if (state.taxRate > 0.22) popGrowth -= 0.0003;
+        if (state.stability < 40) popGrowth -= 0.008;
+        if (state.taxRate > 0.22) popGrowth -= 0.006;
  
         state.population *= (1 + popGrowth);        
         state.population = Math.max(state.population, 5000); //Cap minimum population at 5000
