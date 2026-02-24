@@ -8,12 +8,11 @@ public class FederalAccountingEngine {
         /*National Statistics - (Number of states, Total GDP, Total Population)*/
         double natGdp = 0;
         long natPop = 0;
-        int noOfStates = 0;
+        final int noOfStates = 37;
         Random rand = new Random();
         for (StateEconomy s : states.values()) {
             natGdp = natGdp + s.realGdp;
             natPop = natPop + s.population;
-            noOfStates++;
         }
 
         federal.nationalGDP = natGdp;
@@ -27,7 +26,7 @@ public class FederalAccountingEngine {
         double vat = 0.075; //Nigeria's VAT at 7.5%.
         
         if (federal.oilPriceIndex > 1120) federal.oilPriceIndex = 1120;   
-        if (federal.oilPriceIndex < 900) federal.oilPriceIndex = 900;  
+        if (federal.oilPriceIndex < 920) federal.oilPriceIndex = 920;  
         
         //Oil Revenue
         federal.oilPool = baseOil * federal.oilPriceIndex;
@@ -37,7 +36,7 @@ public class FederalAccountingEngine {
         federal.allocationPool = federal.oilPool + federal.vatPool;
 
         federal.federalReserve += federal.allocationPool * 0.2; //Reserve 20% for state bail out
-        federal.allocationPool = federal.allocationPool * 0.8; //Update allocation pool
+        federal.allocationPool *= 0.8; //Update allocation pool
 
         /*INDIVIDUAL STATE ALLOCATION ACCOUNTING*/
         // 50% - Equal share among states
@@ -48,8 +47,10 @@ public class FederalAccountingEngine {
             //Apply allocation to state 
             s.federalAllocation = ((0.5 * (federal.allocationPool/noOfStates)) +
             (0.3 * federal.allocationPool * (s.population/federal.nationalPopulation)) + 
-            (0.2 * federal.allocationPool * (s.gdp/Math.max(federal.nationalGDP, 1e-6))));
+            (0.2 * federal.allocationPool * (s.realGdp/Math.max(federal.nationalGDP, 1e-6))));
 
+            //s.federalAllocation = Math.max(s.federalAllocation, 200000.0);
+            if ((Double.isNaN(s.federalAllocation)) || (Double.isInfinite(s.federalAllocation))) s.federalAllocation = 200000.0;
             s.cash += s.federalAllocation;
 
 

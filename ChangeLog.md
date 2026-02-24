@@ -128,5 +128,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 ***Version 1.7.1*** - *2026-02-23*
 - File Updates - updated fields in state creation
 - Minor Bug Fix - To improve realism adjusted reserve growth rate, adjusted base spend, adjusted inflation metric and adjusted gdp growth rate.
+- Affected Files - `EconomyInitializer.java` and `PolicyEngine.java`.
 
+---
+
+***Version 1.7.2*** - *2026-02-24*
+- Minor Bug Fixes - NaN and infinity number issues resolved with minimum federalAllocation, cash and gdp.
+- Realism Updates - Infrastructure and Austerity Policy updated to be more realistic.
+- Realism Updates - GDP, Cash growth, state stability, inflation rate, state remittance and other variables have been made more realistic and capped to prevent overflow where necessary.
+- Report now shows oil price per barrel, nominal gdp and inflation rate.
+- Affected Files - `PolicyEngine.java`, `ReportPrinter.java` and `FederalAccountingEngine.java`
 ---
