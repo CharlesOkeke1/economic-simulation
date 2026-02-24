@@ -78,7 +78,6 @@ public class NigerianEconomyGame {
             List<StateEconomy> sorted = new ArrayList<>(states.values());
             sorted.sort(Comparator.comparingInt(s -> s.position));
             PrintReports.printStateReport(states, fed, state, currentMonth, "Monthly"); 
-            System.out.println(" ");
             PrintReports.printFederationReport(fed, currentMonth, "Monthly");   
             
             

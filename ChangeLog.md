@@ -139,3 +139,17 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Report now shows oil price per barrel, nominal gdp and inflation rate.
 - Affected Files - `PolicyEngine.java`, `ReportPrinter.java` and `FederalAccountingEngine.java`
 ---
+
+***Version 1.7.3*** - *2026-02-24*
+- Minor Bug Fixes - Stability now grows realistically. 
+- Realism Updates - Policies have been made more realistic. Made AI decision less efficient for realism. The AI's now choose the best policies less.
+- Realism Updates - GDP, reserve, expenditure and cash growth are now more realistic.
+- Minor Update - Each month, the federal economy report is displayed.
+- Affected Files - `PolicyEngine.java`, `AiPolicyMaker.java` and `NigerianEconomyGame.java`
+---
+
+***Version 1.7.3.1*** - *2026-02-24*
+- ChangeLog file now updated for both this version and `v1.7.3`.
+- Minor Bug Fixes - GDP growth was undershooting and is now stable again.
+- Affected Files - `PolicyEngine.java` and `NigerianEconomyGame.java`
+---

@@ -130,14 +130,14 @@ public class PolicyEngine {
 
         /*Calculate GDP and monthly growth rate is capped at  */
         growthRate = Math.max(-0.0375, Math.min(0.0375, growthRate));
-        state.gdpGrowth = growthRate + 0.05;
+        state.gdpGrowth = growthRate + 0.025;
         double lastGdp = state.gdp; //Set last gdp
         state.gdp = state.gdp * (1 + state.gdpGrowth);
         double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.
         state.realGdp = state.gdp/(1 + state.inflationRate); // Calculate real gdp
 
         
-        state.stability -= state.inflationRate * 3; //Inflation effect
+        state.stability -= state.inflationRate * 60; //Inflation effect
 
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
@@ -154,7 +154,7 @@ public class PolicyEngine {
         double baseSpend = state.gdp * 0.065; // 6.5% monthly
         baseSpend *= (1 + state.inflationRate);
 
-        double populationBurden = state.population * 4.5;
+        double populationBurden = state.population * 3.5;
         
         state.monthlySpend = baseSpend + populationBurden + state.policySpend;   
         
@@ -163,8 +163,8 @@ public class PolicyEngine {
         state.monthlyProfit = state.monthlyRevenue - state.monthlySpend;
         state.cash += state.monthlyProfit;
 
-        /*State's Contribute 30% of their operating cash at the end of the month*/
-        double stateRemittance = 0.3 * state.cash;
+        /*State's Contribute 28% of their operating cash at the end of the month*/
+        double stateRemittance = 0.28 * state.cash;
         state.cash -= stateRemittance;
         federal.federalReserve += stateRemittance;
 
@@ -176,14 +176,14 @@ public class PolicyEngine {
                 double interestPayment = state.debt * federalDebtInterest;
                 state.cash -= interestPayment;
                 state.debtPayment = interestPayment; // Amount of Debt Cleared (Interest only)
-                if (state.inflationRate > 0.175) state.debtPayment *= 1.075;
+                if (state.inflationRate > 0.07) state.debtPayment *= 1.075;
 
                 if (state.monthlyProfit > state.gdp * 0.02) {
                     double principalRepayment = state.monthlyProfit * 0.35;
                     state.debt -= principalRepayment;
                     state.cash -= principalRepayment;
                     state.debtPayment += principalRepayment; // If there's profit, monthly debt payment should also payoff principal
-                    if (state.inflationRate > 0.175) state.debtPayment *= 1.075;
+                    if (state.inflationRate > 0.07) state.debtPayment *= 1.075;
                 }
             } else {
                 state.cash += Math.abs(state.debt);
