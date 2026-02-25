@@ -129,7 +129,7 @@ public class PolicyEngine {
 
         /*Calculate GDP and monthly growth rate is capped at 3.75%*/
         growthRate = Math.max(-0.0375, Math.min(0.0375, growthRate));
-        state.gdpGrowth = growthRate + 0.0385;
+        state.gdpGrowth = growthRate + 0.0375;
         double lastGdp = state.gdp; //Set last gdp
         state.gdp = state.gdp * (1 + state.gdpGrowth);
         double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.

@@ -126,45 +126,52 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 ---
 
 ***Version 1.7.1*** - *2026-02-23*
-- File Updates - updated fields in state creation
-- Minor Bug Fix - To improve realism adjusted reserve growth rate, adjusted base spend, adjusted inflation metric and adjusted gdp growth rate.
-- Affected Files - `EconomyInitializer.java` and `PolicyEngine.java`.
+- **File Updates** - updated fields in state creation
+- **Minor Bug Fix** - To improve realism adjusted reserve growth rate, adjusted base spend, adjusted inflation metric and adjusted gdp growth rate.
+- **Affected Files** - `EconomyInitializer.java` and `PolicyEngine.java`.
 
 ---
 
 ***Version 1.7.2*** - *2026-02-24*
-- Minor Bug Fixes - NaN and infinity number issues resolved with minimum federalAllocation, cash and gdp.
-- Realism Updates - Infrastructure and Austerity Policy updated to be more realistic.
-- Realism Updates - GDP, Cash growth, state stability, inflation rate, state remittance and other variables have been made more realistic and capped to prevent overflow where necessary.
-- Report now shows oil price per barrel, nominal gdp and inflation rate.
-- Affected Files - `PolicyEngine.java`, `ReportPrinter.java` and `FederalAccountingEngine.java`
+- **Minor Bug Fixes** - NaN and infinity number issues resolved with minimum federalAllocation, cash and gdp.
+- **Realism Updates** - Infrastructure and Austerity Policy updated to be more realistic.
+- **Realism Updates** - GDP, Cash growth, state stability, inflation rate, state remittance and other variables have been made more realistic and capped to prevent overflow where necessary.
+- **Report now shows oil price per barrel, nominal gdp and inflation rate.
+- **Affected Files** - `PolicyEngine.java`, `ReportPrinter.java` and `FederalAccountingEngine.java`
 ---
 
 ***Version 1.7.3*** - *2026-02-24*
-- Minor Bug Fixes - Stability now grows realistically. 
-- Realism Updates - Policies have been made more realistic. Made AI decision less efficient for realism. The AI's now choose the best policies less.
-- Realism Updates - GDP, reserve, expenditure and cash growth are now more realistic.
-- Minor Update - Each month, the federal economy report is displayed.
-- Affected Files - `PolicyEngine.java`, `AiPolicyMaker.java` and `NigerianEconomyGame.java`
+- **Minor Bug Fixes** - Stability now grows realistically. 
+- **Realism Updates** - Policies have been made more realistic. Made AI decision less efficient for realism. The AI's now choose the best policies less.
+- **Realism Updates** - GDP, reserve, expenditure and cash growth are now more realistic.
+- **Minor Update** - Each month, the federal economy report is displayed.
+- **Affected Files** - `PolicyEngine.java`, `AiPolicyMaker.java` and `NigerianEconomyGame.java`
 
 ---
 
 ***Version 1.7.3.1*** - *2026-02-24*
 - ChangeLog file now updated for both this version and `v1.7.3`.
-- Minor Bug Fixes - GDP growth was undershooting and is now stable again.
-- Affected Files - `PolicyEngine.java` and `NigerianEconomyGame.java`
+- **Minor Bug Fixes** - GDP growth was undershooting and is now stable again.
+- **Affected Files** - `PolicyEngine.java` and `NigerianEconomyGame.java`
 
 ---
 
 ***Version 1.7.3.2*** - *2026-02-25*
 - Starting values for each state adjusted, economic equations adjusted.
-- Affected Files - `PolicyEngine.java` and `EconomyInitializer.java`
+- **Affected Files** - `PolicyEngine.java` and `EconomyInitializer.java`
 
 ---
 
 ***Version 1.7.4*** - *2026-02-25*
-- Minor Update - Comments under the `game.economies` package have been cleaned up. Report Printer got an update for the federal economy.
-- Minor Bug Fix - Stability, GDP and cash growth stabilization. Major values are now protected against `isInfinite()` and `isNaN()`. All state inflation rates have been adjusted.
-- Affected Files/Packages - `PolicyEngine.java`, `EconomyInitializer.java` the whole `game.economies` package and `PrintReports.java`
+- **Minor Update** - Comments under the `game.economies` package have been cleaned up. Report Printer got an update for the federal economy.
+- **Minor Bug Fix** - Stability, GDP and cash growth stabilization. Major values are now protected against `isInfinite()` and `isNaN()`. All state inflation rates have been adjusted.
+- **Affected Files/Packages** - `PolicyEngine.java`, `EconomyInitializer.java` the whole `game.economies` package and `PrintReports.java`
+
+---
+
+***Version 1.7.4.1*** - *2026-02-25*
+- **Minor File Update** - `ChangeLog.md` file got a formatting update.
+- **Minor Bug Fix** - Cash growth has been stabilized on par with gdp
+- **Affected Files/Packages** - `PolicyEngine.java`.
 
 ---
