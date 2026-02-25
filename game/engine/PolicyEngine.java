@@ -97,7 +97,7 @@ public class PolicyEngine {
                 state.stability -= 2;
                 state.infrastructure -= 1;  // small infrastructure sell off
                 state.population -= 900;  // short-term contraction
-                break; 
+                break;
 
             default:
                 System.out.println("ERROR - Invalid command");
@@ -130,7 +130,7 @@ public class PolicyEngine {
 
         /*Calculate GDP and monthly growth rate is capped at  */
         growthRate = Math.max(-0.0375, Math.min(0.0375, growthRate));
-        state.gdpGrowth = growthRate + 0.025;
+        state.gdpGrowth = growthRate + 0.04;
         double lastGdp = state.gdp; //Set last gdp
         state.gdp = state.gdp * (1 + state.gdpGrowth);
         double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.
@@ -142,7 +142,7 @@ public class PolicyEngine {
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
         double efficiency;
-        double nonTaxRevenue = state.gdp * 0.03;
+        double nonTaxRevenue = state.gdp * 0.1;
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
@@ -151,10 +151,10 @@ public class PolicyEngine {
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 
         /*GOVERNMENT SPENDING GROWTH MODDEL */
-        double baseSpend = state.gdp * 0.065; // 6.5% monthly
+        double baseSpend = state.gdp * 0.05; // 6.5% monthly
         baseSpend *= (1 + state.inflationRate);
 
-        double populationBurden = state.population * 3.5;
+        double populationBurden = state.population * 3;
         
         state.monthlySpend = baseSpend + populationBurden + state.policySpend;   
         
@@ -215,7 +215,7 @@ public class PolicyEngine {
  
 
         /*POPULATION GROWTH METRIC*/
-        double popGrowth = 0.015; // 0.25% monthly
+        double popGrowth = 0.005; // 0.5% monthly
  
         if (state.stability < 40) popGrowth -= 0.008;
         if (state.taxRate > 0.22) popGrowth -= 0.006;

@@ -153,3 +153,8 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Minor Bug Fixes - GDP growth was undershooting and is now stable again.
 - Affected Files - `PolicyEngine.java` and `NigerianEconomyGame.java`
 ---
+
+***Version 1.7.3.2*** - *2026-02-25*
+- Starting values for each state adjusted, economic equations adjusted.
+- Affected Files - `PolicyEngine.java` and `EconomyInitializer.java`
+---
