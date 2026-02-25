@@ -1,4 +1,4 @@
-package game.initialization;
+package game.data;
 
 import java.util.*;
 import game.economies.*;

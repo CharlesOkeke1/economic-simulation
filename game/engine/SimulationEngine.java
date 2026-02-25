@@ -1,4 +1,5 @@
 package game.engine;
+import game.data.Constants;
 import game.economies.FederalEconomy;
 import game.economies.StateEconomy;
 import game.economies.SimulationResult;
@@ -10,8 +11,6 @@ public class SimulationEngine {
         String playerStateName, String playerPolicy, int counter) {
 
         String[] policies = {"Raise Taxes", "Cut Taxes", "Invest Infrastructure", "Invest Education", "Boost Security", "Borrow", "Austerity", "Market Trader Support", "Subsidise Transport & Food"};
-        Random rand = new Random();
-        
         StateEconomy playerState = states.get(playerStateName);
         
         /*FEDERATION ACCOUNTING */
@@ -24,8 +23,8 @@ public class SimulationEngine {
             else PolicyEngine.applyPolicy(states, federal, playerStateName, playerPolicy);
 
             if ((s.position < 6) && (counter > 0)) {
-                if (s.name == playerStateName) MyUtils.SteppedPrinting("Policy applied by " + MyUtils.Ordinalize(s.position) + " position was " + playerPolicy + " by " + playerStateName, 30);
-                else MyUtils.SteppedPrinting("Policy applied by " + MyUtils.Ordinalize(s.position) + " position was " + aiPolicy + " by " + s.name, 30);
+                if (s.name == playerStateName) MyUtils.SteppedPrinting("Policy applied by " + playerStateName + " at " + MyUtils.Ordinalize(s.position) + " position was " + playerPolicy, Constants.REPORT_DELAY_TIME);
+                else MyUtils.SteppedPrinting("Policy applied by " + s.name + " at " + MyUtils.Ordinalize(s.position) + " position was " + aiPolicy, Constants.REPORT_DELAY_TIME);
             }
         }
 

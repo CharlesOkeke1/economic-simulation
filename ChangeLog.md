@@ -175,3 +175,11 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Files/Packages** - `PolicyEngine.java`.
 
 ---
+
+***Version 1.7.5*** - *2026-02-25*
+- **Minor Update** - Comments under the `game.ui` and `game.utils` package have been cleaned up. 
+- **New File** - `game.initialization` renamed to `game.data`. A `Constants.java` file with constants has been added and all files affected files have been modified.
+- **Minor Bug Fix** - GDP and cash growth got economic tweaks to improve realism. Main game file now prevents user from choosing an unavailable state.
+- **Affected Files/Packages** - `PolicyEngine.java`, `FederalAccounting.java`, `SimulationEngine.java`, `NigerianEconomyGame.java` and `PrintReports.java`.
+
+---

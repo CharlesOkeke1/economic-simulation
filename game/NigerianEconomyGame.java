@@ -5,7 +5,8 @@ import game.economies.FederalEconomy;
 import game.economies.GovType;
 import game.economies.StateEconomy;
 import game.economies.SimulationResult;
-import game.initialization.EconomyInitializer;
+import game.data.EconomyInitializer;
+import game.data.Constants;
 import utils.MyUtils;
 import utils.Sleeper;
 import utils.StateSelecter;
@@ -13,8 +14,6 @@ import game.engine.SimulationEngine;
 import game.engine.TurnRandomizer;
 import game.ui.Initializer;
 import game.ui.PrintReports;
-
-
 
 public class NigerianEconomyGame {
     public static void main(String[] args) {
@@ -37,13 +36,12 @@ public class NigerianEconomyGame {
             Initializer.initializer();
         }
 
-        MyUtils.SteppedPrinting("Now choose a state: All 36 states are available", 30);
-        MyUtils.SteppedPrinting("To select a state, type out the state name with the First letter in caps. Eg Lagos: ", 30);
+        MyUtils.SteppedPrinting("Now choose a state: All 36 states are available", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("To select a state, type out the state name with the First letter in caps. eg, Lagos", Constants.REPORT_DELAY_TIME);
         stateChoice = sc.nextLine();
-
-        if (stateChoice.equals("")) {
-            MyUtils.SteppedPrinting("ERROR, Invalid state!", 30);
-            MyUtils.SteppedPrinting("Now choose a state: ", 30);
+       
+        if (!states.containsKey(stateChoice)) {
+            MyUtils.SteppedPrinting("ERROR, Invalid state! Choose a valid state", Constants.REPORT_DELAY_TIME);
             stateChoice = sc.nextLine();
         }
 
@@ -68,9 +66,9 @@ public class NigerianEconomyGame {
 
             if (devPass.equals(admin)) {
                 policy = TurnRandomizer.randomP();
-                MyUtils.SteppedPrinting("Your random policy for month " + MyUtils.Ordinalize(currentMonth + 1) + " is: " + policy, 30);  
+                MyUtils.SteppedPrinting("Your random policy for month " + MyUtils.Ordinalize(currentMonth + 1) + " is: " + policy, Constants.REPORT_DELAY_TIME);  
             } else { 
-                MyUtils.SteppedPrinting("What is your " + MyUtils.Ordinalize(currentMonth + 1) + " month's policy?: ", 30);
+                MyUtils.SteppedPrinting("What is your " + MyUtils.Ordinalize(currentMonth + 1) + " month's policy?: ", Constants.REPORT_DELAY_TIME);
                 policy = sc.nextLine();
             }
             
@@ -97,8 +95,8 @@ public class NigerianEconomyGame {
         sorted.sort(Comparator.comparingInt(s -> s.position));
         PrintReports.printStateReport(states, fed, state, currentMonth, "Final"); 
         for (StateEconomy s : sorted) {              
-            MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 5);
-            MyUtils.SteppedPrinting(s.name + "'s Real GDP is: " + MyUtils.formatNumber(s.gdp) + " Naira, State Reserve is: " + MyUtils.formatNumber(s.stateReserve) + " Naira and Operating Cash " + MyUtils.formatNumber(s.cash) + " Naira" , 5);
+            MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 10);
+            MyUtils.SteppedPrinting(s.name + "'s Real GDP is: " + MyUtils.formatNumber(s.gdp) + " Naira, State Reserve is: " + MyUtils.formatNumber(s.stateReserve) + " Naira and Operating Cash " + MyUtils.formatNumber(s.cash) + " Naira" , 10);
              
         }  
 

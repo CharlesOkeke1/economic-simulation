@@ -58,73 +58,9 @@ public class MyUtils {
     == USAGE ==
     Example usage1 = function(param);
     */
-
-
-    /*== ADJUST TO SUIT USAGE ==*/
-    /*Function to initialize the game and retrive necessary information from the user*/	
-	public static void initializer(List<String> directions) {
-		Scanner sc = new Scanner(System.in);
-		StringBuilder sb = new StringBuilder("");
-
-		/*Ask the number if they want a random set of turns else they input theirs */
-		System.out.println("Do you want a random list of directions? "); 
-		System.out.print("(If you don't, you will have to input your own directions) (y/n): "); 
-		String choice = sc.nextLine();
-
-		System.out.print("How many directions do you want? "); 
-		int choiceNumber = sc.nextInt();
-		sc.nextLine();
-		int size = choiceNumber;
-		int count = 0;
-
-		/*Branch applies if the user doesn't want random turns */
-		if (choice.equals("n")) {
-			/*Collect the users inputed turns and add them to the list */
-			while (count < choiceNumber) {
-				System.out.print("Enter the " + Ordinalize(count + 1) + " direction: ");
-				String input = sc.nextLine();
-				directions.add(input);
-				count++;
-			}
-		/*Branch if the user wants random turns */
-		} else {
-			/*Randomly generate turns and adds them to the list */
-			while (count < choiceNumber) {
-				if (Math.random() > 0.5) {
-					directions.add("right");
-				} else {
-					directions.add("left");
-				}
-				count++;
-			}
-			
-		}
-
-		/*Compute the final list and displays it to the user */
-		sb.append("{");
-		for (int i = 0; i < size; i++) {
-			sb.append(directions.get(i));
-			if (i < directions.size() - 1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("}");
-
-		/*If the list number of turns is less than 50, show the full list */
-		if (size < 50) { 
-			System.out.println(sb);
-		/*If the user doesn't mind the size then show the full thing */
-		} else {
-			System.out.println("List is too long to print well but the list exists.");
-			System.out.println("If you dont mind the format and want to see the full list, type y");
-			String c = sc.nextLine();
-
-			if (c.equals("y")) System.out.println(sb);
-		}
-
-	}
-
+    /*Take a number and return it with its coefficient */
 	public static String formatNumber(double value) {
+		
 
 		if (value == 0) return "0";
 
@@ -151,7 +87,7 @@ public class MyUtils {
 			scaled = absValue / 1_00.0;
 			return String.format("%.2f", absValue);
 		} 
-
+		/*Format all numbers to 2 decimal places*/
 		String formatted = String.format("%.2f", scaled);
 		return (value < 0 ? "-" : "") + formatted + suffix;
 	}

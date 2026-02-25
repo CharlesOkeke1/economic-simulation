@@ -1,20 +1,16 @@
 package game.engine;
 import game.economies.FederalEconomy;
 import game.economies.StateEconomy;
+import game.data.Constants;
 import java.util.*;
 
 public class PolicyEngine {
-    public static final double minimumCash = 600000.0;
-    public static final long minimumPop = 25000;
-    public static final double minimumGdp = 5000000.0;
-    public static final long inflationConstant = 300000;
-
     public static void applyPolicy(Map<String, StateEconomy> states, 
                                     FederalEconomy federal, String stat, String policy) {
+
         StateEconomy state = states.get(stat);
 
-        double serviceCostFactor = 50; // A hundreth of the ratio of average Nigerian state spending to population
-        double baseGrowth = 0.00275; // 0.35% per month
+        double baseGrowth = 0.00275; // 0.275% per month
         double growthRate;
         double infraFactor;
         double stabFactor;
@@ -69,14 +65,14 @@ public class PolicyEngine {
                 // finance logic
                 state.policySpend += subsidyCost;
                 state.stability += 2.0;
-                state.gdp *= 1.0275;  // +2.75% slight boost
+                state.gdp *= 1.0175;  // +1.75% slight boost
                 break;
 
             case "Market Trader Support":
                 double grantCost = state.gdp * 0.02;  // 2%
                 state.policySpend += grantCost; // finance logic
                 state.stability += 1.8;
-                state.gdp *= 1.0125; // productivity micro-boost
+                state.gdp *= 1.0125; //+1.75% productivity micro-boost 
                 state.infrastructure += 1;  // soft boost
                 break;
 
@@ -112,8 +108,8 @@ public class PolicyEngine {
         stabFactor = Math.max(0.75, Math.min(1.15, stabFactor)); //clamp the Satbility factor between 0.75 and 1.15
 
         taxDistortion = Math.max(0, (state.taxRate - 0.008) * 0.5);
-        if (state.taxRate > 0.67) {
-            taxDistortion = Math.pow(state.taxRate - 0.20, 2) * 3.36; //states should only have a tax distortion if their taxes are too high
+        if (state.taxRate > 0.07) {
+            taxDistortion = Math.pow(state.taxRate - 0.020, 2) * 3.36; //states should only have a tax distortion if their taxes are too high
         }
         
         double debtRatio = state.debt / Math.max(state.gdp, 1e-6);
@@ -145,7 +141,7 @@ public class PolicyEngine {
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
-        taxRevenue = state.gdp * (efficiency / 8);
+        taxRevenue = state.gdp * (efficiency / 9);
         
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 
@@ -153,7 +149,7 @@ public class PolicyEngine {
         double baseSpend = state.gdp * 0.05; // 5% monthly
         baseSpend *= (1 + state.inflationRate);
 
-        double populationBurden = state.population * 3;
+        double populationBurden = state.population * 4.5;
         
         state.monthlySpend = baseSpend + populationBurden + state.policySpend;   
         
@@ -213,24 +209,23 @@ public class PolicyEngine {
         }  
  
 
-        /*POPULATION GROWTH METRIC*/
+        /*POPULATION GROWTH METRIC*/ 
         double popGrowth = 0.005; // 0.5% monthly
- 
-        if (state.stability < 40) popGrowth -= 0.008;
-        if (state.taxRate > 0.22) popGrowth -= 0.006;
+        if (state.stability < 40) popGrowth -= 0.0008;
+        if (state.taxRate > 0.22) popGrowth -= 0.0006;
  
         state.population *= (1 + popGrowth);        
         state.population = Math.max(state.population, 5000); //Cap minimum population at 5000
 
         /*Reset if NaN or infinite values emerge*/
-        if ((Double.isNaN(state.cash)) || (Double.isInfinite(state.cash))) state.cash = minimumCash; 
-        if ((Double.isNaN(state.gdp)) || (Double.isInfinite(state.gdp))) state.gdp = minimumGdp; 
-        if ((Double.isNaN(state.population)) || (Double.isInfinite(state.population))) state.population = minimumPop; 
+        if ((Double.isNaN(state.cash)) || (Double.isInfinite(state.cash))) state.cash = Constants.MINIMUM_CASH; 
+        if ((Double.isNaN(state.gdp)) || (Double.isInfinite(state.gdp))) state.gdp = Constants.MINIMUM_GDP; 
+        if ((Double.isNaN(state.population)) || (Double.isInfinite(state.population))) state.population = Constants.MINIMUM_POPULATION; 
 
         /*CALCULATE NEXT MONTH'S INFLATION RATE AND ADJUST BY ITS CONSTANT*/
         double deficitRatio = (-state.monthlyProfit/state.gdp);
         state.inflationRate = ((cashGrowth - gdpGrowth) * 0.03) + (deficitRatio * 0.0125);
-        state.inflationRate /= inflationConstant;
+        state.inflationRate /= Constants.INFLATION_CONSTANT;
 
         state.inflationRate = Math.max(-0.05, Math.min(state.inflationRate, 0.075));//Cap inflation rate
 

@@ -1,6 +1,7 @@
 package game.engine;
 import game.economies.FederalEconomy;
 import game.economies.StateEconomy;
+import game.data.Constants;
 import java.util.*;
 
 public class FederalAccountingEngine {
@@ -8,7 +9,6 @@ public class FederalAccountingEngine {
         /*National Statistics - (Number of states, Total GDP, Total Population)*/
         double natGdp = 0;
         long natPop = 0;
-        final int noOfStates = 37;
         Random rand = new Random();
         for (StateEconomy s : states.values()) {
             natGdp = natGdp + s.realGdp;
@@ -18,21 +18,17 @@ public class FederalAccountingEngine {
         federal.nationalGDP = natGdp;
         federal.nationalPopulation = natPop;
 
-        /*FEDERATION ACCOUNTING*/
-        federal.oilPriceIndex = rand.nextInt(221) + 900; // Hovering aroung a hundreth of nigerias oil revenue per barrel (Price of a barrel)
+        long baseOil = 46000; //Nigeria's average oil production at 46M barrels per month. // **IMPORTANT** This has been scaled down 
 
-        //Peg Oil Price Index between 800 and
-        long baseOil = 46000; //Nigeria's average oil production at 46M barrels per month. // **IMPORTANT** This has been scaled down again for now
-        double vat = 0.075; //Nigeria's VAT at 7.5%.
+        /*FEDERATION ACCOUNTING*/
+        federal.oilPriceIndex = rand.nextInt(221) + 930; // Hovering aroung a hundreth of nigerias oil revenue per barrel (Price of a barrel) - 950 - 1150       
         
-        if (federal.oilPriceIndex > 1120) federal.oilPriceIndex = 1120;   
-        if (federal.oilPriceIndex < 920) federal.oilPriceIndex = 920;  
         
         //Oil Revenue
         federal.oilPool = baseOil * federal.oilPriceIndex;
 
         //VAT Revenue
-        federal.vatPool = (vat/12) * federal.nationalGDP;
+        federal.vatPool = (Constants.VAT/12) * federal.nationalGDP;
         federal.allocationPool = federal.oilPool + federal.vatPool;
 
         federal.federalReserve += federal.allocationPool * 0.2; //Reserve 20% for state bail out
@@ -45,7 +41,7 @@ public class FederalAccountingEngine {
 
         for (StateEconomy s : states.values()) {
             //Apply allocation to state 
-            s.federalAllocation = ((0.5 * (federal.allocationPool/noOfStates)) +
+            s.federalAllocation = ((0.5 * (federal.allocationPool/Constants.NO_OF_STATES)) +
             (0.3 * federal.allocationPool * (s.population/federal.nationalPopulation)) + 
             (0.2 * federal.allocationPool * (s.realGdp/Math.max(federal.nationalGDP, 1e-6))));
 
