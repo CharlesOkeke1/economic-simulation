@@ -60,7 +60,7 @@ public class PrintReports {
                 break;
         } 
 
-        MyUtils.SteppedPrinting("NATIONAL GDP: " + MyUtils.formatNumber(fed.nationalGDP) + " Naira", 25);
+        MyUtils.SteppedPrinting("NATIONAL REAL GDP: " + MyUtils.formatNumber(fed.nationalGDP) + " Naira", 25);
         MyUtils.SteppedPrinting("NATIONAL POPULATION: " + MyUtils.formatNumber(fed.nationalPopulation) + " People", 25);
         MyUtils.SteppedPrinting("FEDERAL RESERVE VALUE " + MyUtils.formatNumber(fed.federalReserve) + " Naira", 25);
         MyUtils.SteppedPrinting("FEDERATION ALLOCATION THIS MONTH: " + MyUtils.formatNumber(fed.allocationPool) + " Naira", 25);  

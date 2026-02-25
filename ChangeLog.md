@@ -146,15 +146,25 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Realism Updates - GDP, reserve, expenditure and cash growth are now more realistic.
 - Minor Update - Each month, the federal economy report is displayed.
 - Affected Files - `PolicyEngine.java`, `AiPolicyMaker.java` and `NigerianEconomyGame.java`
+
 ---
 
 ***Version 1.7.3.1*** - *2026-02-24*
 - ChangeLog file now updated for both this version and `v1.7.3`.
 - Minor Bug Fixes - GDP growth was undershooting and is now stable again.
 - Affected Files - `PolicyEngine.java` and `NigerianEconomyGame.java`
+
 ---
 
 ***Version 1.7.3.2*** - *2026-02-25*
 - Starting values for each state adjusted, economic equations adjusted.
 - Affected Files - `PolicyEngine.java` and `EconomyInitializer.java`
+
+---
+
+***Version 1.7.4*** - *2026-02-25*
+- Minor Update - Comments under the `game.economies` package have been cleaned up. Report Printer got an update for the federal economy.
+- Minor Bug Fix - Stability, GDP and cash growth stabilization. Major values are now protected against `isInfinite()` and `isNaN()`. All state inflation rates have been adjusted.
+- Affected Files/Packages - `PolicyEngine.java`, `EconomyInitializer.java` the whole `game.economies` package and `PrintReports.java`
+
 ---

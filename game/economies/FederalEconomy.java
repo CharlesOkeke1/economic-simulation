@@ -14,7 +14,7 @@ public  class FederalEconomy {
                         double vatPool, double allocationPool, double nationalGDP,
                         long nationalPopulation) {
     
-        this.federalReserve = federalReserve; //10% of allocationpool
+        this.federalReserve = federalReserve;
         this.oilPriceIndex = oilPriceIndex;
         this.oilPool = oilPool;
         this.vatPool = vatPool;

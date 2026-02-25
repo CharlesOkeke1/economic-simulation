@@ -1,5 +1,6 @@
 package game.economies;
 
+//Government Types that influence AI policy choices
 public enum GovType {
     GROWTH_FOCUSED,
     SOCIALIST,

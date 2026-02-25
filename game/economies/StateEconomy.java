@@ -2,6 +2,7 @@ package game.economies;
 import java.util.*;
 import game.economies.GovType;
 
+/*State Economy object contains all fields each state has*/
 public class StateEconomy {
         public String name;
         public double gdp;
