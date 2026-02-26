@@ -10,6 +10,7 @@ public class PrintReports {
      /*PRINT STATE REPORT BASED ON THE TYPE(MONTHLY, INITIAL OR FINAL) */
     public static void printStateReport(Map<String, StateEconomy> s, FederalEconomy fed, String countyName, int count, String type) {
         StateEconomy county = s.get(countyName);
+        
         switch(type) {
             case "Initial":
                 MyUtils.SteppedPrinting("===== Here is " + countyName + " State's Current Economic Situation =====", Constants.REPORT_DELAY_TIME);
@@ -24,6 +25,7 @@ public class PrintReports {
                 break;
         }
         MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + EnumToString.govtType(county.governmentType), Constants.REPORT_DELAY_TIME);   
+        MyUtils.SteppedPrinting("REAL GDP GROWTH RATE: " + String.format("%.2f", county.gdpGrowth * 100) + "%", Constants.REPORT_DELAY_TIME);   
         MyUtils.SteppedPrinting("REAL GDP: " + MyUtils.formatNumber(county.realGdp)  + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("NOMINAL GDP: " + MyUtils.formatNumber(county.gdp)  + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("POPULATION: " + MyUtils.formatNumber(county.population)  + " People", Constants.REPORT_DELAY_TIME);

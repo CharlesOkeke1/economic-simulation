@@ -1,5 +1,4 @@
 package game.economies;
-import java.util.*;
 
 public  class FederalEconomy {
     public double federalReserve;

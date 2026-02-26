@@ -221,3 +221,21 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - Upload file now pushes tags and doesnt just keep them locally
 
 ---
+
+***Version 1.8.4*** - *26-02-2026*
+- Upload file now pushes tags and doesnt just keep them locally
+
+---
+
+***Version 1.9.0*** - *26-02-2026*
+- **Build System Upgrade** - Introduced automated build pipeline inside the upload script. Compilation, manifest generation, JAR packaging, tagging, and pushing are now executed in one controlled release flow.
+- **New Distribution Format** - Implemented runnable JAR packaging for each versioned release. Game builds are now exportable as `NigerianEconomy-vX.X.X.jar` artifacts and attached manually to GitHub Releases.
+- **Release Workflow Enhancement** - Structured GitHub Releases process finalized. Version tags now represent stable distribution milestones with corresponding compiled artifacts.
+- **Directory Restructure** - Added dedicated `/build` directory for generated artifacts and `/out` for compiled classes. Updated `.gitignore` to exclude compiled binaries and build outputs from source control.
+- **GDP Growth Calculation Fix** - Resolved growth distortion caused by GDP being modified before baseline capture. Growth is now calculated from the correct previous-month snapshot.
+- **Economic Reporting Correction** - Adjusted reporting logic to ensure displayed GDP growth reflects actual realized monthly change.
+- **Output Formatting Improvement** - Standardized percentage formatting to remove floating-point precision artifacts in reports.
+- **Simulation Stability Improvements** - Cleaned monthly update sequencing to prevent unintended state drift during economic calculations.
+- **Affected Files** - `PolicyEngine.java`, `.gitignore`, `PrintReports.java` and upload script.
+
+---

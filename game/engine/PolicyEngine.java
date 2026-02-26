@@ -9,6 +9,8 @@ public class PolicyEngine {
                                     FederalEconomy federal, String stat, String policy) {
 
         StateEconomy state = states.get(stat);
+        double lastGdp = state.gdp; //Set last nominal gdp
+        double lastRealGdp = state.realGdp; //Set last real gdp
 
         double baseGrowth = 0.00275; // 0.275% per month
         double growthRate;
@@ -125,12 +127,10 @@ public class PolicyEngine {
 
         /*Calculate GDP and monthly growth rate is capped at 3.75%*/
         growthRate = Math.max(-0.0375, Math.min(0.0375, growthRate));
-        state.gdpGrowth = growthRate + 0.0375;
-        double lastGdp = state.gdp; //Set last gdp
-        state.gdp = state.gdp * (1 + state.gdpGrowth);
+        state.gdp = state.gdp * (1 + growthRate + 0.0375);
         double gdpGrowth = state.gdp - lastGdp; //calculate gdpgrowth.
         state.realGdp = state.gdp/(1 + state.inflationRate); // Calculate real gdp
-
+        state.gdpGrowth = (state.realGdp - lastRealGdp)/lastRealGdp;
         
         state.stability -= state.inflationRate * 10; //Inflation effect
 
@@ -187,7 +187,6 @@ public class PolicyEngine {
         }
         
         /*STATE RESERVE ACCUMULATION*/
-        double withdraw;
         if (state.cash > 0) {
             //Save 30% of the months profit
             if (state.monthlyProfit > 0) {

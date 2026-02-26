@@ -41,7 +41,7 @@ public class GameSetup {
         numMonths = sc.nextInt();
         sc.nextLine();
 
-        MyUtils.SteppedPrinting("What difficulty do you want to play at: ", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("What difficulty do you want to play at?: ", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("(Easy/Medium/Hard/Expert)", Constants.REPORT_DELAY_TIME);
         difficulty = GameDifficulty.valueOf(sc.nextLine().trim().toUpperCase());
         

@@ -1,6 +1,4 @@
 package game.economies;
-import game.economies.FederalEconomy;
-import game.economies.StateEconomy;
 import java.util.*;
 
 //This object contains the federal and state economy results each month
