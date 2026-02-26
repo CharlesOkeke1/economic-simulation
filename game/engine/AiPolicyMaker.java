@@ -169,9 +169,9 @@ public class AiPolicyMaker {
                 mid = 0.90; 
                 break;
 
-            case EXPERT: //80% best, 16% mid and 4% worst
-                good = 0.80; 
-                mid = 0.96; 
+            case EXPERT: //85% best, 13% mid and 2% worst
+                good = 0.85; 
+                mid = 0.98;
                 break;
 
         }

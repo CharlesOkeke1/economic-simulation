@@ -16,7 +16,7 @@ public class PrintReports {
                 break;
             
             case "Monthly":
-                MyUtils.SteppedPrinting("===== " + countyName + " Month " + (count + 1) + " Report =====", Constants.REPORT_DELAY_TIME);
+                MyUtils.SteppedPrinting("===== " + countyName + " Month " + (count - 1) + " Report =====", Constants.REPORT_DELAY_TIME);
                 break;
 
             case "Final":
@@ -53,7 +53,7 @@ public class PrintReports {
                 break;
             
             case "Monthly":
-                MyUtils.SteppedPrinting("===== NIGERIA'S MONTH " + (count + 1) + " PEFORMANCE REPORT =====", Constants.REPORT_DELAY_TIME);
+                MyUtils.SteppedPrinting("===== NIGERIA'S MONTH " + count + " PEFORMANCE REPORT =====", Constants.REPORT_DELAY_TIME);
                 break;
 
             case "Final":
@@ -62,6 +62,7 @@ public class PrintReports {
         } 
 
         MyUtils.SteppedPrinting("NATIONAL REAL GDP: " + MyUtils.formatNumber(fed.nationalGDP) + " Naira", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("OPERATING CASH: " + MyUtils.formatNumber(fed.operatingCash) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("NATIONAL POPULATION: " + MyUtils.formatNumber(fed.nationalPopulation) + " People", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERAL RESERVE VALUE " + MyUtils.formatNumber(fed.federalReserve) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERATION ALLOCATION THIS MONTH: " + MyUtils.formatNumber(fed.allocationPool) + " Naira", Constants.REPORT_DELAY_TIME);  

@@ -25,7 +25,7 @@ public class SimulationEngine {
     private Map<String, StateEconomy> states;
     private FederalEconomy federal;
     private GameConfig config;
-    private int currentMonth;
+    private int currentMonth = 1;
 
     public SimulationEngine(Map<String, StateEconomy> states, FederalEconomy federal, GameConfig config) {
 
@@ -71,7 +71,7 @@ public class SimulationEngine {
             if (s != playerState) PolicyEngine.applyPolicy(states, federal, s.name, policyToApply);
             else PolicyEngine.applyPolicy(states, federal, playerStateName, policyToApply);
             
-            if (s.position < 6 && currentMonth > 0) {
+            if (s.position < 6 && currentMonth > 1) {
                 String msg = "Policy applied by " + s.name + " at " + MyUtils.Ordinalize(s.position)
                         + " position was " + policyToApply;
                 MyUtils.SteppedPrinting(msg, Constants.REPORT_DELAY_TIME);
@@ -106,11 +106,13 @@ public class SimulationEngine {
 
             if (config.getDevType()) {
                 playerPolicy = TurnRandomizer.randomP();
+                MyUtils.SteppedPrinting("Your policy for month " + currentMonth + " is: " + playerPolicy + ".", Constants.REPORT_DELAY_TIME);
             } else {
                 playerPolicy = getPolicy();
             }
             
             // Simulate one month
+
             simulateMonth(playerPolicy);
 
             // Print monthly report

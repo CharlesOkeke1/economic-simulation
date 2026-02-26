@@ -16,7 +16,7 @@ public class GameSetup {
         GameDifficulty difficulty;
         Scanner sc = new Scanner(System.in);
 
-        MyUtils.SteppedPrinting("Are you a developer?: ", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("Are you a developer? (Yes/No): ", Constants.REPORT_DELAY_TIME);
         String dev = sc.nextLine();
 
         if (dev.toLowerCase().equals("yes")) {

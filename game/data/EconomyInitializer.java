@@ -160,7 +160,7 @@ public class EconomyInitializer {
     }
 
     public static FederalEconomy createFederal() {
-        FederalEconomy fed = new FederalEconomy(0, 1068, 0.0, 0.0, 0.0, 0.0, 0);
+        FederalEconomy fed = new FederalEconomy(0,1068,0.0,0.0,0.0,0.0,0,0.0);
 
         return fed;
     }

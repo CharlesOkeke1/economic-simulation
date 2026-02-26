@@ -7,14 +7,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.0.0*** - *2026-02-20*
+***Version 1.0.0*** - *20-02-2026*
 - Added core month-by-month simulation loop (states + federal)
 - Added basic policy application flow (player + AI)
 - Added state/federal reporting outputs 
 
 ---
 
-***Version 1.1.0*** - *2026-02-20*
+***Version 1.1.0*** - *20-02-2026*
 - Refactored simulation into separate engine modules (SimulationEngine, PolicyEngine, Accounting, etc.)
 - Added state ranking + position system (sorted by performance)
 - Initial upload of core simulation engine to GitHub
@@ -22,7 +22,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.2.0*** - *2026-02-21*
+***Version 1.2.0*** - *21-02-2026*
 - Added economic crash model (risk-based GDP/stability/infrastructure reductions)
 - Added bailout logic trigger (federal support under crash conditions)
 - Updated AI policy decision logic to be more strategic and deterministic
@@ -30,7 +30,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.2.1*** - *2026-02-21*
+***Version 1.2.1*** - *21-02-2026*
 - Fixed policy-selection “same output every time” behaviour
 - Tuned stability/debt/profit threshold conditions
 - Minor balancing adjustments
@@ -38,7 +38,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.3.0*** - *2026-02-22*
+***Version 1.3.0*** - *22-02-2026*
 - Introduced Government Type system per state
 - Added `GovType` enum under `game.economies`
 - Integrated government type as a field in `StateEconomy`
@@ -46,21 +46,21 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.3.1*** - *2026-02-22*
+***Version 1.3.1*** - *22-02-2026*
 - Fixed enum placement/import issues
 - Cleaned government type output formatting
 - Minor structural cleanup in state initialization
 
 ---
 
-***Version 1.4.0*** - *2026-02-22*
+***Version 1.4.0*** - *22-02-2026*
 - Added policy scoring system via `PolicyClass`
 - Implemented score accumulation model per policy
 - Introduced ranked policy sorting using `Comparator`
 
 ---
 
-***Version 1.4.1*** - *2026-02-22*
+***Version 1.4.1*** - *22-02-2026*
 - Fixed comparator/generics inference issue (lambda treated items as `Object`)
 - Corrected incorrect policy score wiring
 - Fixed GDP accumulation inconsistencies
@@ -68,53 +68,53 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.4.2*** - *2026-02-22*
+***Version 1.4.2*** - *22-02-2026*
 - Implemented probabilistic AI selection tiers (best/mid/worst bands)
 - Added weighted randomness control (single-roll selection logic)
 - Made AI decision-making more realistic and less deterministic
 
 ---
 
-***Version 1.4.3*** - *2026-02-22*
+***Version 1.4.3*** - *22-02-2026*
 - Tuned probabilistic tier weights (e.g., 75% / 20% / 5%)
 - Minor cleanup of AI indexing and selection assumptions
 - Cleaned AI policy engine comments and improved readability
 
 ---
 
-***Version 1.5.0*** - *2026-02-22*
+***Version 1.5.0*** - *22-02-2026*
 - Added balanced initialization pass for states (normalized GDP/debt/stability/reserve ranges)
 - Preserved population, tax rate, and government type consistency
 - Introduced State Remittances feature to strengthen federal reserve mechanics
 
 ---
 
-***Version 1.5.1*** - *2026-02-22*
+***Version 1.5.1*** - *22-02-2026*
 - Fixed duplicate-file and restructuring compile issues
 - Improved repository hygiene (.gitignore cleanup, structural organization)
 
 ---
 
-***Version 1.6.0*** - *2026-02-22*
+***Version 1.6.0*** - *22-02-2026*
 - Implemented Git versioning workflow (commit discipline + release tagging)
 - Added structured `ChangeLog.md` documentation system
 
 ---
 
-***Version 1.6.1*** - *2026-02-23*
+***Version 1.6.1*** - *23-02-2026*
 - Enhanced upload script with commit message prompt
 - Added optional tag creation in upload workflow
 - Added developer admin check to reduce wait time during testing
 
 ---
 
-***Version 1.6.2*** - *2026-02-23*
+***Version 1.6.2*** - *23-02-2026*
 - Added a function to properly display government types
 - Updated the report printer with the new function
 
 ---
 
-***Version 1.7.0*** - *2026-02-23*
+***Version 1.7.0*** - *23-02-2026*
 - Added Inflation Rate and Real GDP to each state
 - Inflation affects GDP, debt, base expenditure and stability
 - Updated the states file to have gov type and GDP growth
@@ -125,14 +125,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.7.1*** - *2026-02-23*
+***Version 1.7.1*** - *23-02-2026*
 - **File Updates** - updated fields in state creation
 - **Minor Bug Fix** - To improve realism adjusted reserve growth rate, adjusted base spend, adjusted inflation metric and adjusted gdp growth rate.
 - **Affected Files** - `EconomyInitializer.java` and `PolicyEngine.java`.
 
 ---
 
-***Version 1.7.2*** - *2026-02-24*
+***Version 1.7.2*** - *24-02-2026*
 - **Minor Bug Fixes** - NaN and infinity number issues resolved with minimum federalAllocation, cash and gdp.
 - **Realism Updates** - Infrastructure and Austerity Policy updated to be more realistic.
 - **Realism Updates** - GDP, Cash growth, state stability, inflation rate, state remittance and other variables have been made more realistic and capped to prevent overflow where necessary.
@@ -140,7 +140,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Files** - `PolicyEngine.java`, `ReportPrinter.java` and `FederalAccountingEngine.java`
 ---
 
-***Version 1.7.3*** - *2026-02-24*
+***Version 1.7.3*** - *24-02-2026*
 - **Minor Bug Fixes** - Stability now grows realistically. 
 - **Realism Updates** - Policies have been made more realistic. Made AI decision less efficient for realism. The AI's now choose the best policies less.
 - **Realism Updates** - GDP, reserve, expenditure and cash growth are now more realistic.
@@ -149,34 +149,34 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.7.3.1*** - *2026-02-24*
+***Version 1.7.3.1*** - *24-02-2026*
 - ChangeLog file now updated for both this version and `v1.7.3`.
 - **Minor Bug Fixes** - GDP growth was undershooting and is now stable again.
 - **Affected Files** - `PolicyEngine.java` and `NigerianEconomyGame.java`
 
 ---
 
-***Version 1.7.3.2*** - *2026-02-25*
+***Version 1.7.3.2*** - *25-02-2026*
 - Starting values for each state adjusted, economic equations adjusted.
 - **Affected Files** - `PolicyEngine.java` and `EconomyInitializer.java`
 
 ---
 
-***Version 1.7.4*** - *2026-02-25*
+***Version 1.7.4*** - *25-02-2026*
 - **Minor Update** - Comments under the `game.economies` package have been cleaned up. Report Printer got an update for the federal economy.
 - **Minor Bug Fix** - Stability, GDP and cash growth stabilization. Major values are now protected against `isInfinite()` and `isNaN()`. All state inflation rates have been adjusted.
 - **Affected Files/Packages** - `PolicyEngine.java`, `EconomyInitializer.java` the whole `game.economies` package and `PrintReports.java`
 
 ---
 
-***Version 1.7.4.1*** - *2026-02-25*
+***Version 1.7.4.1*** - *25-02-2026*
 - **Minor File Update** - `ChangeLog.md` file got a formatting update.
 - **Minor Bug Fix** - Cash growth has been stabilized on par with gdp
 - **Affected Files/Packages** - `PolicyEngine.java`.
 
 ---
 
-***Version 1.7.5*** - *2026-02-25*
+***Version 1.7.5*** - *25-02-2026*
 - **Minor Update** - Comments under the `game.ui` and `game.utils` package have been cleaned up. 
 - **New File** - `game.initialization` renamed to `game.data`. A `Constants.java` file with constants has been added and all files affected files have been modified.
 - **Minor Bug Fix** - GDP and cash growth got economic tweaks to improve realism. Main game file now prevents user from choosing an unavailable state.
@@ -184,7 +184,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.8.0*** - *2026-02-26*
+***Version 1.8.0*** - *26-02-2026*
 - **Big Update (Architectural Refactor)** - Simulation lifecycle has been centralized inside `SimulationEngine`. The month loop, policy execution flow, crash handling, ranking updates, and reporting are now internally controlled via `run()` and `simulateMonth()`.
 - **New Feature** - Introduced `GameConfig` to encapsulate chosen state, total months, and difficulty as immutable configuration data.
 - **New File** - Added `GameSetup.java` to separate user input collection and validation from the main entry point. Added `GameDifficulty.java` as an enum to help set difficulties which influence how good the AI is and updated in the `AiPolicyMaker.java`. `EconomicCrash.java` was added to free up some space in the sim engine file.
@@ -195,9 +195,16 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 
 ---
 
-***Version 1.8.1*** - *2026-02-26*
+***Version 1.8.1*** - *26-02-2026*
 - **Minor Update** - `devType` added to game config to check if players are developers. `GameSetup.java` fetches this information.
 - **Minor File Updates** - Game setup now skips initialization for developers and `SimulationEngine.run()` now uses the `TurnRandomizer.randomP()` for testing purposes if player is a developer.
 - **Affected Files/Packages** - `GameConfig.java`, `GameSetup.java`, `SimulationEngine.java` and `EnumToString.java`.
 
 ---
+
+***Version 1.8.2*** - *26-02-2026*
+- **Minor New Feature** - `FederalEconomy.java` now has a new field called Operating Cash which is 20% of monthly allocation pool, while federal reserve dropped to 15%. The new field will be a key player in disaster management and might possibly get a bigger share as time goes on. `EconomyInitializer.java` has been updated.
+- **Minor Bug Fixes** - Current month has been adjusted to start from 1 and not 0. Report printer adjusted for this cause. `AiPolicyMaker.java` now has the difficulties adjusted to make the expert level a bit tougher.
+- **Minor File Update** - The `SimulationEngine.run()` now displays game difficulty.
+- **Affected Files/Packages** - `AiPolicyMaker.java`, `FederalEconomy.java`, `SimulationEngine.java`, `EconomyInitializer.java`, `FederalAccounting.java` and `EnumToString.java`.
+
