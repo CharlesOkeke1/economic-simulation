@@ -183,3 +183,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Files/Packages** - `PolicyEngine.java`, `FederalAccounting.java`, `SimulationEngine.java`, `NigerianEconomyGame.java` and `PrintReports.java`.
 
 ---
+
+***Version 1.8.0*** - *2026-02-26*
+- **Big Update (Architectural Refactor)** - Simulation lifecycle has been centralized inside `SimulationEngine`. The month loop, policy execution flow, crash handling, ranking updates, and reporting are now internally controlled via `run()` and `simulateMonth()`.
+- **New Feature** - Introduced `GameConfig` to encapsulate chosen state, total months, and difficulty as immutable configuration data.
+- **New File** - Added `GameSetup.java` to separate user input collection and validation from the main entry point. Added `GameDifficulty.java` as an enum to help set difficulties which influence how good the AI is and updated in the `AiPolicyMaker.java`. `EconomicCrash.java` was added to free up some space in the sim engine file.
+- **Structural Improvement** - `SimulationEngine` converted from static-style simulation to instance-based lifecycle control. External month counter and parameter-heavy simulation calls have been removed.
+- **Encapsulation Improvement** - Configuration data now accessed through getters instead of static calls. Clear separation between setup, engine, and UI responsibilities has been established.
+- **Codebase Simplification** - `NigerianEconomyGame.java` reduced to bootstrapping logic only (data creation to setup to engine initialization to `engine.run()`).
+- **Affected Files/Packages** - `SimulationEngine.java`, `GameConfig.java`, `GameSetup.java`, `NigerianEconomyGame.java`, `AiPolicyMaker.java`, the whole `game.config` package,  the whole `game.ui` package and other related files.
+
+---

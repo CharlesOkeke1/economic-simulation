@@ -10,7 +10,6 @@ public class PrintReports {
      /*PRINT STATE REPORT BASED ON THE TYPE(MONTHLY, INITIAL OR FINAL) */
     public static void printStateReport(Map<String, StateEconomy> s, FederalEconomy fed, String countyName, int count, String type) {
         StateEconomy county = s.get(countyName);
-
         switch(type) {
             case "Initial":
                 MyUtils.SteppedPrinting("===== Here is " + countyName + " State's Current Economic Situation =====", Constants.REPORT_DELAY_TIME);

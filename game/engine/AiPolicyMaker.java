@@ -2,6 +2,7 @@ package game.engine;
 
 import game.economies.FederalEconomy;
 import game.economies.StateEconomy;
+import game.config.GameDifficulty;
 import java.util.*;
 
 public class AiPolicyMaker {
@@ -17,7 +18,7 @@ public class AiPolicyMaker {
     }
 
     public static String smartChoice(Map<String, StateEconomy> states, 
-                                    FederalEconomy federal, String stat) {
+                                    FederalEconomy federal, String stat, GameDifficulty difficulty) {
         StateEconomy state = states.get(stat);
         HashMap<String, PolicyClass> policyMap = new HashMap<>();
         String policy = "";
@@ -148,14 +149,39 @@ public class AiPolicyMaker {
         Random rand = new Random();
         double roll = rand.nextDouble();
         double midRoll = rand.nextDouble();
+        double good = 0.0;
+        double mid = 0.0;
         PolicyClass chosen;
 
+        switch(difficulty) {
+            case EASY: //40% best, 40% mid and 20% worst
+                good = 0.40; 
+                mid = 0.80; 
+                break;
+
+            case MEDIUM: //50% best, 35% mid and 15% worst
+                good = 0.50; 
+                mid = 0.85; 
+                break;
+
+            case HARD: //65% best, 25% mid and 10% worst
+                good = 0.65; 
+                mid = 0.90; 
+                break;
+
+            case EXPERT: //80% best, 16% mid and 4% worst
+                good = 0.80; 
+                mid = 0.96; 
+                break;
+
+        }
+
         //choose between the best 2 options 75% of the time
-        if (roll < 0.5) {
+        if (roll < good) {
             int index = rand.nextDouble() < 0.5 ? 0 : 1;
             chosen = sortedList.get(index);
         //choose between the middle 3 options 20% of the time
-        } else if (roll < 0.75) {
+        } else if (roll < mid) {
             if (midRoll < 0.333) {
                 chosen = sortedList.get(3);  // Best
             } else if (midRoll < 0.667) {

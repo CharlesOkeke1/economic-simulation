@@ -18,6 +18,8 @@ public class Initializer {
             MyUtils.SteppedPrinting(zamfaraExample[i], Constants.REPORT_DELAY_TIME);
         }
 
-        MyUtils.SteppedPrinting("Good luck!", Constants.REPORT_DELAY_TIME);    
+        MyUtils.SteppedPrinting("Good luck!", Constants.REPORT_DELAY_TIME);  
+
+        
     }
 }

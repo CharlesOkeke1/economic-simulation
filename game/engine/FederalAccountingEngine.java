@@ -18,14 +18,14 @@ public class FederalAccountingEngine {
         federal.nationalGDP = natGdp;
         federal.nationalPopulation = natPop;
 
-        long baseOil = 46000; //Nigeria's average oil production at 46M barrels per month. // **IMPORTANT** This has been scaled down 
+        
 
         /*FEDERATION ACCOUNTING*/
         federal.oilPriceIndex = rand.nextInt(221) + 930; // Hovering aroung a hundreth of nigerias oil revenue per barrel (Price of a barrel) - 950 - 1150       
         
         
         //Oil Revenue
-        federal.oilPool = baseOil * federal.oilPriceIndex;
+        federal.oilPool = Constants.BASE_OIL * federal.oilPriceIndex;
 
         //VAT Revenue
         federal.vatPool = (Constants.VAT/12) * federal.nationalGDP;
