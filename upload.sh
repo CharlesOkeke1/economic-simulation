@@ -19,7 +19,6 @@ git commit -m "$message"
 
 echo "tagging..."
 git tag -a "$vTag" -m "$tagMessage"
-git push --tags
 
 echo "Downloading remote changes....."
 git pull origin main --rebase
