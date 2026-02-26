@@ -11,19 +11,20 @@ if [ -z "$message" ]; then
     exit 1
 fi
 
-echo "Adding changes..."
+echo "Adding changes....."
 git add .
 
-echo "Committing..."
+echo "Committing....."
 git commit -m "$message"
-
-echo "tagging..."
-git tag -a "$vTag" -m "$tagMessage"
 
 echo "Downloading remote changes....."
 git pull origin main --rebase
 
-echo "Pushing to origin/main..."
+echo "Pushing to origin/main....."
 git push origin main
+
+echo "tagging....."
+git tag -a "$vTag" -m "$tagMessage"
+git push origin --tags
 
 echo "Upload complete."
