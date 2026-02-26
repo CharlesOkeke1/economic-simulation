@@ -62,9 +62,9 @@ public class PrintReports {
         } 
 
         MyUtils.SteppedPrinting("NATIONAL REAL GDP: " + MyUtils.formatNumber(fed.nationalGDP) + " Naira", Constants.REPORT_DELAY_TIME);
-        MyUtils.SteppedPrinting("OPERATING CASH: " + MyUtils.formatNumber(fed.operatingCash) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("NATIONAL POPULATION: " + MyUtils.formatNumber(fed.nationalPopulation) + " People", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERAL RESERVE VALUE " + MyUtils.formatNumber(fed.federalReserve) + " Naira", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("FEDERATION ACCOUNT BALANCE: " + MyUtils.formatNumber(fed.operatingCash) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERATION ALLOCATION THIS MONTH: " + MyUtils.formatNumber(fed.allocationPool) + " Naira", Constants.REPORT_DELAY_TIME);  
         MyUtils.SteppedPrinting("PRICE OF OIL PER BARREL: " + MyUtils.formatNumber(fed.oilPriceIndex) + " Naira", Constants.REPORT_DELAY_TIME);  
         System.out.println(" ");  

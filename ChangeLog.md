@@ -208,3 +208,8 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Minor File Update** - The `SimulationEngine.run()` now displays game difficulty.
 - **Affected Files/Packages** - `AiPolicyMaker.java`, `FederalEconomy.java`, `SimulationEngine.java`, `EconomyInitializer.java`, `FederalAccounting.java` and `EnumToString.java`.
 
+***Version 1.8.3*** - *26-02-2026*
+- **Project Update** - The project has been moved out of uni vm to main system.
+- **File Updates** - Some files got some tuning to improve UI and economic computations.
+- **Repository Update** - All files are to be uploaded to facilitate move.
+

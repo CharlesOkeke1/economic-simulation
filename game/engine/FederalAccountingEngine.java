@@ -31,8 +31,8 @@ public class FederalAccountingEngine {
         federal.vatPool = (Constants.VAT/12) * federal.nationalGDP;
         federal.allocationPool = federal.oilPool + federal.vatPool;
 
-        federal.federalReserve += federal.allocationPool * 0.15; //Reserve 15% for state bail out
-        federal.operatingCash += federal.allocationPool * 0.2; //Reserve 20% for state bail out
+        federal.federalReserve += federal.allocationPool * 0.10; //Reserve 10% for state bail out
+        federal.operatingCash += federal.allocationPool * 0.25; //Reserve 25% for state bail out
         federal.allocationPool *= 0.65; //Update allocation pool
 
         /*INDIVIDUAL STATE ALLOCATION ACCOUNTING*/
