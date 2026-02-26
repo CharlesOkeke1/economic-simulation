@@ -141,7 +141,7 @@ public class PolicyEngine {
 
         //Efficiency = taxRate * scaled stability factor
         efficiency = state.taxRate + (state.stability / 75); 
-        taxRevenue = state.gdp * (efficiency / 9);
+        taxRevenue = state.gdp * (efficiency / 10);
         
         state.monthlyRevenue = taxRevenue + nonTaxRevenue;
 

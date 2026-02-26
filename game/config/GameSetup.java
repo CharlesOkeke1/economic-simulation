@@ -12,10 +12,20 @@ public class GameSetup {
         String stateChoice;
         String state;
         int numMonths;
+        boolean devType = false;
         GameDifficulty difficulty;
-        Initializer.initializer();
-
         Scanner sc = new Scanner(System.in);
+
+        MyUtils.SteppedPrinting("Are you a developer?: ", Constants.REPORT_DELAY_TIME);
+        String dev = sc.nextLine();
+
+        if (dev.toLowerCase().equals("yes")) {
+            devType = true;
+        } else {
+            Initializer.initializer();
+            devType = false;                
+        }
+        
         MyUtils.SteppedPrinting("Now choose a state: All 36 states are available", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("To select a state, type out the state name with the First letter in caps. eg, Lagos", Constants.REPORT_DELAY_TIME);
         stateChoice = sc.nextLine();
@@ -36,6 +46,6 @@ public class GameSetup {
         difficulty = GameDifficulty.valueOf(sc.nextLine().trim().toUpperCase());
         
 
-        return new GameConfig(state, numMonths, difficulty);
+        return new GameConfig(state, numMonths, difficulty, devType);
     }
 }

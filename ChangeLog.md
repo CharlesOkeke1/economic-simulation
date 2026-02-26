@@ -194,3 +194,10 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Files/Packages** - `SimulationEngine.java`, `GameConfig.java`, `GameSetup.java`, `NigerianEconomyGame.java`, `AiPolicyMaker.java`, the whole `game.config` package,  the whole `game.ui` package and other related files.
 
 ---
+
+***Version 1.8.1*** - *2026-02-26*
+- **Minor Update** - `devType` added to game config to check if players are developers. `GameSetup.java` fetches this information.
+- **Minor File Updates** - Game setup now skips initialization for developers and `SimulationEngine.run()` now uses the `TurnRandomizer.randomP()` for testing purposes if player is a developer.
+- **Affected Files/Packages** - `GameConfig.java`, `GameSetup.java`, `SimulationEngine.java` and `EnumToString.java`.
+
+---

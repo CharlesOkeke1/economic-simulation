@@ -13,11 +13,13 @@ import game.engine.PolicyEngine;
 import game.engine.AiPolicyMaker;
 import game.engine.RankingEngine;
 import game.engine.EconomicCrash;
+import game.engine.TurnRandomizer;
 
 import game.ui.PrintReports;
 import game.ui.Initializer;
 
 import utils.MyUtils;
+import utils.EnumToString;
 
 public class SimulationEngine {
     private Map<String, StateEconomy> states;
@@ -91,22 +93,23 @@ public class SimulationEngine {
         Scanner sc = new Scanner(System.in);
         HashMap<String, StateEconomy> initialStates = new HashMap<>();
         for (Map.Entry<String, StateEconomy> entry : states.entrySet()) {
-            initialStates.put(entry.getKey(), new StateEconomy(entry.getValue()));
-            
-        }
-
-        String admin = "admin"; //Prompt user for admin password which is used for testing purposes
-        String policy = "";
-        System.out.println("Are you a developer? If so enter the developer password. If you are not a developer just enter no: ");
-        String devPass = sc.nextLine();
-
+            initialStates.put(entry.getKey(), new StateEconomy(entry.getValue()));    
+        }   
+        
+        MyUtils.SteppedPrinting("GAME DIFFICULTY: " + EnumToString.diffType(config.getDifficulty()), Constants.REPORT_DELAY_TIME);
         PrintReports.printStateReport(initialStates, federal, config.getChosenState(), currentMonth, "Initial"); 
         PrintReports.printFederationReport(federal, config.getTotalMonths(), "Initial");  
 
         while (currentMonth < config.getTotalMonths()) {
             // Get User policy
-            String playerPolicy = getPolicy();
+            String playerPolicy = "";
 
+            if (config.getDevType()) {
+                playerPolicy = TurnRandomizer.randomP();
+            } else {
+                playerPolicy = getPolicy();
+            }
+            
             // Simulate one month
             simulateMonth(playerPolicy);
 

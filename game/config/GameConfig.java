@@ -4,11 +4,13 @@ public class GameConfig {
     private final String chosenState;
     private final int totalMonths;
     private final GameDifficulty difficulty;
+    private final boolean devType;
 
-    public GameConfig(String chosenState, int totalMonths, GameDifficulty difficulty) {
+    public GameConfig(String chosenState, int totalMonths, GameDifficulty difficulty, boolean devType) {
         this.chosenState = chosenState;
         this.totalMonths = totalMonths;
         this.difficulty = difficulty;
+        this.devType = devType;
     }
 
     public String getChosenState() {
@@ -23,5 +25,8 @@ public class GameConfig {
         return this.difficulty;
     }
 
+    public boolean getDevType() {
+        return this.devType;
+    }
 
 }
