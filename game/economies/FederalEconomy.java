@@ -9,10 +9,16 @@ public  class FederalEconomy {
     public double nationalGDP;
     public long nationalPopulation;
     public double operatingCash;
+    public double nationalGdpGrowth;
+    public int nationalCrashes;
+    public double avgInflation;
+    public double debtInterest;
 
     public FederalEconomy(double federalReserve, int oilPriceIndex, double oilPool, 
                         double vatPool, double allocationPool, double nationalGDP,
-                        long nationalPopulation, double operatingCash) {
+                        long nationalPopulation, double operatingCash, 
+                        double nationalGdpGrowth, int nationalCrashes, double avgInflation,
+                        double debtInterest) {
     
         this.federalReserve = federalReserve;
         this.oilPriceIndex = oilPriceIndex;
@@ -22,5 +28,9 @@ public  class FederalEconomy {
         this.nationalGDP = nationalGDP;
         this.nationalPopulation = nationalPopulation;
         this.operatingCash = operatingCash;
+        this.nationalGdpGrowth = nationalGdpGrowth;
+        this.nationalCrashes = nationalCrashes;
+        this.avgInflation = avgInflation;
+        this.debtInterest = debtInterest;
     }
 }

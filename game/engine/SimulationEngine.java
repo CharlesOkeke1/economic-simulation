@@ -3,10 +3,14 @@ package game.engine;
 import java.util.*;
 import game.data.Constants;
 import game.economies.*;
+import game.events.EventTrigger;
+import game.metrics.PolicyChecks;
 import game.config.GameConfig;
+import game.ui.PrintPolicies;
 import game.ui.PrintReports;
 import utils.MyUtils;
 import utils.EnumToString;
+import game.metrics.*;
 
 public class SimulationEngine {
     private Map<String, StateEconomy> states;
@@ -52,17 +56,25 @@ public class SimulationEngine {
                 policyToApply = playerPolicy;
             } else {
                 policyToApply = AiPolicyMaker.smartChoice(states, federal, s.name, config.getDifficulty());
+                PolicyChecks.SimulationCheck(states, s.name, policyToApply);
             }
 
             /*STATE POLICY IMPLEMENTATION*/  
-            if (s != playerState) PolicyEngine.applyPolicy(states, federal, s.name, policyToApply);
-            else PolicyEngine.applyPolicy(states, federal, playerStateName, policyToApply);
+            if (s != playerState) {
+                PolicyEngine.applyPolicy(states, federal, s.name, policyToApply);
+                EventTrigger.trigger(states, federal, s.name, currentMonth);
+            }else {
+                PolicyEngine.applyPolicy(states, federal, playerStateName, policyToApply);
+                EventTrigger.trigger(states, federal, playerStateName, currentMonth);
+            }
             
+            /*
             if (s.position < 6 && currentMonth > 1) {
                 String msg = "Policy applied by " + s.name + " at " + MyUtils.Ordinalize(s.position)
                         + " position was " + policyToApply;
                 MyUtils.SteppedPrinting(msg, Constants.REPORT_DELAY_TIME);
             }
+            */
         }
     }
 
@@ -76,24 +88,28 @@ public class SimulationEngine {
         return currentMonth;
     }
 
-    public void run() {
-        Scanner sc = new Scanner(System.in);
+    public void run() {     
         HashMap<String, StateEconomy> initialStates = new HashMap<>();
         for (Map.Entry<String, StateEconomy> entry : states.entrySet()) {
             initialStates.put(entry.getKey(), new StateEconomy(entry.getValue()));    
         }   
         
-        MyUtils.SteppedPrinting("GAME DIFFICULTY: " + EnumToString.diffType(config.getDifficulty()), Constants.REPORT_DELAY_TIME);
-        PrintReports.printStateReport(initialStates, federal, config.getChosenState(), currentMonth, "Initial"); 
-        PrintReports.printFederationReport(federal, config.getTotalMonths(), "Initial");  
+        //MyUtils.SteppedPrinting("GAME DIFFICULTY: " + EnumToString.convert(config.getDifficulty()," "), Constants.REPORT_DELAY_TIME);
+        //PrintReports.printStateReport(initialStates, federal, config.getChosenState(), currentMonth, "Initial"); 
+        //PrintReports.printFederationReport(federal, config.getTotalMonths(), "Initial");  
 
-        while (currentMonth < config.getTotalMonths()) {
+        String playName = config.getChosenState();
+        StateEconomy st = states.get(playName);
+
+        while (currentMonth <= config.getTotalMonths()) {
             // Get User policy
             String playerPolicy = "";
+            //PrintPolicies.policies();
 
             if (config.getDevType()) {
-                playerPolicy = TurnRandomizer.randomP();
-                MyUtils.SteppedPrinting("Your policy for month " + currentMonth + " is: " + playerPolicy + ".", Constants.REPORT_DELAY_TIME);
+                playerPolicy = AiPolicyMaker.smartChoice(states, federal, st.name, config.getDifficulty());
+                PolicyChecks.SimulationCheck(states, config.getChosenState(), playerPolicy);
+                //MyUtils.SteppedPrinting("Your policy for month " + currentMonth + " is: " + playerPolicy + ".", Constants.REPORT_DELAY_TIME);
             } else {
                 playerPolicy = getPolicy();
             }
@@ -101,22 +117,24 @@ public class SimulationEngine {
             // Simulate one month
 
             simulateMonth(playerPolicy);
+            System.out.println("Current Month: " + currentMonth);
 
             // Print monthly report
-            PrintReports.printStateReport(states, federal, config.getChosenState(), currentMonth, "Monthly");
+            //PrintReports.printStateReport(states, federal, config.getChosenState(), currentMonth, "Monthly");
+            //PrintReports.printFederationReport(federal, currentMonth, "Monthly"); 
         }
 
         // Final report after loop ends
         List<StateEconomy> sorted = new ArrayList<>(states.values());
         sorted.sort(Comparator.comparingInt(s -> s.position));
-        PrintReports.printStateReport(states, federal, config.getChosenState(), currentMonth, "Final"); 
+        //PrintReports.printStateReport(states, federal, config.getChosenState(), currentMonth, "Final"); 
         for (StateEconomy s : sorted) {              
-            MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 10);
-            MyUtils.SteppedPrinting(s.name + "'s Real GDP is: " + MyUtils.formatNumber(s.gdp) + " Naira, State Reserve is: " + MyUtils.formatNumber(s.stateReserve) + " Naira and Operating Cash " + MyUtils.formatNumber(s.cash) + " Naira" , 10);
+            //MyUtils.SteppedPrinting(s.name + "'s peformance score final month : " + String.format("%.2f", s.rankingScore) + " coming in " + MyUtils.Ordinalize(s.position) + " position.", 1);
+            //MyUtils.SteppedPrinting(s.name + "'s Real GDP is: " + MyUtils.formatNumber(s.gdp) + " Naira, State Reserve is: " + MyUtils.formatNumber(s.stateReserve) + " Naira and Operating Cash " + MyUtils.formatNumber(s.cash) + " Naira" , 1);
              
         }  
 
         System.out.println(" ");
-        PrintReports.printFederationReport(federal, config.getTotalMonths(), "Final");
+        //PrintReports.printFederationReport(federal, config.getTotalMonths(), "Final");
     }
 }

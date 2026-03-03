@@ -10,8 +10,12 @@ public class Constants {
     public static final long MINIMUM_POPULATION = 25000;
     public static final double MINIMUM_GDP = 4000000.0;
     public static final long INFLATION_CONSTANT = 300000;
-    public static final long BASE_OIL = 44500; //Nigeria's average oil production at 46M barrels per month. // **IMPORTANT** This has been scaled down 
-    public static final int REPORT_DELAY_TIME = 25;
+    public static final long BASE_OIL = 40000; //Nigeria's average oil production at 46M barrels per month. // **IMPORTANT** This has been scaled down 
+    public static final int REPORT_DELAY_TIME = 3;
+    public static final String NO_POLICY = "NO_POLICY";
+    public static final double TARGET_GDP_PER_CAP = 450.0;
+    public static final double REMITTANCE_RATE = 0.24;
+    public static final double DISASTER_MGMT_RATE = 0.18;
     
 
 }

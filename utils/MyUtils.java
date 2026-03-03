@@ -60,36 +60,27 @@ public class MyUtils {
     */
     /*Take a number and return it with its coefficient */
 	public static String formatNumber(double value) {
-		
 
-		if (value == 0) return "0";
+		if (value == 0) return "0.00";
+
+		String[] units = {
+			"", " Thousand", " Million", " Billion",
+			" Trillion", " Quadrillion", " Quintillion",
+			" Sextillion", " Septillion", " Octillion",
+			" Nonillion", "Decillion", "UnDecillion", "DuoDecillion"
+		};
 
 		double absValue = Math.abs(value);
-		String suffix = "";
-		double scaled = absValue;
+		int unitIndex = 0;
 
-		if (absValue >= 1_000_000_000_000.0) {
-			scaled = absValue / 1_000_000_000_000.0;
-			suffix = " Trillion";
-		} 
-		else if (absValue >= 1_000_000_000.0) {
-			scaled = absValue / 1_000_000_000.0;
-			suffix = " Billion";
-		} 
-		else if (absValue >= 1_000_000.0) {
-			scaled = absValue / 1_000_000.0;
-			suffix = " Million";
-		} 
-		else if (absValue >= 1_000.0) {
-			scaled = absValue / 1_000.0;
-			suffix = " Thousand";
-		} else if (absValue >= 1_00.0) {
-			scaled = absValue / 1_00.0;
-			return String.format("%.2f", absValue);
-		} 
-		/*Format all numbers to 2 decimal places*/
-		String formatted = String.format("%.2f", scaled);
-		return (value < 0 ? "-" : "") + formatted + suffix;
+		while (absValue >= 1000.0 && unitIndex < units.length - 1) {
+			absValue /= 1000.0;
+			unitIndex++;
+		}
+
+		String formatted = String.format("%.2f", absValue);
+
+		return (value < 0 ? "-" : "") + formatted + units[unitIndex];
 	}
 
 }

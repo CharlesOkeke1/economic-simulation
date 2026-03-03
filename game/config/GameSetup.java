@@ -14,25 +14,32 @@ public class GameSetup {
         int numMonths;
         boolean devType = false;
         GameDifficulty difficulty;
+        String devPass = "admin123";
         Scanner sc = new Scanner(System.in);
 
         MyUtils.SteppedPrinting("Are you a developer? (Yes/No): ", Constants.REPORT_DELAY_TIME);
-        String dev = sc.nextLine();
+        String dev = sc.nextLine().trim();
 
         if (dev.toLowerCase().equals("yes")) {
             devType = true;
+            MyUtils.SteppedPrinting("What is the developer password?: ", Constants.REPORT_DELAY_TIME);
+            String pass = sc.nextLine().trim();
+            if (pass.equals(devPass)) devType = true;
+            else Initializer.initializer();
         } else {
+            devType = false;
             Initializer.initializer();
-            devType = false;                
+                          
         }
         
-        MyUtils.SteppedPrinting("Now choose a state: All 36 states are available", Constants.REPORT_DELAY_TIME);
-        MyUtils.SteppedPrinting("To select a state, type out the state name with the First letter in caps. eg, Lagos", Constants.REPORT_DELAY_TIME);
-        stateChoice = sc.nextLine();
+        MyUtils.SteppedPrinting("Choose a state among all 37 states (including Abuja)", Constants.REPORT_DELAY_TIME);
+        String choice = sc.nextLine();
+        stateChoice = choice.substring(0, 1).toUpperCase() + choice.substring(1).toLowerCase();
        
         if (!states.containsKey(stateChoice)) {
             MyUtils.SteppedPrinting("ERROR, Invalid state! Choose a valid state", Constants.REPORT_DELAY_TIME);
-            stateChoice = sc.nextLine();
+            choice = sc.nextLine();
+            stateChoice = choice.substring(0, 1).toUpperCase() + choice.substring(1).toLowerCase();  
         }
 
         state = StateSelecter.stateSelecter(stateChoice);

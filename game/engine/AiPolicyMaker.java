@@ -15,13 +15,21 @@ public class AiPolicyMaker {
             this.policyName = policyName;
             this.policyScore = policyScore;
         }
+
+        public int getPolicyScore() {
+            return this.policyScore;
+        }
+
+        public void reducePolicyScore(int val) {
+            this.policyScore -= val;
+        }
     }
 
     public static String smartChoice(Map<String, StateEconomy> states, 
                                     FederalEconomy federal, String stat, GameDifficulty difficulty) {
         StateEconomy state = states.get(stat);
         HashMap<String, PolicyClass> policyMap = new HashMap<>();
-        String policy = "";
+        String policy = "";        
 
         int raiseTaxScore = 0;
         int cutTaxScore = 0; 
@@ -130,10 +138,104 @@ public class AiPolicyMaker {
 
             case SECURITY_ORIENTED: //Security Oriented value boosting security and ensuring stabilityy
                 securityScore += 6;
-                state.stability += 3;
                 break;
         }
 
+        /*state.getMemory() IMPLICATIONS*/
+        //GDP EFFECTS
+        if (state.getMemory().getLastRealGdp() < state.realGdp) {
+            infraScore += 4;
+            eduScore += 4;
+            traderSupportScore += 5;
+            subsidyScore += 5;
+            austerityScore -= 4;
+        }
+
+        //DEBT EFFECTS
+        if (state.debt > state.getMemory().getLastDebt()) {
+            raiseTaxScore += 5;
+            borrowScore -= 4;
+            austerityScore += 4;
+            subsidyScore -= 5;
+        }
+
+        //CASH EFFECTS
+        if (state.cash < state.getMemory().getLastCash()) {
+            raiseTaxScore += 5;
+            borrowScore += 5;
+            austerityScore += 4;
+            infraScore -= 3;
+            eduScore -= 4;
+        }
+
+        //STABILITY EFFECTS
+        if (state.stability < state.getMemory().getLastStability()) {
+            securityScore += 6;
+            subsidyScore += 4;
+            traderSupportScore += 4;
+            raiseTaxScore -= 4;
+            austerityScore -= 3;
+        }
+
+        /*ROLLING METRICS*/
+        //GROWTH EFFECTS
+        if (state.getMemory().getRollingGrowth12M() < 0) {
+            infraScore += 6;
+            //eduScore += 5;
+            traderSupportScore += 4;
+            subsidyScore += 4;
+        } else if (state.getMemory().getRollingGrowth12M() > 0) {
+            austerityScore += 4;
+            raiseTaxScore += 5;
+            subsidyScore -= 3;
+        }
+
+        if (state.getMemory().getRollingInflation12M() > 0) {
+            austerityScore += 4;
+            raiseTaxScore += 4;
+            subsidyScore -= 3;
+            infraScore -= 3;
+            traderSupportScore -= 3;
+        }
+
+        if (state.getMemory().getRollingProfit12M() < 0) {
+            raiseTaxScore += 3;
+            austerityScore += 4;
+            borrowScore += 6;
+            subsidyScore += 4;
+            infraScore += 2;
+        }
+
+        if (state.getMemory().getRollingDebtRatio12M() > state.debtToGdpRatio) {
+            raiseTaxScore += 3;
+            austerityScore += 3;
+            borrowScore -= 3;
+            infraScore -= 2;
+        } 
+
+        //STREAK EFFECTS
+        if (state.getMemory().getDeficitStreak() > 3) {
+            raiseTaxScore += 3;
+            austerityScore += 3;
+            borrowScore += 4;
+        }
+
+        if (state.getMemory().getHighInflationStreak() > 2) {
+            raiseTaxScore += 3;
+            austerityScore += 3;
+            infraScore -= 2;
+            subsidyScore -= 3;
+        } 
+
+        if (state.getMemory().getMonthsSinceInfra() > 3) {
+            infraScore += 7;
+        }
+
+        if (state.getMemory().getMonthsSinceEducation() > 3) {
+            eduScore += 6;
+        }
+
+        //Put all scores in a map with their names
         policyMap.put("Cut Taxes", new PolicyClass("Cut Taxes", cutTaxScore));
         policyMap.put("Raise Taxes", new PolicyClass("Raise Taxes", raiseTaxScore));
         policyMap.put("Invest Infrastructure", new PolicyClass("Invest Infrastructure", infraScore));
@@ -144,29 +246,41 @@ public class AiPolicyMaker {
         policyMap.put("Subsidise Transport & Food", new PolicyClass("Subsidise Transport & Food", subsidyScore));
         policyMap.put("Market Trader Support", new PolicyClass("Market Trader Support", traderSupportScore));
 
+        //Put all scores in a list and rank them
         List<PolicyClass> sortedList = new ArrayList<>(policyMap.values());
         sortedList.sort(Comparator.comparingInt((PolicyClass s)-> s.policyScore).reversed());
+        
+        //Random numbers for policy selection
         Random rand = new Random();
         double roll = rand.nextDouble();
         double midRoll = rand.nextDouble();
+
+        //Values that determine how good the AI is
         double good = 0.0;
         double mid = 0.0;
         PolicyClass chosen;
+        String lastPolicy = state.getMemory().getLastPolicy();
+
+        if (state.getMemory().getSamePolicyCount() > 2) {
+            if (policyMap.containsKey(lastPolicy)) {
+                policyMap.get(lastPolicy).reducePolicyScore(5);
+            }
+        }
 
         switch(difficulty) {
-            case EASY: //40% best, 40% mid and 20% worst
+            case EASY: //20% best, 45% mid and 35% worst
+                good = 0.20; 
+                mid = 0.65; 
+                break;
+
+            case MEDIUM: //40% best, 35% mid and 25% worst
                 good = 0.40; 
-                mid = 0.80; 
+                mid = 0.75; 
                 break;
 
-            case MEDIUM: //50% best, 35% mid and 15% worst
-                good = 0.50; 
-                mid = 0.85; 
-                break;
-
-            case HARD: //65% best, 25% mid and 10% worst
+            case HARD: //65% best, 20% mid and 15% worst
                 good = 0.65; 
-                mid = 0.90; 
+                mid = 0.85; 
                 break;
 
             case EXPERT: //85% best, 13% mid and 2% worst
@@ -176,11 +290,11 @@ public class AiPolicyMaker {
 
         }
 
-        //choose between the best 2 options 75% of the time
+        //choose between the best 2 options
         if (roll < good) {
             int index = rand.nextDouble() < 0.5 ? 0 : 1;
             chosen = sortedList.get(index);
-        //choose between the middle 3 options 20% of the time
+        //choose between the middle 3 options
         } else if (roll < mid) {
             if (midRoll < 0.333) {
                 chosen = sortedList.get(3);  // Best
@@ -189,7 +303,7 @@ public class AiPolicyMaker {
             } else {
                 chosen = sortedList.get(5);
             }
-        //choose the worst option 5% of the time
+        //choose the worst option 
         } else {
             chosen = sortedList.get(sortedList.size() - 1);
         }
@@ -198,4 +312,4 @@ public class AiPolicyMaker {
         policy = chosen.policyName;
         return policy;
     }
-}
+} 

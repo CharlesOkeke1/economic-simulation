@@ -1,5 +1,8 @@
 package game.economies;
 
+import game.events.*;
+import game.metrics.AIMemory;
+
 /*State Economy object contains all fields each state has*/
 public class StateEconomy {
         public String name;
@@ -25,12 +28,16 @@ public class StateEconomy {
         public double gdpGrowth;
         public GovType governmentType;
         public double inflationRate;
+        private AIMemory memory = new AIMemory();
+        private StateAttributes attributes;
+        private EventRisk eventRisk;
 
         public StateEconomy(String name, double gdp, double realGdp, long population, double stability, double taxRate, double debt, 
                             double debtPayment, double cash, int crashCount, int infrastructure, double monthlyRevenue, 
                             double monthlySpend, double monthlyProfit, double policySpend, double stateReserve, 
                             double debtToGdpRatio, double rankingScore, int position, double federalAllocation, 
-                            double gdpGrowth, GovType governmentType, double inflationRate) {
+                            double gdpGrowth, GovType governmentType, double inflationRate, StateAttributes attributes,
+                            EventRisk eventRisk) {
             
             this.name = name;
             this.gdp = gdp;
@@ -55,6 +62,8 @@ public class StateEconomy {
             this.gdpGrowth = gdpGrowth;
             this.governmentType = governmentType;
             this.inflationRate = inflationRate;
+            this.attributes = attributes;
+            this.eventRisk = eventRisk;
         }
 
         public StateEconomy(StateEconomy other) {
@@ -81,5 +90,20 @@ public class StateEconomy {
             this.gdpGrowth = other.gdpGrowth;
             this.governmentType = other.governmentType;
             this.inflationRate = other.inflationRate;
+            this.attributes = other.attributes;
+            this.eventRisk = other.eventRisk;
         }
-    }
+
+        public AIMemory getMemory() {
+            return this.memory;
+        }
+
+        public StateAttributes getAttributes() {
+            return this.attributes;
+        }
+
+        public EventRisk getEventRisk() {
+            return this.eventRisk;
+        }
+
+}       

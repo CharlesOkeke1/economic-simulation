@@ -1,9 +1,11 @@
 package game.engine;
 import game.economies.FederalEconomy;
 import game.economies.StateEconomy;
+import game.data.*;
 import java.util.*;
 
 public class RankingEngine {
+    public static final double SCALE_CONSTANT = 250000.0;
     public static void calculateRank(Map<String, StateEconomy> states, FederalEconomy fed) {
 
         List<StateEconomy> list = new ArrayList<>(states.values());
@@ -12,7 +14,6 @@ public class RankingEngine {
         double maxGdpPerCap = Double.MIN_VALUE;
         double maxFiscal = Double.MIN_VALUE;
         double maxInfra = Double.MIN_VALUE;
-        double maxPopIndex = Double.MIN_VALUE;
 
         for (StateEconomy s : list) {
 
@@ -21,14 +22,12 @@ public class RankingEngine {
             double fiscalHealth =
                     (s.monthlyProfit * 0.5)
                     + (s.stateReserve * 0.3)
-                    - (s.debt * 0.05);   // penalize debt
+                    - (s.debt * 0.2);   // penalize debt
 
-            double popIndex = s.population/fed.nationalPopulation;
-
+          
             maxGdpPerCap = Math.max(maxGdpPerCap, gdpPerCap);
             maxFiscal = Math.max(maxFiscal, fiscalHealth);
             maxInfra = Math.max(maxInfra, s.infrastructure);
-            maxPopIndex = Math.max(maxPopIndex, popIndex);
         }
 
         // Second pass: compute weighted ranking score
@@ -36,35 +35,29 @@ public class RankingEngine {
 
             double gdpPerCap = s.gdp / s.population;
             double fiscalHealth =
-                    (s.monthlyProfit * 0.5)
+                    (s.monthlyProfit * 0.4)
                     + (s.stateReserve * 0.3)
-                    - (s.debt * 0.05);
-
-            double popIndex = s.population/fed.nationalPopulation;
-
+                    - (s.debt * 0.3);
 
             // Normalize to 0–1
-            double gdpScore = (maxGdpPerCap > 0) ? gdpPerCap / maxGdpPerCap : 0.0;
+            double gdpScore = Math.min(1.0, gdpPerCap / Constants.TARGET_GDP_PER_CAP);
 
             double fiscalScore = (Math.abs(maxFiscal) > 1e-9)
-                    ? fiscalHealth / maxFiscal
+                    ? fiscalHealth / (fiscalHealth + SCALE_CONSTANT) 
                     : 0.0;
 
             double infraScore = (maxInfra > 0) ? s.infrastructure / maxInfra : 0.0;
 
-            double popScore = (Math.abs(maxPopIndex) > 1e-9)
-                    ? popIndex / maxPopIndex
-                    : 0.0;
-
-            double stabilityScore = s.stability / 100.0;
+            double stabilityScore = Math.min(100, s.stability) / 100.0;
+            double growthScore = Math.max(-1, Math.min(1, Math.tanh(s.gdpGrowth * 10)));
 
             s.rankingScore =
                     (0.30 * gdpScore) +
                     (0.20 * fiscalScore) +
-                    (0.20 * stabilityScore) +
-                    (0.10 * infraScore) +
-                    (0.10 * s.inflationRate) +
-                    (0.10 * popScore);
+                    (0.125 * stabilityScore) +
+                    (0.15 * growthScore) +
+                    (0.125 * infraScore) -
+                    (0.50 * Math.abs(s.inflationRate));
 
             if (Double.isNaN(s.rankingScore) || Double.isInfinite(s.rankingScore)) {
                 s.rankingScore = 0.10; // hard fallback

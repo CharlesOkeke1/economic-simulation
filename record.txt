@@ -1,0 +1,183 @@
+/**
+ * ================= AI DECISION FRAMEWORK DESIGN =================
+ *
+ * PURPOSE:
+ * The AI should make decisions based on structural trends and risk states,
+ * not on single-month values. All policy scoring must be influenced by
+ * memory-derived diagnostics.
+ *
+ * -----------------------------------------------------------------
+ * DECISION ARCHITECTURE (PRIORITY ORDER)
+ * -----------------------------------------------------------------
+ *
+ * The AI evaluates the economy in 4 layers:
+ *
+ * 1. SURVIVAL (Political & Economic Emergency)
+ * 2. STRUCTURAL HEALTH (Medium-Term Sustainability)
+ * 3. GROWTH OPTIMIZATION (Strategic Expansion)
+ * 4. ANTI-SPAM / DISCIPLINE CHECKS
+ *
+ * Each layer modifies policy scores before final selection.
+ *
+ * ================================================================
+ * LAYER 1 — SURVIVAL CHECKS (Highest Priority)
+ * ================================================================
+ *
+ * These checks can heavily bias or override normal scoring.
+ *
+ * 1. Stability Crisis
+ *    Conditions:
+ *      - stability < 35
+ *      - OR stabilityChange negative for multiple months
+ *
+ *    Effects:
+ *      - Boost Security score
+ *      - Boost Subsidy score
+ *      - Penalize Austerity
+ *      - Penalize Raise Taxes (unless deficit is extreme)
+ *
+ *
+ * 2. Persistent Deficit
+ *    Conditions:
+ *      - deficitStreak >= 3
+ *      - OR rollingProfit12M < 0
+ *
+ *    Effects:
+ *      - Penalize Infrastructure & Education
+ *      - Boost Raise Taxes
+ *      - Boost Austerity
+ *      - Borrow only if cash critically low
+ *
+ *
+ * 3. Persistent High Inflation
+ *    Conditions:
+ *      - highInflationStreak >= 2
+ *      - OR rollingInflation12M above threshold
+ *
+ *    Effects:
+ *      - Penalize Subsidy
+ *      - Penalize Market Support
+ *      - Penalize Cut Taxes
+ *      - Boost Austerity
+ *
+ *
+ * ================================================================
+ * LAYER 2 — STRUCTURAL HEALTH CHECKS
+ * ================================================================
+ *
+ * These influence scoring but do not override survival.
+ *
+ * 4. Debt Pressure
+ *    Condition:
+ *      - rollingDebtRatio12M > 0.65
+ *
+ *    Effects:
+ *      - Penalize Borrow
+ *      - Penalize Heavy Spending
+ *      - Slight Boost Austerity
+ *
+ *
+ * 5. Growth Weakness
+ *    Condition:
+ *      - rollingGrowth12M below annual target
+ *
+ *    Effects:
+ *      - Boost Infrastructure
+ *      - Boost Education
+ *
+ *
+ * 6. Growth Overheating
+ *    Condition:
+ *      - rollingGrowth12M significantly above target
+ *
+ *    Effects:
+ *      - Reduce Growth Policy Bias
+ *      - Slight Boost Fiscal Stabilization
+ *
+ *
+ * ================================================================
+ * LAYER 3 — OPTIMIZATION CHECKS
+ * ================================================================
+ *
+ * 7. Infrastructure Underdevelopment
+ *    Condition:
+ *      - infrastructure < lower threshold
+ *
+ *    Effect:
+ *      - Boost Infrastructure
+ *
+ *
+ * 8. Infrastructure Saturation
+ *    Condition:
+ *      - infrastructure > upper threshold
+ *
+ *    Effect:
+ *      - Penalize Infrastructure
+ *
+ *
+ * 9. Education Underdevelopment / Saturation
+ *    Same logic as Infrastructure.
+ *
+ *
+ * ================================================================
+ * LAYER 4 — DISCIPLINE / ANTI-SPAM LOGIC
+ * ================================================================
+ *
+ * 10. Same Policy Streak
+ *     Condition:
+ *       - samePolicyCount >= 3
+ *
+ *     Effect:
+ *       - Heavy penalty to that policy
+ *
+ *
+ * 11. Cooldown Timers
+ *     Conditions:
+ *       - monthsSinceInfra < cooldownThreshold
+ *       - monthsSinceEducation < cooldownThreshold
+ *
+ *     Effects:
+ *       - Penalize repeated investment
+ *
+ *
+ * ================================================================
+ * DESIGN PRINCIPLES
+ * ================================================================
+ *
+ * - AI must react to trends, not single-month values.
+ * - Rolling metrics override noisy monthly changes.
+ * - Streak detection is more important than spikes.
+ * - Survival logic always overrides optimization logic.
+ * - Expert difficulty increases weight of structural checks.
+ *
+ *
+ * ================================================================
+ * MINIMUM REQUIRED MEMORY SIGNALS
+ * ================================================================
+ *
+ * - rollingGrowth12M
+ * - rollingProfit12M
+ * - rollingDebtRatio12M
+ * - rollingInflation12M
+ * - deficitStreak
+ * - highInflationStreak
+ * - stabilityChange
+ * - samePolicyCount
+ *
+ *
+ * ================================================================
+ * FINAL OBJECTIVE
+ * ================================================================
+ *
+ * The AI should:
+ *
+ * 1. Protect stability first.
+ * 2. Protect fiscal sustainability second.
+ * 3. Stimulate growth intelligently.
+ * 4. Avoid repeating itself.
+ *
+ * If implemented correctly, AI behavior will appear strategic,
+ * not random.
+ *
+ * ================================================================
+ */

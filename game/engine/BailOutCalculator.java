@@ -8,9 +8,10 @@ public class BailOutCalculator {
         StateEconomy state = states.get(BailedState);
 
         double bailOut;
-        bailOut = Math.abs(state.cash);
+        bailOut = state.federalAllocation * 0.8;
         federal.federalReserve -= bailOut; //Fedral reserve sends money to failing state
         state.gdp += (bailOut * 1.17); //Give small Gdp boost Support
         state.cash += bailOut; //States receive federal bail out if they are low on reserves.
+        state.crashCount++;
     }
 }

@@ -24,8 +24,10 @@ public class PrintReports {
                 MyUtils.SteppedPrinting("===== Final State of " + countyName + "'s Economic Situation =====", Constants.REPORT_DELAY_TIME);
                 break;
         }
-        MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + EnumToString.govtType(county.governmentType), Constants.REPORT_DELAY_TIME);   
-        MyUtils.SteppedPrinting("REAL GDP GROWTH RATE: " + String.format("%.2f", county.gdpGrowth * 100) + "%", Constants.REPORT_DELAY_TIME);   
+        MyUtils.SteppedPrinting("GOVERNMENT TYPE: " + EnumToString.convert(county.governmentType, "_"), Constants.REPORT_DELAY_TIME);   
+        MyUtils.SteppedPrinting("REAL GDP GROWTH RATE: " + String.format("%.2f", county.gdpGrowth * 100) + "%", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("STATE TAX RATE: " + String.format("%.2f", county.taxRate * 100) + "%", Constants.REPORT_DELAY_TIME); 
+        MyUtils.SteppedPrinting("AEVRAGE NATIONAL REAL GDP GROWTH RATE: " + String.format("%.2f", fed.nationalGdpGrowth * 100) + "%", Constants.REPORT_DELAY_TIME);   
         MyUtils.SteppedPrinting("REAL GDP: " + MyUtils.formatNumber(county.realGdp)  + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("NOMINAL GDP: " + MyUtils.formatNumber(county.gdp)  + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("POPULATION: " + MyUtils.formatNumber(county.population)  + " People", Constants.REPORT_DELAY_TIME);
@@ -55,7 +57,7 @@ public class PrintReports {
                 break;
             
             case "Monthly":
-                MyUtils.SteppedPrinting("===== NIGERIA'S MONTH " + count + " PEFORMANCE REPORT =====", Constants.REPORT_DELAY_TIME);
+                MyUtils.SteppedPrinting("===== NIGERIA'S MONTH " + (count - 1) + " PEFORMANCE REPORT =====", Constants.REPORT_DELAY_TIME);
                 break;
 
             case "Final":
@@ -65,10 +67,13 @@ public class PrintReports {
 
         MyUtils.SteppedPrinting("NATIONAL REAL GDP: " + MyUtils.formatNumber(fed.nationalGDP) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("NATIONAL POPULATION: " + MyUtils.formatNumber(fed.nationalPopulation) + " People", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("AVERAGE NATIONAL INFLATION: " + String.format("%.2f", fed.avgInflation * 100) + "%", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERAL RESERVE VALUE " + MyUtils.formatNumber(fed.federalReserve) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERATION ACCOUNT BALANCE: " + MyUtils.formatNumber(fed.operatingCash) + " Naira", Constants.REPORT_DELAY_TIME);
         MyUtils.SteppedPrinting("FEDERATION ALLOCATION THIS MONTH: " + MyUtils.formatNumber(fed.allocationPool) + " Naira", Constants.REPORT_DELAY_TIME);  
-        MyUtils.SteppedPrinting("PRICE OF OIL PER BARREL: " + MyUtils.formatNumber(fed.oilPriceIndex) + " Naira", Constants.REPORT_DELAY_TIME);  
+        MyUtils.SteppedPrinting("PRICE OF OIL PER BARREL: " + MyUtils.formatNumber(fed.oilPriceIndex) + " Naira", Constants.REPORT_DELAY_TIME);
+        MyUtils.SteppedPrinting("TOTAL NATIONAL CRASHES: " + MyUtils.formatNumber(fed.nationalCrashes), Constants.REPORT_DELAY_TIME);  
+
         System.out.println(" ");  
     }
 }
