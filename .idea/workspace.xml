@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/release2.0.0.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/analytics/Telemetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/config/GameConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/events/EventTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/AlertBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/ConfirmationBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/GuiConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/HomeScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/gui/MenuScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/game/gui/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/ChangeLog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/NigerianEconomy-v1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/NigerianEconomyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/NigerianEconomyGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/NigerianEconomyUpdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/NigerianEconomyUpdates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/States.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/config/GameConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/config/GameDifficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/config/GameDifficulty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/config/GameSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/config/GameSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/data/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/data/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/data/EconomyInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/data/EconomyInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/economies/FederalEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/economies/FederalEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/economies/GovType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/economies/GovType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/economies/SimulationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/economies/SimulationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/economies/StateAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/economies/StateAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/economies/StateEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/economies/StateEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/AiPolicyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/AiPolicyMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/BailOutCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/BailOutCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/EconomicCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/EconomicCrash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/FederalAccountingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/FederalAccountingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/PolicyEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/PolicyEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/RankingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/RankingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/SimulationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/SimulationEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/engine/TurnRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/engine/TurnRandomizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/events/ApplyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/events/ApplyEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/events/EventObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/events/EventObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/events/EventRisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/events/EventRisk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/events/EventTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/events/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/events/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/metrics/AIMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/metrics/AIMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/metrics/PolicyChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/metrics/PolicyChecks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/seeding/SeedingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/seeding/SeedingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/ui/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/ui/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/ui/PrintPolicies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/ui/PrintPolicies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/ui/PrintReports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/ui/PrintReports.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/release.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/EnumToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EnumToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Sleeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Sleeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/StateSelecter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StateSelecter.java" afterDir="false" />
-    </list>
+    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +196,7 @@
       <workItem from="1773583486589" duration="5536000" />
       <workItem from="1773597557507" duration="11161000" />
       <workItem from="1773652331629" duration="2870000" />
-      <workItem from="1773671677285" duration="14451000" />
+      <workItem from="1773671677285" duration="14875000" />
     </task>
     <servers />
   </component>
