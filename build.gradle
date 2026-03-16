@@ -1,0 +1,37 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "25"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+dependencies {
+    implementation "org.kordamp.ikonli:ikonli-javafx:12.3.1"
+    implementation "org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1"
+}
+
+application {
+    mainClass = "game.gui.AppMain"
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java/game', 'src/main/java/utils']
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}

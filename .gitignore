@@ -3,6 +3,14 @@ bin/
 out/
 target/
 *.log
-.idea/
+../.idea/
 .vscode/
 .DS_Store
+record.txt
+release.sh
+run.sh
+commit.sh
+updates_summary.md
+build/
+src/game/events
+src/game/seeding

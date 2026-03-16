@@ -10,7 +10,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 ***Version 1.0.0*** - *20-02-2026*
 - Added core month-by-month simulation loop (states + federal)
 - Added basic policy application flow (player + AI)
-- Added state/federal reporting outputs 
+- Added state/federal reporting outputs
 
 ---
 
@@ -141,7 +141,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 ---
 
 ***Version 1.7.3*** - *24-02-2026*
-- **Minor Bug Fixes** - Stability now grows realistically. 
+- **Minor Bug Fixes** - Stability now grows realistically.
 - **Realism Updates** - Policies have been made more realistic. Made AI decision less efficient for realism. The AI's now choose the best policies less.
 - **Realism Updates** - GDP, reserve, expenditure and cash growth are now more realistic.
 - **Minor Update** - Each month, the federal economy report is displayed.
@@ -177,7 +177,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 ---
 
 ***Version 1.7.5*** - *25-02-2026*
-- **Minor Update** - Comments under the `game.ui` and `game.utils` package have been cleaned up. 
+- **Minor Update** - Comments under the `game.ui` and `game.utils` package have been cleaned up.
 - **New File** - `game.initialization` renamed to `game.data`. A `Constants.java` file with constants has been added and all files affected files have been modified.
 - **Minor Bug Fix** - GDP and cash growth got economic tweaks to improve realism. Main game file now prevents user from choosing an unavailable state.
 - **Affected Files/Packages** - `PolicyEngine.java`, `FederalAccounting.java`, `SimulationEngine.java`, `NigerianEconomyGame.java` and `PrintReports.java`.
@@ -239,3 +239,29 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Files** - `PolicyEngine.java`, `.gitignore`, `PrintReports.java` and upload script.
 
 ---
+
+***Version 2.0.0*** - *16-03-2026*  
+*(Pre-Release – Major GUI Transition)*
+
+- **Full Graphical Interface Migration** - Replaced the command-line interface with a fully interactive JavaFX graphical environment. The simulation is now driven through a windowed UI rather than terminal output.
+- **Application Architecture Overhaul** - Introduced `AppMain` as the central application controller responsible for scene management, simulation orchestration, configuration access, and UI lifecycle management via a game loop.
+- **Scene Management System** - Implemented `AppMain.switchRoot()` allowing seamless transitions between UI screens without restarting the application.
+- **Interactive Main Menu** - Added `MenuScreen` interface enabling pre-simulation configuration including state selection, difficulty selection, simulation duration, and developer mode toggling.
+- **Gameplay Dashboard Implementation** - Created the `HomeScreen` interface providing a multi-panel dashboard displaying real-time economic metrics, charts, and game controls.
+- **Live Chart Visualization** - Integrated JavaFX `LineChart` components to track Real GDP, Inflation, and Population growth dynamically as the simulation progresses.
+- **Simulation Tick Engine** - Introduced a `Timeline` driven simulation loop allowing the economy to advance one month at a time instead of executing the entire simulation instantly.
+- **Real-Time UI Refresh System** - Implemented a centralized UI refresh mechanism allowing dashboard values and charts to update dynamically after each simulation tick using the `HomeScreen.refreshUI()` method.
+- **Policy Interaction System** - Added interactive policy selection through dropdown controls allowing players to apply policies directly from the GUI rather than command-line input.
+- **Policy Update** - Policy is now a variable belonging to the `StateEconomy` object.
+- **Dashboard Indicator Cards** - Implemented center dashboard metrics including position ranking, tax rate, debt-to-GDP ratio, growth rate, stability, and infrastructure indicators.
+- **Event Feed Panel** - Added a scrollable event notification panel to display economic and political developments during gameplay.
+- **Styling Framework Introduction** - Implemented centralized CSS styling (`App.css`) introducing reusable classes for cards, panels, charts, and interface elements.
+- **Reusable UI Components** - Created standardized UI builders including `createCard`, `createLargeCard`, `createNotification`, and `createChart` to simplify layout construction.
+- **Resource System Implementation** - Introduced a structured `/resources/game` directory enabling classpath-based loading of assets and stylesheets.
+- **Background Rendering System** - Implemented blurred menu backgrounds and overlay tinting to visually separate UI components from background imagery.
+- **Project Layout Improvements** - Standardized layout architecture using `BorderPane`, `HBox`, `VBox`, and `StackPane` containers to support scalable UI composition.
+- **Engine-UI Synchronization Model** - Finalized runtime data flow allowing the simulation engine to update the UI in real time through shared state objects.
+- **Modal Interaction Foundation** - Introduced groundwork for modal dialogs and confirmation windows for future gameplay events.
+- **Development Status** - Version 2.0.0 marks the beginning of the graphical interface phase of the project and is released as a **pre-release build** pending further stability improvements.
+
+- **Affected Packages** - `economies`, `analytics`, `metrics`, `gui`, `config` and `engine`

@@ -9,46 +9,41 @@ if [ -z "$message" ]; then
     exit 1
 fi
 
-echo "Cleaning old class files....."
-find . -name "*.class" -delete
-
-echo "Compiling....."
-javac -d out $(find . -name "*.java")
+echo "Running Gradle clean..."
+./gradlew clean
 
 if [ $? -ne 0 ]; then
-    echo "Compilation failed. Aborting."
+    echo "Gradle clean failed. Aborting."
     exit 1
 fi
 
-echo "Ensuring accurate manifest....."
-echo "Main-Class: game.NigerianEconomyGame" > manifest.txt
-echo "" >> manifest.txt
-
-echo "Packaging jar....."
-jar --create --file build/NigerianEconomy-$vTag.jar --manifest manifest.txt -C out .
+echo "Building project with Gradle..."
+./gradlew build
 
 if [ $? -ne 0 ]; then
-    echo "Jar creation failed. Aborting."
+    echo "Gradle build failed. Aborting."
     exit 1
 fi
 
-echo "Adding changes....."
+echo "Gradle build successful."
+
+echo "Adding changes..."
 git add .
 
-echo "Committing....."
+echo "Committing..."
 git commit -m "$message"
 
-echo "Pulling latest changes....."
+echo "Pulling latest changes..."
 git pull origin main --rebase
 
-echo "Pushing to main....."
+echo "Pushing to main..."
 git push origin main
 
-echo "Creating tag....."
+echo "Creating tag..."
 git tag -a "$vTag" -m "$tagMessage"
 
-echo "Pushing tag....."
+echo "Pushing tag..."
 git push origin "$vTag"
 
 echo "Release build complete."
-echo "Jar created: NigerianEconomy-$vTag.jar"
+echo "Jar should be located in: build/libs/"

@@ -16,4 +16,4 @@ fi
 echo "Compilation successful."
 echo "Running simulation..."
 
-java game.NigerianEconomyGame
+java game.AppMain
