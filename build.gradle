@@ -19,13 +19,13 @@ dependencies {
 }
 
 application {
-    mainClass = "game.gui.AppMain"
+    mainClass = "gui.AppMain"
 }
 
 sourceSets {
     main {
         java {
-            srcDirs = ['src/main/java/game', 'src/main/java/utils']
+            srcDirs = ['src/main/java/backend', 'src/main/java/frontend', 'src/main/java/utils']
         }
     }
 }

@@ -15,7 +15,6 @@ public class NigerianEconomyGame {
         HashMap<String, StateEconomy> states = EconomyInitializer.createStates();
         FederalEconomy fed = EconomyInitializer.createFederal();
         GameConfig config = GameSetup.setup(states);
-
         SimulationEngine engine = new SimulationEngine(states, fed, config);
         
         engine.run();

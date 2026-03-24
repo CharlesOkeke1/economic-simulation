@@ -9,10 +9,11 @@ public class StateSelecter {
         "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara", "Abuja"};
         
         String result = "";
-        
-        for (int i = 0; i < availableStates.length; i++) {
-            if (selectedState.equals(availableStates[i])) {
-                result = availableStates[i];
+
+        for (String availableState : availableStates) {
+            if (selectedState.equals(availableState)) {
+                result = availableState;
+                break;
             }
         }
         return result;

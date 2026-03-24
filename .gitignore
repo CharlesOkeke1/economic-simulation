@@ -8,6 +8,7 @@ target/
 .DS_Store
 record.txt
 release.sh
+settings.json
 run.sh
 commit.sh
 updates_summary.md

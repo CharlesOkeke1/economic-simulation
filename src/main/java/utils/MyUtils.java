@@ -32,32 +32,14 @@ public class MyUtils {
 	public static String Ordinalize(int number) {
 		if ((number % 100 >= 11) && (number % 100 <= 13)) return number + "th";
 
-		switch (number % 10) {
-			case 1: return number + "st";
-			case 2: return number + "nd";
-			case 3: return number + "rd";
-			default: return number + "th";
-		}	
+        return switch (number % 10) {
+            case 1 -> number + "st";
+            case 2 -> number + "nd";
+            case 3 -> number + "rd";
+            default -> number + "th";
+        };
 	}
-    /* ==This is an example of how to use a custom object class to store 
-    variables of different types together
-    public static class Example {
-        type var1;
-        type var2;
-        type var3;
 
-        public SpinResult(type var1, type var2, type var3) {
-            this.var1 = var1;
-            this.var2 = var2;
-            this.var3 = var3;
-        }
-    }
-    
-    return new Example(var1, var2, var3);
-
-    == USAGE ==
-    Example usage1 = function(param);
-    */
     /*Take a number and return it with its coefficient */
 	public static String formatNumber(double value) {
 
@@ -65,9 +47,9 @@ public class MyUtils {
 
 		String[] units = {
 			"", " K", " M", " B",
-			" T", " Q", " Quintillion",
-			" Sextillion", " Septillion", " Octillion",
-			" Nonillion", "Decillion", "UnDecillion", "DuoDecillion"
+			" T", " Q", " Qui",
+			" Sex", " Sept", " Oct",
+			" Non", "Dec", "UnD", "DuoD"
 		};
 
 		double absValue = Math.abs(value);
