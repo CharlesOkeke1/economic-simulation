@@ -5,64 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/economies/PolicyImpact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/engine/BailOutCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Akwa Ibom_16-03-2026_20-55-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/NigerianEconomyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/NigerianEconomyGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/NigerianEconomyUpdates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/States.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/analytics/Telemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/analytics/Telemetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/config/GameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/config/GameDifficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/config/GameDifficulty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/config/GameSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/config/GameSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/data/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/data/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/data/EconomyInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/data/EconomyInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/economies/FederalEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/FederalEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/economies/GovType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/GovType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/economies/SimulationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/SimulationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/economies/StateAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/StateAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/economies/StateEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/StateEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/election/ElectionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/election/ElectionEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/AiPolicyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/AiPolicyMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/BailOutCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/EconomicCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/EconomicCrash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/FederalAccountingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/FederalAccountingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/PolicyEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/PolicyEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/RankingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/RankingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/SimulationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/SimulationEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/TurnRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/TurnRandomizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/events/ApplyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/ApplyEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/events/EventObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/events/EventRisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventRisk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/events/EventTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/events/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/AlertBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/AlertBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/ConfirmationBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/ConfirmationBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/GuiConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/GuiConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/gui/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/MenuScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/metrics/AIMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/metrics/AIMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/metrics/PolicyChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/metrics/PolicyChecks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/seeding/SeedingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/seeding/SeedingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/ui/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/ui/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/ui/PrintPolicies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/ui/PrintPolicies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/ui/PrintReports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/ui/PrintReports.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/EnumToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EnumToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StateSelecter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StateSelecter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/game/gui/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/game/gui/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,37 +71,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AppMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeScreen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewGameSetup.executor&quot;: &quot;Run&quot;,
-    &quot;Application.layoutPractice.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.economy-sim-game [run].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/coolf/IdeaProjects/economy-sim-game&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/coolf/IdeaProjects/economy-sim-game/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppMain.executor": "Run",
+    "Application.HomeScreen.executor": "Run",
+    "Application.NewGameSetup.executor": "Run",
+    "Application.layoutPractice.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.economy-sim-game [run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Rebasing main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/coolf/IdeaProjects/economy-sim-game",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/coolf/IdeaProjects/economy-sim-game/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\coolf\IdeaProjects\economy-sim-game\src\main\java" />
