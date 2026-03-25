@@ -1,0 +1,505 @@
+[
+{
+"STATE": {
+"LAGOS": {
+"Month": 1,
+"GDP": 11.12 M,
+"Real Gdp": 10.92 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 63.33,
+"Debt": 1.51 M,
+"Cash": 1.15 M,
+"Population": 201.20 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 9.01 M,
+"Federal Operating Cash": 14.70 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 2,
+"GDP": 11.10 M,
+"Real Gdp": 10.93 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 61.48,
+"Debt": 1.25 M,
+"Cash": 1.34 M,
+"Population": 202.61 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 17.84 M,
+"Federal Operating Cash": 29.14 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.80 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 3,
+"GDP": 12.66 M,
+"Real Gdp": 10.85 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.52,
+"Debt": 932.09 K,
+"Cash": 1.57 M,
+"Population": 203.77 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 27.77 M,
+"Federal Operating Cash": 45.18 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.62 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 4,
+"GDP": 11.10 M,
+"Real Gdp": 10.90 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.65,
+"Debt": 704.42 K,
+"Cash": 1.74 M,
+"Population": 205.20 K,
+"Infrastructure": 27.00
+},
+},
+"Federal Reserve": 36.07 M,
+"Federal Operating Cash": 58.78 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.15 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 5,
+"GDP": 11.17 M,
+"Real Gdp": 10.91 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 60.09,
+"Debt": 446.35 K,
+"Cash": 1.95 M,
+"Population": 206.63 K,
+"Infrastructure": 27.00
+},
+},
+"Federal Reserve": 44.86 M,
+"Federal Operating Cash": 73.06 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.94 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 6,
+"GDP": 11.21 M,
+"Real Gdp": 10.98 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.83,
+"Debt": 208.49 K,
+"Cash": 2.14 M,
+"Population": 208.08 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 53.48 M,
+"Federal Operating Cash": 87.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.50 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 7,
+"GDP": 11.29 M,
+"Real Gdp": 11.05 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.73,
+"Debt": -67.38 K,
+"Cash": 2.36 M,
+"Population": 209.54 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 63.30 M,
+"Federal Operating Cash": 102.96 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.09 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 8,
+"GDP": 11.28 M,
+"Real Gdp": 11.06 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 60.37,
+"Debt": 0.00,
+"Cash": 2.91 M,
+"Population": 211.00 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 72.95 M,
+"Federal Operating Cash": 118.51 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.68 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 9,
+"GDP": 11.26 M,
+"Real Gdp": 11.08 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 48.33,
+"Debt": 0.00,
+"Cash": 3.05 M,
+"Population": 191.23 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 81.73 M,
+"Federal Operating Cash": 132.72 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.20 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 10,
+"GDP": 11.25 M,
+"Real Gdp": 11.09 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 55.46,
+"Debt": 0.00,
+"Cash": 3.49 M,
+"Population": 192.57 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 90.09 M,
+"Federal Operating Cash": 146.23 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.73 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 11,
+"GDP": 11.26 M,
+"Real Gdp": 11.11 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 58.57,
+"Debt": 0.00,
+"Cash": 4.00 M,
+"Population": 193.92 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 99.75 M,
+"Federal Operating Cash": 161.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.17 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 12,
+"GDP": 11.24 M,
+"Real Gdp": 11.03 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 58.62,
+"Debt": 0.00,
+"Cash": 4.60 M,
+"Population": 195.07 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 109.87 M,
+"Federal Operating Cash": 177.96 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.54 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 13,
+"GDP": 11.13 M,
+"Real Gdp": 10.95 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 58.68,
+"Debt": 0.00,
+"Cash": 5.16 M,
+"Population": 195.90 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 118.79 M,
+"Federal Operating Cash": 192.26 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.94 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 14,
+"GDP": 11.37 M,
+"Real Gdp": 11.12 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 59.29,
+"Debt": 0.00,
+"Cash": 5.58 M,
+"Population": 197.27 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 127.70 M,
+"Federal Operating Cash": 206.66 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.19 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 15,
+"GDP": 11.53 M,
+"Real Gdp": 11.30 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 59.54,
+"Debt": 0.00,
+"Cash": 6.08 M,
+"Population": 198.65 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 138.03 M,
+"Federal Operating Cash": 223.23 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.79 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 16,
+"GDP": 11.72 M,
+"Real Gdp": 11.49 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 59.63,
+"Debt": 0.00,
+"Cash": 6.49 M,
+"Population": 200.04 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 146.67 M,
+"Federal Operating Cash": 237.15 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.35 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 17,
+"GDP": 11.66 M,
+"Real Gdp": 11.44 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.09,
+"Debt": 0.00,
+"Cash": 7.05 M,
+"Population": 201.23 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 156.26 M,
+"Federal Operating Cash": 252.47 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.85 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 18,
+"GDP": 11.70 M,
+"Real Gdp": 11.48 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 60.43,
+"Debt": 0.00,
+"Cash": 7.60 M,
+"Population": 202.64 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 166.63 M,
+"Federal Operating Cash": 269.06 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.05 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 19,
+"GDP": 11.65 M,
+"Real Gdp": 11.41 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 59.35,
+"Debt": 0.00,
+"Cash": 8.13 M,
+"Population": 203.86 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 175.19 M,
+"Federal Operating Cash": 282.81 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.48 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 20,
+"GDP": 11.70 M,
+"Real Gdp": 11.43 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 59.99,
+"Debt": 0.00,
+"Cash": 8.66 M,
+"Population": 205.29 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 184.75 M,
+"Federal Operating Cash": 298.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.82 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 21,
+"GDP": 11.65 M,
+"Real Gdp": 11.36 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 58.86,
+"Debt": 0.00,
+"Cash": 9.22 M,
+"Population": 206.47 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 193.87 M,
+"Federal Operating Cash": 312.69 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.20 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 22,
+"GDP": 11.67 M,
+"Real Gdp": 11.38 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 71.74,
+"Debt": 0.00,
+"Cash": 9.71 M,
+"Population": 207.92 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 202.78 M,
+"Federal Operating Cash": 327.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.41 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 23,
+"GDP": 11.67 M,
+"Real Gdp": 11.41 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 64.06,
+"Debt": 0.00,
+"Cash": 10.27 M,
+"Population": 209.37 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 212.83 M,
+"Federal Operating Cash": 343.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.89 M
+},
+{
+"STATE": {
+"LAGOS": {
+"Month": 24,
+"GDP": 11.72 M,
+"Real Gdp": 11.50 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 61.27,
+"Debt": 0.00,
+"Cash": 10.78 M,
+"Population": 210.84 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 222.52 M,
+"Federal Operating Cash": 358.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 88.24 M
+}

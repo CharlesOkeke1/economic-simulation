@@ -19,7 +19,6 @@ public class SimulationEngine {
     private GameConfig config;
     private ElectionEngine elect;
     private int currentMonth = 0;
-    private boolean election = false;
 
     public SimulationEngine(Map<String, StateEconomy> states, FederalEconomy federal, GameConfig config) {
 
@@ -40,9 +39,8 @@ public class SimulationEngine {
         RankingEngine.calculateRank();
         currentMonth++;
 
-        if ((currentMonth % 18) == 0) {
+        if ((currentMonth % Constants.ELECTION_SPACING) == 0) {
             ElectionEngine.runElection();
-            this.election = true;
         }
 
         Telemetry.logMonth(currentMonth);
@@ -53,9 +51,6 @@ public class SimulationEngine {
         return ElectionEngine.getElectionCost();
     }
 
-    public boolean isElection() {
-        return this.election;
-    }
 
     private void applyPolicies(StateEconomy playerState, String playerPolicy) {
         String playerStateName = playerState.getName();

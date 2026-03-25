@@ -3,15 +3,12 @@ package election;
 import economies.*;
 import gui.AppMain;
 
-
 import java.util.*;
 
 public class ElectionEngine {
 
     private static double electionCost;
     private static final Random rand = new Random();
-
-
 
     public static void runElection() {
         HashMap<String, StateEconomy> states = AppMain.getStateMap();
@@ -21,24 +18,19 @@ public class ElectionEngine {
                1. ELECTION COST
                ======================== */
 
-            double baseCost = state.getGdp() * 0.015;     // 1.5% of GDP
+            double baseCost = state.getCash() * 0.35;     // 25% of State Cash
             double reserveHit = state.getStateReserve() * 0.40;
+            electionCost = baseCost + reserveHit;
 
-
-            setElectionCost(baseCost + reserveHit);
-            double reserve = state.getStateReserve();
-            double cash = state.getCash();
-            if (state.getStateReserve() > 0) reserve -= electionCost;
-            else cash -= (cash * 0.15) + baseCost;
-            state.setStateReserve(reserve);
-            state.setCash(cash);
+            if (state.getStateReserve() > 0) state.setStateReserve(state.getStateReserve() - reserveHit);
+            else state.setCash(state.getCash() - electionCost);
+            setElectionCost(electionCost);
 
             /* ========================
                2. PERFORMANCE SCORE
                ======================== */
 
             double score = 0;
-
             score += state.getGdpGrowth() * 2;
             score -= state.getInflationRate() * 2;
             score += state.getStability() * 0.4;
@@ -80,12 +72,13 @@ public class ElectionEngine {
     private static GovType randomGov(GovType current) {
         GovType[] values = GovType.values();
         GovType next;
+        Random ran = new Random();
 
-        do {
-            next = values[rand.nextInt(values.length)];
-        } while (next == current);
+        ArrayList<Enum<GovType>> gov = new ArrayList<>();
+        gov.addAll(Arrays.asList(values));
+        gov.remove(current);
 
-        return next;
+        return (GovType) gov.get(ran.nextInt(gov.size()));
     }
 
     /* ========================

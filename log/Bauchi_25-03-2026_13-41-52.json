@@ -1,0 +1,253 @@
+[
+{
+"STATE": {
+"BAUCHI": {
+"Month": 1,
+"GDP": 1.45 M,
+"Real Gdp": 1.41 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 50.05,
+"Debt": 186.99 K,
+"Cash": 125.53 K,
+"Population": 80.44 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 8.01 M,
+"Federal Operating Cash": 13.69 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 2,
+"GDP": 1.47 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 49.42,
+"Debt": 145.83 K,
+"Cash": 155.77 K,
+"Population": 81.48 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 15.95 M,
+"Federal Operating Cash": 27.27 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.82 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 3,
+"GDP": 1.48 M,
+"Real Gdp": 1.44 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 46.88,
+"Debt": 223.42 K,
+"Cash": 184.65 K,
+"Population": 82.14 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 22.32 M,
+"Federal Operating Cash": 38.42 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.61 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 4,
+"GDP": 1.49 M,
+"Real Gdp": 1.45 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.22,
+"Stability": 46.71,
+"Debt": 184.80 K,
+"Cash": 211.79 K,
+"Population": 82.59 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 29.92 M,
+"Federal Operating Cash": 51.42 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.42 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 5,
+"GDP": 1.49 M,
+"Real Gdp": 1.46 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.22,
+"Stability": 46.80,
+"Debt": 184.56 K,
+"Cash": 286.57 K,
+"Population": 83.25 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 38.05 M,
+"Federal Operating Cash": 65.27 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.11 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 6,
+"GDP": 1.50 M,
+"Real Gdp": 1.47 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.23,
+"Stability": 46.85,
+"Debt": 187.61 K,
+"Cash": 359.18 K,
+"Population": 83.92 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 45.91 M,
+"Federal Operating Cash": 78.65 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.92 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 7,
+"GDP": 1.51 M,
+"Real Gdp": 1.48 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.23,
+"Stability": 46.73,
+"Debt": 154.08 K,
+"Cash": 383.13 K,
+"Population": 84.39 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 52.95 M,
+"Federal Operating Cash": 90.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.65 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 8,
+"GDP": 1.52 M,
+"Real Gdp": 1.49 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.24,
+"Stability": 46.82,
+"Debt": 160.24 K,
+"Cash": 455.05 K,
+"Population": 85.06 K,
+"Infrastructure": 14.00
+},
+},
+"Federal Reserve": 60.57 M,
+"Federal Operating Cash": 103.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.31 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 9,
+"GDP": 1.53 M,
+"Real Gdp": 1.50 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.24,
+"Stability": 46.41,
+"Debt": 118.76 K,
+"Cash": 486.29 K,
+"Population": 85.49 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 68.50 M,
+"Federal Operating Cash": 117.02 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.90 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 10,
+"GDP": 1.53 M,
+"Real Gdp": 1.51 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.24,
+"Stability": 43.62,
+"Debt": 193.73 K,
+"Cash": 457.38 K,
+"Population": 77.96 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 76.11 M,
+"Federal Operating Cash": 129.87 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.42 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 11,
+"GDP": 1.54 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.24,
+"Stability": 39.99,
+"Debt": 262.09 K,
+"Cash": 429.52 K,
+"Population": 70.30 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 83.48 M,
+"Federal Operating Cash": 142.38 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.87 M
+},
+{
+"STATE": {
+"BAUCHI": {
+"Month": 12,
+"GDP": 1.54 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.25,
+"Stability": 43.03,
+"Debt": 226.25 K,
+"Cash": 453.30 K,
+"Population": 70.61 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 90.55 M,
+"Federal Operating Cash": 154.43 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.43 M
+}

@@ -6,12 +6,12 @@ target/
 ../.idea/
 .vscode/
 .DS_Store
-record.txt
 release.sh
+updates.md
 settings.json
 run.sh
 commit.sh
-updates_summary.md
 build/
 src/game/events
 src/game/seeding
+.gradle/

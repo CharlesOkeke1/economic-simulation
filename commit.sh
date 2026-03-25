@@ -7,6 +7,9 @@ if [ -z "$message" ]; then
     exit 1
 fi
 
+echo ".gradle/" >> .gitignore
+git rm -r --cached .gradle
+
 echo "Adding changes..."
 git add .
 

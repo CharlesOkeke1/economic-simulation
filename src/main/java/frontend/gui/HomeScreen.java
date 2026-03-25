@@ -1,5 +1,6 @@
 package gui;
 
+import data.Constants;
 import economies.StateEconomy;
 import utils.EnumToString;
 import events.EventTrigger;
@@ -237,8 +238,8 @@ public class HomeScreen {
         eventTypeVal = (Label) header.getChildren().getFirst();
         eventDispVal = (Label) populations.getChildren().get(1);
 
-        if (AppMain.getSim().isElection()) {
-            electionMessage = "This election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
+        if (currMonth % Constants.ELECTION_SPACING == 0 && currMonth != 0) {
+            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
         } else {
             electionMessage = "There is no election this month";
         }
@@ -500,12 +501,12 @@ public class HomeScreen {
         return chart;
     }
 
-    private static void updateXAxis(LineChart<Number, Number> chart, int month, int window) {
+    private static void updateXAxis(LineChart<Number, Number> chart, int month) {
 
         NumberAxis xAxis = (NumberAxis) chart.getXAxis();
 
-        int lower = Math.max(0, month - window);
-        int upper = Math.max(window, month);
+        int lower = Math.max(0, month - Constants.CHART_WINDOW_SIZE);
+        int upper = Math.max(Constants.CHART_WINDOW_SIZE, month);
 
         xAxis.setLowerBound(lower);
         xAxis.setUpperBound(upper);
@@ -518,11 +519,10 @@ public class HomeScreen {
         int currMonth = AppMain.getSim().getCurrentMonth();
         completeness = (double) currMonth / AppMain.getConfig().getTotalMonths();
 
-        int window = 20;
 
-        updateXAxis(gdpChart, currMonth, window);
-        updateXAxis(inflaChart, currMonth, window);
-        updateXAxis(cashChart, currMonth, window);
+        updateXAxis(gdpChart, currMonth);
+        updateXAxis(inflaChart, currMonth);
+        updateXAxis(cashChart, currMonth);
 
         gdpSeries.getData().add(new XYChart.Data<>(currMonth, playerState.getRealGdp() / 1_000_000));
         gdpSeries.getNode().setStyle("-fx-stroke: #22c55e; -fx-stroke-width: 2px;");
@@ -558,8 +558,8 @@ public class HomeScreen {
         expensesVal.setText("₦" + MyUtils.formatNumber(playerState.getMonthlySpend()));
         fedAllocVal.setText("₦" + MyUtils.formatNumber(playerState.getFederalAllocation()));
 
-        if (AppMain.getSim().isElection()) {
-            electionMessage = "This election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
+        if (currMonth % Constants.ELECTION_SPACING == 0 && currMonth != 0) {
+            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
         } else {
             electionMessage = "There is no election this month";
         }

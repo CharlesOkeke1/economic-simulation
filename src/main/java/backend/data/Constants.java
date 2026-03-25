@@ -16,6 +16,8 @@ public class Constants {
     public static final double TARGET_GDP_PER_CAP = 450.0;
     public static final double REMITTANCE_RATE = 0.25;
     public static final double DISASTER_MGMT_RATE = 0.2;
+    public static final int CHART_WINDOW_SIZE = 30;
+    public static final int ELECTION_SPACING = 18;
 
     
 

@@ -1,0 +1,4222 @@
+[
+{
+"STATE": {
+"BAYELSA": {
+"Month": 1,
+"GDP": 1.24 M,
+"Real Gdp": 1.21 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.25,
+"Stability": 42.65,
+"Debt": 198.40 K,
+"Cash": 119.92 K,
+"Population": 17.90 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 5.95 M,
+"Federal Operating Cash": 11.38 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 2,
+"GDP": 1.24 M,
+"Real Gdp": 1.21 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.26,
+"Stability": 46.97,
+"Debt": 196.96 K,
+"Cash": 181.71 K,
+"Population": 18.02 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 11.88 M,
+"Federal Operating Cash": 22.73 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.84 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 3,
+"GDP": 1.25 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 48.63,
+"Debt": 157.77 K,
+"Cash": 209.81 K,
+"Population": 17.90 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 18.07 M,
+"Federal Operating Cash": 34.43 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.70 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 4,
+"GDP": 1.25 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 48.62,
+"Debt": 181.10 K,
+"Cash": 195.71 K,
+"Population": 17.82 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 24.26 M,
+"Federal Operating Cash": 46.16 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 5,
+"GDP": 1.25 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 49.78,
+"Debt": 136.12 K,
+"Cash": 229.07 K,
+"Population": 17.74 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 31.23 M,
+"Federal Operating Cash": 59.11 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.10 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 6,
+"GDP": 1.25 M,
+"Real Gdp": 1.22 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 50.26,
+"Debt": 89.98 K,
+"Cash": 264.60 K,
+"Population": 17.67 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 38.33 M,
+"Federal Operating Cash": 72.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.89 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 7,
+"GDP": 1.25 M,
+"Real Gdp": 1.23 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 51.60,
+"Debt": 53.08 K,
+"Cash": 293.54 K,
+"Population": 17.79 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 44.24 M,
+"Federal Operating Cash": 83.37 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.57 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 8,
+"GDP": 1.24 M,
+"Real Gdp": 1.22 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 51.21,
+"Debt": 44.37 K,
+"Cash": 366.35 K,
+"Population": 17.91 K,
+"Infrastructure": 15.00
+},
+},
+"Federal Reserve": 51.25 M,
+"Federal Operating Cash": 96.24 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.10 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 9,
+"GDP": 1.25 M,
+"Real Gdp": 1.23 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 51.55,
+"Debt": 6.67 K,
+"Cash": 396.83 K,
+"Population": 18.04 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 57.65 M,
+"Federal Operating Cash": 108.11 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.74 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 10,
+"GDP": 1.24 M,
+"Real Gdp": 1.23 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 50.79,
+"Debt": -32.91 K,
+"Cash": 429.48 K,
+"Population": 17.91 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 63.46 M,
+"Federal Operating Cash": 119.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.18 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 11,
+"GDP": 1.24 M,
+"Real Gdp": 1.23 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 51.92,
+"Debt": 0.00,
+"Cash": 500.34 K,
+"Population": 18.04 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 69.70 M,
+"Federal Operating Cash": 130.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.63 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 12,
+"GDP": 1.25 M,
+"Real Gdp": 1.23 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 50.89,
+"Debt": 0.00,
+"Cash": 583.16 K,
+"Population": 17.91 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 76.62 M,
+"Federal Operating Cash": 143.40 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.12 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 13,
+"GDP": 1.24 M,
+"Real Gdp": 1.22 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 48.25,
+"Debt": 0.00,
+"Cash": 655.21 K,
+"Population": 17.83 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 82.36 M,
+"Federal Operating Cash": 154.24 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.62 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 14,
+"GDP": 1.23 M,
+"Real Gdp": 1.21 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 49.43,
+"Debt": 0.00,
+"Cash": 739.79 K,
+"Population": 17.76 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 89.39 M,
+"Federal Operating Cash": 167.02 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.08 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 15,
+"GDP": 1.22 M,
+"Real Gdp": 1.20 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 49.62,
+"Debt": 0.00,
+"Cash": 829.59 K,
+"Population": 17.63 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 96.99 M,
+"Federal Operating Cash": 180.67 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.48 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 16,
+"GDP": 1.21 M,
+"Real Gdp": 1.19 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 44.77,
+"Debt": 0.00,
+"Cash": 917.74 K,
+"Population": 17.50 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 104.44 M,
+"Federal Operating Cash": 194.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.88 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 17,
+"GDP": 1.21 M,
+"Real Gdp": 1.18 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 44.72,
+"Debt": 0.00,
+"Cash": 882.04 K,
+"Population": 15.86 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 110.64 M,
+"Federal Operating Cash": 205.48 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 18,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 47.79,
+"Debt": 0.00,
+"Cash": 953.85 K,
+"Population": 15.72 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 116.33 M,
+"Federal Operating Cash": 216.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.65 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 19,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 40.00,
+"Debt": 0.00,
+"Cash": 901.51 K,
+"Population": 14.25 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 122.89 M,
+"Federal Operating Cash": 228.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.94 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 20,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 47.05,
+"Debt": 0.00,
+"Cash": 985.87 K,
+"Population": 14.35 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 130.21 M,
+"Federal Operating Cash": 241.15 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.00 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 21,
+"GDP": 1.19 M,
+"Real Gdp": 1.16 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 48.50,
+"Debt": 0.00,
+"Cash": 1.07 M,
+"Population": 14.19 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 136.70 M,
+"Federal Operating Cash": 254.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.38 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 22,
+"GDP": 1.18 M,
+"Real Gdp": 1.15 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 49.22,
+"Debt": 0.00,
+"Cash": 1.16 M,
+"Population": 14.04 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 144.44 M,
+"Federal Operating Cash": 268.21 M
+"Federal Crash Count": 1.00
+"Federal GDP": 87.59 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 23,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 49.90,
+"Debt": 0.00,
+"Cash": 1.24 M,
+"Population": 13.91 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 150.30 M,
+"Federal Operating Cash": 278.94 M
+"Federal Crash Count": 1.00
+"Federal GDP": 87.81 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 24,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 50.09,
+"Debt": 0.00,
+"Cash": 1.31 M,
+"Population": 13.76 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 155.36 M,
+"Federal Operating Cash": 289.98 M
+"Federal Crash Count": 1.00
+"Federal GDP": 87.95 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 25,
+"GDP": 1.18 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.07,
+"Debt": 0.00,
+"Cash": 1.38 M,
+"Population": 13.85 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 163.02 M,
+"Federal Operating Cash": 303.55 M
+"Federal Crash Count": 2.00
+"Federal GDP": 88.07 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 26,
+"GDP": 1.18 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 50.65,
+"Debt": 0.00,
+"Cash": 1.46 M,
+"Population": 13.70 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 168.41 M,
+"Federal Operating Cash": 315.01 M
+"Federal Crash Count": 2.00
+"Federal GDP": 88.34 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 27,
+"GDP": 1.19 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.85,
+"Debt": 0.00,
+"Cash": 1.53 M,
+"Population": 13.79 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 175.70 M,
+"Federal Operating Cash": 327.96 M
+"Federal Crash Count": 3.00
+"Federal GDP": 88.29 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 28,
+"GDP": 1.19 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.03,
+"Debt": 0.00,
+"Cash": 1.60 M,
+"Population": 13.64 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 181.94 M,
+"Federal Operating Cash": 339.26 M
+"Federal Crash Count": 3.00
+"Federal GDP": 88.56 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 29,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 50.62,
+"Debt": 0.00,
+"Cash": 1.68 M,
+"Population": 13.48 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 188.38 M,
+"Federal Operating Cash": 350.81 M
+"Federal Crash Count": 3.00
+"Federal GDP": 88.76 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 30,
+"GDP": 1.20 M,
+"Real Gdp": 1.19 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 52.14,
+"Debt": 0.00,
+"Cash": 1.75 M,
+"Population": 13.57 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 194.75 M,
+"Federal Operating Cash": 362.25 M
+"Federal Crash Count": 3.00
+"Federal GDP": 88.87 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 31,
+"GDP": 1.22 M,
+"Real Gdp": 1.19 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 51.03,
+"Debt": 0.00,
+"Cash": 1.83 M,
+"Population": 13.42 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 201.67 M,
+"Federal Operating Cash": 374.53 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.03 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 32,
+"GDP": 1.21 M,
+"Real Gdp": 1.19 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 50.82,
+"Debt": 0.00,
+"Cash": 1.90 M,
+"Population": 13.31 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 207.91 M,
+"Federal Operating Cash": 385.78 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.18 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 33,
+"GDP": 1.21 M,
+"Real Gdp": 1.18 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 50.61,
+"Debt": 0.00,
+"Cash": 1.98 M,
+"Population": 13.20 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 215.17 M,
+"Federal Operating Cash": 398.61 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 34,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 45.13,
+"Debt": 0.00,
+"Cash": 2.07 M,
+"Population": 13.04 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 223.26 M,
+"Federal Operating Cash": 412.68 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.58 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 35,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 49.30,
+"Debt": 0.00,
+"Cash": 2.15 M,
+"Population": 13.13 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 230.39 M,
+"Federal Operating Cash": 425.26 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.60 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 36,
+"GDP": 1.19 M,
+"Real Gdp": 1.16 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 40.14,
+"Debt": 0.00,
+"Cash": 1.96 M,
+"Population": 11.67 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 236.51 M,
+"Federal Operating Cash": 436.19 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.70 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 37,
+"GDP": 1.19 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 43.91,
+"Debt": 0.00,
+"Cash": 2.03 M,
+"Population": 11.75 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 243.34 M,
+"Federal Operating Cash": 448.24 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.47 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 38,
+"GDP": 1.18 M,
+"Real Gdp": 1.15 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 41.68,
+"Debt": 0.00,
+"Cash": 1.87 M,
+"Population": 10.40 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 250.97 M,
+"Federal Operating Cash": 461.60 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.34 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 39,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 45.70,
+"Debt": 0.00,
+"Cash": 1.94 M,
+"Population": 10.22 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 257.04 M,
+"Federal Operating Cash": 472.53 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.39 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 40,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 42.62,
+"Debt": 0.00,
+"Cash": 1.79 M,
+"Population": 9.01 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 263.21 M,
+"Federal Operating Cash": 483.58 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.45 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 41,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 46.62,
+"Debt": 0.00,
+"Cash": 1.87 M,
+"Population": 8.87 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 270.36 M,
+"Federal Operating Cash": 496.18 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.46 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 42,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 50.27,
+"Debt": 0.00,
+"Cash": 1.94 M,
+"Population": 8.93 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 276.61 M,
+"Federal Operating Cash": 507.35 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.41 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 43,
+"GDP": 1.15 M,
+"Real Gdp": 1.12 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 50.02,
+"Debt": 0.00,
+"Cash": 2.03 M,
+"Population": 8.74 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 284.17 M,
+"Federal Operating Cash": 520.56 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.34 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 44,
+"GDP": 1.14 M,
+"Real Gdp": 1.12 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.39,
+"Stability": 46.76,
+"Debt": 0.00,
+"Cash": 1.86 M,
+"Population": 7.92 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 290.31 M,
+"Federal Operating Cash": 531.54 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.37 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 45,
+"GDP": 1.14 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.39,
+"Stability": 48.32,
+"Debt": 0.00,
+"Cash": 1.95 M,
+"Population": 7.73 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 298.00 M,
+"Federal Operating Cash": 544.99 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.32 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 46,
+"GDP": 1.13 M,
+"Real Gdp": 1.10 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.30,
+"Stability": 44.49,
+"Debt": 0.00,
+"Cash": 2.02 M,
+"Population": 7.57 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 303.97 M,
+"Federal Operating Cash": 555.83 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.40 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 47,
+"GDP": 1.14 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 49.36,
+"Debt": 0.00,
+"Cash": 2.09 M,
+"Population": 8.02 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 310.40 M,
+"Federal Operating Cash": 567.28 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.58 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 48,
+"GDP": 1.14 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 49.78,
+"Debt": 0.00,
+"Cash": 2.17 M,
+"Population": 7.82 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 317.58 M,
+"Federal Operating Cash": 579.86 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.50 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 49,
+"GDP": 1.13 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 50.31,
+"Debt": 0.00,
+"Cash": 2.25 M,
+"Population": 7.68 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 324.19 M,
+"Federal Operating Cash": 591.63 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.52 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 50,
+"GDP": 1.32 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 51.13,
+"Debt": 0.00,
+"Cash": 2.32 M,
+"Population": 7.73 K,
+"Infrastructure": 27.00
+},
+},
+"Federal Reserve": 331.39 M,
+"Federal Operating Cash": 604.26 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.68 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 51,
+"GDP": 1.14 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 45.57,
+"Debt": 0.00,
+"Cash": 2.40 M,
+"Population": 7.53 K,
+"Infrastructure": 27.00
+},
+},
+"Federal Reserve": 338.03 M,
+"Federal Operating Cash": 616.07 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.68 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 52,
+"GDP": 1.16 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 49.80,
+"Debt": 0.00,
+"Cash": 2.48 M,
+"Population": 7.58 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 344.97 M,
+"Federal Operating Cash": 628.29 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.84 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 53,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 50.90,
+"Debt": 0.00,
+"Cash": 2.54 M,
+"Population": 7.64 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 351.27 M,
+"Federal Operating Cash": 639.50 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.88 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 54,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 51.01,
+"Debt": 0.00,
+"Cash": 2.62 M,
+"Population": 7.44 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 358.29 M,
+"Federal Operating Cash": 651.79 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.85 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 55,
+"GDP": 1.33 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 50.79,
+"Debt": 0.00,
+"Cash": 2.71 M,
+"Population": 7.29 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 366.36 M,
+"Federal Operating Cash": 665.75 M
+"Federal Crash Count": 3.00
+"Federal GDP": 89.83 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 56,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 50.38,
+"Debt": 0.00,
+"Cash": 2.79 M,
+"Population": 7.09 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 372.87 M,
+"Federal Operating Cash": 677.29 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.00 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 57,
+"GDP": 1.15 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 51.69,
+"Debt": 0.00,
+"Cash": 2.88 M,
+"Population": 7.14 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 380.83 M,
+"Federal Operating Cash": 691.08 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.02 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 58,
+"GDP": 1.16 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 51.73,
+"Debt": 0.00,
+"Cash": 2.95 M,
+"Population": 7.19 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 387.93 M,
+"Federal Operating Cash": 703.51 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.10 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 59,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 51.76,
+"Debt": 0.00,
+"Cash": 3.02 M,
+"Population": 7.24 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 394.07 M,
+"Federal Operating Cash": 714.49 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.15 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 60,
+"GDP": 1.17 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 50.76,
+"Debt": 0.00,
+"Cash": 3.09 M,
+"Population": 7.03 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 400.40 M,
+"Federal Operating Cash": 725.69 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.33 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 61,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 51.83,
+"Debt": 0.00,
+"Cash": 3.18 M,
+"Population": 7.08 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 408.40 M,
+"Federal Operating Cash": 739.63 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.29 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 62,
+"GDP": 1.16 M,
+"Real Gdp": 1.14 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 50.81,
+"Debt": 0.00,
+"Cash": 3.26 M,
+"Population": 6.88 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 415.36 M,
+"Federal Operating Cash": 751.87 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.69 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 63,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 50.69,
+"Debt": 0.00,
+"Cash": 3.35 M,
+"Population": 6.73 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 423.04 M,
+"Federal Operating Cash": 765.26 M
+"Federal Crash Count": 3.00
+"Federal GDP": 90.95 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 64,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 52.10,
+"Debt": 0.00,
+"Cash": 3.44 M,
+"Population": 6.77 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 431.26 M,
+"Federal Operating Cash": 779.38 M
+"Federal Crash Count": 3.00
+"Federal GDP": 91.25 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 65,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 52.42,
+"Debt": 0.00,
+"Cash": 3.52 M,
+"Population": 6.82 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 438.22 M,
+"Federal Operating Cash": 791.63 M
+"Federal Crash Count": 3.00
+"Federal GDP": 91.32 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 66,
+"GDP": 1.15 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 44.71,
+"Debt": 0.00,
+"Cash": 3.17 M,
+"Population": 6.18 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 445.92 M,
+"Federal Operating Cash": 804.96 M
+"Federal Crash Count": 3.00
+"Federal GDP": 91.57 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 67,
+"GDP": 1.15 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 49.54,
+"Debt": 0.00,
+"Cash": 3.25 M,
+"Population": 6.22 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 453.26 M,
+"Federal Operating Cash": 817.79 M
+"Federal Crash Count": 3.00
+"Federal GDP": 91.77 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 68,
+"GDP": 1.14 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 50.31,
+"Debt": -11.46 K,
+"Cash": 3.32 M,
+"Population": 6.27 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 460.32 M,
+"Federal Operating Cash": 830.20 M
+"Federal Crash Count": 3.00
+"Federal GDP": 92.07 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 69,
+"GDP": 1.15 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 51.66,
+"Debt": 0.00,
+"Cash": 3.39 M,
+"Population": 6.31 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 466.58 M,
+"Federal Operating Cash": 841.34 M
+"Federal Crash Count": 3.00
+"Federal GDP": 92.48 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 70,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 50.72,
+"Debt": 0.00,
+"Cash": 3.48 M,
+"Population": 6.10 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 473.64 M,
+"Federal Operating Cash": 853.75 M
+"Federal Crash Count": 3.00
+"Federal GDP": 92.73 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 71,
+"GDP": 1.14 M,
+"Real Gdp": 1.12 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 50.34,
+"Debt": 0.00,
+"Cash": 3.56 M,
+"Population": 5.89 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 480.67 M,
+"Federal Operating Cash": 866.08 M
+"Federal Crash Count": 3.00
+"Federal GDP": 93.11 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 72,
+"GDP": 1.14 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 52.20,
+"Debt": 0.00,
+"Cash": 3.63 M,
+"Population": 5.93 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 487.00 M,
+"Federal Operating Cash": 877.30 M
+"Federal Crash Count": 3.00
+"Federal GDP": 93.31 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 73,
+"GDP": 1.13 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 40.80,
+"Debt": 0.00,
+"Cash": 3.27 M,
+"Population": 5.15 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 493.47 M,
+"Federal Operating Cash": 888.75 M
+"Federal Crash Count": 3.00
+"Federal GDP": 93.49 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 74,
+"GDP": 1.13 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 47.59,
+"Debt": 0.00,
+"Cash": 3.35 M,
+"Population": 5.18 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 500.33 M,
+"Federal Operating Cash": 900.82 M
+"Federal Crash Count": 3.00
+"Federal GDP": 93.60 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 75,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 48.93,
+"Debt": 0.00,
+"Cash": 3.42 M,
+"Population": 5.00 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 506.44 M,
+"Federal Operating Cash": 911.75 M
+"Federal Crash Count": 3.00
+"Federal GDP": 93.83 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 76,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 51.46,
+"Debt": 0.00,
+"Cash": 3.51 M,
+"Population": 5.03 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 514.43 M,
+"Federal Operating Cash": 925.59 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.04 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 77,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 52.18,
+"Debt": 0.00,
+"Cash": 3.60 M,
+"Population": 5.07 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 522.54 M,
+"Federal Operating Cash": 939.54 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.25 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 78,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 52.73,
+"Debt": 0.00,
+"Cash": 3.67 M,
+"Population": 5.10 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 528.76 M,
+"Federal Operating Cash": 950.59 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.26 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 79,
+"GDP": 1.13 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 52.18,
+"Debt": 0.00,
+"Cash": 3.75 M,
+"Population": 5.14 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 536.57 M,
+"Federal Operating Cash": 964.13 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.27 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 80,
+"GDP": 1.30 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 52.46,
+"Debt": 0.00,
+"Cash": 3.82 M,
+"Population": 5.17 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 542.97 M,
+"Federal Operating Cash": 975.46 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.37 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 81,
+"GDP": 1.13 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 40.87,
+"Debt": 0.00,
+"Cash": 3.44 M,
+"Population": 4.50 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 549.99 M,
+"Federal Operating Cash": 987.77 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.40 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 82,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 45.38,
+"Debt": 0.00,
+"Cash": 3.52 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 556.31 M,
+"Federal Operating Cash": 998.94 M
+"Federal Crash Count": 3.00
+"Federal GDP": 94.57 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 83,
+"GDP": 1.13 M,
+"Real Gdp": 1.10 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 47.72,
+"Debt": 0.00,
+"Cash": 3.59 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 562.53 M,
+"Federal Operating Cash": 1.01 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.49 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 84,
+"GDP": 1.12 M,
+"Real Gdp": 1.09 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 49.22,
+"Debt": 0.00,
+"Cash": 3.68 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 569.89 M,
+"Federal Operating Cash": 1.02 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.54 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 85,
+"GDP": 1.12 M,
+"Real Gdp": 1.09 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 49.60,
+"Debt": 0.00,
+"Cash": 3.75 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 576.11 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.54 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 86,
+"GDP": 1.11 M,
+"Real Gdp": 1.08 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 49.77,
+"Debt": 0.00,
+"Cash": 3.84 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 583.97 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.76 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 87,
+"GDP": 1.10 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 50.19,
+"Debt": 0.00,
+"Cash": 3.92 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 590.87 M,
+"Federal Operating Cash": 1.06 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.86 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 88,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 50.04,
+"Debt": 0.00,
+"Cash": 4.01 M,
+"Population": 5.00 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 598.89 M,
+"Federal Operating Cash": 1.07 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.70 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 89,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 51.77,
+"Debt": 0.00,
+"Cash": 4.09 M,
+"Population": 5.03 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 606.60 M,
+"Federal Operating Cash": 1.09 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.71 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 90,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.71,
+"Debt": 0.00,
+"Cash": 4.17 M,
+"Population": 5.07 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 614.41 M,
+"Federal Operating Cash": 1.10 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.94 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 91,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.58,
+"Debt": 0.00,
+"Cash": 4.25 M,
+"Population": 5.10 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 622.17 M,
+"Federal Operating Cash": 1.11 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.80 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 92,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 63.05,
+"Debt": 0.00,
+"Cash": 4.33 M,
+"Population": 5.14 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 629.30 M,
+"Federal Operating Cash": 1.13 B
+"Federal Crash Count": 3.00
+"Federal GDP": 94.91 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 93,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 56.49,
+"Debt": 0.00,
+"Cash": 4.41 M,
+"Population": 5.17 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 636.71 M,
+"Federal Operating Cash": 1.14 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.02 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 94,
+"GDP": 1.10 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 53.60,
+"Debt": 0.00,
+"Cash": 4.50 M,
+"Population": 5.21 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 644.82 M,
+"Federal Operating Cash": 1.15 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.16 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 95,
+"GDP": 1.10 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 53.24,
+"Debt": 0.00,
+"Cash": 4.58 M,
+"Population": 5.25 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 652.23 M,
+"Federal Operating Cash": 1.17 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 96,
+"GDP": 1.10 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 51.37,
+"Debt": 0.00,
+"Cash": 4.67 M,
+"Population": 5.03 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 660.21 M,
+"Federal Operating Cash": 1.18 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 97,
+"GDP": 1.10 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.07,
+"Debt": 0.00,
+"Cash": 4.75 M,
+"Population": 5.07 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 668.17 M,
+"Federal Operating Cash": 1.19 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.51 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 98,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 50.88,
+"Debt": 0.00,
+"Cash": 4.83 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 674.98 M,
+"Federal Operating Cash": 1.21 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.66 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 99,
+"GDP": 1.08 M,
+"Real Gdp": 1.06 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 40.30,
+"Debt": 0.00,
+"Cash": 4.32 M,
+"Population": 4.50 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 682.19 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 3.00
+"Federal GDP": 95.93 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 100,
+"GDP": 1.07 M,
+"Real Gdp": 1.06 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 45.04,
+"Debt": 0.00,
+"Cash": 4.40 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 688.50 M,
+"Federal Operating Cash": 1.23 B
+"Federal Crash Count": 3.00
+"Federal GDP": 96.25 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 101,
+"GDP": 1.24 M,
+"Real Gdp": 1.06 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 49.32,
+"Debt": 0.00,
+"Cash": 4.48 M,
+"Population": 5.03 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 696.07 M,
+"Federal Operating Cash": 1.24 B
+"Federal Crash Count": 3.00
+"Federal GDP": 96.68 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 102,
+"GDP": 1.07 M,
+"Real Gdp": 1.05 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 49.70,
+"Debt": 0.00,
+"Cash": 4.56 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 703.61 M,
+"Federal Operating Cash": 1.26 B
+"Federal Crash Count": 3.00
+"Federal GDP": 97.14 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 103,
+"GDP": 1.06 M,
+"Real Gdp": 1.04 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 50.21,
+"Debt": 0.00,
+"Cash": 4.65 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 711.79 M,
+"Federal Operating Cash": 1.27 B
+"Federal Crash Count": 3.00
+"Federal GDP": 97.56 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 104,
+"GDP": 1.07 M,
+"Real Gdp": 1.05 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 50.53,
+"Debt": 0.00,
+"Cash": 4.72 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 718.13 M,
+"Federal Operating Cash": 1.28 B
+"Federal Crash Count": 3.00
+"Federal GDP": 97.74 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 105,
+"GDP": 1.07 M,
+"Real Gdp": 1.05 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 50.36,
+"Debt": 0.00,
+"Cash": 4.80 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 724.75 M,
+"Federal Operating Cash": 1.29 B
+"Federal Crash Count": 3.00
+"Federal GDP": 97.78 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 106,
+"GDP": 1.08 M,
+"Real Gdp": 1.06 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 41.60,
+"Debt": 0.00,
+"Cash": 4.29 M,
+"Population": 4.53 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 731.99 M,
+"Federal Operating Cash": 1.31 B
+"Federal Crash Count": 3.00
+"Federal GDP": 98.19 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 107,
+"GDP": 1.08 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 47.98,
+"Debt": 0.00,
+"Cash": 4.37 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 739.75 M,
+"Federal Operating Cash": 1.32 B
+"Federal Crash Count": 3.00
+"Federal GDP": 98.54 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 108,
+"GDP": 1.09 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 51.18,
+"Debt": 0.00,
+"Cash": 4.44 M,
+"Population": 5.03 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 746.80 M,
+"Federal Operating Cash": 1.33 B
+"Federal Crash Count": 3.00
+"Federal GDP": 98.93 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 109,
+"GDP": 1.10 M,
+"Real Gdp": 1.09 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 49.83,
+"Debt": 0.00,
+"Cash": 4.52 M,
+"Population": 5.07 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 754.68 M,
+"Federal Operating Cash": 1.34 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.16 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 110,
+"GDP": 1.10 M,
+"Real Gdp": 1.09 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 50.38,
+"Debt": 0.00,
+"Cash": 4.60 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 761.37 M,
+"Federal Operating Cash": 1.36 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.40 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 111,
+"GDP": 1.10 M,
+"Real Gdp": 1.08 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 50.30,
+"Debt": 0.00,
+"Cash": 4.67 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 767.64 M,
+"Federal Operating Cash": 1.37 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.62 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 112,
+"GDP": 1.10 M,
+"Real Gdp": 1.09 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 51.73,
+"Debt": 0.00,
+"Cash": 4.75 M,
+"Population": 5.03 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 775.15 M,
+"Federal Operating Cash": 1.38 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.66 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 113,
+"GDP": 1.09 M,
+"Real Gdp": 1.08 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.36,
+"Stability": 51.19,
+"Debt": 0.00,
+"Cash": 4.82 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 781.73 M,
+"Federal Operating Cash": 1.39 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.70 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 114,
+"GDP": 1.09 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.36,
+"Stability": 52.11,
+"Debt": 0.00,
+"Cash": 4.89 M,
+"Population": 5.03 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 788.36 M,
+"Federal Operating Cash": 1.40 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.74 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 115,
+"GDP": 1.08 M,
+"Real Gdp": 1.08 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.37,
+"Stability": 51.04,
+"Debt": 0.00,
+"Cash": 4.98 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 796.43 M,
+"Federal Operating Cash": 1.42 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.74 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 116,
+"GDP": 1.08 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.37,
+"Stability": 52.06,
+"Debt": 0.00,
+"Cash": 5.05 M,
+"Population": 5.03 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 803.10 M,
+"Federal Operating Cash": 1.43 B
+"Federal Crash Count": 3.00
+"Federal GDP": 99.87 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 117,
+"GDP": 1.07 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.37,
+"Stability": 51.04,
+"Debt": 0.00,
+"Cash": 5.13 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 809.70 M,
+"Federal Operating Cash": 1.44 B
+"Federal Crash Count": 3.00
+"Federal GDP": 100.08 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 118,
+"GDP": 1.07 M,
+"Real Gdp": 1.07 M,
+"Growth": -0.01,
+"Inflation": -0.00,
+"Tax Rate": 0.37,
+"Stability": 50.60,
+"Debt": 0.00,
+"Cash": 5.21 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 816.92 M,
+"Federal Operating Cash": 1.45 B
+"Federal Crash Count": 3.00
+"Federal GDP": 100.03 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 119,
+"GDP": 1.06 M,
+"Real Gdp": 1.06 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.37,
+"Stability": 50.41,
+"Debt": 0.00,
+"Cash": 5.28 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 823.77 M,
+"Federal Operating Cash": 1.47 B
+"Federal Crash Count": 3.00
+"Federal GDP": 100.26 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 120,
+"GDP": 1.06 M,
+"Real Gdp": 1.06 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 52.10,
+"Debt": 0.00,
+"Cash": 5.37 M,
+"Population": 5.44 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 831.85 M,
+"Federal Operating Cash": 1.48 B
+"Federal Crash Count": 3.00
+"Federal GDP": 100.41 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 121,
+"GDP": 1.06 M,
+"Real Gdp": 1.05 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 51.29,
+"Debt": 0.00,
+"Cash": 5.45 M,
+"Population": 5.27 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 838.90 M,
+"Federal Operating Cash": 1.49 B
+"Federal Crash Count": 3.00
+"Federal GDP": 100.73 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 122,
+"GDP": 1.05 M,
+"Real Gdp": 1.04 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.40,
+"Stability": 50.65,
+"Debt": 0.00,
+"Cash": 5.54 M,
+"Population": 5.06 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 847.15 M,
+"Federal Operating Cash": 1.51 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.12 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 123,
+"GDP": 1.05 M,
+"Real Gdp": 1.04 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 51.91,
+"Debt": 0.00,
+"Cash": 5.61 M,
+"Population": 5.09 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 853.77 M,
+"Federal Operating Cash": 1.52 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.41 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 124,
+"GDP": 1.05 M,
+"Real Gdp": 1.04 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 40.72,
+"Debt": 0.00,
+"Cash": 5.01 M,
+"Population": 4.50 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 861.79 M,
+"Federal Operating Cash": 1.53 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.55 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 125,
+"GDP": 1.05 M,
+"Real Gdp": 1.04 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 47.60,
+"Debt": 0.00,
+"Cash": 5.09 M,
+"Population": 5.00 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 868.90 M,
+"Federal Operating Cash": 1.54 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.68 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 126,
+"GDP": 1.05 M,
+"Real Gdp": 1.04 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 51.34,
+"Debt": 0.00,
+"Cash": 5.17 M,
+"Population": 5.03 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 876.08 M,
+"Federal Operating Cash": 1.56 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.75 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 127,
+"GDP": 1.05 M,
+"Real Gdp": 1.03 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 50.61,
+"Debt": 0.00,
+"Cash": 5.25 M,
+"Population": 5.00 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 883.00 M,
+"Federal Operating Cash": 1.57 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.80 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 128,
+"GDP": 1.07 M,
+"Real Gdp": 1.05 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 51.73,
+"Debt": 0.00,
+"Cash": 5.32 M,
+"Population": 5.03 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 890.86 M,
+"Federal Operating Cash": 1.58 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.82 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 129,
+"GDP": 1.09 M,
+"Real Gdp": 1.07 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 41.37,
+"Debt": 0.00,
+"Cash": 4.74 M,
+"Population": 4.56 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 897.68 M,
+"Federal Operating Cash": 1.59 B
+"Federal Crash Count": 3.00
+"Federal GDP": 101.97 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 130,
+"GDP": 1.11 M,
+"Real Gdp": 1.08 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 47.81,
+"Debt": 0.00,
+"Cash": 4.81 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 905.05 M,
+"Federal Operating Cash": 1.61 B
+"Federal Crash Count": 3.00
+"Federal GDP": 102.27 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 131,
+"GDP": 1.11 M,
+"Real Gdp": 1.09 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 49.11,
+"Debt": 0.00,
+"Cash": 4.89 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 912.05 M,
+"Federal Operating Cash": 1.62 B
+"Federal Crash Count": 3.00
+"Federal GDP": 102.45 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 132,
+"GDP": 1.12 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 51.42,
+"Debt": 0.00,
+"Cash": 4.96 M,
+"Population": 5.03 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 919.89 M,
+"Federal Operating Cash": 1.63 B
+"Federal Crash Count": 3.00
+"Federal GDP": 102.61 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 133,
+"GDP": 1.13 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 51.07,
+"Debt": 0.00,
+"Cash": 5.05 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 928.15 M,
+"Federal Operating Cash": 1.65 B
+"Federal Crash Count": 3.00
+"Federal GDP": 102.78 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 134,
+"GDP": 1.14 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 50.58,
+"Debt": 0.00,
+"Cash": 5.12 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 935.15 M,
+"Federal Operating Cash": 1.66 B
+"Federal Crash Count": 3.00
+"Federal GDP": 102.84 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 135,
+"GDP": 1.15 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 52.05,
+"Debt": 0.00,
+"Cash": 5.21 M,
+"Population": 5.44 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 943.16 M,
+"Federal Operating Cash": 1.67 B
+"Federal Crash Count": 3.00
+"Federal GDP": 103.05 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 136,
+"GDP": 1.16 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 50.99,
+"Debt": 0.00,
+"Cash": 5.28 M,
+"Population": 5.22 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 950.23 M,
+"Federal Operating Cash": 1.68 B
+"Federal Crash Count": 3.00
+"Federal GDP": 103.32 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 137,
+"GDP": 1.16 M,
+"Real Gdp": 1.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 50.52,
+"Debt": 0.00,
+"Cash": 5.36 M,
+"Population": 5.01 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 957.34 M,
+"Federal Operating Cash": 1.70 B
+"Federal Crash Count": 3.00
+"Federal GDP": 103.71 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 138,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 55.70,
+"Debt": 0.00,
+"Cash": 5.43 M,
+"Population": 5.04 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 964.10 M,
+"Federal Operating Cash": 1.71 B
+"Federal Crash Count": 3.00
+"Federal GDP": 103.93 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 139,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 52.79,
+"Debt": 0.00,
+"Cash": 5.51 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 970.79 M,
+"Federal Operating Cash": 1.72 B
+"Federal Crash Count": 3.00
+"Federal GDP": 103.99 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 140,
+"GDP": 1.18 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 51.32,
+"Debt": 0.00,
+"Cash": 5.59 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 978.18 M,
+"Federal Operating Cash": 1.73 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.00 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 141,
+"GDP": 1.18 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.07,
+"Debt": 0.00,
+"Cash": 5.67 M,
+"Population": 5.03 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 985.47 M,
+"Federal Operating Cash": 1.75 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.17 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 142,
+"GDP": 1.18 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 51.04,
+"Debt": 0.00,
+"Cash": 5.74 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 992.08 M,
+"Federal Operating Cash": 1.76 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.27 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 143,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 55.64,
+"Debt": 0.00,
+"Cash": 5.82 M,
+"Population": 5.03 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 998.92 M,
+"Federal Operating Cash": 1.77 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.59 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 144,
+"GDP": 1.20 M,
+"Real Gdp": 1.17 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.97,
+"Debt": 0.00,
+"Cash": 5.89 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.01 B,
+"Federal Operating Cash": 1.78 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.78 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 145,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 51.41,
+"Debt": 0.00,
+"Cash": 5.98 M,
+"Population": 5.00 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.01 B,
+"Federal Operating Cash": 1.79 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.62 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 146,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.10,
+"Debt": 0.00,
+"Cash": 6.05 M,
+"Population": 5.03 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.02 B,
+"Federal Operating Cash": 1.81 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.62 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 147,
+"GDP": 1.21 M,
+"Real Gdp": 1.18 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 51.00,
+"Debt": 0.00,
+"Cash": 6.12 M,
+"Population": 5.00 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.03 B,
+"Federal Operating Cash": 1.82 B
+"Federal Crash Count": 3.00
+"Federal GDP": 104.81 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 148,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 50.53,
+"Debt": 0.00,
+"Cash": 6.20 M,
+"Population": 5.00 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.03 B,
+"Federal Operating Cash": 1.83 B
+"Federal Crash Count": 3.00
+"Federal GDP": 105.29 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 149,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 50.33,
+"Debt": 0.00,
+"Cash": 6.28 M,
+"Population": 5.00 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.04 B,
+"Federal Operating Cash": 1.84 B
+"Federal Crash Count": 3.00
+"Federal GDP": 105.76 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 150,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 50.49,
+"Debt": 0.00,
+"Cash": 6.37 M,
+"Population": 5.00 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 1.05 B,
+"Federal Operating Cash": 1.86 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.24 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 151,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 51.23,
+"Debt": 0.00,
+"Cash": 6.44 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.06 B,
+"Federal Operating Cash": 1.87 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.21 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 152,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 50.90,
+"Debt": 0.00,
+"Cash": 6.52 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.06 B,
+"Federal Operating Cash": 1.88 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.38 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 153,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 49.69,
+"Debt": 0.00,
+"Cash": 6.60 M,
+"Population": 5.03 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.07 B,
+"Federal Operating Cash": 1.89 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.45 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 154,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 50.19,
+"Debt": 0.00,
+"Cash": 6.68 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.08 B,
+"Federal Operating Cash": 1.90 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.41 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 155,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 50.22,
+"Debt": 0.00,
+"Cash": 6.76 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.08 B,
+"Federal Operating Cash": 1.92 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.58 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 156,
+"GDP": 1.21 M,
+"Real Gdp": 1.19 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 51.87,
+"Debt": 0.00,
+"Cash": 6.84 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.09 B,
+"Federal Operating Cash": 1.93 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.76 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 157,
+"GDP": 1.22 M,
+"Real Gdp": 1.20 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 50.93,
+"Debt": 0.00,
+"Cash": 6.92 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.10 B,
+"Federal Operating Cash": 1.94 B
+"Federal Crash Count": 3.00
+"Federal GDP": 106.87 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 158,
+"GDP": 1.23 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 52.26,
+"Debt": 0.00,
+"Cash": 6.99 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.11 B,
+"Federal Operating Cash": 1.96 B
+"Federal Crash Count": 3.00
+"Federal GDP": 107.31 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 159,
+"GDP": 1.23 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.47,
+"Debt": 0.00,
+"Cash": 7.07 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.12 B,
+"Federal Operating Cash": 1.97 B
+"Federal Crash Count": 3.00
+"Federal GDP": 107.65 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 160,
+"GDP": 1.25 M,
+"Real Gdp": 1.24 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 52.18,
+"Debt": 0.00,
+"Cash": 7.15 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.12 B,
+"Federal Operating Cash": 1.98 B
+"Federal Crash Count": 3.00
+"Federal GDP": 107.95 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 161,
+"GDP": 1.26 M,
+"Real Gdp": 1.24 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 52.42,
+"Debt": 0.00,
+"Cash": 7.23 M,
+"Population": 5.32 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.13 B,
+"Federal Operating Cash": 2.00 B
+"Federal Crash Count": 3.00
+"Federal GDP": 108.38 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 162,
+"GDP": 1.27 M,
+"Real Gdp": 1.26 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 53.31,
+"Debt": 0.00,
+"Cash": 7.31 M,
+"Population": 5.36 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.14 B,
+"Federal Operating Cash": 2.01 B
+"Federal Crash Count": 3.00
+"Federal GDP": 108.85 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 163,
+"GDP": 1.27 M,
+"Real Gdp": 1.27 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.96,
+"Debt": 0.00,
+"Cash": 7.40 M,
+"Population": 5.19 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.15 B,
+"Federal Operating Cash": 2.02 B
+"Federal Crash Count": 3.00
+"Federal GDP": 109.09 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 164,
+"GDP": 1.28 M,
+"Real Gdp": 1.27 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.30,
+"Stability": 51.09,
+"Debt": 0.00,
+"Cash": 7.47 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.15 B,
+"Federal Operating Cash": 2.03 B
+"Federal Crash Count": 3.00
+"Federal GDP": 109.28 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 165,
+"GDP": 1.28 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 50.74,
+"Debt": 0.00,
+"Cash": 7.56 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.16 B,
+"Federal Operating Cash": 2.05 B
+"Federal Crash Count": 3.00
+"Federal GDP": 109.81 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 166,
+"GDP": 1.30 M,
+"Real Gdp": 1.29 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 52.16,
+"Debt": 0.00,
+"Cash": 7.64 M,
+"Population": 5.03 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.17 B,
+"Federal Operating Cash": 2.06 B
+"Federal Crash Count": 3.00
+"Federal GDP": 110.27 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 167,
+"GDP": 1.30 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 51.48,
+"Debt": 0.00,
+"Cash": 7.73 M,
+"Population": 5.00 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.18 B,
+"Federal Operating Cash": 2.08 B
+"Federal Crash Count": 3.00
+"Federal GDP": 110.61 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 168,
+"GDP": 1.32 M,
+"Real Gdp": 1.31 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.32,
+"Stability": 55.95,
+"Debt": 0.00,
+"Cash": 7.81 M,
+"Population": 5.03 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.19 B,
+"Federal Operating Cash": 2.09 B
+"Federal Crash Count": 3.00
+"Federal GDP": 111.00 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 169,
+"GDP": 1.31 M,
+"Real Gdp": 1.31 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 52.98,
+"Debt": 0.00,
+"Cash": 7.90 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.19 B,
+"Federal Operating Cash": 2.10 B
+"Federal Crash Count": 3.00
+"Federal GDP": 111.24 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 170,
+"GDP": 1.31 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.35,
+"Stability": 51.44,
+"Debt": 0.00,
+"Cash": 7.98 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.20 B,
+"Federal Operating Cash": 2.12 B
+"Federal Crash Count": 3.00
+"Federal GDP": 111.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 171,
+"GDP": 1.31 M,
+"Real Gdp": 1.31 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 52.22,
+"Debt": 0.00,
+"Cash": 8.06 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.21 B,
+"Federal Operating Cash": 2.13 B
+"Federal Crash Count": 3.00
+"Federal GDP": 111.59 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 172,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 51.32,
+"Debt": 0.00,
+"Cash": 8.15 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.22 B,
+"Federal Operating Cash": 2.14 B
+"Federal Crash Count": 3.00
+"Federal GDP": 112.04 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 173,
+"GDP": 1.31 M,
+"Real Gdp": 1.29 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 50.64,
+"Debt": 0.00,
+"Cash": 8.24 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.22 B,
+"Federal Operating Cash": 2.15 B
+"Federal Crash Count": 3.00
+"Federal GDP": 112.47 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 174,
+"GDP": 1.30 M,
+"Real Gdp": 1.28 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 49.19,
+"Debt": 0.00,
+"Cash": 6.68 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.23 B,
+"Federal Operating Cash": 2.17 B
+"Federal Crash Count": 3.00
+"Federal GDP": 113.00 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 175,
+"GDP": 1.29 M,
+"Real Gdp": 1.28 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 50.04,
+"Debt": 0.00,
+"Cash": 6.77 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.24 B,
+"Federal Operating Cash": 2.18 B
+"Federal Crash Count": 3.00
+"Federal GDP": 113.40 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 176,
+"GDP": 1.28 M,
+"Real Gdp": 1.27 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 40.09,
+"Debt": 0.00,
+"Cash": 6.04 M,
+"Population": 4.50 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.25 B,
+"Federal Operating Cash": 2.20 B
+"Federal Crash Count": 3.00
+"Federal GDP": 113.87 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 177,
+"GDP": 1.46 M,
+"Real Gdp": 1.26 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.26,
+"Stability": 45.02,
+"Debt": 0.00,
+"Cash": 6.13 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.26 B,
+"Federal Operating Cash": 2.21 B
+"Federal Crash Count": 3.00
+"Federal GDP": 114.25 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 178,
+"GDP": 1.28 M,
+"Real Gdp": 1.27 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.26,
+"Stability": 47.87,
+"Debt": 0.00,
+"Cash": 6.20 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.26 B,
+"Federal Operating Cash": 2.22 B
+"Federal Crash Count": 3.00
+"Federal GDP": 114.85 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 179,
+"GDP": 1.28 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 49.60,
+"Debt": 0.00,
+"Cash": 6.28 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.27 B,
+"Federal Operating Cash": 2.23 B
+"Federal Crash Count": 3.00
+"Federal GDP": 115.06 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 180,
+"GDP": 1.29 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 50.87,
+"Debt": 0.00,
+"Cash": 6.36 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.28 B,
+"Federal Operating Cash": 2.25 B
+"Federal Crash Count": 3.00
+"Federal GDP": 115.38 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 181,
+"GDP": 1.30 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 50.87,
+"Debt": 0.00,
+"Cash": 6.45 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.29 B,
+"Federal Operating Cash": 2.26 B
+"Federal Crash Count": 3.00
+"Federal GDP": 115.67 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 182,
+"GDP": 1.31 M,
+"Real Gdp": 1.29 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 51.93,
+"Debt": 0.00,
+"Cash": 6.53 M,
+"Population": 5.03 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.30 B,
+"Federal Operating Cash": 2.28 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.17 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 183,
+"GDP": 1.30 M,
+"Real Gdp": 1.29 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 51.26,
+"Debt": 0.00,
+"Cash": 6.62 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.31 B,
+"Federal Operating Cash": 2.29 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.07 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 184,
+"GDP": 1.30 M,
+"Real Gdp": 1.28 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 45.54,
+"Debt": 0.00,
+"Cash": 6.70 M,
+"Population": 5.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.31 B,
+"Federal Operating Cash": 2.30 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.19 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 185,
+"GDP": 1.29 M,
+"Real Gdp": 1.28 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 48.25,
+"Debt": 0.00,
+"Cash": 6.78 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.32 B,
+"Federal Operating Cash": 2.31 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.34 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 186,
+"GDP": 1.30 M,
+"Real Gdp": 1.27 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 46.71,
+"Debt": 0.00,
+"Cash": 6.87 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.33 B,
+"Federal Operating Cash": 2.33 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.58 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 187,
+"GDP": 1.28 M,
+"Real Gdp": 1.26 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 48.78,
+"Debt": 0.00,
+"Cash": 6.95 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.34 B,
+"Federal Operating Cash": 2.34 B
+"Federal Crash Count": 3.00
+"Federal GDP": 116.65 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 188,
+"GDP": 1.28 M,
+"Real Gdp": 1.25 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 49.74,
+"Debt": 0.00,
+"Cash": 7.04 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.34 B,
+"Federal Operating Cash": 2.35 B
+"Federal Crash Count": 3.00
+"Federal GDP": 117.54 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 189,
+"GDP": 1.29 M,
+"Real Gdp": 1.26 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 59.97,
+"Debt": 0.00,
+"Cash": 7.12 M,
+"Population": 5.00 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 1.35 B,
+"Federal Operating Cash": 2.37 B
+"Federal Crash Count": 3.00
+"Federal GDP": 117.69 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 190,
+"GDP": 1.30 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 54.84,
+"Debt": 0.00,
+"Cash": 7.19 M,
+"Population": 5.03 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.36 B,
+"Federal Operating Cash": 2.38 B
+"Federal Crash Count": 3.00
+"Federal GDP": 117.89 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 191,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 53.45,
+"Debt": 0.00,
+"Cash": 7.27 M,
+"Population": 5.07 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.37 B,
+"Federal Operating Cash": 2.39 B
+"Federal Crash Count": 3.00
+"Federal GDP": 118.10 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 192,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 51.67,
+"Debt": 0.00,
+"Cash": 7.36 M,
+"Population": 5.00 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 1.38 B,
+"Federal Operating Cash": 2.41 B
+"Federal Crash Count": 3.00
+"Federal GDP": 118.49 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 193,
+"GDP": 1.33 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 62.72,
+"Debt": 0.00,
+"Cash": 7.43 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.38 B,
+"Federal Operating Cash": 2.42 B
+"Federal Crash Count": 3.00
+"Federal GDP": 118.82 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 194,
+"GDP": 1.33 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.32,
+"Stability": 55.43,
+"Debt": 0.00,
+"Cash": 7.52 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.39 B,
+"Federal Operating Cash": 2.43 B
+"Federal Crash Count": 3.00
+"Federal GDP": 119.44 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 195,
+"GDP": 1.34 M,
+"Real Gdp": 1.34 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.32,
+"Stability": 53.77,
+"Debt": 0.00,
+"Cash": 7.60 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.40 B,
+"Federal Operating Cash": 2.45 B
+"Federal Crash Count": 3.00
+"Federal GDP": 120.21 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 196,
+"GDP": 1.34 M,
+"Real Gdp": 1.34 M,
+"Growth": -0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 52.12,
+"Debt": 0.00,
+"Cash": 7.69 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.41 B,
+"Federal Operating Cash": 2.46 B
+"Federal Crash Count": 3.00
+"Federal GDP": 120.62 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 197,
+"GDP": 1.34 M,
+"Real Gdp": 1.33 M,
+"Growth": -0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 51.14,
+"Debt": 0.00,
+"Cash": 7.77 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.42 B,
+"Federal Operating Cash": 2.47 B
+"Federal Crash Count": 3.00
+"Federal GDP": 121.01 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 198,
+"GDP": 1.34 M,
+"Real Gdp": 1.34 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 52.61,
+"Debt": 0.00,
+"Cash": 7.85 M,
+"Population": 5.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.43 B,
+"Federal Operating Cash": 2.49 B
+"Federal Crash Count": 3.00
+"Federal GDP": 121.18 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 199,
+"GDP": 1.34 M,
+"Real Gdp": 1.33 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 51.53,
+"Debt": 0.00,
+"Cash": 7.95 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.43 B,
+"Federal Operating Cash": 2.50 B
+"Federal Crash Count": 3.00
+"Federal GDP": 121.32 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 200,
+"GDP": 1.35 M,
+"Real Gdp": 1.32 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 50.69,
+"Debt": 0.00,
+"Cash": 8.03 M,
+"Population": 5.00 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 1.44 B,
+"Federal Operating Cash": 2.52 B
+"Federal Crash Count": 3.00
+"Federal GDP": 121.35 M
+},
+{
+"STATE": {
+"BAYELSA": {
+"Month": 201,
+"GDP": 1.35 M,
+"Real Gdp": 1.33 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 51.82,
+"Debt": 0.00,
+"Cash": 8.11 M,
+"Population": 5.03 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 1.45 B,
+"Federal Operating Cash": 2.53 B
+"Federal Crash Count": 3.00
+"Federal GDP": 121.81 M
+}

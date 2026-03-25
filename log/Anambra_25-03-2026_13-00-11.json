@@ -1,0 +1,148 @@
+[
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 1,
+"GDP": 3.60 M,
+"Real Gdp": 3.54 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 62.25,
+"Debt": 318.99 K,
+"Cash": 319.22 K,
+"Population": 60.42 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 7.64 M,
+"Federal Operating Cash": 13.45 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 2,
+"GDP": 3.65 M,
+"Real Gdp": 3.58 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 59.39,
+"Debt": 251.83 K,
+"Cash": 368.95 K,
+"Population": 60.84 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 14.45 M,
+"Federal Operating Cash": 25.67 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.80 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 3,
+"GDP": 3.67 M,
+"Real Gdp": 3.62 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 58.83,
+"Debt": 176.41 K,
+"Cash": 426.98 K,
+"Population": 61.27 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 21.68 M,
+"Federal Operating Cash": 38.39 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.66 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 4,
+"GDP": 3.65 M,
+"Real Gdp": 3.61 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.45,
+"Debt": 159.02 K,
+"Cash": 410.09 K,
+"Population": 61.49 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 33.43 M,
+"Federal Operating Cash": 61.23 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.21 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 5,
+"GDP": 3.64 M,
+"Real Gdp": 3.58 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 56.54,
+"Debt": 75.92 K,
+"Cash": 476.28 K,
+"Population": 61.72 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 39.80 M,
+"Federal Operating Cash": 72.63 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.80 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 6,
+"GDP": 3.62 M,
+"Real Gdp": 3.55 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 56.56,
+"Debt": -20.58 K,
+"Cash": 554.97 K,
+"Population": 61.84 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 46.96 M,
+"Federal Operating Cash": 85.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.41 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 7,
+"GDP": 3.64 M,
+"Real Gdp": 3.56 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 56.44,
+"Debt": 0.00,
+"Cash": 692.78 K,
+"Population": 62.03 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 53.63 M,
+"Federal Operating Cash": 97.05 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.07 M
+}

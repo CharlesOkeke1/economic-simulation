@@ -34,7 +34,7 @@ public class FederalAccountingEngine {
         federal.nationalGdpGrowth = natgdpgrowth/Constants.NO_OF_STATES;
 
         /*FEDERATION ACCOUNTING*/
-        federal.oilPriceIndex = rand.nextInt(221) + 930; // Hovering around a hundredth of Nigeria's oil revenue per barrel (Price of a barrel) - 950 - 1150
+        federal.oilPriceIndex = rand.nextInt(221) + 830; // Hovering around a hundredth of Nigeria's oil revenue per barrel (Price of a barrel) - 950 - 1150
         
         //Oil Revenue
         federal.oilPool = Constants.BASE_OIL * federal.oilPriceIndex;
@@ -55,9 +55,9 @@ public class FederalAccountingEngine {
         for (StateEconomy s : states.values()) {
             //Apply allocation to state
             double fedAlloc;
-            fedAlloc = ((0.3 * (federal.allocationPool/Constants.NO_OF_STATES)) +
-            (0.5 * federal.allocationPool * ((double) s.getPopulation() /federal.nationalPopulation)) +
-            (0.2 * federal.allocationPool * (s.getRealGdp()/Math.max(federal.nationalGDP, 1e-6))));
+            fedAlloc = ((0.35 * (federal.allocationPool/Constants.NO_OF_STATES)) +
+            (0.4 * federal.allocationPool * ((double) s.getPopulation() /federal.nationalPopulation)) +
+            (0.25 * federal.allocationPool * (s.getRealGdp()/Math.max(federal.nationalGDP, 1e-6))));
             s.setFederalAllocation(fedAlloc);
 
             if ((Double.isNaN(fedAlloc)) || (Double.isInfinite(fedAlloc))) fedAlloc = 0.0;

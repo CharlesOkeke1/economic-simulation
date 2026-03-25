@@ -1,0 +1,2353 @@
+[
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 1,
+"GDP": 3.10 M,
+"Real Gdp": 3.04 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 60.04,
+"Debt": 410.18 K,
+"Cash": 273.40 K,
+"Population": 55.55 K,
+"Infrastructure": 18.00
+},
+},
+"Federal Reserve": 5.45 M,
+"Federal Operating Cash": 10.55 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 2,
+"GDP": 3.15 M,
+"Real Gdp": 3.08 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 57.93,
+"Debt": 361.20 K,
+"Cash": 305.52 K,
+"Population": 56.11 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 12.22 M,
+"Federal Operating Cash": 23.20 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.80 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 3,
+"GDP": 3.19 M,
+"Real Gdp": 3.13 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 56.05,
+"Debt": 466.78 K,
+"Cash": 265.53 K,
+"Population": 56.67 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 18.09 M,
+"Federal Operating Cash": 34.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.58 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 4,
+"GDP": 3.21 M,
+"Real Gdp": 3.15 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 44.51,
+"Debt": 470.71 K,
+"Cash": 266.79 K,
+"Population": 51.28 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 24.52 M,
+"Federal Operating Cash": 46.60 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.34 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 5,
+"GDP": 3.25 M,
+"Real Gdp": 3.19 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 46.84,
+"Debt": 492.58 K,
+"Cash": 263.03 K,
+"Population": 46.61 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 30.26 M,
+"Federal Operating Cash": 57.64 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.15 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 6,
+"GDP": 3.27 M,
+"Real Gdp": 3.21 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 51.40,
+"Debt": 434.07 K,
+"Cash": 300.85 K,
+"Population": 46.83 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 36.55 M,
+"Federal Operating Cash": 69.41 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.92 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 7,
+"GDP": 3.27 M,
+"Real Gdp": 3.22 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 53.97,
+"Debt": 365.39 K,
+"Cash": 348.75 K,
+"Population": 47.09 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 43.67 M,
+"Federal Operating Cash": 82.49 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.39 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 8,
+"GDP": 3.30 M,
+"Real Gdp": 3.26 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 56.15,
+"Debt": 320.30 K,
+"Cash": 378.95 K,
+"Population": 47.56 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 49.13 M,
+"Federal Operating Cash": 92.93 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.94 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 9,
+"GDP": 3.35 M,
+"Real Gdp": 3.31 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 56.55,
+"Debt": 278.38 K,
+"Cash": 407.66 K,
+"Population": 48.04 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 54.72 M,
+"Federal Operating Cash": 103.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.36 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 10,
+"GDP": 3.39 M,
+"Real Gdp": 3.35 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 57.20,
+"Debt": 217.52 K,
+"Cash": 452.99 K,
+"Population": 48.52 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 61.71 M,
+"Federal Operating Cash": 116.36 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.72 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 11,
+"GDP": 3.43 M,
+"Real Gdp": 3.39 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 57.44,
+"Debt": 167.01 K,
+"Cash": 491.07 K,
+"Population": 49.00 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 67.55 M,
+"Federal Operating Cash": 127.39 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.12 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 12,
+"GDP": 3.46 M,
+"Real Gdp": 3.43 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 57.53,
+"Debt": 106.09 K,
+"Cash": 538.75 K,
+"Population": 49.49 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 74.43 M,
+"Federal Operating Cash": 140.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.55 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 13,
+"GDP": 3.49 M,
+"Real Gdp": 3.44 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 56.58,
+"Debt": 29.89 K,
+"Cash": 600.15 K,
+"Population": 49.79 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 81.93 M,
+"Federal Operating Cash": 153.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.93 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 14,
+"GDP": 3.52 M,
+"Real Gdp": 3.48 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 52.31,
+"Debt": -32.75 K,
+"Cash": 583.16 K,
+"Population": 45.25 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 88.81 M,
+"Federal Operating Cash": 166.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.15 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 15,
+"GDP": 3.53 M,
+"Real Gdp": 3.49 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 54.42,
+"Debt": 0.00,
+"Cash": 725.69 K,
+"Population": 45.50 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 96.17 M,
+"Federal Operating Cash": 179.40 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.44 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 16,
+"GDP": 3.55 M,
+"Real Gdp": 3.53 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 56.39,
+"Debt": 0.00,
+"Cash": 841.53 K,
+"Population": 45.96 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 102.72 M,
+"Federal Operating Cash": 191.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.57 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 17,
+"GDP": 3.55 M,
+"Real Gdp": 3.53 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 56.19,
+"Debt": 0.00,
+"Cash": 965.10 K,
+"Population": 46.22 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 108.70 M,
+"Federal Operating Cash": 202.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.92 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 18,
+"GDP": 3.63 M,
+"Real Gdp": 3.58 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 57.05,
+"Debt": 0.00,
+"Cash": 1.06 M,
+"Population": 46.68 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 114.36 M,
+"Federal Operating Cash": 213.44 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.27 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 19,
+"GDP": 3.63 M,
+"Real Gdp": 3.58 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 55.21,
+"Debt": 0.00,
+"Cash": 970.91 K,
+"Population": 46.94 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 120.40 M,
+"Federal Operating Cash": 224.67 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.41 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 20,
+"GDP": 3.62 M,
+"Real Gdp": 3.57 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 55.57,
+"Debt": 0.00,
+"Cash": 1.11 M,
+"Population": 47.21 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 127.31 M,
+"Federal Operating Cash": 237.20 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.44 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 21,
+"GDP": 3.64 M,
+"Real Gdp": 3.59 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.76,
+"Debt": 0.00,
+"Cash": 1.23 M,
+"Population": 47.68 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 133.46 M,
+"Federal Operating Cash": 248.69 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.48 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 22,
+"GDP": 3.67 M,
+"Real Gdp": 3.60 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 57.20,
+"Debt": 0.00,
+"Cash": 1.34 M,
+"Population": 48.16 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 139.42 M,
+"Federal Operating Cash": 259.89 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.83 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 23,
+"GDP": 3.71 M,
+"Real Gdp": 3.62 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 57.30,
+"Debt": 0.00,
+"Cash": 1.45 M,
+"Population": 48.64 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 145.23 M,
+"Federal Operating Cash": 270.81 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.16 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 24,
+"GDP": 3.75 M,
+"Real Gdp": 3.66 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.88,
+"Debt": 0.00,
+"Cash": 1.57 M,
+"Population": 49.12 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 152.21 M,
+"Federal Operating Cash": 283.53 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.43 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 25,
+"GDP": 3.78 M,
+"Real Gdp": 3.69 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.73,
+"Debt": 0.00,
+"Cash": 1.67 M,
+"Population": 49.62 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 158.49 M,
+"Federal Operating Cash": 295.10 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.55 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 26,
+"GDP": 3.80 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 57.14,
+"Debt": 0.00,
+"Cash": 1.81 M,
+"Population": 50.11 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 165.76 M,
+"Federal Operating Cash": 308.20 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.59 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 27,
+"GDP": 3.79 M,
+"Real Gdp": 3.70 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 56.22,
+"Debt": 0.00,
+"Cash": 1.96 M,
+"Population": 50.41 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 173.18 M,
+"Federal Operating Cash": 321.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.56 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 28,
+"GDP": 3.80 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 56.92,
+"Debt": 0.00,
+"Cash": 2.09 M,
+"Population": 50.91 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 178.91 M,
+"Federal Operating Cash": 333.73 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.38 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 29,
+"GDP": 3.77 M,
+"Real Gdp": 3.68 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 53.30,
+"Debt": 0.00,
+"Cash": 1.79 M,
+"Population": 51.22 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 186.06 M,
+"Federal Operating Cash": 346.68 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.40 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 30,
+"GDP": 3.76 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 55.81,
+"Debt": 0.00,
+"Cash": 1.93 M,
+"Population": 51.73 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 193.49 M,
+"Federal Operating Cash": 360.04 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.54 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 31,
+"GDP": 3.74 M,
+"Real Gdp": 3.66 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 47.88,
+"Debt": 0.00,
+"Cash": 1.48 M,
+"Population": 46.82 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 200.25 M,
+"Federal Operating Cash": 372.39 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.50 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 32,
+"GDP": 3.71 M,
+"Real Gdp": 3.63 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 51.72,
+"Debt": 0.00,
+"Cash": 1.63 M,
+"Population": 47.04 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 207.28 M,
+"Federal Operating Cash": 385.18 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.54 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 33,
+"GDP": 3.67 M,
+"Real Gdp": 3.60 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 53.93,
+"Debt": 0.00,
+"Cash": 1.79 M,
+"Population": 47.31 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 214.43 M,
+"Federal Operating Cash": 398.11 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.63 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 34,
+"GDP": 3.66 M,
+"Real Gdp": 3.58 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.86,
+"Debt": 0.00,
+"Cash": 1.92 M,
+"Population": 47.58 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 220.45 M,
+"Federal Operating Cash": 409.25 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.59 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 35,
+"GDP": 3.63 M,
+"Real Gdp": 3.55 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 55.27,
+"Debt": 0.00,
+"Cash": 2.06 M,
+"Population": 47.77 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 226.20 M,
+"Federal Operating Cash": 420.07 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.47 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 36,
+"GDP": 3.65 M,
+"Real Gdp": 3.57 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 50.47,
+"Debt": 0.00,
+"Cash": 1.96 M,
+"Population": 43.17 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 233.43 M,
+"Federal Operating Cash": 433.14 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.57 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 37,
+"GDP": 3.70 M,
+"Real Gdp": 3.61 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.29,
+"Stability": 54.58,
+"Debt": 0.00,
+"Cash": 2.08 M,
+"Population": 43.60 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 240.51 M,
+"Federal Operating Cash": 446.04 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.58 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 38,
+"GDP": 3.72 M,
+"Real Gdp": 3.62 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 55.26,
+"Debt": 0.00,
+"Cash": 2.22 M,
+"Population": 43.83 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 247.65 M,
+"Federal Operating Cash": 458.95 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.68 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 39,
+"GDP": 3.72 M,
+"Real Gdp": 3.63 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 55.56,
+"Debt": 0.00,
+"Cash": 2.34 M,
+"Population": 44.07 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 253.26 M,
+"Federal Operating Cash": 469.54 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.61 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 40,
+"GDP": 3.72 M,
+"Real Gdp": 3.63 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 55.68,
+"Debt": 0.00,
+"Cash": 2.48 M,
+"Population": 44.30 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 260.04 M,
+"Federal Operating Cash": 482.02 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.72 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 41,
+"GDP": 3.75 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 56.29,
+"Debt": 0.00,
+"Cash": 2.58 M,
+"Population": 44.75 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 265.69 M,
+"Federal Operating Cash": 492.68 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.86 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 42,
+"GDP": 4.30 M,
+"Real Gdp": 3.67 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 56.01,
+"Debt": 0.00,
+"Cash": 2.72 M,
+"Population": 44.99 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 272.45 M,
+"Federal Operating Cash": 505.09 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.88 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 43,
+"GDP": 3.77 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 56.46,
+"Debt": 0.00,
+"Cash": 2.83 M,
+"Population": 45.44 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 277.33 M,
+"Federal Operating Cash": 516.12 M
+"Federal Crash Count": 1.00
+"Federal GDP": 86.85 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 44,
+"GDP": 3.78 M,
+"Real Gdp": 3.72 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 68.46,
+"Debt": 0.00,
+"Cash": 2.97 M,
+"Population": 46.15 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 284.62 M,
+"Federal Operating Cash": 529.25 M
+"Federal Crash Count": 2.00
+"Federal GDP": 86.76 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 45,
+"GDP": 3.79 M,
+"Real Gdp": 3.71 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 58.01,
+"Debt": 0.00,
+"Cash": 3.11 M,
+"Population": 46.41 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 289.93 M,
+"Federal Operating Cash": 540.91 M
+"Federal Crash Count": 2.00
+"Federal GDP": 86.58 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 46,
+"GDP": 3.81 M,
+"Real Gdp": 3.70 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 56.69,
+"Debt": 39.47 K,
+"Cash": 3.27 M,
+"Population": 46.87 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 295.92 M,
+"Federal Operating Cash": 552.12 M
+"Federal Crash Count": 3.00
+"Federal GDP": 86.48 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 47,
+"GDP": 3.82 M,
+"Real Gdp": 3.72 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 57.08,
+"Debt": -26.58 K,
+"Cash": 3.33 M,
+"Population": 47.34 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 301.22 M,
+"Federal Operating Cash": 563.77 M
+"Federal Crash Count": 3.00
+"Federal GDP": 86.43 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 48,
+"GDP": 3.85 M,
+"Real Gdp": 3.76 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.79,
+"Debt": 0.00,
+"Cash": 3.46 M,
+"Population": 47.81 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 308.57 M,
+"Federal Operating Cash": 577.01 M
+"Federal Crash Count": 4.00
+"Federal GDP": 86.30 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 49,
+"GDP": 3.86 M,
+"Real Gdp": 3.77 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 57.17,
+"Debt": 0.00,
+"Cash": 3.59 M,
+"Population": 48.29 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 314.45 M,
+"Federal Operating Cash": 589.64 M
+"Federal Crash Count": 4.00
+"Federal GDP": 86.12 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 50,
+"GDP": 3.88 M,
+"Real Gdp": 3.79 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 57.30,
+"Debt": 0.00,
+"Cash": 3.73 M,
+"Population": 48.77 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 321.91 M,
+"Federal Operating Cash": 603.15 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.22 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 51,
+"GDP": 3.85 M,
+"Real Gdp": 3.77 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 56.29,
+"Debt": 0.00,
+"Cash": 3.87 M,
+"Population": 49.06 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 328.04 M,
+"Federal Operating Cash": 614.57 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.30 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 52,
+"GDP": 3.82 M,
+"Real Gdp": 3.75 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 55.60,
+"Debt": 0.00,
+"Cash": 4.02 M,
+"Population": 49.29 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 335.16 M,
+"Federal Operating Cash": 627.54 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.19 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 53,
+"GDP": 4.39 M,
+"Real Gdp": 3.75 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 56.98,
+"Debt": 0.00,
+"Cash": 4.17 M,
+"Population": 49.79 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 342.27 M,
+"Federal Operating Cash": 640.58 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.05 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 54,
+"GDP": 3.78 M,
+"Real Gdp": 3.73 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 56.72,
+"Debt": 0.00,
+"Cash": 4.31 M,
+"Population": 50.08 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 348.15 M,
+"Federal Operating Cash": 651.71 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.24 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 55,
+"GDP": 3.78 M,
+"Real Gdp": 3.70 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 55.77,
+"Debt": 0.00,
+"Cash": 4.44 M,
+"Population": 50.33 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 353.93 M,
+"Federal Operating Cash": 662.66 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.38 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 56,
+"GDP": 3.78 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 57.02,
+"Debt": 0.00,
+"Cash": 4.58 M,
+"Population": 50.83 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 360.68 M,
+"Federal Operating Cash": 675.17 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.52 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 57,
+"GDP": 3.75 M,
+"Real Gdp": 3.68 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 44.96,
+"Debt": 0.00,
+"Cash": 4.15 M,
+"Population": 46.02 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 366.60 M,
+"Federal Operating Cash": 686.40 M
+"Federal Crash Count": 5.00
+"Federal GDP": 86.74 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 58,
+"GDP": 3.73 M,
+"Real Gdp": 3.66 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 50.61,
+"Debt": 0.00,
+"Cash": 4.28 M,
+"Population": 46.28 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 372.07 M,
+"Federal Operating Cash": 696.96 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.03 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 59,
+"GDP": 3.72 M,
+"Real Gdp": 3.66 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 54.72,
+"Debt": 0.00,
+"Cash": 4.39 M,
+"Population": 46.74 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 377.54 M,
+"Federal Operating Cash": 707.44 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.34 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 60,
+"GDP": 3.72 M,
+"Real Gdp": 3.67 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 51.52,
+"Debt": 0.00,
+"Cash": 4.02 M,
+"Population": 42.49 K,
+"Infrastructure": 40.00
+},
+},
+"Federal Reserve": 384.90 M,
+"Federal Operating Cash": 720.81 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.36 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 61,
+"GDP": 3.75 M,
+"Real Gdp": 3.69 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 54.61,
+"Debt": 0.00,
+"Cash": 4.16 M,
+"Population": 42.91 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 392.10 M,
+"Federal Operating Cash": 733.97 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.29 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 62,
+"GDP": 3.73 M,
+"Real Gdp": 3.69 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 55.64,
+"Debt": 0.00,
+"Cash": 3.48 M,
+"Population": 43.34 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 399.01 M,
+"Federal Operating Cash": 746.68 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.33 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 63,
+"GDP": 3.71 M,
+"Real Gdp": 3.67 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.21,
+"Debt": 0.00,
+"Cash": 2.92 M,
+"Population": 43.52 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 404.73 M,
+"Federal Operating Cash": 757.56 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.33 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 64,
+"GDP": 3.73 M,
+"Real Gdp": 3.67 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 56.54,
+"Debt": 0.00,
+"Cash": 3.04 M,
+"Population": 43.96 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 410.07 M,
+"Federal Operating Cash": 767.86 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.37 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 65,
+"GDP": 3.75 M,
+"Real Gdp": 3.67 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 57.09,
+"Debt": 0.00,
+"Cash": 3.17 M,
+"Population": 44.40 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 416.40 M,
+"Federal Operating Cash": 779.69 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.43 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 66,
+"GDP": 3.74 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 57.32,
+"Debt": 0.00,
+"Cash": 3.31 M,
+"Population": 44.84 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 423.00 M,
+"Federal Operating Cash": 792.00 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.44 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 67,
+"GDP": 3.74 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 57.42,
+"Debt": 0.00,
+"Cash": 3.44 M,
+"Population": 45.29 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 429.21 M,
+"Federal Operating Cash": 803.63 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.61 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 68,
+"GDP": 3.72 M,
+"Real Gdp": 3.66 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 64.74,
+"Debt": 0.00,
+"Cash": 3.59 M,
+"Population": 45.46 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 435.20 M,
+"Federal Operating Cash": 815.03 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.60 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 69,
+"GDP": 3.73 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 60.03,
+"Debt": 0.00,
+"Cash": 3.71 M,
+"Population": 45.91 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 441.25 M,
+"Federal Operating Cash": 826.50 M
+"Federal Crash Count": 5.00
+"Federal GDP": 87.88 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 70,
+"GDP": 3.75 M,
+"Real Gdp": 3.68 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 58.67,
+"Debt": 0.00,
+"Cash": 3.85 M,
+"Population": 46.78 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 448.39 M,
+"Federal Operating Cash": 839.69 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.14 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 71,
+"GDP": 3.78 M,
+"Real Gdp": 3.70 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 57.88,
+"Debt": 0.00,
+"Cash": 3.99 M,
+"Population": 47.24 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 455.56 M,
+"Federal Operating Cash": 852.82 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.36 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 72,
+"GDP": 3.82 M,
+"Real Gdp": 3.74 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 57.64,
+"Debt": 0.00,
+"Cash": 4.12 M,
+"Population": 47.71 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 462.87 M,
+"Federal Operating Cash": 866.23 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.36 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 73,
+"GDP": 3.85 M,
+"Real Gdp": 3.77 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 54.63,
+"Debt": 0.00,
+"Cash": 3.40 M,
+"Population": 48.19 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 469.54 M,
+"Federal Operating Cash": 878.65 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.49 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 74,
+"GDP": 3.85 M,
+"Real Gdp": 3.79 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 49.73,
+"Debt": 0.00,
+"Cash": 2.84 M,
+"Population": 48.67 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 475.83 M,
+"Federal Operating Cash": 890.51 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.61 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 75,
+"GDP": 3.83 M,
+"Real Gdp": 3.77 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 50.43,
+"Debt": 0.00,
+"Cash": 2.37 M,
+"Population": 48.96 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 481.34 M,
+"Federal Operating Cash": 901.10 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.69 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 76,
+"GDP": 3.82 M,
+"Real Gdp": 3.74 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 50.67,
+"Debt": 0.00,
+"Cash": 1.99 M,
+"Population": 49.24 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 486.75 M,
+"Federal Operating Cash": 911.50 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.58 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 77,
+"GDP": 3.81 M,
+"Real Gdp": 3.72 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 63.71,
+"Debt": 0.00,
+"Cash": 2.14 M,
+"Population": 49.48 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 493.59 M,
+"Federal Operating Cash": 924.29 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.43 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 78,
+"GDP": 3.81 M,
+"Real Gdp": 3.73 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 54.81,
+"Debt": 0.00,
+"Cash": 2.00 M,
+"Population": 44.98 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 499.00 M,
+"Federal Operating Cash": 934.81 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.67 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 79,
+"GDP": 3.77 M,
+"Real Gdp": 3.70 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 55.29,
+"Debt": 0.00,
+"Cash": 2.15 M,
+"Population": 45.23 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 505.37 M,
+"Federal Operating Cash": 946.78 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.83 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 80,
+"GDP": 3.77 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 56.65,
+"Debt": 0.00,
+"Cash": 2.29 M,
+"Population": 45.68 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 512.22 M,
+"Federal Operating Cash": 959.51 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.82 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 81,
+"GDP": 3.80 M,
+"Real Gdp": 3.73 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 51.68,
+"Debt": 0.00,
+"Cash": 2.12 M,
+"Population": 41.52 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 517.77 M,
+"Federal Operating Cash": 970.20 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.82 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 82,
+"GDP": 3.82 M,
+"Real Gdp": 3.74 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 55.45,
+"Debt": 0.00,
+"Cash": 2.25 M,
+"Population": 41.94 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 523.33 M,
+"Federal Operating Cash": 980.99 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.73 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 83,
+"GDP": 3.78 M,
+"Real Gdp": 3.71 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 53.11,
+"Debt": 0.00,
+"Cash": 2.40 M,
+"Population": 42.15 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 529.72 M,
+"Federal Operating Cash": 993.06 M
+"Federal Crash Count": 5.00
+"Federal GDP": 88.87 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 84,
+"GDP": 3.80 M,
+"Real Gdp": 3.74 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 55.27,
+"Debt": 0.00,
+"Cash": 2.52 M,
+"Population": 42.57 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 534.32 M,
+"Federal Operating Cash": 1.00 B
+"Federal Crash Count": 5.00
+"Federal GDP": 88.96 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 85,
+"GDP": 3.81 M,
+"Real Gdp": 3.75 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 56.64,
+"Debt": 0.00,
+"Cash": 2.64 M,
+"Population": 43.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 540.10 M,
+"Federal Operating Cash": 1.02 B
+"Federal Crash Count": 6.00
+"Federal GDP": 89.13 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 86,
+"GDP": 3.79 M,
+"Real Gdp": 3.73 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 56.07,
+"Debt": 0.00,
+"Cash": 2.79 M,
+"Population": 43.23 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 546.14 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 6.00
+"Federal GDP": 89.18 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 87,
+"GDP": 3.80 M,
+"Real Gdp": 3.73 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 56.94,
+"Debt": 0.00,
+"Cash": 2.93 M,
+"Population": 43.66 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 552.25 M,
+"Federal Operating Cash": 1.04 B
+"Federal Crash Count": 6.00
+"Federal GDP": 89.12 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 88,
+"GDP": 3.82 M,
+"Real Gdp": 3.76 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 56.83,
+"Debt": 0.00,
+"Cash": 3.05 M,
+"Population": 44.09 K,
+"Infrastructure": 52.00
+},
+},
+"Federal Reserve": 557.30 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 6.00
+"Federal GDP": 89.12 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 89,
+"GDP": 3.83 M,
+"Real Gdp": 3.77 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 57.25,
+"Debt": 0.00,
+"Cash": 3.20 M,
+"Population": 44.53 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 564.47 M,
+"Federal Operating Cash": 1.06 B
+"Federal Crash Count": 7.00
+"Federal GDP": 89.20 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 90,
+"GDP": 3.86 M,
+"Real Gdp": 3.80 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 44.18,
+"Debt": 0.00,
+"Cash": 2.93 M,
+"Population": 40.48 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 570.85 M,
+"Federal Operating Cash": 1.08 B
+"Federal Crash Count": 7.00
+"Federal GDP": 89.30 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 91,
+"GDP": 3.84 M,
+"Real Gdp": 3.78 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 50.25,
+"Debt": 0.00,
+"Cash": 3.09 M,
+"Population": 40.61 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 577.53 M,
+"Federal Operating Cash": 1.09 B
+"Federal Crash Count": 7.00
+"Federal GDP": 89.16 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 92,
+"GDP": 3.88 M,
+"Real Gdp": 3.82 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 54.93,
+"Debt": 0.00,
+"Cash": 3.20 M,
+"Population": 41.02 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 582.91 M,
+"Federal Operating Cash": 1.10 B
+"Federal Crash Count": 7.00
+"Federal GDP": 89.40 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 93,
+"GDP": 3.92 M,
+"Real Gdp": 3.88 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 56.55,
+"Debt": 0.00,
+"Cash": 3.32 M,
+"Population": 41.43 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 588.91 M,
+"Federal Operating Cash": 1.11 B
+"Federal Crash Count": 7.00
+"Federal GDP": 89.57 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 94,
+"GDP": 3.98 M,
+"Real Gdp": 3.93 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 54.31,
+"Debt": 0.00,
+"Cash": 2.74 M,
+"Population": 41.84 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 594.75 M,
+"Federal Operating Cash": 1.12 B
+"Federal Crash Count": 7.00
+"Federal GDP": 90.02 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 95,
+"GDP": 4.01 M,
+"Real Gdp": 3.95 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 54.96,
+"Debt": 0.00,
+"Cash": 2.87 M,
+"Population": 42.01 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 600.57 M,
+"Federal Operating Cash": 1.13 B
+"Federal Crash Count": 7.00
+"Federal GDP": 90.07 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 96,
+"GDP": 4.04 M,
+"Real Gdp": 3.98 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.27,
+"Stability": 56.49,
+"Debt": 0.00,
+"Cash": 3.01 M,
+"Population": 42.68 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 606.64 M,
+"Federal Operating Cash": 1.15 B
+"Federal Crash Count": 7.00
+"Federal GDP": 90.09 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 97,
+"GDP": 4.09 M,
+"Real Gdp": 4.04 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.27,
+"Stability": 54.86,
+"Debt": 0.00,
+"Cash": 3.14 M,
+"Population": 43.11 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 613.16 M,
+"Federal Operating Cash": 1.16 B
+"Federal Crash Count": 8.00
+"Federal GDP": 90.08 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 98,
+"GDP": 4.14 M,
+"Real Gdp": 4.10 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 56.54,
+"Debt": 0.00,
+"Cash": 3.26 M,
+"Population": 43.54 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 619.50 M,
+"Federal Operating Cash": 1.17 B
+"Federal Crash Count": 8.00
+"Federal GDP": 90.31 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 99,
+"GDP": 4.19 M,
+"Real Gdp": 4.12 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 56.16,
+"Debt": 0.00,
+"Cash": 3.38 M,
+"Population": 43.77 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 624.01 M,
+"Federal Operating Cash": 1.18 B
+"Federal Crash Count": 8.00
+"Federal GDP": 90.40 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 100,
+"GDP": 4.23 M,
+"Real Gdp": 4.18 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 57.02,
+"Debt": 0.00,
+"Cash": 3.50 M,
+"Population": 44.21 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 629.81 M,
+"Federal Operating Cash": 1.19 B
+"Federal Crash Count": 9.00
+"Federal GDP": 90.51 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 101,
+"GDP": 4.31 M,
+"Real Gdp": 4.26 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 56.90,
+"Debt": 0.00,
+"Cash": 3.61 M,
+"Population": 44.65 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 634.63 M,
+"Federal Operating Cash": 1.20 B
+"Federal Crash Count": 9.00
+"Federal GDP": 90.57 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 102,
+"GDP": 4.33 M,
+"Real Gdp": 4.28 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 56.35,
+"Debt": 0.00,
+"Cash": 3.75 M,
+"Population": 44.89 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 640.72 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 10.00
+"Federal GDP": 90.79 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 103,
+"GDP": 4.35 M,
+"Real Gdp": 4.30 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 55.83,
+"Debt": 0.00,
+"Cash": 3.91 M,
+"Population": 45.09 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 647.80 M,
+"Federal Operating Cash": 1.23 B
+"Federal Crash Count": 10.00
+"Federal GDP": 90.88 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 104,
+"GDP": 4.41 M,
+"Real Gdp": 4.36 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 45.52,
+"Debt": 0.00,
+"Cash": 3.57 M,
+"Population": 40.98 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 654.72 M,
+"Federal Operating Cash": 1.24 B
+"Federal Crash Count": 10.00
+"Federal GDP": 90.93 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 105,
+"GDP": 4.47 M,
+"Real Gdp": 4.38 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 50.71,
+"Debt": 0.00,
+"Cash": 3.71 M,
+"Population": 41.14 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 660.20 M,
+"Federal Operating Cash": 1.25 B
+"Federal Crash Count": 10.00
+"Federal GDP": 90.82 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 106,
+"GDP": 4.50 M,
+"Real Gdp": 4.43 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 52.04,
+"Debt": 0.00,
+"Cash": 3.06 M,
+"Population": 41.55 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 664.34 M,
+"Federal Operating Cash": 1.26 B
+"Federal Crash Count": 10.00
+"Federal GDP": 90.98 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 107,
+"GDP": 4.55 M,
+"Real Gdp": 4.49 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 53.03,
+"Debt": 0.00,
+"Cash": 3.20 M,
+"Population": 41.97 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 670.95 M,
+"Federal Operating Cash": 1.28 B
+"Federal Crash Count": 11.00
+"Federal GDP": 91.00 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 108,
+"GDP": 4.60 M,
+"Real Gdp": 4.50 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 55.14,
+"Debt": 0.00,
+"Cash": 3.35 M,
+"Population": 42.18 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 675.74 M,
+"Federal Operating Cash": 1.29 B
+"Federal Crash Count": 11.00
+"Federal GDP": 91.12 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 109,
+"GDP": 4.59 M,
+"Real Gdp": 4.51 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 55.55,
+"Debt": 0.00,
+"Cash": 3.52 M,
+"Population": 42.40 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 682.02 M,
+"Federal Operating Cash": 1.30 B
+"Federal Crash Count": 12.00
+"Federal GDP": 91.42 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 110,
+"GDP": 4.63 M,
+"Real Gdp": 4.55 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 56.74,
+"Debt": 0.00,
+"Cash": 3.67 M,
+"Population": 42.83 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 688.64 M,
+"Federal Operating Cash": 1.31 B
+"Federal Crash Count": 12.00
+"Federal GDP": 91.76 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 111,
+"GDP": 4.66 M,
+"Real Gdp": 4.59 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 52.62,
+"Debt": 0.00,
+"Cash": 3.38 M,
+"Population": 38.93 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 694.36 M,
+"Federal Operating Cash": 1.32 B
+"Federal Crash Count": 12.00
+"Federal GDP": 92.08 M
+},
+{
+"STATE": {
+"AKWA IBOM": {
+"Month": 112,
+"GDP": 4.66 M,
+"Real Gdp": 4.61 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 55.58,
+"Debt": 0.00,
+"Cash": 3.55 M,
+"Population": 39.57 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 700.93 M,
+"Federal Operating Cash": 1.34 B
+"Federal Crash Count": 12.00
+"Federal GDP": 92.22 M
+}

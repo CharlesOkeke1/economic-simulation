@@ -151,22 +151,22 @@ public class PolicyEngine {
         double nonTaxRevenue = state.getGdp() * 0.01;
 
         //collection = taxRate * scaled stability factor
-        collection = 0.5 + 0.35 * (state.getStability() / 100);
-        taxRevenue = state.getGdp() * state.getTaxRate() * collection * 0.2;
+        collection = 0.4 + 0.35 * (state.getStability() / 100);
+        taxRevenue = state.getGdp() * state.getTaxRate() * collection * 0.4;
         state.setMonthlyRevenue(taxRevenue + nonTaxRevenue + state.getFederalAllocation());
 
 
         /*GOVERNMENT SPENDING GROWTH MODEL */
         double baseSpend = state.getGdp() * 0.015; // 1.5% monthly
         baseSpend *= (1 + state.getInflationRate());
-        double populationBurden = state.getPopulation() * Math.log(state.getPopulation()) * 0.35;
+        double populationBurden = state.getPopulation() * Math.log(state.getPopulation()) * 0.5;
         state.setMonthlySpend(baseSpend + populationBurden + state.getPolicySpend());
 
         /*PROFIT AND LOSS ACCOUNTING*/
         state.setMonthlyProfit(state.getMonthlyRevenue() - state.getMonthlySpend());
         double realizedProfit = state.getMonthlyProfit() * (1 - (state.getAttributes().getCorruptionFactor() * 1.25));
         state.setMonthlyProfit(realizedProfit);
-        state.setCash(state.getCash() + (state.getMonthlyProfit() * 0.94)); //CORRUPTION Loss I guess
+        state.setCash(state.getCash() + (state.getMonthlyProfit() * 0.9)); //CORRUPTION Loss I guess
 
         /*State's Contribute 28% of their operating cash at the end of the month*/
         double stateRemittance = Constants.REMITTANCE_RATE * state.getMonthlyProfit();
@@ -191,13 +191,10 @@ public class PolicyEngine {
             state.setDebt(state.getDebt() - principalRepayment);
             state.setDebtPayment(state.getDebtPayment() + principalRepayment);// If there's profit, monthly debt payment should also pay off principal
         } else {
-            //state.setCash(state.getCash() + Math.abs(state.getDebt()));
             state.setDebt(0);
             state.setDebtPayment(0);
         }
 
-
-        
         /*STATE RESERVE ACCUMULATION*/
         if (state.getCash() > 0) {
             //Save 30% of the months profit
@@ -220,7 +217,7 @@ public class PolicyEngine {
 
 
         /*POPULATION GROWTH METRIC*/ 
-        double popGrowth = 0.007; // 0.5% monthly
+        double popGrowth = 0.008; // 0.5% monthly
         if (state.getStability() < 40) popGrowth -= 0.0025;
         if (state.getTaxRate() > 0.4) popGrowth -= 0.00175;
 
@@ -232,13 +229,13 @@ public class PolicyEngine {
         double deficitRatio = (-state.getMonthlyProfit() / state.getRealGdp());
         double moneyPressure = cashGrowth / state.getRealGdp();
         Random ran = new Random();
-        double shock = (ran.nextDouble() - 0.5) * 0.013; // ±0.2% noise
+        double shock = (ran.nextDouble() - 0.5) * 0.023; // ±0.2% noise
         double target = 0.025; // 2.5% monthly
         double newInflation =
-                (0.85 * lastInflation)            // strong persistence
+                (0.7 * lastInflation)            // strong persistence
                         + (0.08 * moneyPressure)          // monetary pressure
                         + (0.04 * deficitRatio)           // fiscal pressure
-                        - (0.05 * state.getGdpGrowth())        // growth dampens inflation
+                        - (0.2 * state.getGdpGrowth())        // growth dampens inflation
                         + (target - lastInflation) * 0.12 // mean reversion
                         + shock;
 
@@ -259,10 +256,7 @@ public class PolicyEngine {
         state.setRealGdp(weirdDoubleChecks(state.getRealGdp(), Constants.MINIMUM_GDP));
         if (state.getTaxRate() > 0.4) state.setTaxRate(state.getTaxRate() * (0.85 - (Math.random()* 0.2)));
         if (AppMain.getSim().getCurrentMonth() % 8 == 0) state.setInfrastructure(state.getInfrastructure() - 1);
-        //if (AppMain.getSim().getCurrentMonth() > 50) state.setDebt(state.getDebt()+ 0.015 * state.getRealGdp());
-
-        /*CASH DRAIN*/
-        //state.setCash(state.getCash() * 0.88);
+        //state.setDebt(state.getDebt() * 1.0075);
     }
 
     public static double weirdDoubleChecks(double val, double min) {

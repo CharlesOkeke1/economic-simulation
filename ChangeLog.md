@@ -265,3 +265,16 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Development Status** - Version 2.0.0 marks the beginning of the graphical interface phase of the project and is released as a **pre-release build** pending further stability improvements.
 
 - **Affected Packages** - `economies`, `analytics`, `metrics`, `gui`, `config` and `engine`
+
+---
+
+***Version 2.1.0*** - *25-03-2026*
+- **Bug Fixes** - Fixed GDP, Cash and inflation spikes.
+- **Major Development Update** - All state owned variables have been properly encapsulated.
+- **File Structure Update** - All files have been ordered and put in their appropriate packages, `backend`, `frontend` and `utils`.
+- **GUI Updates** - The events and elections under the recent events panel now update appropriately.
+- **Potential Weaknesses** - `Some errors may still arise but that is expected`.
+
+- **Affected Packages** - `backend`, `frontend` and `utils`.
+
+---

@@ -1,0 +1,2710 @@
+[
+{
+"STATE": {
+"RIVERS": {
+"Month": 1,
+"GDP": 4.67 M,
+"Real Gdp": 4.57 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 58.03,
+"Debt": 553.67 K,
+"Cash": 376.10 K,
+"Population": 75.75 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 5.42 M,
+"Federal Operating Cash": 10.58 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 2,
+"GDP": 4.75 M,
+"Real Gdp": 4.64 M,
+"Growth": 0.02,
+"Inflation": 0.03,
+"Tax Rate": 0.28,
+"Stability": 55.33,
+"Debt": 502.76 K,
+"Cash": 407.27 K,
+"Population": 76.51 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 11.19 M,
+"Federal Operating Cash": 21.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.00 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 3,
+"GDP": 4.84 M,
+"Real Gdp": 4.72 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 54.30,
+"Debt": 457.48 K,
+"Cash": 435.10 K,
+"Population": 77.27 K,
+"Infrastructure": 29.00
+},
+},
+"Federal Reserve": 16.63 M,
+"Federal Operating Cash": 32.26 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.91 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 4,
+"GDP": 4.89 M,
+"Real Gdp": 4.77 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.28,
+"Stability": 54.60,
+"Debt": 393.49 K,
+"Cash": 479.53 K,
+"Population": 78.04 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 22.56 M,
+"Federal Operating Cash": 43.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.67 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 5,
+"GDP": 4.90 M,
+"Real Gdp": 4.79 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 53.52,
+"Debt": 319.17 K,
+"Cash": 533.96 K,
+"Population": 78.62 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 28.74 M,
+"Federal Operating Cash": 55.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.30 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 6,
+"GDP": 4.94 M,
+"Real Gdp": 4.85 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 51.88,
+"Debt": 257.94 K,
+"Cash": 579.15 K,
+"Population": 79.41 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 34.85 M,
+"Federal Operating Cash": 66.60 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.80 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 7,
+"GDP": 5.02 M,
+"Real Gdp": 4.93 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 52.97,
+"Debt": 196.55 K,
+"Cash": 625.69 K,
+"Population": 80.20 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 41.48 M,
+"Federal Operating Cash": 78.87 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.32 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 8,
+"GDP": 5.08 M,
+"Real Gdp": 4.99 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.29,
+"Stability": 53.90,
+"Debt": 134.54 K,
+"Cash": 673.88 K,
+"Population": 81.00 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 47.52 M,
+"Federal Operating Cash": 90.24 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.86 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 9,
+"GDP": 5.12 M,
+"Real Gdp": 5.01 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 53.24,
+"Debt": 51.39 K,
+"Cash": 740.63 K,
+"Population": 81.61 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 54.06 M,
+"Federal Operating Cash": 102.40 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.35 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 10,
+"GDP": 5.12 M,
+"Real Gdp": 5.02 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 52.99,
+"Debt": -21.50 K,
+"Cash": 800.17 K,
+"Population": 82.23 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 59.85 M,
+"Federal Operating Cash": 113.36 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.95 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 11,
+"GDP": 5.18 M,
+"Real Gdp": 5.08 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 53.89,
+"Debt": 0.00,
+"Cash": 927.44 K,
+"Population": 83.05 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 66.20 M,
+"Federal Operating Cash": 125.24 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.36 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 12,
+"GDP": 5.24 M,
+"Real Gdp": 5.13 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 54.47,
+"Debt": 0.00,
+"Cash": 1.06 M,
+"Population": 83.88 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 72.61 M,
+"Federal Operating Cash": 137.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.95 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 13,
+"GDP": 5.25 M,
+"Real Gdp": 5.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 53.47,
+"Debt": 0.00,
+"Cash": 1.20 M,
+"Population": 84.51 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 78.45 M,
+"Federal Operating Cash": 148.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.24 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 14,
+"GDP": 5.25 M,
+"Real Gdp": 5.15 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 53.08,
+"Debt": 0.00,
+"Cash": 1.35 M,
+"Population": 85.16 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 84.99 M,
+"Federal Operating Cash": 160.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.48 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 15,
+"GDP": 5.30 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 53.94,
+"Debt": 0.00,
+"Cash": 1.45 M,
+"Population": 86.01 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 90.63 M,
+"Federal Operating Cash": 170.63 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.60 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 16,
+"GDP": 5.28 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 53.31,
+"Debt": 0.00,
+"Cash": 1.61 M,
+"Population": 86.67 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 97.43 M,
+"Federal Operating Cash": 182.99 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.81 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 17,
+"GDP": 5.28 M,
+"Real Gdp": 5.20 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 50.66,
+"Debt": 0.00,
+"Cash": 1.79 M,
+"Population": 87.33 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 104.89 M,
+"Federal Operating Cash": 196.40 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.81 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 18,
+"GDP": 5.27 M,
+"Real Gdp": 5.19 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 52.07,
+"Debt": 0.00,
+"Cash": 1.96 M,
+"Population": 87.95 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 112.18 M,
+"Federal Operating Cash": 209.55 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.97 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 19,
+"GDP": 5.30 M,
+"Real Gdp": 5.22 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 53.58,
+"Debt": 0.00,
+"Cash": 2.09 M,
+"Population": 88.83 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 117.42 M,
+"Federal Operating Cash": 221.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.94 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 20,
+"GDP": 5.33 M,
+"Real Gdp": 5.26 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 48.77,
+"Debt": 0.00,
+"Cash": 2.20 M,
+"Population": 89.72 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 122.37 M,
+"Federal Operating Cash": 232.12 M
+"Federal Crash Count": 1.00
+"Federal GDP": 84.93 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 21,
+"GDP": 5.36 M,
+"Real Gdp": 5.29 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.19,
+"Debt": 0.00,
+"Cash": 2.35 M,
+"Population": 90.61 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 128.70 M,
+"Federal Operating Cash": 245.36 M
+"Federal Crash Count": 2.00
+"Federal GDP": 84.84 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 22,
+"GDP": 5.41 M,
+"Real Gdp": 5.29 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 53.52,
+"Debt": 0.00,
+"Cash": 2.48 M,
+"Population": 91.77 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 134.77 M,
+"Federal Operating Cash": 256.62 M
+"Federal Crash Count": 3.00
+"Federal GDP": 84.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 23,
+"GDP": 5.47 M,
+"Real Gdp": 5.33 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 49.29,
+"Debt": 0.00,
+"Cash": 2.32 M,
+"Population": 83.42 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 140.19 M,
+"Federal Operating Cash": 268.43 M
+"Federal Crash Count": 3.00
+"Federal GDP": 84.80 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 24,
+"GDP": 5.48 M,
+"Real Gdp": 5.36 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 52.66,
+"Debt": 0.00,
+"Cash": 2.49 M,
+"Population": 84.66 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 147.14 M,
+"Federal Operating Cash": 281.07 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.81 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 25,
+"GDP": 5.54 M,
+"Real Gdp": 5.40 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 48.92,
+"Debt": 0.00,
+"Cash": 2.35 M,
+"Population": 76.95 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 153.80 M,
+"Federal Operating Cash": 293.29 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.87 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 26,
+"GDP": 5.55 M,
+"Real Gdp": 5.39 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 50.65,
+"Debt": 0.00,
+"Cash": 2.52 M,
+"Population": 77.47 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 160.47 M,
+"Federal Operating Cash": 305.46 M
+"Federal Crash Count": 4.00
+"Federal GDP": 85.00 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 27,
+"GDP": 5.53 M,
+"Real Gdp": 5.39 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 51.76,
+"Debt": 0.00,
+"Cash": 2.67 M,
+"Population": 78.04 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 166.20 M,
+"Federal Operating Cash": 316.18 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 28,
+"GDP": 5.53 M,
+"Real Gdp": 5.37 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 52.18,
+"Debt": 0.00,
+"Cash": 2.84 M,
+"Population": 78.62 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 172.58 M,
+"Federal Operating Cash": 327.95 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.80 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 29,
+"GDP": 5.49 M,
+"Real Gdp": 5.34 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 52.36,
+"Debt": 0.00,
+"Cash": 3.01 M,
+"Population": 79.20 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 179.07 M,
+"Federal Operating Cash": 339.84 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.81 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 30,
+"GDP": 5.48 M,
+"Real Gdp": 5.33 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 53.46,
+"Debt": 0.00,
+"Cash": 3.17 M,
+"Population": 80.25 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 186.02 M,
+"Federal Operating Cash": 352.49 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.54 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 31,
+"GDP": 5.46 M,
+"Real Gdp": 5.30 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 50.24,
+"Debt": 0.00,
+"Cash": 2.66 M,
+"Population": 80.85 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 191.50 M,
+"Federal Operating Cash": 362.92 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.44 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 32,
+"GDP": 5.47 M,
+"Real Gdp": 5.32 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 47.42,
+"Debt": 0.00,
+"Cash": 2.83 M,
+"Population": 81.66 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 199.02 M,
+"Federal Operating Cash": 376.44 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.43 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 33,
+"GDP": 5.42 M,
+"Real Gdp": 5.29 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 48.98,
+"Debt": 0.00,
+"Cash": 2.41 M,
+"Population": 82.27 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 204.76 M,
+"Federal Operating Cash": 387.18 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.34 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 34,
+"GDP": 5.38 M,
+"Real Gdp": 5.25 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 45.29,
+"Debt": 0.00,
+"Cash": 2.30 M,
+"Population": 74.53 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 211.43 M,
+"Federal Operating Cash": 399.38 M
+"Federal Crash Count": 4.00
+"Federal GDP": 84.09 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 35,
+"GDP": 5.35 M,
+"Real Gdp": 5.21 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.36,
+"Stability": 49.06,
+"Debt": 0.00,
+"Cash": 2.49 M,
+"Population": 75.07 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 218.34 M,
+"Federal Operating Cash": 411.96 M
+"Federal Crash Count": 4.00
+"Federal GDP": 83.88 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 36,
+"GDP": 5.31 M,
+"Real Gdp": 5.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 51.42,
+"Debt": 0.00,
+"Cash": 2.66 M,
+"Population": 75.62 K,
+"Infrastructure": 30.00
+},
+},
+"Federal Reserve": 223.53 M,
+"Federal Operating Cash": 423.49 M
+"Federal Crash Count": 4.00
+"Federal GDP": 83.59 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 37,
+"GDP": 5.32 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 52.73,
+"Debt": 0.00,
+"Cash": 2.82 M,
+"Population": 76.38 K,
+"Infrastructure": 33.00
+},
+},
+"Federal Reserve": 231.00 M,
+"Federal Operating Cash": 437.00 M
+"Federal Crash Count": 5.00
+"Federal GDP": 83.44 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 38,
+"GDP": 5.31 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 54.02,
+"Debt": 0.00,
+"Cash": 2.98 M,
+"Population": 77.14 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 236.40 M,
+"Federal Operating Cash": 448.84 M
+"Federal Crash Count": 5.00
+"Federal GDP": 83.25 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 39,
+"GDP": 5.33 M,
+"Real Gdp": 5.23 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 48.46,
+"Debt": 0.00,
+"Cash": 3.13 M,
+"Population": 77.91 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 243.17 M,
+"Federal Operating Cash": 461.24 M
+"Federal Crash Count": 6.00
+"Federal GDP": 83.05 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 40,
+"GDP": 5.33 M,
+"Real Gdp": 5.24 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 41.62,
+"Debt": 0.00,
+"Cash": 2.89 M,
+"Population": 70.82 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 249.02 M,
+"Federal Operating Cash": 473.79 M
+"Federal Crash Count": 6.00
+"Federal GDP": 82.78 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 41,
+"GDP": 5.33 M,
+"Real Gdp": 5.21 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 41.90,
+"Debt": 0.00,
+"Cash": 2.72 M,
+"Population": 64.17 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 254.76 M,
+"Federal Operating Cash": 484.54 M
+"Federal Crash Count": 7.00
+"Federal GDP": 82.57 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 42,
+"GDP": 5.27 M,
+"Real Gdp": 5.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 42.09,
+"Debt": 0.00,
+"Cash": 2.59 M,
+"Population": 58.13 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 261.19 M,
+"Federal Operating Cash": 496.32 M
+"Federal Crash Count": 7.00
+"Federal GDP": 82.16 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 43,
+"GDP": 5.23 M,
+"Real Gdp": 5.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 47.06,
+"Debt": 0.00,
+"Cash": 2.76 M,
+"Population": 58.46 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 266.85 M,
+"Federal Operating Cash": 506.98 M
+"Federal Crash Count": 7.00
+"Federal GDP": 81.63 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 44,
+"GDP": 5.26 M,
+"Real Gdp": 5.14 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 55.20,
+"Debt": 0.00,
+"Cash": 2.91 M,
+"Population": 59.04 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 272.48 M,
+"Federal Operating Cash": 517.61 M
+"Federal Crash Count": 7.00
+"Federal GDP": 81.21 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 45,
+"GDP": 6.10 M,
+"Real Gdp": 5.17 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 54.24,
+"Debt": 0.00,
+"Cash": 3.09 M,
+"Population": 59.63 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 279.49 M,
+"Federal Operating Cash": 530.44 M
+"Federal Crash Count": 7.00
+"Federal GDP": 80.87 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 46,
+"GDP": 5.33 M,
+"Real Gdp": 5.21 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 53.89,
+"Debt": 0.00,
+"Cash": 3.27 M,
+"Population": 60.23 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 286.85 M,
+"Federal Operating Cash": 543.80 M
+"Federal Crash Count": 7.00
+"Federal GDP": 80.66 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 47,
+"GDP": 5.33 M,
+"Real Gdp": 5.22 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 54.23,
+"Debt": 0.00,
+"Cash": 3.44 M,
+"Population": 60.83 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 292.94 M,
+"Federal Operating Cash": 555.20 M
+"Federal Crash Count": 7.00
+"Federal GDP": 80.37 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 48,
+"GDP": 5.34 M,
+"Real Gdp": 5.22 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 49.58,
+"Debt": 0.00,
+"Cash": 3.21 M,
+"Population": 55.29 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 299.15 M,
+"Federal Operating Cash": 566.74 M
+"Federal Crash Count": 7.00
+"Federal GDP": 80.10 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 49,
+"GDP": 5.32 M,
+"Real Gdp": 5.19 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 49.67,
+"Debt": 0.00,
+"Cash": 2.75 M,
+"Population": 55.59 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 304.67 M,
+"Federal Operating Cash": 577.25 M
+"Federal Crash Count": 7.00
+"Federal GDP": 79.73 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 50,
+"GDP": 5.28 M,
+"Real Gdp": 5.16 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 45.65,
+"Debt": 0.00,
+"Cash": 2.61 M,
+"Population": 50.28 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 310.53 M,
+"Federal Operating Cash": 588.25 M
+"Federal Crash Count": 7.00
+"Federal GDP": 79.41 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 51,
+"GDP": 5.31 M,
+"Real Gdp": 5.16 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 50.64,
+"Debt": 0.00,
+"Cash": 2.81 M,
+"Population": 50.78 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 317.52 M,
+"Federal Operating Cash": 601.00 M
+"Federal Crash Count": 7.00
+"Federal GDP": 79.01 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 52,
+"GDP": 5.31 M,
+"Real Gdp": 5.17 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 52.88,
+"Debt": 0.00,
+"Cash": 3.01 M,
+"Population": 51.29 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 324.40 M,
+"Federal Operating Cash": 613.74 M
+"Federal Crash Count": 7.00
+"Federal GDP": 78.65 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 53,
+"GDP": 5.34 M,
+"Real Gdp": 5.18 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 52.67,
+"Debt": 0.00,
+"Cash": 2.61 M,
+"Population": 51.80 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 331.56 M,
+"Federal Operating Cash": 626.84 M
+"Federal Crash Count": 7.00
+"Federal GDP": 78.55 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 54,
+"GDP": 5.33 M,
+"Real Gdp": 5.19 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 54.44,
+"Debt": 0.00,
+"Cash": 2.80 M,
+"Population": 52.32 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 337.76 M,
+"Federal Operating Cash": 638.43 M
+"Federal Crash Count": 7.00
+"Federal GDP": 78.33 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 55,
+"GDP": 5.33 M,
+"Real Gdp": 5.19 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 54.41,
+"Debt": 0.00,
+"Cash": 2.98 M,
+"Population": 52.84 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 343.53 M,
+"Federal Operating Cash": 649.35 M
+"Federal Crash Count": 7.00
+"Federal GDP": 78.08 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 56,
+"GDP": 5.28 M,
+"Real Gdp": 5.16 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 53.31,
+"Debt": 0.00,
+"Cash": 3.18 M,
+"Population": 53.17 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 349.80 M,
+"Federal Operating Cash": 661.09 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.84 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 57,
+"GDP": 5.32 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 53.52,
+"Debt": 0.00,
+"Cash": 3.38 M,
+"Population": 53.70 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 357.03 M,
+"Federal Operating Cash": 674.40 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.62 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 58,
+"GDP": 5.31 M,
+"Real Gdp": 5.20 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.41,
+"Debt": 0.00,
+"Cash": 3.58 M,
+"Population": 54.24 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 363.49 M,
+"Federal Operating Cash": 686.45 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.59 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 59,
+"GDP": 5.27 M,
+"Real Gdp": 5.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 50.66,
+"Debt": 0.00,
+"Cash": 3.02 M,
+"Population": 54.58 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 369.09 M,
+"Federal Operating Cash": 697.19 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.41 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 60,
+"GDP": 5.22 M,
+"Real Gdp": 5.14 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 49.34,
+"Debt": 0.00,
+"Cash": 3.22 M,
+"Population": 54.92 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 375.44 M,
+"Federal Operating Cash": 709.12 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.21 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 61,
+"GDP": 5.24 M,
+"Real Gdp": 5.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 52.40,
+"Debt": 0.00,
+"Cash": 3.43 M,
+"Population": 55.47 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 382.41 M,
+"Federal Operating Cash": 722.00 M
+"Federal Crash Count": 7.00
+"Federal GDP": 77.02 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 62,
+"GDP": 5.22 M,
+"Real Gdp": 5.11 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 46.97,
+"Debt": 0.00,
+"Cash": 3.23 M,
+"Population": 50.17 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 388.46 M,
+"Federal Operating Cash": 733.47 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.81 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 63,
+"GDP": 5.20 M,
+"Real Gdp": 5.12 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 51.37,
+"Debt": 0.00,
+"Cash": 3.40 M,
+"Population": 50.67 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 393.86 M,
+"Federal Operating Cash": 743.92 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.62 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 64,
+"GDP": 5.19 M,
+"Real Gdp": 5.13 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 53.31,
+"Debt": 0.00,
+"Cash": 3.58 M,
+"Population": 51.18 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 400.05 M,
+"Federal Operating Cash": 755.64 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.49 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 65,
+"GDP": 5.22 M,
+"Real Gdp": 5.14 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 51.58,
+"Debt": 0.00,
+"Cash": 3.04 M,
+"Population": 51.69 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 406.74 M,
+"Federal Operating Cash": 768.13 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.36 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 66,
+"GDP": 5.25 M,
+"Real Gdp": 5.18 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 47.93,
+"Debt": 0.00,
+"Cash": 2.85 M,
+"Population": 46.98 K,
+"Infrastructure": 47.00
+},
+},
+"Federal Reserve": 412.52 M,
+"Federal Operating Cash": 779.23 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.21 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 67,
+"GDP": 5.27 M,
+"Real Gdp": 5.18 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 52.05,
+"Debt": 0.00,
+"Cash": 3.04 M,
+"Population": 47.45 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 418.20 M,
+"Federal Operating Cash": 790.18 M
+"Federal Crash Count": 7.00
+"Federal GDP": 76.07 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 68,
+"GDP": 5.27 M,
+"Real Gdp": 5.19 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.40,
+"Stability": 53.57,
+"Debt": 0.00,
+"Cash": 3.23 M,
+"Population": 47.93 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 424.11 M,
+"Federal Operating Cash": 801.51 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.97 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 69,
+"GDP": 5.27 M,
+"Real Gdp": 5.20 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 54.19,
+"Debt": 0.00,
+"Cash": 3.42 M,
+"Population": 48.40 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 430.00 M,
+"Federal Operating Cash": 812.86 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.77 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 70,
+"GDP": 5.26 M,
+"Real Gdp": 5.17 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 53.28,
+"Debt": 0.00,
+"Cash": 3.65 M,
+"Population": 48.60 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 436.69 M,
+"Federal Operating Cash": 825.43 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.67 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 71,
+"GDP": 5.32 M,
+"Real Gdp": 5.19 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 52.66,
+"Debt": 0.00,
+"Cash": 3.87 M,
+"Population": 48.83 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 443.72 M,
+"Federal Operating Cash": 838.60 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.52 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 72,
+"GDP": 5.38 M,
+"Real Gdp": 5.27 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 53.77,
+"Debt": 0.00,
+"Cash": 4.03 M,
+"Population": 49.32 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 449.85 M,
+"Federal Operating Cash": 850.42 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.51 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 73,
+"GDP": 5.38 M,
+"Real Gdp": 5.28 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 53.21,
+"Debt": 0.00,
+"Cash": 4.25 M,
+"Population": 49.61 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 456.69 M,
+"Federal Operating Cash": 863.30 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.53 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 74,
+"GDP": 5.42 M,
+"Real Gdp": 5.33 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 54.02,
+"Debt": 0.00,
+"Cash": 4.44 M,
+"Population": 50.11 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 463.13 M,
+"Federal Operating Cash": 875.61 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.45 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 75,
+"GDP": 5.42 M,
+"Real Gdp": 5.34 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 53.35,
+"Debt": 0.00,
+"Cash": 4.65 M,
+"Population": 50.41 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 469.51 M,
+"Federal Operating Cash": 887.83 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.48 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 76,
+"GDP": 5.43 M,
+"Real Gdp": 5.33 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 53.03,
+"Debt": 0.00,
+"Cash": 4.86 M,
+"Population": 50.71 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 475.99 M,
+"Federal Operating Cash": 900.18 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.42 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 77,
+"GDP": 5.46 M,
+"Real Gdp": 5.37 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 53.93,
+"Debt": 0.00,
+"Cash": 5.04 M,
+"Population": 51.22 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 482.06 M,
+"Federal Operating Cash": 911.93 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.24 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 78,
+"GDP": 5.50 M,
+"Real Gdp": 5.41 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 54.28,
+"Debt": 0.00,
+"Cash": 5.22 M,
+"Population": 51.73 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 487.82 M,
+"Federal Operating Cash": 923.23 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.22 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 79,
+"GDP": 5.49 M,
+"Real Gdp": 5.39 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 53.38,
+"Debt": 0.00,
+"Cash": 5.44 M,
+"Population": 52.04 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 494.39 M,
+"Federal Operating Cash": 935.73 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.25 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 80,
+"GDP": 5.47 M,
+"Real Gdp": 5.38 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 47.43,
+"Debt": 0.00,
+"Cash": 5.67 M,
+"Population": 52.31 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 501.18 M,
+"Federal Operating Cash": 948.62 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.11 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 81,
+"GDP": 5.48 M,
+"Real Gdp": 5.36 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 49.92,
+"Debt": 0.00,
+"Cash": 5.88 M,
+"Population": 52.58 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 507.65 M,
+"Federal Operating Cash": 960.96 M
+"Federal Crash Count": 7.00
+"Federal GDP": 75.07 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 82,
+"GDP": 5.48 M,
+"Real Gdp": 5.38 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 52.64,
+"Debt": 0.00,
+"Cash": 6.05 M,
+"Population": 53.11 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 513.08 M,
+"Federal Operating Cash": 971.74 M
+"Federal Crash Count": 7.00
+"Federal GDP": 74.89 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 83,
+"GDP": 5.50 M,
+"Real Gdp": 5.40 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 53.78,
+"Debt": 0.00,
+"Cash": 6.25 M,
+"Population": 53.64 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 519.87 M,
+"Federal Operating Cash": 984.67 M
+"Federal Crash Count": 7.00
+"Federal GDP": 74.82 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 84,
+"GDP": 5.51 M,
+"Real Gdp": 5.43 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 54.25,
+"Debt": 0.00,
+"Cash": 6.45 M,
+"Population": 54.17 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 526.20 M,
+"Federal Operating Cash": 996.90 M
+"Federal Crash Count": 7.00
+"Federal GDP": 74.91 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 85,
+"GDP": 5.52 M,
+"Real Gdp": 5.45 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 54.69,
+"Debt": 0.00,
+"Cash": 6.63 M,
+"Population": 54.71 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 531.65 M,
+"Federal Operating Cash": 1.01 B
+"Federal Crash Count": 7.00
+"Federal GDP": 74.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 86,
+"GDP": 5.58 M,
+"Real Gdp": 5.47 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 54.57,
+"Debt": 0.00,
+"Cash": 6.80 M,
+"Population": 55.26 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 537.16 M,
+"Federal Operating Cash": 1.02 B
+"Federal Crash Count": 7.00
+"Federal GDP": 74.88 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 87,
+"GDP": 5.54 M,
+"Real Gdp": 5.44 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 48.36,
+"Debt": 0.00,
+"Cash": 6.20 M,
+"Population": 50.03 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 541.77 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 7.00
+"Federal GDP": 74.84 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 88,
+"GDP": 5.51 M,
+"Real Gdp": 5.41 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 49.52,
+"Debt": 0.00,
+"Cash": 5.16 M,
+"Population": 50.33 K,
+"Infrastructure": 50.00
+},
+},
+"Federal Reserve": 547.31 M,
+"Federal Operating Cash": 1.04 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.72 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 89,
+"GDP": 6.34 M,
+"Real Gdp": 5.38 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 51.17,
+"Debt": 0.00,
+"Cash": 5.37 M,
+"Population": 50.63 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 552.89 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.73 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 90,
+"GDP": 5.52 M,
+"Real Gdp": 5.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 53.62,
+"Debt": 0.00,
+"Cash": 5.57 M,
+"Population": 51.13 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 559.41 M,
+"Federal Operating Cash": 1.06 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.66 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 91,
+"GDP": 5.51 M,
+"Real Gdp": 5.40 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 54.14,
+"Debt": 0.00,
+"Cash": 5.75 M,
+"Population": 51.65 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 564.83 M,
+"Federal Operating Cash": 1.08 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.55 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 92,
+"GDP": 5.50 M,
+"Real Gdp": 5.37 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 52.05,
+"Debt": 0.00,
+"Cash": 4.80 M,
+"Population": 51.96 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 569.74 M,
+"Federal Operating Cash": 1.09 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.38 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 93,
+"GDP": 5.50 M,
+"Real Gdp": 5.38 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 53.50,
+"Debt": 0.00,
+"Cash": 4.99 M,
+"Population": 52.48 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 575.63 M,
+"Federal Operating Cash": 1.10 B
+"Federal Crash Count": 8.00
+"Federal GDP": 74.14 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 94,
+"GDP": 5.50 M,
+"Real Gdp": 5.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 54.10,
+"Debt": 0.00,
+"Cash": 5.18 M,
+"Population": 53.00 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 581.39 M,
+"Federal Operating Cash": 1.11 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.95 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 95,
+"GDP": 5.48 M,
+"Real Gdp": 5.36 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 53.20,
+"Debt": 0.00,
+"Cash": 5.40 M,
+"Population": 53.33 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 587.41 M,
+"Federal Operating Cash": 1.12 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.82 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 96,
+"GDP": 5.45 M,
+"Real Gdp": 5.33 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.52,
+"Debt": 0.00,
+"Cash": 5.59 M,
+"Population": 53.61 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 592.39 M,
+"Federal Operating Cash": 1.13 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.67 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 97,
+"GDP": 5.44 M,
+"Real Gdp": 5.34 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.64,
+"Debt": 0.00,
+"Cash": 4.68 M,
+"Population": 54.15 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 598.74 M,
+"Federal Operating Cash": 1.14 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.49 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 98,
+"GDP": 5.44 M,
+"Real Gdp": 5.31 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.56,
+"Debt": 0.00,
+"Cash": 4.90 M,
+"Population": 54.49 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 604.98 M,
+"Federal Operating Cash": 1.16 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.44 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 99,
+"GDP": 5.44 M,
+"Real Gdp": 5.32 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 52.61,
+"Debt": 0.00,
+"Cash": 4.09 M,
+"Population": 55.03 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 609.65 M,
+"Federal Operating Cash": 1.17 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.33 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 100,
+"GDP": 5.43 M,
+"Real Gdp": 5.29 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 62.68,
+"Debt": 0.00,
+"Cash": 4.30 M,
+"Population": 55.33 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 615.41 M,
+"Federal Operating Cash": 1.18 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.28 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 101,
+"GDP": 5.43 M,
+"Real Gdp": 5.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 57.35,
+"Debt": 0.00,
+"Cash": 4.49 M,
+"Population": 55.88 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 621.04 M,
+"Federal Operating Cash": 1.19 B
+"Federal Crash Count": 8.00
+"Federal GDP": 73.04 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 102,
+"GDP": 5.43 M,
+"Real Gdp": 5.31 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 55.54,
+"Debt": 0.00,
+"Cash": 4.68 M,
+"Population": 56.44 K,
+"Infrastructure": 48.00
+},
+},
+"Federal Reserve": 626.56 M,
+"Federal Operating Cash": 1.20 B
+"Federal Crash Count": 8.00
+"Federal GDP": 72.98 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 103,
+"GDP": 5.47 M,
+"Real Gdp": 5.36 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.41,
+"Debt": 0.00,
+"Cash": 4.87 M,
+"Population": 57.00 K,
+"Infrastructure": 51.00
+},
+},
+"Federal Reserve": 632.84 M,
+"Federal Operating Cash": 1.21 B
+"Federal Crash Count": 8.00
+"Federal GDP": 72.85 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 104,
+"GDP": 5.50 M,
+"Real Gdp": 5.40 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.00,
+"Debt": 0.00,
+"Cash": 5.03 M,
+"Population": 57.57 K,
+"Infrastructure": 54.00
+},
+},
+"Federal Reserve": 637.92 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 8.00
+"Federal GDP": 72.91 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 105,
+"GDP": 5.47 M,
+"Real Gdp": 5.37 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 47.71,
+"Debt": 0.00,
+"Cash": 4.67 M,
+"Population": 52.08 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 642.24 M,
+"Federal Operating Cash": 1.23 B
+"Federal Crash Count": 8.00
+"Federal GDP": 72.87 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 106,
+"GDP": 5.42 M,
+"Real Gdp": 5.34 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 50.08,
+"Debt": 0.00,
+"Cash": 4.89 M,
+"Population": 52.35 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 648.12 M,
+"Federal Operating Cash": 1.25 B
+"Federal Crash Count": 10.00
+"Federal GDP": 72.87 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 107,
+"GDP": 5.38 M,
+"Real Gdp": 5.31 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 51.54,
+"Debt": 0.00,
+"Cash": 5.12 M,
+"Population": 52.67 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 654.11 M,
+"Federal Operating Cash": 1.26 B
+"Federal Crash Count": 10.00
+"Federal GDP": 72.89 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 108,
+"GDP": 5.43 M,
+"Real Gdp": 5.36 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 53.36,
+"Debt": 0.00,
+"Cash": 5.32 M,
+"Population": 53.19 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 660.47 M,
+"Federal Operating Cash": 1.27 B
+"Federal Crash Count": 10.00
+"Federal GDP": 72.91 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 109,
+"GDP": 5.48 M,
+"Real Gdp": 5.41 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 53.63,
+"Debt": 0.00,
+"Cash": 5.51 M,
+"Population": 53.72 K,
+"Infrastructure": 59.00
+},
+},
+"Federal Reserve": 666.81 M,
+"Federal Operating Cash": 1.28 B
+"Federal Crash Count": 10.00
+"Federal GDP": 72.89 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 110,
+"GDP": 5.48 M,
+"Real Gdp": 5.42 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 54.24,
+"Debt": 0.00,
+"Cash": 5.71 M,
+"Population": 54.26 K,
+"Infrastructure": 59.00
+},
+},
+"Federal Reserve": 671.15 M,
+"Federal Operating Cash": 1.29 B
+"Federal Crash Count": 10.00
+"Federal GDP": 72.75 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 111,
+"GDP": 5.43 M,
+"Real Gdp": 5.39 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 53.53,
+"Debt": 56.15 K,
+"Cash": 5.95 M,
+"Population": 54.71 K,
+"Infrastructure": 59.00
+},
+},
+"Federal Reserve": 675.55 M,
+"Federal Operating Cash": 1.30 B
+"Federal Crash Count": 11.00
+"Federal GDP": 72.68 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 112,
+"GDP": 5.46 M,
+"Real Gdp": 5.40 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 53.18,
+"Debt": -54.91 K,
+"Cash": 6.04 M,
+"Population": 55.05 K,
+"Infrastructure": 59.00
+},
+},
+"Federal Reserve": 681.19 M,
+"Federal Operating Cash": 1.32 B
+"Federal Crash Count": 11.00
+"Federal GDP": 72.65 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 113,
+"GDP": 5.52 M,
+"Real Gdp": 5.46 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 54.05,
+"Debt": 0.00,
+"Cash": 6.23 M,
+"Population": 55.60 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 686.95 M,
+"Federal Operating Cash": 1.33 B
+"Federal Crash Count": 11.00
+"Federal GDP": 72.74 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 114,
+"GDP": 5.52 M,
+"Real Gdp": 5.46 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 53.39,
+"Debt": 0.00,
+"Cash": 6.41 M,
+"Population": 55.96 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 691.62 M,
+"Federal Operating Cash": 1.34 B
+"Federal Crash Count": 11.00
+"Federal GDP": 72.80 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 115,
+"GDP": 5.56 M,
+"Real Gdp": 5.51 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 48.73,
+"Debt": 0.00,
+"Cash": 6.56 M,
+"Population": 56.52 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 695.07 M,
+"Federal Operating Cash": 1.35 B
+"Federal Crash Count": 11.00
+"Federal GDP": 72.77 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 116,
+"GDP": 5.60 M,
+"Real Gdp": 5.55 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 52.22,
+"Debt": 0.00,
+"Cash": 6.75 M,
+"Population": 57.08 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 700.99 M,
+"Federal Operating Cash": 1.36 B
+"Federal Crash Count": 12.00
+"Federal GDP": 72.83 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 117,
+"GDP": 5.63 M,
+"Real Gdp": 5.60 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 53.72,
+"Debt": 0.00,
+"Cash": 6.91 M,
+"Population": 57.65 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 704.39 M,
+"Federal Operating Cash": 1.37 B
+"Federal Crash Count": 12.00
+"Federal GDP": 72.86 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 118,
+"GDP": 5.68 M,
+"Real Gdp": 5.60 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.94,
+"Debt": 0.00,
+"Cash": 7.12 M,
+"Population": 57.98 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 710.26 M,
+"Federal Operating Cash": 1.38 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.99 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 119,
+"GDP": 5.80 M,
+"Real Gdp": 5.68 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 53.39,
+"Debt": 0.00,
+"Cash": 7.28 M,
+"Population": 58.55 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 715.66 M,
+"Federal Operating Cash": 1.39 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.91 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 120,
+"GDP": 5.84 M,
+"Real Gdp": 5.73 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 54.30,
+"Debt": 0.00,
+"Cash": 7.50 M,
+"Population": 59.14 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 721.76 M,
+"Federal Operating Cash": 1.40 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 121,
+"GDP": 5.82 M,
+"Real Gdp": 5.73 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 52.29,
+"Debt": 0.00,
+"Cash": 6.19 M,
+"Population": 59.53 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 726.23 M,
+"Federal Operating Cash": 1.41 B
+"Federal Crash Count": 13.00
+"Federal GDP": 73.03 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 122,
+"GDP": 6.72 M,
+"Real Gdp": 5.76 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 53.68,
+"Debt": 0.00,
+"Cash": 6.36 M,
+"Population": 60.12 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 731.00 M,
+"Federal Operating Cash": 1.43 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.93 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 123,
+"GDP": 5.86 M,
+"Real Gdp": 5.80 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 54.26,
+"Debt": 0.00,
+"Cash": 6.54 M,
+"Population": 60.72 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 736.17 M,
+"Federal Operating Cash": 1.44 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 124,
+"GDP": 5.85 M,
+"Real Gdp": 5.79 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 53.43,
+"Debt": 0.00,
+"Cash": 6.73 M,
+"Population": 61.13 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 740.81 M,
+"Federal Operating Cash": 1.45 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.92 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 125,
+"GDP": 5.87 M,
+"Real Gdp": 5.77 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 52.72,
+"Debt": 0.00,
+"Cash": 6.96 M,
+"Population": 61.49 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 746.89 M,
+"Federal Operating Cash": 1.46 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.78 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 126,
+"GDP": 5.91 M,
+"Real Gdp": 5.84 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 53.87,
+"Debt": 0.00,
+"Cash": 7.12 M,
+"Population": 62.10 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 751.66 M,
+"Federal Operating Cash": 1.47 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.62 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 127,
+"GDP": 5.89 M,
+"Real Gdp": 5.82 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 52.94,
+"Debt": 0.00,
+"Cash": 7.32 M,
+"Population": 62.47 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 756.58 M,
+"Federal Operating Cash": 1.48 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.62 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 128,
+"GDP": 5.90 M,
+"Real Gdp": 5.84 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 53.97,
+"Debt": 0.00,
+"Cash": 7.52 M,
+"Population": 63.09 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 762.13 M,
+"Federal Operating Cash": 1.49 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.47 M
+},
+{
+"STATE": {
+"RIVERS": {
+"Month": 129,
+"GDP": 5.91 M,
+"Real Gdp": 5.81 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 53.21,
+"Debt": 0.00,
+"Cash": 7.74 M,
+"Population": 63.52 K,
+"Infrastructure": 63.00
+},
+},
+"Federal Reserve": 767.57 M,
+"Federal Operating Cash": 1.50 B
+"Federal Crash Count": 13.00
+"Federal GDP": 72.47 M
+}
