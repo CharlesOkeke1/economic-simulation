@@ -1,0 +1,1343 @@
+[
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 1,
+"Policy": Raise Taxes,
+"GDP": 1.14 M,
+"Real Gdp": 1.11 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 52.12,
+"Debt": 163.03 K,
+"Cash": 142.61 K,
+"Population": 60.40 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 6.67 M,
+"Federal Operating Cash": 12.09 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 2,
+"Policy": Cut Taxes,
+"GDP": 1.15 M,
+"Real Gdp": 1.12 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.19,
+"Stability": 55.56,
+"Debt": 123.25 K,
+"Cash": 204.60 K,
+"Population": 61.25 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 14.03 M,
+"Federal Operating Cash": 25.21 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.07 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 3,
+"Policy": Cut Taxes,
+"GDP": 1.16 M,
+"Real Gdp": 1.13 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.17,
+"Stability": 45.69,
+"Debt": 149.32 K,
+"Cash": 230.52 K,
+"Population": 55.91 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 21.08 M,
+"Federal Operating Cash": 37.87 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.02 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 4,
+"Policy": Cut Taxes,
+"GDP": 1.17 M,
+"Real Gdp": 1.15 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.15,
+"Stability": 52.36,
+"Debt": 116.36 K,
+"Cash": 281.88 K,
+"Population": 56.72 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 27.70 M,
+"Federal Operating Cash": 49.79 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.97 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 5,
+"Policy": Cut Taxes,
+"GDP": 1.18 M,
+"Real Gdp": 1.16 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.13,
+"Stability": 50.26,
+"Debt": 148.80 K,
+"Cash": 302.93 K,
+"Population": 51.81 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 34.29 M,
+"Federal Operating Cash": 61.66 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.99 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 6,
+"Policy": Cut Taxes,
+"GDP": 1.19 M,
+"Real Gdp": 1.17 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.11,
+"Stability": 53.46,
+"Debt": 241.91 K,
+"Cash": 286.05 K,
+"Population": 52.58 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 40.68 M,
+"Federal Operating Cash": 73.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.04 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 7,
+"Policy": Cut Taxes,
+"GDP": 1.20 M,
+"Real Gdp": 1.18 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.09,
+"Stability": 50.59,
+"Debt": 203.78 K,
+"Cash": 345.47 K,
+"Population": 53.36 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 48.48 M,
+"Federal Operating Cash": 86.75 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.10 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 8,
+"Policy": Cut Taxes,
+"GDP": 1.22 M,
+"Real Gdp": 1.19 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.07,
+"Stability": 65.84,
+"Debt": 177.93 K,
+"Cash": 385.77 K,
+"Population": 54.14 K,
+"Infrastructure": 13.00
+},
+},
+"Federal Reserve": 54.83 M,
+"Federal Operating Cash": 98.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.18 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 9,
+"Policy": Cut Taxes,
+"GDP": 1.23 M,
+"Real Gdp": 1.21 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.05,
+"Stability": 61.18,
+"Debt": 147.25 K,
+"Cash": 433.58 K,
+"Population": 54.94 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 61.82 M,
+"Federal Operating Cash": 110.36 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.17 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 10,
+"Policy": Cut Taxes,
+"GDP": 1.24 M,
+"Real Gdp": 1.22 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.04,
+"Stability": 59.46,
+"Debt": 117.98 K,
+"Cash": 479.19 K,
+"Population": 55.74 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 68.74 M,
+"Federal Operating Cash": 122.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.20 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 11,
+"Policy": Cut Taxes,
+"GDP": 1.25 M,
+"Real Gdp": 1.23 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.02,
+"Stability": 58.80,
+"Debt": 89.56 K,
+"Cash": 523.47 K,
+"Population": 56.55 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 75.73 M,
+"Federal Operating Cash": 134.82 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.19 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 12,
+"Policy": Cut Taxes,
+"GDP": 1.27 M,
+"Real Gdp": 1.24 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.01,
+"Stability": 52.64,
+"Debt": 66.81 K,
+"Cash": 558.92 K,
+"Population": 57.36 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 82.10 M,
+"Federal Operating Cash": 146.07 M
+"Federal Crash Count": 0.00
+"Federal GDP": 88.13 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 13,
+"Policy": Cut Taxes,
+"GDP": 1.29 M,
+"Real Gdp": 1.25 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.01,
+"Stability": 53.02,
+"Debt": 277.36 K,
+"Cash": 490.23 K,
+"Population": 58.19 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 90.01 M,
+"Federal Operating Cash": 159.81 M
+"Federal Crash Count": 0.00
+"Federal GDP": 89.14 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 14,
+"Policy": Cut Taxes,
+"GDP": 1.30 M,
+"Real Gdp": 1.27 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.02,
+"Stability": 55.99,
+"Debt": 251.56 K,
+"Cash": 530.44 K,
+"Population": 59.02 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 97.08 M,
+"Federal Operating Cash": 172.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 90.16 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 15,
+"Policy": Cut Taxes,
+"GDP": 1.31 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.04,
+"Stability": 57.32,
+"Debt": 220.88 K,
+"Cash": 578.24 K,
+"Population": 59.86 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 104.97 M,
+"Federal Operating Cash": 185.79 M
+"Federal Crash Count": 0.00
+"Federal GDP": 91.17 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 16,
+"Policy": Cut Taxes,
+"GDP": 1.31 M,
+"Real Gdp": 1.29 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.05,
+"Stability": 57.90,
+"Debt": 192.16 K,
+"Cash": 623.00 K,
+"Population": 60.72 K,
+"Infrastructure": 12.00
+},
+},
+"Federal Reserve": 112.75 M,
+"Federal Operating Cash": 199.16 M
+"Federal Crash Count": 0.00
+"Federal GDP": 92.21 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 17,
+"Policy": Cut Taxes,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.06,
+"Stability": 46.51,
+"Debt": 326.92 K,
+"Cash": 580.58 K,
+"Population": 55.42 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 119.95 M,
+"Federal Operating Cash": 211.61 M
+"Federal Crash Count": 0.00
+"Federal GDP": 93.16 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 18,
+"Policy": Cut Taxes,
+"GDP": 1.34 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.07,
+"Stability": 53.34,
+"Debt": 299.40 K,
+"Cash": 623.46 K,
+"Population": 56.22 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 127.65 M,
+"Federal Operating Cash": 224.90 M
+"Federal Crash Count": 0.00
+"Federal GDP": 94.13 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 19,
+"Policy": Cut Taxes,
+"GDP": 1.35 M,
+"Real Gdp": 1.33 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.09,
+"Stability": 67.40,
+"Debt": 282.36 K,
+"Cash": 650.02 K,
+"Population": 57.04 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 133.96 M,
+"Federal Operating Cash": 236.06 M
+"Federal Crash Count": 0.00
+"Federal GDP": 95.18 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 20,
+"Policy": Cut Taxes,
+"GDP": 1.37 M,
+"Real Gdp": 1.34 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.10,
+"Stability": 58.64,
+"Debt": 531.86 K,
+"Cash": 554.79 K,
+"Population": 57.86 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 141.75 M,
+"Federal Operating Cash": 249.60 M
+"Federal Crash Count": 0.00
+"Federal GDP": 96.10 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 21,
+"Policy": Cut Taxes,
+"GDP": 1.38 M,
+"Real Gdp": 1.36 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.11,
+"Stability": 55.53,
+"Debt": 743.29 K,
+"Cash": 478.53 K,
+"Population": 58.69 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 149.88 M,
+"Federal Operating Cash": 263.59 M
+"Federal Crash Count": 0.00
+"Federal GDP": 97.06 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 22,
+"Policy": Cut Taxes,
+"GDP": 1.39 M,
+"Real Gdp": 1.37 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": -0.12,
+"Stability": 57.14,
+"Debt": 720.20 K,
+"Cash": 514.52 K,
+"Population": 59.53 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 157.64 M,
+"Federal Operating Cash": 276.99 M
+"Federal Crash Count": 0.00
+"Federal GDP": 97.99 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 23,
+"Policy": Cut Taxes,
+"GDP": 1.40 M,
+"Real Gdp": 1.38 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": -0.13,
+"Stability": 69.41,
+"Debt": 708.28 K,
+"Cash": 533.08 K,
+"Population": 60.38 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 163.92 M,
+"Federal Operating Cash": 288.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 98.77 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 24,
+"Policy": Cut Taxes,
+"GDP": 1.41 M,
+"Real Gdp": 1.40 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.14,
+"Stability": 48.99,
+"Debt": 1.01 M,
+"Cash": 400.16 K,
+"Population": 55.11 K,
+"Infrastructure": 11.00
+},
+},
+"Federal Reserve": 171.46 M,
+"Federal Operating Cash": 301.33 M
+"Federal Crash Count": 0.00
+"Federal GDP": 99.73 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 25,
+"Policy": Raise Taxes,
+"GDP": 1.43 M,
+"Real Gdp": 1.41 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": -0.13,
+"Stability": 52.88,
+"Debt": 985.48 K,
+"Cash": 442.29 K,
+"Population": 55.46 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 179.45 M,
+"Federal Operating Cash": 315.29 M
+"Federal Crash Count": 0.00
+"Federal GDP": 100.71 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 26,
+"Policy": Raise Taxes,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": -0.11,
+"Stability": 54.85,
+"Debt": 963.83 K,
+"Cash": 476.02 K,
+"Population": 55.81 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 186.71 M,
+"Federal Operating Cash": 328.07 M
+"Federal Crash Count": 0.00
+"Federal GDP": 101.74 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 27,
+"Policy": Raise Taxes,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": -0.10,
+"Stability": 55.78,
+"Debt": 945.72 K,
+"Cash": 504.24 K,
+"Population": 56.16 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 193.41 M,
+"Federal Operating Cash": 340.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 102.73 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 28,
+"Policy": Raise Taxes,
+"GDP": 1.47 M,
+"Real Gdp": 1.45 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.09,
+"Stability": 56.20,
+"Debt": 917.67 K,
+"Cash": 547.96 K,
+"Population": 56.52 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 201.41 M,
+"Federal Operating Cash": 354.00 M
+"Federal Crash Count": 0.00
+"Federal GDP": 103.66 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 29,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.46 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.08,
+"Stability": 55.07,
+"Debt": 1.12 M,
+"Cash": 471.89 K,
+"Population": 56.89 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 208.94 M,
+"Federal Operating Cash": 367.31 M
+"Federal Crash Count": 0.00
+"Federal GDP": 104.58 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 30,
+"Policy": Raise Taxes,
+"GDP": 1.50 M,
+"Real Gdp": 1.47 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.07,
+"Stability": 55.86,
+"Debt": 1.09 M,
+"Cash": 504.91 K,
+"Population": 57.25 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 215.96 M,
+"Federal Operating Cash": 379.82 M
+"Federal Crash Count": 0.00
+"Federal GDP": 105.34 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 31,
+"Policy": Raise Taxes,
+"GDP": 1.51 M,
+"Real Gdp": 1.49 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": -0.06,
+"Stability": 53.40,
+"Debt": 1.29 M,
+"Cash": 433.95 K,
+"Population": 57.62 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 223.18 M,
+"Federal Operating Cash": 392.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 106.16 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 32,
+"Policy": Raise Taxes,
+"GDP": 1.52 M,
+"Real Gdp": 1.49 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": -0.04,
+"Stability": 55.07,
+"Debt": 1.27 M,
+"Cash": 455.16 K,
+"Population": 58.00 K,
+"Infrastructure": 10.00
+},
+},
+"Federal Reserve": 229.15 M,
+"Federal Operating Cash": 403.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 107.07 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 33,
+"Policy": Raise Taxes,
+"GDP": 1.54 M,
+"Real Gdp": 1.50 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": -0.03,
+"Stability": 55.82,
+"Debt": 1.26 M,
+"Cash": 478.41 K,
+"Population": 58.37 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 235.19 M,
+"Federal Operating Cash": 414.66 M
+"Federal Crash Count": 0.00
+"Federal GDP": 107.76 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 34,
+"Policy": Raise Taxes,
+"GDP": 1.55 M,
+"Real Gdp": 1.50 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": -0.01,
+"Stability": 50.53,
+"Debt": 1.24 M,
+"Cash": 509.23 K,
+"Population": 58.75 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 241.83 M,
+"Federal Operating Cash": 426.64 M
+"Federal Crash Count": 0.00
+"Federal GDP": 108.52 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 35,
+"Policy": Raise Taxes,
+"GDP": 1.55 M,
+"Real Gdp": 1.51 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.00,
+"Stability": 42.88,
+"Debt": 1.35 M,
+"Cash": 471.93 K,
+"Population": 53.23 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 248.03 M,
+"Federal Operating Cash": 437.95 M
+"Federal Crash Count": 0.00
+"Federal GDP": 109.27 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 36,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.02,
+"Stability": 47.40,
+"Debt": 1.53 M,
+"Cash": 415.30 K,
+"Population": 53.56 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 255.77 M,
+"Federal Operating Cash": 451.76 M
+"Federal Crash Count": 0.00
+"Federal GDP": 109.88 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 37,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.03,
+"Stability": 51.92,
+"Debt": 1.51 M,
+"Cash": 445.39 K,
+"Population": 53.89 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 262.09 M,
+"Federal Operating Cash": 463.28 M
+"Federal Crash Count": 0.00
+"Federal GDP": 110.47 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 38,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.05,
+"Stability": 54.32,
+"Debt": 1.48 M,
+"Cash": 492.47 K,
+"Population": 54.22 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 269.76 M,
+"Federal Operating Cash": 477.01 M
+"Federal Crash Count": 0.00
+"Federal GDP": 111.00 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 39,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.07,
+"Stability": 55.47,
+"Debt": 1.45 M,
+"Cash": 535.95 K,
+"Population": 54.56 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 276.83 M,
+"Federal Operating Cash": 489.91 M
+"Federal Crash Count": 0.00
+"Federal GDP": 111.54 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 40,
+"Policy": Raise Taxes,
+"GDP": 1.57 M,
+"Real Gdp": 1.53 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.09,
+"Stability": 56.01,
+"Debt": 1.42 M,
+"Cash": 581.04 K,
+"Population": 54.91 K,
+"Infrastructure": 9.00
+},
+},
+"Federal Reserve": 283.94 M,
+"Federal Operating Cash": 502.88 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.09 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 41,
+"Policy": Raise Taxes,
+"GDP": 1.57 M,
+"Real Gdp": 1.53 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.11,
+"Stability": 47.93,
+"Debt": 1.76 M,
+"Cash": 436.07 K,
+"Population": 49.71 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 289.69 M,
+"Federal Operating Cash": 513.59 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.60 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 42,
+"Policy": Raise Taxes,
+"GDP": 1.57 M,
+"Real Gdp": 1.53 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.12,
+"Stability": 49.60,
+"Debt": 1.92 M,
+"Cash": 388.70 K,
+"Population": 50.00 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 297.02 M,
+"Federal Operating Cash": 526.98 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.82 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 43,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.15,
+"Stability": 53.10,
+"Debt": 1.90 M,
+"Cash": 424.79 K,
+"Population": 50.30 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 303.12 M,
+"Federal Operating Cash": 538.43 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.25 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 44,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.17,
+"Stability": 54.85,
+"Debt": 1.87 M,
+"Cash": 458.50 K,
+"Population": 50.60 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 308.90 M,
+"Federal Operating Cash": 549.35 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.55 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 45,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.52 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.19,
+"Stability": 52.95,
+"Debt": 1.84 M,
+"Cash": 511.38 K,
+"Population": 50.91 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 316.26 M,
+"Federal Operating Cash": 562.84 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.89 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 46,
+"Policy": Raise Taxes,
+"GDP": 1.56 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 53.43,
+"Debt": 2.02 M,
+"Cash": 441.67 K,
+"Population": 51.21 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 322.49 M,
+"Federal Operating Cash": 574.56 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.27 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 47,
+"Policy": Raise Taxes,
+"GDP": 1.55 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.24,
+"Stability": 52.24,
+"Debt": 2.19 M,
+"Cash": 391.64 K,
+"Population": 51.52 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 329.04 M,
+"Federal Operating Cash": 586.92 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.56 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 48,
+"Policy": Raise Taxes,
+"GDP": 1.55 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.26,
+"Stability": 48.96,
+"Debt": 2.17 M,
+"Cash": 424.28 K,
+"Population": 51.84 K,
+"Infrastructure": 8.00
+},
+},
+"Federal Reserve": 334.25 M,
+"Federal Operating Cash": 597.14 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.83 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 49,
+"Policy": Raise Taxes,
+"GDP": 1.78 M,
+"Real Gdp": 1.50 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.29,
+"Stability": 52.69,
+"Debt": 2.14 M,
+"Cash": 469.74 K,
+"Population": 52.15 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 340.53 M,
+"Federal Operating Cash": 609.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.99 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 50,
+"Policy": Raise Taxes,
+"GDP": 1.54 M,
+"Real Gdp": 1.50 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.32,
+"Stability": 48.74,
+"Debt": 2.23 M,
+"Cash": 453.33 K,
+"Population": 47.20 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 345.71 M,
+"Federal Operating Cash": 619.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.29 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 51,
+"Policy": Raise Taxes,
+"GDP": 1.53 M,
+"Real Gdp": 1.49 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 49.73,
+"Debt": 2.19 M,
+"Cash": 505.63 K,
+"Population": 47.47 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 352.22 M,
+"Federal Operating Cash": 631.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.56 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 52,
+"Policy": Raise Taxes,
+"GDP": 1.51 M,
+"Real Gdp": 1.47 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.37,
+"Stability": 51.62,
+"Debt": 2.37 M,
+"Cash": 439.16 K,
+"Population": 47.75 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 357.82 M,
+"Federal Operating Cash": 642.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.70 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 53,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.46 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.31,
+"Stability": 53.81,
+"Debt": 2.34 M,
+"Cash": 497.77 K,
+"Population": 48.02 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 364.55 M,
+"Federal Operating Cash": 655.42 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.78 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 54,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.45 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 55.55,
+"Debt": 2.31 M,
+"Cash": 543.47 K,
+"Population": 48.30 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 370.21 M,
+"Federal Operating Cash": 666.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.90 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 55,
+"Policy": Raise Taxes,
+"GDP": 1.47 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 55.84,
+"Debt": 2.28 M,
+"Cash": 586.92 K,
+"Population": 48.58 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 376.54 M,
+"Federal Operating Cash": 679.04 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.99 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 56,
+"Policy": Raise Taxes,
+"GDP": 1.46 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 55.88,
+"Debt": 2.25 M,
+"Cash": 633.75 K,
+"Population": 48.86 K,
+"Infrastructure": 7.00
+},
+},
+"Federal Reserve": 382.09 M,
+"Federal Operating Cash": 690.14 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.06 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 57,
+"Policy": Raise Taxes,
+"GDP": 1.43 M,
+"Real Gdp": 1.40 M,
+"Growth": -0.02,
+"Inflation": 0.03,
+"Tax Rate": 0.36,
+"Stability": 54.42,
+"Debt": 2.48 M,
+"Cash": 545.29 K,
+"Population": 49.15 K,
+"Infrastructure": 6.00
+},
+},
+"Federal Reserve": 387.86 M,
+"Federal Operating Cash": 701.61 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.15 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 58,
+"Policy": Raise Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.38 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.39,
+"Stability": 52.48,
+"Debt": 2.68 M,
+"Cash": 469.98 K,
+"Population": 49.44 K,
+"Infrastructure": 6.00
+},
+},
+"Federal Reserve": 393.18 M,
+"Federal Operating Cash": 712.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.23 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 59,
+"Policy": Raise Taxes,
+"GDP": 1.40 M,
+"Real Gdp": 1.36 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.32,
+"Stability": 54.15,
+"Debt": 2.66 M,
+"Cash": 507.74 K,
+"Population": 49.73 K,
+"Infrastructure": 6.00
+},
+},
+"Federal Reserve": 398.15 M,
+"Federal Operating Cash": 722.75 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.43 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 60,
+"Policy": Raise Taxes,
+"GDP": 1.39 M,
+"Real Gdp": 1.35 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 55.20,
+"Debt": 2.63 M,
+"Cash": 551.30 K,
+"Population": 50.02 K,
+"Infrastructure": 6.00
+},
+},
+"Federal Reserve": 403.96 M,
+"Federal Operating Cash": 734.49 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.44 M
+},
+{
+"STATE": {
+"ADAMAWA": {
+"Month": 61,
+"Policy": Raise Taxes,
+"GDP": 1.38 M,
+"Real Gdp": 1.34 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.37,
+"Stability": 55.63,
+"Debt": 2.61 M,
+"Cash": 578.69 K,
+"Population": 50.32 K,
+"Infrastructure": 6.00
+},
+},
+"Federal Reserve": 409.02 M,
+"Federal Operating Cash": 745.11 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.46 M
+}

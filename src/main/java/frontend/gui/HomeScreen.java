@@ -2,6 +2,7 @@ package gui;
 
 import data.Constants;
 import economies.StateEconomy;
+import engine.SimulationEngine;
 import utils.EnumToString;
 import events.EventTrigger;
 import utils.MyUtils;
@@ -71,6 +72,8 @@ public class HomeScreen {
     private static Label fedAllocVal;
     private static Label playerEventDispVal;
     private static Label playerEventType;
+    private static Label govVal;
+    private static Label stateVal;
 
 
     public static Parent build() {
@@ -79,16 +82,17 @@ public class HomeScreen {
 
     private static BorderPane buildLayout() {
         Map<String, StateEconomy> states = AppMain.getStateMap();
-        StateEconomy playerState = states.get(AppMain.getConfig().getChosenState());
+        StateEconomy playerState = states.get(AppMain.getDisplayConfig().getDisplayState());
         int currMonth = AppMain.getSim().getCurrentMonth();
         BorderPane root = new BorderPane();
 
         completeness = (double) currMonth/AppMain.getConfig().getTotalMonths();
 
         /*TOP BAR*/
-        VBox stateBox = createCard("State", AppMain.getConfig().getChosenState());
+        VBox stateBox = createCard("State", playerState.getName());
+        stateVal = (Label) stateBox.getChildren().get(1);
         VBox diffBox = createCard("Difficulty",
-                EnumToString.convert(AppMain.getConfig().getDifficulty(), "_"));
+                EnumToString.convert(AppMain.getDisplayConfig().getDifficulty(), "_"));
         VBox monthBox = createCard("Current Month", AppMain.getSim().getCurrentMonth() + "");
         monthVal = (Label) monthBox.getChildren().get(1);
 
@@ -97,6 +101,7 @@ public class HomeScreen {
         policyVal = (Label) policyBox.getChildren().get(1);
 
         VBox gov = createCard("Government Type", EnumToString.convert(playerState.getGovernmentType(), "_"));
+        govVal = (Label) gov.getChildren().get(1);
         gov.setPrefWidth(180);
         VBox crash = createCard("Economic Crashes", playerState.getCrashCount() + "");
         crashVal = (Label) crash.getChildren().get(1);
@@ -104,10 +109,13 @@ public class HomeScreen {
         VBox comp = createCard("Game Progress", String.format("%.2f", (completeness * 100)) + "%");
         compVal = (Label) comp.getChildren().get(1);
 
-        /* - COMING SOON
         VBox settings = createCard("Settings", "Settings");
         settings.setPadding(new Insets(0,0,0,10));
-        */
+        settings.setOnMouseClicked(e -> {
+            AppMain.switchRoot(SettingScreen.build());
+            AppMain.pauseLoop();
+            //ConfirmationBox.switchView("View State Switch", "Are you done viewing");
+        });
 
         VBox restart = createCard("Restart", "Restart");
         restart.setOnMouseClicked(e -> ConfirmationBox.restart("Restart?", "Are you sure you want to restart?"));
@@ -121,10 +129,9 @@ public class HomeScreen {
             ConfirmationBox.display("Leave?", "Are you sure you want to leave?");
         });
 
-        HBox top = new HBox(15, stateBox, diffBox, monthBox, policyBox, gov, crash, comp, exit, restart);
+        HBox top = new HBox(15, stateBox, diffBox, monthBox, policyBox, gov, crash, comp, exit, restart, settings);
         top.setAlignment(Pos.TOP_LEFT);
 
-        //settings.setOnMouseClicked(e -> AppMain.switchRoot(MenuScreen.build()));
         HBox topBar = new HBox(top);
         topBar.getStyleClass().add("top-bar");
 
@@ -239,7 +246,7 @@ public class HomeScreen {
         eventDispVal = (Label) populations.getChildren().get(1);
 
         if (currMonth % Constants.ELECTION_SPACING == 0 && currMonth != 0) {
-            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
+            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(SimulationEngine.getElectCost()) + " and this was deducted from the state reserve";
         } else {
             electionMessage = "There is no election this month";
         }
@@ -269,22 +276,8 @@ public class HomeScreen {
         VBox sb = new VBox(10, statss, scroll);
         BorderPane.setMargin(sb, new Insets(15));
 
-
-
-
         /* CENTER */
-        gdpSeries.getData().add(
-                new XYChart.Data<>(currMonth, playerState.getRealGdp()/1_000_000)
-        );
-        gdpSeries.getNode().setStyle("-fx-stroke: #22c55e; -fx-stroke-width: 2px;");
-
-        inflationSeries.getData().add(
-                new XYChart.Data<>(currMonth, playerState.getInflationRate() * 100)
-        );
-        inflationSeries.getNode().setStyle("-fx-stroke: #ef4444; -fx-stroke-width: 2px;");
-        cashSeries.getData().add ( new XYChart.Data<>(currMonth, playerState.getCash()/1_000_000));
-        cashSeries.getNode().setStyle("-fx-stroke: #3b82f6; -fx-stroke-width: 2px;");
-
+        updateGraphData(playerState, currMonth); //Update the graph data
         VBox rank = createLargeCard("Position", MyUtils.Ordinalize(playerState.getPosition()));
         rankVal = (Label) rank.getChildren().get(1);
 
@@ -381,12 +374,6 @@ public class HomeScreen {
             });
         }
 
-
-        //HBox center_bottom = new HBox();
-        //center_bottom.setAlignment(Pos.CENTER);
-        //center_bottom.getStyleClass().add("card");
-
-
         HBox policy = new HBox(10, policies, policyConfirm);
         center.setAlignment(Pos.CENTER);
 
@@ -404,6 +391,20 @@ public class HomeScreen {
         root.setPadding(new Insets(15,40,70,40));
 
         return root;
+    }
+
+    private static void updateGraphData(StateEconomy playerState, int currMonth) {
+        gdpSeries.getData().add(
+                new XYChart.Data<>(currMonth, playerState.getRealGdp()/1_000_000)
+        );
+        gdpSeries.getNode().setStyle("-fx-stroke: #22c55e; -fx-stroke-width: 2px;");
+
+        inflationSeries.getData().add(
+                new XYChart.Data<>(currMonth, playerState.getInflationRate() * 100)
+        );
+        inflationSeries.getNode().setStyle("-fx-stroke: #ef4444; -fx-stroke-width: 2px;");
+        cashSeries.getData().add ( new XYChart.Data<>(currMonth, playerState.getCash()/1_000_000));
+        cashSeries.getNode().setStyle("-fx-stroke: #3b82f6; -fx-stroke-width: 2px;");
     }
 
     private static VBox createCard(String title, String value) {
@@ -524,14 +525,7 @@ public class HomeScreen {
         updateXAxis(inflaChart, currMonth);
         updateXAxis(cashChart, currMonth);
 
-        gdpSeries.getData().add(new XYChart.Data<>(currMonth, playerState.getRealGdp() / 1_000_000));
-        gdpSeries.getNode().setStyle("-fx-stroke: #22c55e; -fx-stroke-width: 2px;");
-
-        inflationSeries.getData().add(new XYChart.Data<>(currMonth, playerState.getInflationRate() * 100));
-        inflationSeries.getNode().setStyle("-fx-stroke: #ef4444; -fx-stroke-width: 2px;");
-
-        cashSeries.getData().add(new XYChart.Data<>(currMonth, playerState.getCash() / 1_000_000));
-        cashSeries.getNode().setStyle("-fx-stroke: #3b82f6; -fx-stroke-width: 2px;");
+        updateGraphData(playerState, currMonth);
 
         monthVal.setText(currMonth + "");
         compVal.setText(String.format("%.2f", (completeness * 100)) + "%");
@@ -557,9 +551,11 @@ public class HomeScreen {
         revenueVal.setText("₦" + MyUtils.formatNumber(playerState.getMonthlyRevenue()));
         expensesVal.setText("₦" + MyUtils.formatNumber(playerState.getMonthlySpend()));
         fedAllocVal.setText("₦" + MyUtils.formatNumber(playerState.getFederalAllocation()));
+        stateVal.setText(states.get(AppMain.getDisplayConfig().getDisplayState()).getName());
+        govVal.setText(EnumToString.convert(states.get(AppMain.getDisplayConfig().getDisplayState()).getGovernmentType(), "_"));
 
         if (currMonth % Constants.ELECTION_SPACING == 0 && currMonth != 0) {
-            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(AppMain.getSim().getElectCost()) + " and this was deducted from the state reserve";
+            electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(SimulationEngine.getElectCost()) + " and this was deducted from the state reserve";
         } else {
             electionMessage = "There is no election this month";
         }

@@ -18,7 +18,5 @@ public class Constants {
     public static final double DISASTER_MGMT_RATE = 0.2;
     public static final int CHART_WINDOW_SIZE = 30;
     public static final int ELECTION_SPACING = 18;
-
-    
-
+    public static final double FEDERAL_DEBT_INTEREST = 0.035;
 }

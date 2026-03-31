@@ -247,13 +247,13 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Application Architecture Overhaul** - Introduced `AppMain` as the central application controller responsible for scene management, simulation orchestration, configuration access, and UI lifecycle management via a game loop.
 - **Scene Management System** - Implemented `AppMain.switchRoot()` allowing seamless transitions between UI screens without restarting the application.
 - **Interactive Main Menu** - Added `MenuScreen` interface enabling pre-simulation configuration including state selection, difficulty selection, simulation duration, and developer mode toggling.
-- **Gameplay Dashboard Implementation** - Created the `HomeScreen` interface providing a multi-panel dashboard displaying real-time economic metrics, charts, and game controls.
+- **Gameplay Dashboard Implementation** - Created the `HomeScreen` interface providing a multi-panel dashboard displaying real-time economic AI, charts, and game controls.
 - **Live Chart Visualization** - Integrated JavaFX `LineChart` components to track Real GDP, Inflation, and Population growth dynamically as the simulation progresses.
 - **Simulation Tick Engine** - Introduced a `Timeline` driven simulation loop allowing the economy to advance one month at a time instead of executing the entire simulation instantly.
 - **Real-Time UI Refresh System** - Implemented a centralized UI refresh mechanism allowing dashboard values and charts to update dynamically after each simulation tick using the `HomeScreen.refreshUI()` method.
 - **Policy Interaction System** - Added interactive policy selection through dropdown controls allowing players to apply policies directly from the GUI rather than command-line input.
 - **Policy Update** - Policy is now a variable belonging to the `StateEconomy` object.
-- **Dashboard Indicator Cards** - Implemented center dashboard metrics including position ranking, tax rate, debt-to-GDP ratio, growth rate, stability, and infrastructure indicators.
+- **Dashboard Indicator Cards** - Implemented center dashboard AI including position ranking, tax rate, debt-to-GDP ratio, growth rate, stability, and infrastructure indicators.
 - **Event Feed Panel** - Added a scrollable event notification panel to display economic and political developments during gameplay.
 - **Styling Framework Introduction** - Implemented centralized CSS styling (`App.css`) introducing reusable classes for cards, panels, charts, and interface elements.
 - **Reusable UI Components** - Created standardized UI builders including `createCard`, `createLargeCard`, `createNotification`, and `createChart` to simplify layout construction.
@@ -264,7 +264,7 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Modal Interaction Foundation** - Introduced groundwork for modal dialogs and confirmation windows for future gameplay events.
 - **Development Status** - Version 2.0.0 marks the beginning of the graphical interface phase of the project and is released as a **pre-release build** pending further stability improvements.
 
-- **Affected Packages** - `economies`, `analytics`, `metrics`, `gui`, `config` and `engine`
+- **Affected Packages** - `economies`, `analytics`, `AI`, `gui`, `config` and `engine`
 
 ---
 
@@ -276,5 +276,15 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Potential Weaknesses** - `Some errors may still arise but that is expected`.
 
 - **Affected Packages** - `backend`, `frontend` and `utils`.
+
+---
+
+***Version 2.1.1*** - *31-03-2026*
+- **New Feature** - Players can now view other state's performances via the new settings screen.
+- **File Structure Update** - `metrics` package refactored to `AI`, `commit.sh` now tags commits again.
+- **Bug Fixes** - Moved all payments to monthly profit so the displayed value is the final value added to cash. 
+- **Potential Weaknesses** - `Some errors may still arise but that is expected`.
+
+- **Affected Packages** - `backend`, `frontend`.
 
 ---

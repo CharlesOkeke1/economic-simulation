@@ -1,0 +1,2509 @@
+[
+{
+"STATE": {
+"PLATEAU": {
+"Month": 1,
+"Policy": Invest Infrastructure,
+"GDP": 1.25 M,
+"Real Gdp": 1.21 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.21,
+"Stability": 58.11,
+"Debt": 159.68 K,
+"Cash": 157.83 K,
+"Population": 50.50 K,
+"Infrastructure": 17.00
+},
+},
+"Federal Reserve": 7.26 M,
+"Federal Operating Cash": 12.99 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 2,
+"Policy": Invest Infrastructure,
+"GDP": 1.26 M,
+"Real Gdp": 1.23 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.21,
+"Stability": 58.58,
+"Debt": 130.46 K,
+"Cash": 203.36 K,
+"Population": 51.01 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 13.17 M,
+"Federal Operating Cash": 23.80 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.01 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 3,
+"Policy": Austerity,
+"GDP": 1.27 M,
+"Real Gdp": 1.24 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.21,
+"Stability": 57.93,
+"Debt": 82.18 K,
+"Cash": 278.60 K,
+"Population": 51.52 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 20.92 M,
+"Federal Operating Cash": 37.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.00 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 4,
+"Policy": Market Trader Support,
+"GDP": 1.29 M,
+"Real Gdp": 1.26 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.21,
+"Stability": 59.26,
+"Debt": 40.59 K,
+"Cash": 343.42 K,
+"Population": 52.03 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 27.99 M,
+"Federal Operating Cash": 50.14 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.94 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 5,
+"Policy": Invest Education,
+"GDP": 1.31 M,
+"Real Gdp": 1.28 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.21,
+"Stability": 59.56,
+"Debt": 6.53 K,
+"Cash": 396.49 K,
+"Population": 52.55 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 34.31 M,
+"Federal Operating Cash": 61.53 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.89 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 6,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.33 M,
+"Real Gdp": 1.31 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.21,
+"Stability": 60.00,
+"Debt": -35.90 K,
+"Cash": 462.62 K,
+"Population": 53.08 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 41.61 M,
+"Federal Operating Cash": 74.41 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.90 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 7,
+"Policy": Raise Taxes,
+"GDP": 1.34 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.24,
+"Stability": 58.86,
+"Debt": 0.00,
+"Cash": 538.82 K,
+"Population": 53.40 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 48.41 M,
+"Federal Operating Cash": 86.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.83 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 8,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.34 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.24,
+"Stability": 59.66,
+"Debt": 0.00,
+"Cash": 616.61 K,
+"Population": 53.94 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 55.65 M,
+"Federal Operating Cash": 99.26 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.89 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 9,
+"Policy": Raise Taxes,
+"GDP": 1.38 M,
+"Real Gdp": 1.36 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.26,
+"Stability": 55.79,
+"Debt": 273.19 K,
+"Cash": 546.38 K,
+"Population": 54.27 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 61.80 M,
+"Federal Operating Cash": 110.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.92 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 10,
+"Policy": Austerity,
+"GDP": 1.40 M,
+"Real Gdp": 1.37 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.27,
+"Stability": 56.73,
+"Debt": 236.33 K,
+"Cash": 603.83 K,
+"Population": 54.82 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 68.28 M,
+"Federal Operating Cash": 121.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.95 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 11,
+"Policy": Invest Education,
+"GDP": 1.41 M,
+"Real Gdp": 1.39 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.27,
+"Stability": 58.55,
+"Debt": 195.63 K,
+"Cash": 667.25 K,
+"Population": 55.36 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 75.55 M,
+"Federal Operating Cash": 134.49 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.94 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 12,
+"Policy": Raise Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.41 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 49.99,
+"Debt": 572.45 K,
+"Cash": 529.94 K,
+"Population": 50.12 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 82.92 M,
+"Federal Operating Cash": 147.38 M
+"Federal Crash Count": 0.00
+"Federal GDP": 88.05 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 13,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.44 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 50.60,
+"Debt": 654.98 K,
+"Cash": 535.94 K,
+"Population": 45.56 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 90.25 M,
+"Federal Operating Cash": 160.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 89.11 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 14,
+"Policy": Austerity,
+"GDP": 1.45 M,
+"Real Gdp": 1.44 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 54.25,
+"Debt": 606.92 K,
+"Cash": 610.83 K,
+"Population": 46.02 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 98.11 M,
+"Federal Operating Cash": 173.92 M
+"Federal Crash Count": 0.00
+"Federal GDP": 90.18 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 15,
+"Policy": Market Trader Support,
+"GDP": 1.47 M,
+"Real Gdp": 1.46 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.30,
+"Stability": 57.78,
+"Debt": 570.03 K,
+"Cash": 668.32 K,
+"Population": 46.48 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 104.67 M,
+"Federal Operating Cash": 185.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 91.27 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 16,
+"Policy": Raise Taxes,
+"GDP": 1.48 M,
+"Real Gdp": 1.48 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 57.97,
+"Debt": 521.73 K,
+"Cash": 743.60 K,
+"Population": 46.74 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 112.57 M,
+"Federal Operating Cash": 199.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 92.39 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 17,
+"Policy": Austerity,
+"GDP": 1.50 M,
+"Real Gdp": 1.49 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 54.87,
+"Debt": 799.64 K,
+"Cash": 659.49 K,
+"Population": 47.21 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 120.63 M,
+"Federal Operating Cash": 213.18 M
+"Federal Crash Count": 0.00
+"Federal GDP": 93.55 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 18,
+"Policy": Raise Taxes,
+"GDP": 1.52 M,
+"Real Gdp": 1.50 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 45.82,
+"Debt": 931.66 K,
+"Cash": 637.87 K,
+"Population": 42.73 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 127.57 M,
+"Federal Operating Cash": 225.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 94.68 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 19,
+"Policy": Cut Taxes,
+"GDP": 1.54 M,
+"Real Gdp": 1.51 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 50.67,
+"Debt": 1.17 M,
+"Cash": 560.04 K,
+"Population": 43.41 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 134.53 M,
+"Federal Operating Cash": 237.49 M
+"Federal Crash Count": 0.00
+"Federal GDP": 95.78 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 20,
+"Policy": Borrow,
+"GDP": 1.54 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.04,
+"Debt": 1.44 M,
+"Cash": 539.23 K,
+"Population": 43.84 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 142.12 M,
+"Federal Operating Cash": 250.63 M
+"Federal Crash Count": 0.00
+"Federal GDP": 96.83 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 21,
+"Policy": Austerity,
+"GDP": 1.55 M,
+"Real Gdp": 1.52 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 52.17,
+"Debt": 1.64 M,
+"Cash": 490.84 K,
+"Population": 44.28 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 150.34 M,
+"Federal Operating Cash": 264.81 M
+"Federal Crash Count": 0.00
+"Federal GDP": 97.88 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 22,
+"Policy": Austerity,
+"GDP": 1.54 M,
+"Real Gdp": 1.52 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 52.18,
+"Debt": 1.82 M,
+"Cash": 438.08 K,
+"Population": 44.72 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 157.17 M,
+"Federal Operating Cash": 276.78 M
+"Federal Crash Count": 0.00
+"Federal GDP": 98.88 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 23,
+"Policy": Austerity,
+"GDP": 1.54 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 46.62,
+"Debt": 2.07 M,
+"Cash": 365.07 K,
+"Population": 40.65 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 165.18 M,
+"Federal Operating Cash": 290.59 M
+"Federal Crash Count": 0.00
+"Federal GDP": 99.95 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 24,
+"Policy": Raise Taxes,
+"GDP": 1.53 M,
+"Real Gdp": 1.51 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 52.33,
+"Debt": 2.02 M,
+"Cash": 435.13 K,
+"Population": 40.85 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 173.41 M,
+"Federal Operating Cash": 304.75 M
+"Federal Crash Count": 0.00
+"Federal GDP": 101.04 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 25,
+"Policy": Cut Taxes,
+"GDP": 1.52 M,
+"Real Gdp": 1.50 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 56.51,
+"Debt": 1.99 M,
+"Cash": 489.12 K,
+"Population": 41.52 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 180.61 M,
+"Federal Operating Cash": 317.25 M
+"Federal Crash Count": 0.00
+"Federal GDP": 102.15 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 26,
+"Policy": Austerity,
+"GDP": 1.51 M,
+"Real Gdp": 1.50 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 57.01,
+"Debt": 1.95 M,
+"Cash": 550.27 K,
+"Population": 41.93 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 188.15 M,
+"Federal Operating Cash": 330.34 M
+"Federal Crash Count": 0.00
+"Federal GDP": 103.12 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 27,
+"Policy": Austerity,
+"GDP": 1.51 M,
+"Real Gdp": 1.49 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 57.23,
+"Debt": 1.91 M,
+"Cash": 605.11 K,
+"Population": 42.35 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 195.11 M,
+"Federal Operating Cash": 342.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 104.19 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 28,
+"Policy": Raise Taxes,
+"GDP": 1.51 M,
+"Real Gdp": 1.48 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 54.69,
+"Debt": 2.14 M,
+"Cash": 526.58 K,
+"Population": 42.57 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 201.64 M,
+"Federal Operating Cash": 354.06 M
+"Federal Crash Count": 0.00
+"Federal GDP": 105.19 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 29,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.47 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.27,
+"Stability": 45.04,
+"Debt": 2.24 M,
+"Cash": 522.51 K,
+"Population": 38.51 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 209.43 M,
+"Federal Operating Cash": 367.69 M
+"Federal Crash Count": 0.00
+"Federal GDP": 106.15 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 30,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.47 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 41.22,
+"Debt": 2.35 M,
+"Cash": 499.79 K,
+"Population": 34.83 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 216.03 M,
+"Federal Operating Cash": 379.29 M
+"Federal Crash Count": 0.00
+"Federal GDP": 107.13 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 31,
+"Policy": Austerity,
+"GDP": 1.49 M,
+"Real Gdp": 1.47 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 46.33,
+"Debt": 2.53 M,
+"Cash": 442.03 K,
+"Population": 35.17 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 223.20 M,
+"Federal Operating Cash": 391.97 M
+"Federal Crash Count": 0.00
+"Federal GDP": 108.02 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 32,
+"Policy": Raise Taxes,
+"GDP": 1.49 M,
+"Real Gdp": 1.46 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 52.22,
+"Debt": 2.50 M,
+"Cash": 498.72 K,
+"Population": 35.32 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 230.75 M,
+"Federal Operating Cash": 405.22 M
+"Federal Crash Count": 0.00
+"Federal GDP": 109.18 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 33,
+"Policy": Borrow,
+"GDP": 1.49 M,
+"Real Gdp": 1.46 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 55.42,
+"Debt": 2.51 M,
+"Cash": 594.81 K,
+"Population": 35.68 K,
+"Infrastructure": 19.00
+},
+},
+"Federal Reserve": 237.77 M,
+"Federal Operating Cash": 417.68 M
+"Federal Crash Count": 0.00
+"Federal GDP": 110.16 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 34,
+"Policy": Austerity,
+"GDP": 1.48 M,
+"Real Gdp": 1.45 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 53.64,
+"Debt": 2.73 M,
+"Cash": 519.09 K,
+"Population": 36.03 K,
+"Infrastructure": 19.00
+},
+},
+"Federal Reserve": 244.86 M,
+"Federal Operating Cash": 430.31 M
+"Federal Crash Count": 0.00
+"Federal GDP": 111.09 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 35,
+"Policy": Austerity,
+"GDP": 1.47 M,
+"Real Gdp": 1.45 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 55.63,
+"Debt": 2.71 M,
+"Cash": 561.71 K,
+"Population": 36.39 K,
+"Infrastructure": 19.00
+},
+},
+"Federal Reserve": 250.98 M,
+"Federal Operating Cash": 441.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.02 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 36,
+"Policy": Austerity,
+"GDP": 1.47 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 57.07,
+"Debt": 2.67 M,
+"Cash": 614.92 K,
+"Population": 36.76 K,
+"Infrastructure": 19.00
+},
+},
+"Federal Reserve": 258.08 M,
+"Federal Operating Cash": 454.21 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.80 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 37,
+"Policy": Invest Infrastructure,
+"GDP": 1.46 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 58.13,
+"Debt": 2.65 M,
+"Cash": 654.35 K,
+"Population": 37.12 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 264.67 M,
+"Federal Operating Cash": 466.13 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.60 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 38,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.46 M,
+"Real Gdp": 1.44 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 59.46,
+"Debt": 2.62 M,
+"Cash": 701.51 K,
+"Population": 37.49 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 271.42 M,
+"Federal Operating Cash": 478.36 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.31 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 39,
+"Policy": Market Trader Support,
+"GDP": 1.46 M,
+"Real Gdp": 1.45 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 59.92,
+"Debt": 2.59 M,
+"Cash": 748.96 K,
+"Population": 37.87 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 278.13 M,
+"Federal Operating Cash": 490.56 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.05 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 40,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.46 M,
+"Real Gdp": 1.45 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.35,
+"Stability": 57.18,
+"Debt": 2.87 M,
+"Cash": 634.30 K,
+"Population": 38.25 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 284.32 M,
+"Federal Operating Cash": 502.10 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.89 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 41,
+"Policy": Boost Security,
+"GDP": 1.46 M,
+"Real Gdp": 1.45 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 51.14,
+"Debt": 3.24 M,
+"Cash": 481.08 K,
+"Population": 35.17 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 290.44 M,
+"Federal Operating Cash": 513.48 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.62 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 42,
+"Policy": Raise Taxes,
+"GDP": 1.46 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 54.72,
+"Debt": 3.21 M,
+"Cash": 521.12 K,
+"Population": 35.32 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 296.29 M,
+"Federal Operating Cash": 524.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 117.36 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 43,
+"Policy": Austerity,
+"GDP": 1.45 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.38,
+"Stability": 53.32,
+"Debt": 3.41 M,
+"Cash": 449.11 K,
+"Population": 35.67 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 302.21 M,
+"Federal Operating Cash": 535.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 118.01 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 44,
+"Policy": Raise Taxes,
+"GDP": 1.43 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 52.89,
+"Debt": 3.58 M,
+"Cash": 402.22 K,
+"Population": 35.82 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 309.45 M,
+"Federal Operating Cash": 548.73 M
+"Federal Crash Count": 0.00
+"Federal GDP": 118.47 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 45,
+"Policy": Boost Security,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 57.24,
+"Debt": 3.55 M,
+"Cash": 443.11 K,
+"Population": 36.59 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 316.52 M,
+"Federal Operating Cash": 561.68 M
+"Federal Crash Count": 0.00
+"Federal GDP": 118.85 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 46,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.28,
+"Stability": 57.89,
+"Debt": 3.72 M,
+"Cash": 367.16 K,
+"Population": 36.95 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 322.33 M,
+"Federal Operating Cash": 572.79 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.09 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 47,
+"Policy": Austerity,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.29,
+"Stability": 54.78,
+"Debt": 3.86 M,
+"Cash": 318.72 K,
+"Population": 37.32 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 328.17 M,
+"Federal Operating Cash": 583.93 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.57 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 48,
+"Policy": Raise Taxes,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 50.83,
+"Debt": 3.91 M,
+"Cash": 320.26 K,
+"Population": 33.72 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 334.45 M,
+"Federal Operating Cash": 595.88 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.09 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 49,
+"Policy": Austerity,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 51.59,
+"Debt": 4.03 M,
+"Cash": 280.50 K,
+"Population": 34.06 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 340.08 M,
+"Federal Operating Cash": 606.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.62 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 50,
+"Policy": Austerity,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 54.66,
+"Debt": 4.01 M,
+"Cash": 319.65 K,
+"Population": 34.40 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 346.65 M,
+"Federal Operating Cash": 619.17 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.01 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 51,
+"Policy": Austerity,
+"GDP": 1.43 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 56.17,
+"Debt": 3.99 M,
+"Cash": 349.56 K,
+"Population": 34.74 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 352.25 M,
+"Federal Operating Cash": 630.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.16 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 52,
+"Policy": Invest Education,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 58.33,
+"Debt": 3.97 M,
+"Cash": 376.40 K,
+"Population": 35.09 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 358.01 M,
+"Federal Operating Cash": 641.16 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.28 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 53,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 59.55,
+"Debt": 3.95 M,
+"Cash": 406.07 K,
+"Population": 35.44 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 363.74 M,
+"Federal Operating Cash": 652.33 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.43 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 54,
+"Policy": Market Trader Support,
+"GDP": 1.44 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 60.47,
+"Debt": 3.93 M,
+"Cash": 434.78 K,
+"Population": 35.79 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 369.18 M,
+"Federal Operating Cash": 663.15 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.53 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 55,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 60.40,
+"Debt": 3.91 M,
+"Cash": 472.02 K,
+"Population": 36.15 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 375.44 M,
+"Federal Operating Cash": 675.36 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.58 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 56,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.46 M,
+"Real Gdp": 1.44 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 57.33,
+"Debt": 4.09 M,
+"Cash": 400.76 K,
+"Population": 36.51 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 380.78 M,
+"Federal Operating Cash": 686.13 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.70 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 57,
+"Policy": Austerity,
+"GDP": 1.45 M,
+"Real Gdp": 1.44 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 57.39,
+"Debt": 4.07 M,
+"Cash": 434.66 K,
+"Population": 36.88 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 386.53 M,
+"Federal Operating Cash": 697.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.99 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 58,
+"Policy": Raise Taxes,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 46.15,
+"Debt": 4.16 M,
+"Cash": 417.00 K,
+"Population": 33.34 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 392.59 M,
+"Federal Operating Cash": 709.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.03 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 59,
+"Policy": Austerity,
+"GDP": 1.45 M,
+"Real Gdp": 1.43 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 50.36,
+"Debt": 4.32 M,
+"Cash": 340.64 K,
+"Population": 33.67 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 397.22 M,
+"Federal Operating Cash": 719.27 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.96 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 60,
+"Policy": Austerity,
+"GDP": 1.44 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 52.67,
+"Debt": 4.44 M,
+"Cash": 294.77 K,
+"Population": 34.01 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 403.55 M,
+"Federal Operating Cash": 731.81 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.00 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 61,
+"Policy": Austerity,
+"GDP": 1.43 M,
+"Real Gdp": 1.42 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 53.84,
+"Debt": 4.55 M,
+"Cash": 258.08 K,
+"Population": 34.35 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 410.01 M,
+"Federal Operating Cash": 744.57 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.05 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 62,
+"Policy": Raise Taxes,
+"GDP": 1.43 M,
+"Real Gdp": 1.41 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 54.63,
+"Debt": 4.64 M,
+"Cash": 216.20 K,
+"Population": 34.49 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 415.04 M,
+"Federal Operating Cash": 755.05 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.09 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 63,
+"Policy": Raise Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.29,
+"Stability": 53.33,
+"Debt": 4.72 M,
+"Cash": 208.00 K,
+"Population": 34.63 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 421.46 M,
+"Federal Operating Cash": 767.77 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.08 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 64,
+"Policy": Austerity,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.29,
+"Stability": 52.72,
+"Debt": 4.80 M,
+"Cash": 188.89 K,
+"Population": 34.97 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 427.01 M,
+"Federal Operating Cash": 779.23 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.12 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 65,
+"Policy": Raise Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.38 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 55.51,
+"Debt": 4.78 M,
+"Cash": 218.26 K,
+"Population": 35.12 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 432.61 M,
+"Federal Operating Cash": 790.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.18 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 66,
+"Policy": Austerity,
+"GDP": 1.41 M,
+"Real Gdp": 1.38 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 56.50,
+"Debt": 4.76 M,
+"Cash": 252.24 K,
+"Population": 35.47 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 438.48 M,
+"Federal Operating Cash": 802.87 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.06 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 67,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.42 M,
+"Real Gdp": 1.38 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 57.54,
+"Debt": 4.86 M,
+"Cash": 200.72 K,
+"Population": 35.83 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 443.05 M,
+"Federal Operating Cash": 813.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.93 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 68,
+"Policy": Austerity,
+"GDP": 1.41 M,
+"Real Gdp": 1.38 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 57.42,
+"Debt": 4.84 M,
+"Cash": 232.72 K,
+"Population": 36.18 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 448.71 M,
+"Federal Operating Cash": 824.89 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.08 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 69,
+"Policy": Market Trader Support,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 56.10,
+"Debt": 4.92 M,
+"Cash": 198.92 K,
+"Population": 36.55 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 452.77 M,
+"Federal Operating Cash": 834.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.08 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 70,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 58.60,
+"Debt": 4.91 M,
+"Cash": 221.17 K,
+"Population": 36.91 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 457.69 M,
+"Federal Operating Cash": 845.10 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.03 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 71,
+"Policy": Cut Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 59.22,
+"Debt": 4.90 M,
+"Cash": 238.01 K,
+"Population": 37.53 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 462.17 M,
+"Federal Operating Cash": 855.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.82 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 72,
+"Policy": Austerity,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.30,
+"Stability": 58.68,
+"Debt": 4.88 M,
+"Cash": 268.38 K,
+"Population": 37.91 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 467.71 M,
+"Federal Operating Cash": 867.05 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.57 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 73,
+"Policy": Market Trader Support,
+"GDP": 1.43 M,
+"Real Gdp": 1.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 59.54,
+"Debt": 4.86 M,
+"Cash": 293.88 K,
+"Population": 38.29 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 472.89 M,
+"Federal Operating Cash": 878.41 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.39 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 74,
+"Policy": Austerity,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 57.01,
+"Debt": 4.97 M,
+"Cash": 246.03 K,
+"Population": 38.67 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 478.58 M,
+"Federal Operating Cash": 890.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.27 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 75,
+"Policy": Raise Taxes,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 57.50,
+"Debt": 4.96 M,
+"Cash": 268.87 K,
+"Population": 38.85 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 483.10 M,
+"Federal Operating Cash": 900.89 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.12 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 76,
+"Policy": Market Trader Support,
+"GDP": 1.42 M,
+"Real Gdp": 1.39 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 57.88,
+"Debt": 5.07 M,
+"Cash": 212.50 K,
+"Population": 39.24 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 487.67 M,
+"Federal Operating Cash": 911.29 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.01 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 77,
+"Policy": Raise Taxes,
+"GDP": 1.41 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 57.87,
+"Debt": 5.06 M,
+"Cash": 230.10 K,
+"Population": 39.43 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 491.42 M,
+"Federal Operating Cash": 920.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.76 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 78,
+"Policy": Boost Security,
+"GDP": 1.41 M,
+"Real Gdp": 1.39 M,
+"Growth": -0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 56.36,
+"Debt": 5.14 M,
+"Cash": 196.50 K,
+"Population": 40.23 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 495.30 M,
+"Federal Operating Cash": 929.86 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.60 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 79,
+"Policy": Raise Taxes,
+"GDP": 1.39 M,
+"Real Gdp": 1.38 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 45.71,
+"Debt": 5.19 M,
+"Cash": 177.69 K,
+"Population": 36.38 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 499.99 M,
+"Federal Operating Cash": 940.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.36 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 80,
+"Policy": Austerity,
+"GDP": 1.39 M,
+"Real Gdp": 1.37 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 48.54,
+"Debt": 5.17 M,
+"Cash": 211.84 K,
+"Population": 36.75 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 505.38 M,
+"Federal Operating Cash": 952.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.08 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 81,
+"Policy": Austerity,
+"GDP": 1.38 M,
+"Real Gdp": 1.36 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 52.89,
+"Debt": 5.17 M,
+"Cash": 207.78 K,
+"Population": 37.11 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 509.00 M,
+"Federal Operating Cash": 961.66 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.94 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 82,
+"Policy": Austerity,
+"GDP": 1.38 M,
+"Real Gdp": 1.35 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 55.10,
+"Debt": 5.15 M,
+"Cash": 229.67 K,
+"Population": 37.49 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 512.93 M,
+"Federal Operating Cash": 971.34 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.90 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 83,
+"Policy": Invest Education,
+"GDP": 1.37 M,
+"Real Gdp": 1.34 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.40,
+"Stability": 56.45,
+"Debt": 5.25 M,
+"Cash": 180.01 K,
+"Population": 37.86 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 517.13 M,
+"Federal Operating Cash": 981.50 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.65 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 84,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.37 M,
+"Real Gdp": 1.34 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.40,
+"Stability": 58.65,
+"Debt": 5.23 M,
+"Cash": 207.26 K,
+"Population": 38.24 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 522.12 M,
+"Federal Operating Cash": 992.80 M
+"Federal Crash Count": 0.00
+"Federal GDP": 119.58 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 85,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.37 M,
+"Real Gdp": 1.33 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.40,
+"Stability": 58.34,
+"Debt": 5.31 M,
+"Cash": 172.67 K,
+"Population": 38.62 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 527.36 M,
+"Federal Operating Cash": 1.00 B
+"Federal Crash Count": 0.00
+"Federal GDP": 119.39 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 86,
+"Policy": Raise Taxes,
+"GDP": 1.35 M,
+"Real Gdp": 1.31 M,
+"Growth": -0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 57.76,
+"Debt": 5.29 M,
+"Cash": 201.80 K,
+"Population": 38.80 K,
+"Infrastructure": 21.00
+},
+},
+"Federal Reserve": 531.96 M,
+"Federal Operating Cash": 1.02 B
+"Federal Crash Count": 0.00
+"Federal GDP": 119.05 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 87,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 56.20,
+"Debt": 5.36 M,
+"Cash": 176.22 K,
+"Population": 39.19 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 536.27 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 0.00
+"Federal GDP": 119.05 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 88,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 58.51,
+"Debt": 5.36 M,
+"Cash": 184.83 K,
+"Population": 39.58 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 539.62 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 0.00
+"Federal GDP": 119.00 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 89,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.33 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.33,
+"Stability": 59.47,
+"Debt": 5.36 M,
+"Cash": 179.56 K,
+"Population": 39.98 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 544.00 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 0.00
+"Federal GDP": 118.97 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 90,
+"Policy": Raise Taxes,
+"GDP": 1.36 M,
+"Real Gdp": 1.32 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.36,
+"Stability": 56.09,
+"Debt": 5.43 M,
+"Cash": 157.29 K,
+"Population": 40.17 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 547.76 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 0.00
+"Federal GDP": 118.81 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 91,
+"Policy": Austerity,
+"GDP": 1.35 M,
+"Real Gdp": 1.32 M,
+"Growth": -0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.36,
+"Stability": 61.31,
+"Debt": 5.42 M,
+"Cash": 169.46 K,
+"Population": 40.58 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 549.04 M,
+"Federal Operating Cash": 1.06 B
+"Federal Crash Count": 0.00
+"Federal GDP": 118.74 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 92,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.35 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 60.65,
+"Debt": 5.41 M,
+"Cash": 181.82 K,
+"Population": 40.98 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 551.55 M,
+"Federal Operating Cash": 1.07 B
+"Federal Crash Count": 2.00
+"Federal GDP": 118.56 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 93,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.35 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.36,
+"Stability": 60.40,
+"Debt": 5.40 M,
+"Cash": 192.82 K,
+"Population": 41.39 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 554.96 M,
+"Federal Operating Cash": 1.08 B
+"Federal Crash Count": 3.00
+"Federal GDP": 118.48 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 94,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.32 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 57.21,
+"Debt": 5.47 M,
+"Cash": 173.27 K,
+"Population": 41.80 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 558.70 M,
+"Federal Operating Cash": 1.09 B
+"Federal Crash Count": 3.00
+"Federal GDP": 118.44 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 95,
+"Policy": Market Trader Support,
+"GDP": 1.36 M,
+"Real Gdp": 1.33 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 58.96,
+"Debt": 5.47 M,
+"Cash": 168.13 K,
+"Population": 42.22 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 562.13 M,
+"Federal Operating Cash": 1.10 B
+"Federal Crash Count": 4.00
+"Federal GDP": 118.31 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 96,
+"Policy": Raise Taxes,
+"GDP": 1.35 M,
+"Real Gdp": 1.32 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.40,
+"Stability": 55.32,
+"Debt": 5.54 M,
+"Cash": 145.68 K,
+"Population": 42.44 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 565.42 M,
+"Federal Operating Cash": 1.11 B
+"Federal Crash Count": 5.00
+"Federal GDP": 118.28 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 97,
+"Policy": Raise Taxes,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 56.45,
+"Debt": 5.52 M,
+"Cash": 174.95 K,
+"Population": 42.66 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 570.22 M,
+"Federal Operating Cash": 1.12 B
+"Federal Crash Count": 5.00
+"Federal GDP": 118.23 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 98,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.34,
+"Stability": 58.75,
+"Debt": 5.52 M,
+"Cash": 180.35 K,
+"Population": 43.09 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 573.35 M,
+"Federal Operating Cash": 1.13 B
+"Federal Crash Count": 5.00
+"Federal GDP": 118.15 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 99,
+"Policy": Boost Security,
+"GDP": 1.34 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.34,
+"Stability": 59.65,
+"Debt": 5.52 M,
+"Cash": 176.80 K,
+"Population": 43.92 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 577.96 M,
+"Federal Operating Cash": 1.14 B
+"Federal Crash Count": 5.00
+"Federal GDP": 118.07 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 100,
+"Policy": Austerity,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 46.66,
+"Debt": 5.55 M,
+"Cash": 175.26 K,
+"Population": 39.92 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 581.66 M,
+"Federal Operating Cash": 1.16 B
+"Federal Crash Count": 5.00
+"Federal GDP": 117.97 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 101,
+"Policy": Austerity,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.02,
+"Debt": 5.54 M,
+"Cash": 186.66 K,
+"Population": 40.32 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 584.02 M,
+"Federal Operating Cash": 1.17 B
+"Federal Crash Count": 6.00
+"Federal GDP": 117.76 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 102,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.78,
+"Debt": 5.53 M,
+"Cash": 207.79 K,
+"Population": 40.73 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 588.65 M,
+"Federal Operating Cash": 1.18 B
+"Federal Crash Count": 7.00
+"Federal GDP": 117.76 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 103,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 58.88,
+"Debt": 5.61 M,
+"Cash": 158.94 K,
+"Population": 41.13 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 593.17 M,
+"Federal Operating Cash": 1.19 B
+"Federal Crash Count": 7.00
+"Federal GDP": 117.73 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 104,
+"Policy": Boost Security,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 58.54,
+"Debt": 5.68 M,
+"Cash": 96.10 K,
+"Population": 41.95 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 595.42 M,
+"Federal Operating Cash": 1.20 B
+"Federal Crash Count": 7.00
+"Federal GDP": 117.56 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 105,
+"Policy": Raise Taxes,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 58.12,
+"Debt": 5.67 M,
+"Cash": 106.98 K,
+"Population": 42.17 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 598.65 M,
+"Federal Operating Cash": 1.21 B
+"Federal Crash Count": 8.00
+"Federal GDP": 117.43 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 106,
+"Policy": Market Trader Support,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.38,
+"Stability": 58.15,
+"Debt": 5.71 M,
+"Cash": 70.82 K,
+"Population": 42.59 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 601.61 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 8.00
+"Federal GDP": 117.39 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 107,
+"Policy": Raise Taxes,
+"GDP": 1.30 M,
+"Real Gdp": 1.28 M,
+"Growth": -0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 57.84,
+"Debt": 5.70 M,
+"Cash": 83.31 K,
+"Population": 42.81 K,
+"Infrastructure": 24.00
+},
+},
+"Federal Reserve": 604.10 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 9.00
+"Federal GDP": 117.26 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 108,
+"Policy": Market Trader Support,
+"GDP": 1.30 M,
+"Real Gdp": 1.29 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 59.76,
+"Debt": 5.70 M,
+"Cash": 93.20 K,
+"Population": 43.24 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 606.03 M,
+"Federal Operating Cash": 1.24 B
+"Federal Crash Count": 10.00
+"Federal GDP": 116.96 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 109,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.32 M,
+"Real Gdp": 1.29 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 58.88,
+"Debt": 5.73 M,
+"Cash": 41.79 K,
+"Population": 43.67 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 608.53 M,
+"Federal Operating Cash": 1.24 B
+"Federal Crash Count": 12.00
+"Federal GDP": 116.47 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 110,
+"Policy": Market Trader Support,
+"GDP": 1.32 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 59.66,
+"Debt": 5.73 M,
+"Cash": 54.07 K,
+"Population": 44.11 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 611.53 M,
+"Federal Operating Cash": 1.25 B
+"Federal Crash Count": 13.00
+"Federal GDP": 116.30 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 111,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.32,
+"Stability": 60.05,
+"Debt": 5.73 M,
+"Cash": 25.60 K,
+"Population": 44.55 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 614.21 M,
+"Federal Operating Cash": 1.26 B
+"Federal Crash Count": 14.00
+"Federal GDP": 116.12 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 112,
+"Policy": Raise Taxes,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": -0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 55.85,
+"Debt": 5.73 M,
+"Cash": 30.96 K,
+"Population": 44.79 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 616.80 M,
+"Federal Operating Cash": 1.27 B
+"Federal Crash Count": 15.00
+"Federal GDP": 115.96 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 113,
+"Policy": Market Trader Support,
+"GDP": 1.33 M,
+"Real Gdp": 1.30 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 58.41,
+"Debt": 5.73 M,
+"Cash": 34.01 K,
+"Population": 45.24 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 617.58 M,
+"Federal Operating Cash": 1.28 B
+"Federal Crash Count": 16.00
+"Federal GDP": 115.74 M
+},
+{
+"STATE": {
+"PLATEAU": {
+"Month": 114,
+"Policy": Subsidise Transport & Food,
+"GDP": 1.34 M,
+"Real Gdp": 1.31 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.35,
+"Stability": 59.51,
+"Debt": 5.73 M,
+"Cash": 19.81 K,
+"Population": 45.69 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": NaN,
+"Federal Operating Cash": NaN
+"Federal Crash Count": 18.00
+"Federal GDP": 115.66 M
+}

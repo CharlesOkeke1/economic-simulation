@@ -253,7 +253,7 @@ public class AiPolicyMaker {
 
         if (state.getMemory().getSamePolicyCount() > 1) {
             if (policyMap.containsKey(lastPolicy)) {
-                policyMap.get(lastPolicy).reducePolicyScore(20);
+                policyMap.get(lastPolicy).reducePolicyScore(policyMap.get(lastPolicy).getPolicyScore());
             }
         }
 

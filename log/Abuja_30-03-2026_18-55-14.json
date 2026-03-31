@@ -1,0 +1,2465 @@
+[
+{
+"STATE": {
+"ABUJA": {
+"Month": 1,
+"Policy": Cut Taxes,
+"GDP": 3.09 M,
+"Real Gdp": 3.04 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 67.16,
+"Debt": 270.89 K,
+"Cash": 343.29 K,
+"Population": 40.65 K,
+"Infrastructure": 22.00
+},
+},
+"Federal Reserve": 6.34 M,
+"Federal Operating Cash": 11.55 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 2,
+"Policy": Market Trader Support,
+"GDP": 3.15 M,
+"Real Gdp": 3.10 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 64.95,
+"Debt": 187.50 K,
+"Cash": 473.23 K,
+"Population": 41.06 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 13.12 M,
+"Federal Operating Cash": 23.76 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.23 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 3,
+"Policy": Invest Infrastructure,
+"GDP": 3.19 M,
+"Real Gdp": 3.14 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 63.57,
+"Debt": 121.70 K,
+"Cash": 575.77 K,
+"Population": 41.47 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 19.16 M,
+"Federal Operating Cash": 34.69 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.44 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 4,
+"Policy": Invest Infrastructure,
+"GDP": 3.23 M,
+"Real Gdp": 3.18 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 63.08,
+"Debt": 39.54 K,
+"Cash": 703.81 K,
+"Population": 41.88 K,
+"Infrastructure": 29.00
+},
+},
+"Federal Reserve": 26.67 M,
+"Federal Operating Cash": 47.99 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.62 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 5,
+"Policy": Invest Infrastructure,
+"GDP": 3.29 M,
+"Real Gdp": 3.22 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 62.88,
+"Debt": -41.92 K,
+"Cash": 830.74 K,
+"Population": 42.30 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 34.06 M,
+"Federal Operating Cash": 61.09 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.76 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 6,
+"Policy": Austerity,
+"GDP": 3.33 M,
+"Real Gdp": 3.26 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 62.05,
+"Debt": 0.00,
+"Cash": 1.01 M,
+"Population": 42.72 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 41.69 M,
+"Federal Operating Cash": 74.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 82.99 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 7,
+"Policy": Raise Taxes,
+"GDP": 3.37 M,
+"Real Gdp": 3.31 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 62.01,
+"Debt": 0.00,
+"Cash": 1.16 M,
+"Population": 42.95 K,
+"Infrastructure": 32.00
+},
+},
+"Federal Reserve": 47.89 M,
+"Federal Operating Cash": 85.58 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.14 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 8,
+"Policy": Invest Infrastructure,
+"GDP": 3.40 M,
+"Real Gdp": 3.35 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.31,
+"Stability": 62.50,
+"Debt": 0.00,
+"Cash": 1.28 M,
+"Population": 43.38 K,
+"Infrastructure": 35.00
+},
+},
+"Federal Reserve": 54.28 M,
+"Federal Operating Cash": 96.90 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.40 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 9,
+"Policy": Raise Taxes,
+"GDP": 3.45 M,
+"Real Gdp": 3.40 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 60.94,
+"Debt": 422.82 K,
+"Cash": 1.17 M,
+"Population": 43.61 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 61.83 M,
+"Federal Operating Cash": 110.04 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.65 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 10,
+"Policy": Raise Taxes,
+"GDP": 3.49 M,
+"Real Gdp": 3.44 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 61.59,
+"Debt": 337.14 K,
+"Cash": 1.30 M,
+"Population": 43.84 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 68.71 M,
+"Federal Operating Cash": 122.08 M
+"Federal Crash Count": 0.00
+"Federal GDP": 87.92 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 11,
+"Policy": Borrow,
+"GDP": 3.52 M,
+"Real Gdp": 3.48 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 61.97,
+"Debt": 354.93 K,
+"Cash": 1.54 M,
+"Population": 44.28 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 75.56 M,
+"Federal Operating Cash": 134.02 M
+"Federal Crash Count": 0.00
+"Federal GDP": 89.20 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 12,
+"Policy": Market Trader Support,
+"GDP": 3.58 M,
+"Real Gdp": 3.56 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.32,
+"Stability": 63.19,
+"Debt": 259.81 K,
+"Cash": 1.69 M,
+"Population": 44.72 K,
+"Infrastructure": 35.00
+},
+},
+"Federal Reserve": 83.66 M,
+"Federal Operating Cash": 147.97 M
+"Federal Crash Count": 0.00
+"Federal GDP": 90.32 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 13,
+"Policy": Austerity,
+"GDP": 3.62 M,
+"Real Gdp": 3.60 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 62.23,
+"Debt": 167.01 K,
+"Cash": 1.83 M,
+"Population": 45.17 K,
+"Infrastructure": 35.00
+},
+},
+"Federal Reserve": 91.14 M,
+"Federal Operating Cash": 160.83 M
+"Federal Crash Count": 0.00
+"Federal GDP": 91.57 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 14,
+"Policy": Invest Infrastructure,
+"GDP": 3.70 M,
+"Real Gdp": 3.65 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 62.59,
+"Debt": 99.22 K,
+"Cash": 1.94 M,
+"Population": 45.62 K,
+"Infrastructure": 38.00
+},
+},
+"Federal Reserve": 97.38 M,
+"Federal Operating Cash": 171.85 M
+"Federal Crash Count": 0.00
+"Federal GDP": 92.72 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 15,
+"Policy": Invest Infrastructure,
+"GDP": 3.75 M,
+"Real Gdp": 3.70 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.32,
+"Stability": 62.73,
+"Debt": 30.48 K,
+"Cash": 2.04 M,
+"Population": 46.08 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 103.69 M,
+"Federal Operating Cash": 182.95 M
+"Federal Crash Count": 0.00
+"Federal GDP": 94.00 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 16,
+"Policy": Raise Taxes,
+"GDP": 3.79 M,
+"Real Gdp": 3.75 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.29,
+"Debt": -65.36 K,
+"Cash": 2.19 M,
+"Population": 46.33 K,
+"Infrastructure": 41.00
+},
+},
+"Federal Reserve": 111.10 M,
+"Federal Operating Cash": 195.77 M
+"Federal Crash Count": 0.00
+"Federal GDP": 95.28 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 17,
+"Policy": Invest Infrastructure,
+"GDP": 3.84 M,
+"Real Gdp": 3.80 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 61.41,
+"Debt": 739.50 K,
+"Cash": 1.87 M,
+"Population": 46.80 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 118.38 M,
+"Federal Operating Cash": 208.37 M
+"Federal Crash Count": 0.00
+"Federal GDP": 96.58 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 18,
+"Policy": Boost Security,
+"GDP": 3.91 M,
+"Real Gdp": 3.87 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.54,
+"Debt": 651.98 K,
+"Cash": 2.00 M,
+"Population": 47.67 K,
+"Infrastructure": 43.00
+},
+},
+"Federal Reserve": 125.58 M,
+"Federal Operating Cash": 220.86 M
+"Federal Crash Count": 0.00
+"Federal GDP": 97.98 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 19,
+"Policy": Invest Infrastructure,
+"GDP": 3.97 M,
+"Real Gdp": 3.92 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.08,
+"Debt": 575.33 K,
+"Cash": 2.12 M,
+"Population": 48.14 K,
+"Infrastructure": 46.00
+},
+},
+"Federal Reserve": 132.76 M,
+"Federal Operating Cash": 233.40 M
+"Federal Crash Count": 0.00
+"Federal GDP": 99.27 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 20,
+"Policy": Invest Infrastructure,
+"GDP": 4.04 M,
+"Real Gdp": 3.98 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.91,
+"Debt": 490.91 K,
+"Cash": 2.25 M,
+"Population": 48.63 K,
+"Infrastructure": 49.00
+},
+},
+"Federal Reserve": 140.55 M,
+"Federal Operating Cash": 246.98 M
+"Federal Crash Count": 0.00
+"Federal GDP": 100.53 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 21,
+"Policy": Invest Infrastructure,
+"GDP": 4.09 M,
+"Real Gdp": 4.04 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.85,
+"Debt": 412.52 K,
+"Cash": 2.38 M,
+"Population": 49.11 K,
+"Infrastructure": 52.00
+},
+},
+"Federal Reserve": 147.78 M,
+"Federal Operating Cash": 259.60 M
+"Federal Crash Count": 0.00
+"Federal GDP": 101.91 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 22,
+"Policy": Market Trader Support,
+"GDP": 4.17 M,
+"Real Gdp": 4.12 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.49,
+"Debt": 314.49 K,
+"Cash": 2.53 M,
+"Population": 49.60 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 155.65 M,
+"Federal Operating Cash": 273.28 M
+"Federal Crash Count": 0.00
+"Federal GDP": 103.20 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 23,
+"Policy": Invest Education,
+"GDP": 4.24 M,
+"Real Gdp": 4.20 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.51,
+"Debt": 223.15 K,
+"Cash": 2.67 M,
+"Population": 50.10 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 163.31 M,
+"Federal Operating Cash": 286.59 M
+"Federal Crash Count": 0.00
+"Federal GDP": 104.61 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 24,
+"Policy": Raise Taxes,
+"GDP": 4.32 M,
+"Real Gdp": 4.26 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.58,
+"Debt": 126.20 K,
+"Cash": 2.82 M,
+"Population": 50.40 K,
+"Infrastructure": 53.00
+},
+},
+"Federal Reserve": 170.49 M,
+"Federal Operating Cash": 299.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 105.85 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 25,
+"Policy": Invest Education,
+"GDP": 4.39 M,
+"Real Gdp": 4.33 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.17,
+"Debt": 34.64 K,
+"Cash": 2.97 M,
+"Population": 50.90 K,
+"Infrastructure": 52.00
+},
+},
+"Federal Reserve": 177.93 M,
+"Federal Operating Cash": 312.02 M
+"Federal Crash Count": 0.00
+"Federal GDP": 107.01 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 26,
+"Policy": Raise Taxes,
+"GDP": 4.45 M,
+"Real Gdp": 4.40 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.46,
+"Debt": -71.40 K,
+"Cash": 3.13 M,
+"Population": 51.21 K,
+"Infrastructure": 52.00
+},
+},
+"Federal Reserve": 185.52 M,
+"Federal Operating Cash": 325.31 M
+"Federal Crash Count": 0.00
+"Federal GDP": 108.29 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 27,
+"Policy": Invest Infrastructure,
+"GDP": 4.52 M,
+"Real Gdp": 4.46 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 62.68,
+"Debt": 0.00,
+"Cash": 3.29 M,
+"Population": 51.72 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 192.95 M,
+"Federal Operating Cash": 338.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 109.64 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 28,
+"Policy": Raise Taxes,
+"GDP": 5.29 M,
+"Real Gdp": 4.52 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.25,
+"Debt": 0.00,
+"Cash": 3.47 M,
+"Population": 52.03 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 199.75 M,
+"Federal Operating Cash": 350.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 111.04 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 29,
+"Policy": Invest Education,
+"GDP": 4.67 M,
+"Real Gdp": 4.61 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 63.04,
+"Debt": 0.00,
+"Cash": 3.64 M,
+"Population": 52.55 K,
+"Infrastructure": 55.00
+},
+},
+"Federal Reserve": 207.05 M,
+"Federal Operating Cash": 363.07 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.33 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 30,
+"Policy": Market Trader Support,
+"GDP": 4.79 M,
+"Real Gdp": 4.71 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 63.53,
+"Debt": 0.00,
+"Cash": 3.83 M,
+"Population": 53.08 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 214.77 M,
+"Federal Operating Cash": 376.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.60 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 31,
+"Policy": Raise Taxes,
+"GDP": 4.86 M,
+"Real Gdp": 4.77 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 62.57,
+"Debt": 0.00,
+"Cash": 4.04 M,
+"Population": 53.41 K,
+"Infrastructure": 56.00
+},
+},
+"Federal Reserve": 222.81 M,
+"Federal Operating Cash": 390.52 M
+"Federal Crash Count": 0.00
+"Federal GDP": 115.02 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 32,
+"Policy": Invest Infrastructure,
+"GDP": 4.92 M,
+"Real Gdp": 4.84 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.71,
+"Debt": 0.00,
+"Cash": 4.21 M,
+"Population": 53.94 K,
+"Infrastructure": 59.00
+},
+},
+"Federal Reserve": 230.46 M,
+"Federal Operating Cash": 404.03 M
+"Federal Crash Count": 0.00
+"Federal GDP": 116.31 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 33,
+"Policy": Invest Education,
+"GDP": 5.00 M,
+"Real Gdp": 4.93 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.21,
+"Debt": 0.00,
+"Cash": 4.39 M,
+"Population": 54.48 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 237.63 M,
+"Federal Operating Cash": 416.75 M
+"Federal Crash Count": 0.00
+"Federal GDP": 117.77 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 34,
+"Policy": Austerity,
+"GDP": 5.06 M,
+"Real Gdp": 5.00 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.21,
+"Debt": 0.00,
+"Cash": 4.58 M,
+"Population": 55.02 K,
+"Infrastructure": 58.00
+},
+},
+"Federal Reserve": 244.42 M,
+"Federal Operating Cash": 428.82 M
+"Federal Crash Count": 0.00
+"Federal GDP": 118.99 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 35,
+"Policy": Invest Infrastructure,
+"GDP": 5.12 M,
+"Real Gdp": 5.08 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.33,
+"Stability": 50.08,
+"Debt": 1.14 M,
+"Cash": 4.17 M,
+"Population": 50.01 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 251.41 M,
+"Federal Operating Cash": 441.31 M
+"Federal Crash Count": 0.00
+"Federal GDP": 120.09 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 36,
+"Policy": Invest Education,
+"GDP": 5.25 M,
+"Real Gdp": 5.17 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 58.44,
+"Debt": 1.05 M,
+"Cash": 4.32 M,
+"Population": 50.51 K,
+"Infrastructure": 61.00
+},
+},
+"Federal Reserve": 258.25 M,
+"Federal Operating Cash": 453.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 121.09 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 37,
+"Policy": Market Trader Support,
+"GDP": 5.35 M,
+"Real Gdp": 5.28 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 61.83,
+"Debt": 945.95 K,
+"Cash": 4.48 M,
+"Population": 51.02 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 265.31 M,
+"Federal Operating Cash": 466.37 M
+"Federal Crash Count": 0.00
+"Federal GDP": 122.25 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 38,
+"Policy": Invest Education,
+"GDP": 5.43 M,
+"Real Gdp": 5.38 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.90,
+"Debt": 842.68 K,
+"Cash": 4.64 M,
+"Population": 51.53 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 272.87 M,
+"Federal Operating Cash": 479.90 M
+"Federal Crash Count": 0.00
+"Federal GDP": 123.54 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 39,
+"Policy": Invest Education,
+"GDP": 5.52 M,
+"Real Gdp": 5.47 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 63.30,
+"Debt": 750.68 K,
+"Cash": 4.78 M,
+"Population": 52.04 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 279.44 M,
+"Federal Operating Cash": 491.72 M
+"Federal Crash Count": 0.00
+"Federal GDP": 124.81 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 40,
+"Policy": Invest Education,
+"GDP": 5.61 M,
+"Real Gdp": 5.57 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 57.11,
+"Debt": 655.30 K,
+"Cash": 4.93 M,
+"Population": 52.56 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 286.06 M,
+"Federal Operating Cash": 503.73 M
+"Federal Crash Count": 0.00
+"Federal GDP": 125.90 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 41,
+"Policy": Market Trader Support,
+"GDP": 5.74 M,
+"Real Gdp": 5.70 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 61.32,
+"Debt": 549.53 K,
+"Cash": 5.09 M,
+"Population": 53.09 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 293.01 M,
+"Federal Operating Cash": 516.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 127.00 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 42,
+"Policy": Invest Education,
+"GDP": 5.85 M,
+"Real Gdp": 5.80 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.72,
+"Debt": 455.36 K,
+"Cash": 5.24 M,
+"Population": 53.62 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 299.20 M,
+"Federal Operating Cash": 527.70 M
+"Federal Crash Count": 0.00
+"Federal GDP": 128.21 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 43,
+"Policy": Invest Education,
+"GDP": 5.95 M,
+"Real Gdp": 5.91 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 60.80,
+"Debt": 350.13 K,
+"Cash": 5.40 M,
+"Population": 54.16 K,
+"Infrastructure": 62.00
+},
+},
+"Federal Reserve": 306.42 M,
+"Federal Operating Cash": 540.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 129.24 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 44,
+"Policy": Market Trader Support,
+"GDP": 6.06 M,
+"Real Gdp": 6.03 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 61.59,
+"Debt": 2.43 M,
+"Cash": 4.45 M,
+"Population": 54.70 K,
+"Infrastructure": 63.00
+},
+},
+"Federal Reserve": 312.47 M,
+"Federal Operating Cash": 551.82 M
+"Federal Crash Count": 0.00
+"Federal GDP": 130.24 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 45,
+"Policy": Raise Taxes,
+"GDP": 6.16 M,
+"Real Gdp": 6.11 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 61.87,
+"Debt": 2.31 M,
+"Cash": 4.63 M,
+"Population": 55.04 K,
+"Infrastructure": 63.00
+},
+},
+"Federal Reserve": 319.55 M,
+"Federal Operating Cash": 564.74 M
+"Federal Crash Count": 0.00
+"Federal GDP": 130.95 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 46,
+"Policy": Market Trader Support,
+"GDP": 6.27 M,
+"Real Gdp": 6.24 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 61.99,
+"Debt": 4.08 M,
+"Cash": 3.85 M,
+"Population": 55.59 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 326.81 M,
+"Federal Operating Cash": 578.05 M
+"Federal Crash Count": 0.00
+"Federal GDP": 131.92 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 47,
+"Policy": Market Trader Support,
+"GDP": 6.40 M,
+"Real Gdp": 6.38 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 63.21,
+"Debt": 3.99 M,
+"Cash": 3.98 M,
+"Population": 56.15 K,
+"Infrastructure": 65.00
+},
+},
+"Federal Reserve": 332.26 M,
+"Federal Operating Cash": 588.51 M
+"Federal Crash Count": 0.00
+"Federal GDP": 132.92 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 48,
+"Policy": Invest Education,
+"GDP": 7.49 M,
+"Real Gdp": 6.49 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.33,
+"Stability": 63.43,
+"Debt": 3.90 M,
+"Cash": 4.12 M,
+"Population": 56.71 K,
+"Infrastructure": 65.00
+},
+},
+"Federal Reserve": 338.74 M,
+"Federal Operating Cash": 600.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 133.86 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 49,
+"Policy": Invest Education,
+"GDP": 6.59 M,
+"Real Gdp": 6.57 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.33,
+"Stability": 62.34,
+"Debt": 5.47 M,
+"Cash": 3.41 M,
+"Population": 57.27 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 345.91 M,
+"Federal Operating Cash": 613.89 M
+"Federal Crash Count": 0.00
+"Federal GDP": 134.96 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 50,
+"Policy": Raise Taxes,
+"GDP": 6.67 M,
+"Real Gdp": 6.62 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.16,
+"Debt": 5.37 M,
+"Cash": 3.57 M,
+"Population": 57.64 K,
+"Infrastructure": 64.00
+},
+},
+"Federal Reserve": 352.30 M,
+"Federal Operating Cash": 626.05 M
+"Federal Crash Count": 0.00
+"Federal GDP": 135.62 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 51,
+"Policy": Invest Infrastructure,
+"GDP": 6.78 M,
+"Real Gdp": 6.68 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.56,
+"Debt": 5.30 M,
+"Cash": 3.68 M,
+"Population": 58.22 K,
+"Infrastructure": 67.00
+},
+},
+"Federal Reserve": 358.32 M,
+"Federal Operating Cash": 637.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 136.36 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 52,
+"Policy": Invest Education,
+"GDP": 6.87 M,
+"Real Gdp": 6.80 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 63.17,
+"Debt": 5.22 M,
+"Cash": 3.81 M,
+"Population": 58.80 K,
+"Infrastructure": 67.00
+},
+},
+"Federal Reserve": 364.11 M,
+"Federal Operating Cash": 648.91 M
+"Federal Crash Count": 0.00
+"Federal GDP": 136.98 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 53,
+"Policy": Invest Infrastructure,
+"GDP": 7.98 M,
+"Real Gdp": 6.90 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.97,
+"Debt": 5.13 M,
+"Cash": 3.95 M,
+"Population": 59.39 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 371.06 M,
+"Federal Operating Cash": 662.06 M
+"Federal Crash Count": 0.00
+"Federal GDP": 137.85 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 54,
+"Policy": Austerity,
+"GDP": 7.08 M,
+"Real Gdp": 6.99 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.61,
+"Debt": 5.04 M,
+"Cash": 4.09 M,
+"Population": 59.98 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 376.27 M,
+"Federal Operating Cash": 672.46 M
+"Federal Crash Count": 0.00
+"Federal GDP": 138.58 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 55,
+"Policy": Invest Education,
+"GDP": 7.21 M,
+"Real Gdp": 7.12 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 63.18,
+"Debt": 4.95 M,
+"Cash": 4.22 M,
+"Population": 60.58 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 381.72 M,
+"Federal Operating Cash": 683.26 M
+"Federal Crash Count": 0.00
+"Federal GDP": 139.30 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 56,
+"Policy": Raise Taxes,
+"GDP": 7.29 M,
+"Real Gdp": 7.21 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 59.35,
+"Debt": 6.60 M,
+"Cash": 3.52 M,
+"Population": 60.98 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 387.67 M,
+"Federal Operating Cash": 694.96 M
+"Federal Crash Count": 0.00
+"Federal GDP": 139.86 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 57,
+"Policy": Market Trader Support,
+"GDP": 7.37 M,
+"Real Gdp": 7.29 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 61.01,
+"Debt": 7.94 M,
+"Cash": 2.92 M,
+"Population": 61.59 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 393.93 M,
+"Federal Operating Cash": 707.14 M
+"Federal Crash Count": 0.00
+"Federal GDP": 140.48 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 58,
+"Policy": Austerity,
+"GDP": 7.38 M,
+"Real Gdp": 7.31 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 61.35,
+"Debt": 7.84 M,
+"Cash": 3.08 M,
+"Population": 62.21 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 400.31 M,
+"Federal Operating Cash": 719.61 M
+"Federal Crash Count": 0.00
+"Federal GDP": 140.97 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 59,
+"Policy": Invest Education,
+"GDP": 7.42 M,
+"Real Gdp": 7.37 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.74,
+"Debt": 7.76 M,
+"Cash": 3.19 M,
+"Population": 62.83 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 405.68 M,
+"Federal Operating Cash": 730.45 M
+"Federal Crash Count": 0.00
+"Federal GDP": 141.37 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 60,
+"Policy": Invest Education,
+"GDP": 7.46 M,
+"Real Gdp": 7.42 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.07,
+"Debt": 9.01 M,
+"Cash": 2.61 M,
+"Population": 63.46 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 410.55 M,
+"Federal Operating Cash": 740.48 M
+"Federal Crash Count": 0.00
+"Federal GDP": 141.80 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 61,
+"Policy": Austerity,
+"GDP": 7.52 M,
+"Real Gdp": 7.44 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 61.77,
+"Debt": 8.91 M,
+"Cash": 2.75 M,
+"Population": 64.09 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 416.20 M,
+"Federal Operating Cash": 751.91 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.10 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 62,
+"Policy": Invest Education,
+"GDP": 7.55 M,
+"Real Gdp": 7.49 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.89,
+"Debt": 8.86 M,
+"Cash": 2.83 M,
+"Population": 64.73 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 421.92 M,
+"Federal Operating Cash": 763.39 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.27 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 63,
+"Policy": Raise Taxes,
+"GDP": 7.58 M,
+"Real Gdp": 7.51 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.36,
+"Debt": 8.77 M,
+"Cash": 2.98 M,
+"Population": 65.18 K,
+"Infrastructure": 70.00
+},
+},
+"Federal Reserve": 427.82 M,
+"Federal Operating Cash": 775.27 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.23 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 64,
+"Policy": Invest Infrastructure,
+"GDP": 7.61 M,
+"Real Gdp": 7.54 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 61.45,
+"Debt": 9.94 M,
+"Cash": 2.42 M,
+"Population": 65.83 K,
+"Infrastructure": 73.00
+},
+},
+"Federal Reserve": 432.74 M,
+"Federal Operating Cash": 785.76 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.51 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 65,
+"Policy": Raise Taxes,
+"GDP": 7.60 M,
+"Real Gdp": 7.56 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 61.82,
+"Debt": 9.84 M,
+"Cash": 2.57 M,
+"Population": 66.28 K,
+"Infrastructure": 72.00
+},
+},
+"Federal Reserve": 438.57 M,
+"Federal Operating Cash": 797.79 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.80 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 66,
+"Policy": Invest Education,
+"GDP": 7.65 M,
+"Real Gdp": 7.61 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.35,
+"Stability": 62.92,
+"Debt": 9.78 M,
+"Cash": 2.66 M,
+"Population": 66.95 K,
+"Infrastructure": 72.00
+},
+},
+"Federal Reserve": 443.15 M,
+"Federal Operating Cash": 807.76 M
+"Federal Crash Count": 0.00
+"Federal GDP": 142.96 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 67,
+"Policy": Invest Education,
+"GDP": 7.68 M,
+"Real Gdp": 7.66 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 63.33,
+"Debt": 9.72 M,
+"Cash": 2.76 M,
+"Population": 67.62 K,
+"Infrastructure": 72.00
+},
+},
+"Federal Reserve": 447.85 M,
+"Federal Operating Cash": 817.82 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.18 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 68,
+"Policy": Raise Taxes,
+"GDP": 8.93 M,
+"Real Gdp": 7.68 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 62.52,
+"Debt": 9.64 M,
+"Cash": 2.89 M,
+"Population": 68.09 K,
+"Infrastructure": 72.00
+},
+},
+"Federal Reserve": 452.80 M,
+"Federal Operating Cash": 828.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.34 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 69,
+"Policy": Invest Education,
+"GDP": 7.81 M,
+"Real Gdp": 7.73 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 60.00,
+"Debt": 10.76 M,
+"Cash": 2.41 M,
+"Population": 68.77 K,
+"Infrastructure": 72.00
+},
+},
+"Federal Reserve": 458.34 M,
+"Federal Operating Cash": 839.84 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.51 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 70,
+"Policy": Invest Infrastructure,
+"GDP": 7.84 M,
+"Real Gdp": 7.76 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 65.95,
+"Debt": 10.71 M,
+"Cash": 2.48 M,
+"Population": 69.46 K,
+"Infrastructure": 75.00
+},
+},
+"Federal Reserve": 463.04 M,
+"Federal Operating Cash": 850.21 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.49 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 71,
+"Policy": Austerity,
+"GDP": 7.88 M,
+"Real Gdp": 7.78 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 61.99,
+"Debt": 11.64 M,
+"Cash": 2.08 M,
+"Population": 70.15 K,
+"Infrastructure": 75.00
+},
+},
+"Federal Reserve": 469.02 M,
+"Federal Operating Cash": 862.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.78 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 72,
+"Policy": Austerity,
+"GDP": 7.89 M,
+"Real Gdp": 7.80 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.14,
+"Debt": 12.45 M,
+"Cash": 1.78 M,
+"Population": 70.85 K,
+"Infrastructure": 75.00
+},
+},
+"Federal Reserve": 474.42 M,
+"Federal Operating Cash": 874.18 M
+"Federal Crash Count": 0.00
+"Federal GDP": 143.90 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 73,
+"Policy": Raise Taxes,
+"GDP": 7.94 M,
+"Real Gdp": 7.81 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 60.85,
+"Debt": 12.38 M,
+"Cash": 1.88 M,
+"Population": 71.36 K,
+"Infrastructure": 74.00
+},
+},
+"Federal Reserve": 479.02 M,
+"Federal Operating Cash": 884.32 M
+"Federal Crash Count": 0.00
+"Federal GDP": 144.22 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 74,
+"Policy": Invest Education,
+"GDP": 7.99 M,
+"Real Gdp": 7.86 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 61.32,
+"Debt": 13.12 M,
+"Cash": 1.53 M,
+"Population": 72.07 K,
+"Infrastructure": 74.00
+},
+},
+"Federal Reserve": 483.37 M,
+"Federal Operating Cash": 894.20 M
+"Federal Crash Count": 0.00
+"Federal GDP": 144.24 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 75,
+"Policy": Austerity,
+"GDP": 8.00 M,
+"Real Gdp": 7.88 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 61.46,
+"Debt": 13.06 M,
+"Cash": 1.62 M,
+"Population": 72.79 K,
+"Infrastructure": 74.00
+},
+},
+"Federal Reserve": 487.40 M,
+"Federal Operating Cash": 903.55 M
+"Federal Crash Count": 0.00
+"Federal GDP": 144.33 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 76,
+"Policy": Invest Education,
+"GDP": 8.03 M,
+"Real Gdp": 7.92 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 54.64,
+"Debt": 14.00 M,
+"Cash": 1.20 M,
+"Population": 66.17 K,
+"Infrastructure": 74.00
+},
+},
+"Federal Reserve": 490.70 M,
+"Federal Operating Cash": 913.44 M
+"Federal Crash Count": 0.00
+"Federal GDP": 144.43 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 77,
+"Policy": Invest Infrastructure,
+"GDP": 8.04 M,
+"Real Gdp": 7.95 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 56.93,
+"Debt": 13.95 M,
+"Cash": 1.28 M,
+"Population": 66.83 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 496.17 M,
+"Federal Operating Cash": 925.26 M
+"Federal Crash Count": 1.00
+"Federal GDP": 144.45 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 78,
+"Policy": Austerity,
+"GDP": 8.03 M,
+"Real Gdp": 7.97 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.35,
+"Stability": 59.65,
+"Debt": 13.88 M,
+"Cash": 1.40 M,
+"Population": 67.50 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 501.20 M,
+"Federal Operating Cash": 936.52 M
+"Federal Crash Count": 1.00
+"Federal GDP": 144.68 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 79,
+"Policy": Borrow,
+"GDP": 8.05 M,
+"Real Gdp": 7.98 M,
+"Growth": 0.00,
+"Inflation": 0.00,
+"Tax Rate": 0.36,
+"Stability": 58.63,
+"Debt": 14.07 M,
+"Cash": 1.70 M,
+"Population": 68.17 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 506.42 M,
+"Federal Operating Cash": 947.93 M
+"Federal Crash Count": 1.00
+"Federal GDP": 144.97 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 80,
+"Policy": Invest Education,
+"GDP": 8.06 M,
+"Real Gdp": 8.02 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 61.70,
+"Debt": 14.01 M,
+"Cash": 1.80 M,
+"Population": 68.85 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 511.87 M,
+"Federal Operating Cash": 959.86 M
+"Federal Crash Count": 1.00
+"Federal GDP": 145.11 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 81,
+"Policy": Market Trader Support,
+"GDP": 8.18 M,
+"Real Gdp": 8.10 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 63.08,
+"Debt": 13.98 M,
+"Cash": 1.84 M,
+"Population": 69.54 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 516.18 M,
+"Federal Operating Cash": 969.98 M
+"Federal Crash Count": 1.00
+"Federal GDP": 145.30 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 82,
+"Policy": Raise Taxes,
+"GDP": 8.19 M,
+"Real Gdp": 8.11 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 62.43,
+"Debt": 13.91 M,
+"Cash": 1.95 M,
+"Population": 70.03 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 520.53 M,
+"Federal Operating Cash": 980.17 M
+"Federal Crash Count": 1.00
+"Federal GDP": 145.48 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 83,
+"Policy": Invest Education,
+"GDP": 8.26 M,
+"Real Gdp": 8.16 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 67.19,
+"Debt": 13.88 M,
+"Cash": 2.00 M,
+"Population": 70.73 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 525.97 M,
+"Federal Operating Cash": 992.07 M
+"Federal Crash Count": 1.00
+"Federal GDP": 145.68 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 84,
+"Policy": Raise Taxes,
+"GDP": 8.31 M,
+"Real Gdp": 8.17 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 63.91,
+"Debt": 13.81 M,
+"Cash": 2.11 M,
+"Population": 71.24 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 529.69 M,
+"Federal Operating Cash": 1.00 B
+"Federal Crash Count": 1.00
+"Federal GDP": 145.91 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 85,
+"Policy": Invest Education,
+"GDP": 8.36 M,
+"Real Gdp": 8.22 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 63.63,
+"Debt": 13.80 M,
+"Cash": 2.12 M,
+"Population": 71.95 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 533.33 M,
+"Federal Operating Cash": 1.01 B
+"Federal Crash Count": 1.00
+"Federal GDP": 146.22 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 86,
+"Policy": Raise Taxes,
+"GDP": 8.35 M,
+"Real Gdp": 8.23 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 62.63,
+"Debt": 13.75 M,
+"Cash": 2.20 M,
+"Population": 72.47 K,
+"Infrastructure": 77.00
+},
+},
+"Federal Reserve": 538.64 M,
+"Federal Operating Cash": 1.02 B
+"Federal Crash Count": 1.00
+"Federal GDP": 146.28 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 87,
+"Policy": Invest Infrastructure,
+"GDP": 8.37 M,
+"Real Gdp": 8.25 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 56.46,
+"Debt": 13.71 M,
+"Cash": 2.26 M,
+"Population": 73.19 K,
+"Infrastructure": 80.00
+},
+},
+"Federal Reserve": 542.45 M,
+"Federal Operating Cash": 1.03 B
+"Federal Crash Count": 1.00
+"Federal GDP": 146.47 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 88,
+"Policy": Invest Infrastructure,
+"GDP": 8.38 M,
+"Real Gdp": 8.28 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 60.29,
+"Debt": 13.70 M,
+"Cash": 2.28 M,
+"Population": 73.92 K,
+"Infrastructure": 83.00
+},
+},
+"Federal Reserve": 546.54 M,
+"Federal Operating Cash": 1.04 B
+"Federal Crash Count": 1.00
+"Federal GDP": 146.69 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 89,
+"Policy": Raise Taxes,
+"GDP": 8.38 M,
+"Real Gdp": 8.29 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 61.34,
+"Debt": 13.64 M,
+"Cash": 2.38 M,
+"Population": 74.46 K,
+"Infrastructure": 82.00
+},
+},
+"Federal Reserve": 549.03 M,
+"Federal Operating Cash": 1.05 B
+"Federal Crash Count": 2.00
+"Federal GDP": 146.73 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 90,
+"Policy": Invest Education,
+"GDP": 8.41 M,
+"Real Gdp": 8.34 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.36,
+"Stability": 63.22,
+"Debt": 13.58 M,
+"Cash": 2.46 M,
+"Population": 75.20 K,
+"Infrastructure": 82.00
+},
+},
+"Federal Reserve": 553.37 M,
+"Federal Operating Cash": 1.06 B
+"Federal Crash Count": 3.00
+"Federal GDP": 146.74 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 91,
+"Policy": Invest Education,
+"GDP": 8.46 M,
+"Real Gdp": 8.39 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 60.25,
+"Debt": 14.55 M,
+"Cash": 2.03 M,
+"Population": 75.95 K,
+"Infrastructure": 82.00
+},
+},
+"Federal Reserve": 557.02 M,
+"Federal Operating Cash": 1.07 B
+"Federal Crash Count": 3.00
+"Federal GDP": 146.70 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 92,
+"Policy": Austerity,
+"GDP": 8.53 M,
+"Real Gdp": 8.40 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 54.92,
+"Debt": 14.52 M,
+"Cash": 2.08 M,
+"Population": 76.71 K,
+"Infrastructure": 82.00
+},
+},
+"Federal Reserve": 560.09 M,
+"Federal Operating Cash": 1.08 B
+"Federal Crash Count": 3.00
+"Federal GDP": 146.70 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 93,
+"Policy": Market Trader Support,
+"GDP": 8.68 M,
+"Real Gdp": 8.48 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.36,
+"Stability": 59.15,
+"Debt": 15.33 M,
+"Cash": 1.68 M,
+"Population": 77.48 K,
+"Infrastructure": 83.00
+},
+},
+"Federal Reserve": 564.21 M,
+"Federal Operating Cash": 1.09 B
+"Federal Crash Count": 4.00
+"Federal GDP": 146.82 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 94,
+"Policy": Austerity,
+"GDP": 8.67 M,
+"Real Gdp": 8.49 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 60.54,
+"Debt": 15.28 M,
+"Cash": 1.78 M,
+"Population": 78.25 K,
+"Infrastructure": 83.00
+},
+},
+"Federal Reserve": 567.67 M,
+"Federal Operating Cash": 1.10 B
+"Federal Crash Count": 4.00
+"Federal GDP": 146.91 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 95,
+"Policy": Raise Taxes,
+"GDP": 8.69 M,
+"Real Gdp": 8.51 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 55.26,
+"Debt": 15.21 M,
+"Cash": 1.87 M,
+"Population": 78.83 K,
+"Infrastructure": 83.00
+},
+},
+"Federal Reserve": 570.46 M,
+"Federal Operating Cash": 1.11 B
+"Federal Crash Count": 4.00
+"Federal GDP": 146.85 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 96,
+"Policy": Invest Infrastructure,
+"GDP": 8.71 M,
+"Real Gdp": 8.53 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 58.48,
+"Debt": 15.96 M,
+"Cash": 1.49 M,
+"Population": 79.62 K,
+"Infrastructure": 86.00
+},
+},
+"Federal Reserve": 575.18 M,
+"Federal Operating Cash": 1.12 B
+"Federal Crash Count": 5.00
+"Federal GDP": 146.69 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 97,
+"Policy": Austerity,
+"GDP": 8.71 M,
+"Real Gdp": 8.54 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 60.27,
+"Debt": 15.89 M,
+"Cash": 1.60 M,
+"Population": 80.42 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 579.98 M,
+"Federal Operating Cash": 1.13 B
+"Federal Crash Count": 5.00
+"Federal GDP": 146.89 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 98,
+"Policy": Raise Taxes,
+"GDP": 8.70 M,
+"Real Gdp": 8.56 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 58.24,
+"Debt": 16.50 M,
+"Cash": 1.37 M,
+"Population": 81.02 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 584.49 M,
+"Federal Operating Cash": 1.14 B
+"Federal Crash Count": 5.00
+"Federal GDP": 146.77 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 99,
+"Policy": Austerity,
+"GDP": 8.70 M,
+"Real Gdp": 8.57 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 60.18,
+"Debt": 16.45 M,
+"Cash": 1.46 M,
+"Population": 81.83 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 585.94 M,
+"Federal Operating Cash": 1.15 B
+"Federal Crash Count": 5.00
+"Federal GDP": 146.76 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 100,
+"Policy": Invest Education,
+"GDP": 8.75 M,
+"Real Gdp": 8.61 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 59.15,
+"Debt": 17.02 M,
+"Cash": 1.21 M,
+"Population": 82.65 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 585.29 M,
+"Federal Operating Cash": 1.16 B
+"Federal Crash Count": 7.00
+"Federal GDP": 146.71 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 101,
+"Policy": Austerity,
+"GDP": 8.72 M,
+"Real Gdp": 8.62 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 48.46,
+"Debt": 17.29 M,
+"Cash": 1.10 M,
+"Population": 75.13 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 590.24 M,
+"Federal Operating Cash": 1.17 B
+"Federal Crash Count": 11.00
+"Federal GDP": 146.76 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 102,
+"Policy": Austerity,
+"GDP": 8.74 M,
+"Real Gdp": 8.63 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 44.42,
+"Debt": 17.52 M,
+"Cash": 1.05 M,
+"Population": 68.29 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 593.99 M,
+"Federal Operating Cash": 1.18 B
+"Federal Crash Count": 11.00
+"Federal GDP": 146.64 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 103,
+"Policy": Raise Taxes,
+"GDP": 8.73 M,
+"Real Gdp": 8.64 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 53.68,
+"Debt": 17.46 M,
+"Cash": 1.14 M,
+"Population": 68.77 K,
+"Infrastructure": 85.00
+},
+},
+"Federal Reserve": 598.26 M,
+"Federal Operating Cash": 1.19 B
+"Federal Crash Count": 11.00
+"Federal GDP": 146.57 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 104,
+"Policy": Invest Infrastructure,
+"GDP": 8.80 M,
+"Real Gdp": 8.65 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.37,
+"Stability": 59.05,
+"Debt": 17.46 M,
+"Cash": 1.07 M,
+"Population": 69.46 K,
+"Infrastructure": 88.00
+},
+},
+"Federal Reserve": 599.58 M,
+"Federal Operating Cash": 1.20 B
+"Federal Crash Count": 11.00
+"Federal GDP": 146.43 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 105,
+"Policy": Invest Infrastructure,
+"GDP": 8.79 M,
+"Real Gdp": 8.67 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 61.35,
+"Debt": 17.44 M,
+"Cash": 1.11 M,
+"Population": 70.15 K,
+"Infrastructure": 90.00
+},
+},
+"Federal Reserve": 601.99 M,
+"Federal Operating Cash": 1.21 B
+"Federal Crash Count": 13.00
+"Federal GDP": 146.54 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 106,
+"Policy": Invest Infrastructure,
+"GDP": 8.86 M,
+"Real Gdp": 8.69 M,
+"Growth": 0.00,
+"Inflation": 0.02,
+"Tax Rate": 0.37,
+"Stability": 59.12,
+"Debt": 17.87 M,
+"Cash": 920.71 K,
+"Population": 70.85 K,
+"Infrastructure": 93.00
+},
+},
+"Federal Reserve": 604.47 M,
+"Federal Operating Cash": 1.22 B
+"Federal Crash Count": 14.00
+"Federal GDP": 146.63 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 107,
+"Policy": Austerity,
+"GDP": 8.87 M,
+"Real Gdp": 8.70 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 60.54,
+"Debt": 17.81 M,
+"Cash": 1.02 M,
+"Population": 71.56 K,
+"Infrastructure": 93.00
+},
+},
+"Federal Reserve": 607.10 M,
+"Federal Operating Cash": 1.23 B
+"Federal Crash Count": 15.00
+"Federal GDP": 146.59 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 108,
+"Policy": Raise Taxes,
+"GDP": 8.93 M,
+"Real Gdp": 8.71 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 60.62,
+"Debt": 18.19 M,
+"Cash": 850.26 K,
+"Population": 72.07 K,
+"Infrastructure": 93.00
+},
+},
+"Federal Reserve": 611.66 M,
+"Federal Operating Cash": 1.24 B
+"Federal Crash Count": 16.00
+"Federal GDP": 146.77 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 109,
+"Policy": Austerity,
+"GDP": 8.98 M,
+"Real Gdp": 8.72 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 61.11,
+"Debt": 18.13 M,
+"Cash": 945.68 K,
+"Population": 72.79 K,
+"Infrastructure": 93.00
+},
+},
+"Federal Reserve": 614.21 M,
+"Federal Operating Cash": 1.25 B
+"Federal Crash Count": 16.00
+"Federal GDP": 146.95 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 110,
+"Policy": Raise Taxes,
+"GDP": 9.01 M,
+"Real Gdp": 8.73 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 60.32,
+"Debt": 18.49 M,
+"Cash": 782.27 K,
+"Population": 73.32 K,
+"Infrastructure": 93.00
+},
+},
+"Federal Reserve": 617.38 M,
+"Federal Operating Cash": 1.26 B
+"Federal Crash Count": 17.00
+"Federal GDP": 146.98 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 111,
+"Policy": Market Trader Support,
+"GDP": 9.08 M,
+"Real Gdp": 8.80 M,
+"Growth": 0.01,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 62.48,
+"Debt": 18.43 M,
+"Cash": 879.44 K,
+"Population": 74.05 K,
+"Infrastructure": 94.00
+},
+},
+"Federal Reserve": 620.94 M,
+"Federal Operating Cash": 1.27 B
+"Federal Crash Count": 18.00
+"Federal GDP": 146.92 M
+},
+{
+"STATE": {
+"ABUJA": {
+"Month": 112,
+"Policy": Invest Infrastructure,
+"GDP": 9.09 M,
+"Real Gdp": 8.82 M,
+"Growth": 0.00,
+"Inflation": 0.03,
+"Tax Rate": 0.38,
+"Stability": 62.62,
+"Debt": 18.43 M,
+"Cash": 838.54 K,
+"Population": 74.79 K,
+"Infrastructure": 97.00
+},
+},
+"Federal Reserve": 624.99 M,
+"Federal Operating Cash": 1.28 B
+"Federal Crash Count": 19.00
+"Federal GDP": 147.21 M
+}

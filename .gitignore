@@ -7,6 +7,7 @@ target/
 .vscode/
 .DS_Store
 release.sh
+LocalLogs/
 updates.md
 settings.json
 run.sh
@@ -14,4 +15,5 @@ commit.sh
 build/
 src/game/events
 src/game/seeding
+.gradle/
 .gradle/

@@ -1,0 +1,683 @@
+[
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 1,
+"Policy": Invest Education,
+"GDP": 3.62 M,
+"Real Gdp": 3.56 M,
+"Growth": 0.02,
+"Inflation": 0.02,
+"Tax Rate": 0.30,
+"Stability": 64.96,
+"Debt": 316.43 K,
+"Cash": 390.23 K,
+"Population": 60.60 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 6.94 M,
+"Federal Operating Cash": 12.48 M
+"Federal Crash Count": 0.00
+"Federal GDP": 77.10 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 2,
+"Policy": Invest Education,
+"GDP": 3.67 M,
+"Real Gdp": 3.61 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 63.28,
+"Debt": 242.20 K,
+"Cash": 505.90 K,
+"Population": 61.21 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 13.13 M,
+"Federal Operating Cash": 23.72 M
+"Federal Crash Count": 0.00
+"Federal GDP": 78.20 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 3,
+"Policy": Invest Education,
+"GDP": 3.72 M,
+"Real Gdp": 3.67 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 66.79,
+"Debt": 150.39 K,
+"Cash": 648.97 K,
+"Population": 61.82 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 20.66 M,
+"Federal Operating Cash": 37.13 M
+"Federal Crash Count": 0.00
+"Federal GDP": 79.48 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 4,
+"Policy": Raise Taxes,
+"GDP": 3.75 M,
+"Real Gdp": 3.71 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 63.06,
+"Debt": 58.97 K,
+"Cash": 791.44 K,
+"Population": 62.23 K,
+"Infrastructure": 20.00
+},
+},
+"Federal Reserve": 27.14 M,
+"Federal Operating Cash": 48.77 M
+"Federal Crash Count": 0.00
+"Federal GDP": 80.65 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 5,
+"Policy": Invest Infrastructure,
+"GDP": 3.79 M,
+"Real Gdp": 3.75 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.17,
+"Debt": -28.43 K,
+"Cash": 927.64 K,
+"Population": 62.86 K,
+"Infrastructure": 23.00
+},
+},
+"Federal Reserve": 34.42 M,
+"Federal Operating Cash": 61.75 M
+"Federal Crash Count": 0.00
+"Federal GDP": 81.94 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 6,
+"Policy": Invest Infrastructure,
+"GDP": 3.83 M,
+"Real Gdp": 3.80 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 60.63,
+"Debt": 265.80 K,
+"Cash": 861.83 K,
+"Population": 63.48 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 41.20 M,
+"Federal Operating Cash": 73.83 M
+"Federal Crash Count": 0.00
+"Federal GDP": 83.14 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 7,
+"Policy": Austerity,
+"GDP": 3.86 M,
+"Real Gdp": 3.84 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 64.87,
+"Debt": 175.28 K,
+"Cash": 1.00 M,
+"Population": 64.12 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 47.78 M,
+"Federal Operating Cash": 85.49 M
+"Federal Crash Count": 0.00
+"Federal GDP": 84.43 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 8,
+"Policy": Invest Education,
+"GDP": 3.90 M,
+"Real Gdp": 3.90 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 63.30,
+"Debt": 84.54 K,
+"Cash": 1.14 M,
+"Population": 64.76 K,
+"Infrastructure": 26.00
+},
+},
+"Federal Reserve": 55.24 M,
+"Federal Operating Cash": 98.48 M
+"Federal Crash Count": 0.00
+"Federal GDP": 85.61 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 9,
+"Policy": Invest Education,
+"GDP": 3.96 M,
+"Real Gdp": 3.96 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 62.74,
+"Debt": 7.05 K,
+"Cash": 1.27 M,
+"Population": 65.41 K,
+"Infrastructure": 25.00
+},
+},
+"Federal Reserve": 61.62 M,
+"Federal Operating Cash": 109.70 M
+"Federal Crash Count": 0.00
+"Federal GDP": 86.81 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 10,
+"Policy": Invest Infrastructure,
+"GDP": 4.04 M,
+"Real Gdp": 4.00 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 62.06,
+"Debt": -71.26 K,
+"Cash": 1.39 M,
+"Population": 66.06 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 68.53 M,
+"Federal Operating Cash": 121.77 M
+"Federal Crash Count": 0.00
+"Federal GDP": 88.14 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 11,
+"Policy": Invest Education,
+"GDP": 4.08 M,
+"Real Gdp": 4.07 M,
+"Growth": 0.02,
+"Inflation": 0.00,
+"Tax Rate": 0.34,
+"Stability": 62.27,
+"Debt": 0.00,
+"Cash": 1.55 M,
+"Population": 66.72 K,
+"Infrastructure": 28.00
+},
+},
+"Federal Reserve": 75.80 M,
+"Federal Operating Cash": 134.43 M
+"Federal Crash Count": 0.00
+"Federal GDP": 89.38 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 12,
+"Policy": Invest Infrastructure,
+"GDP": 4.13 M,
+"Real Gdp": 4.12 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 74.29,
+"Debt": 0.00,
+"Cash": 1.70 M,
+"Population": 67.39 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 83.17 M,
+"Federal Operating Cash": 147.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 90.68 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 13,
+"Policy": Raise Taxes,
+"GDP": 4.18 M,
+"Real Gdp": 4.15 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.38,
+"Stability": 65.57,
+"Debt": 0.00,
+"Cash": 1.89 M,
+"Population": 67.86 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 90.35 M,
+"Federal Operating Cash": 159.59 M
+"Federal Crash Count": 0.00
+"Federal GDP": 91.91 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 14,
+"Policy": Invest Education,
+"GDP": 4.23 M,
+"Real Gdp": 4.21 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 63.53,
+"Debt": 0.00,
+"Cash": 2.07 M,
+"Population": 68.54 K,
+"Infrastructure": 31.00
+},
+},
+"Federal Reserve": 97.86 M,
+"Federal Operating Cash": 172.55 M
+"Federal Crash Count": 0.00
+"Federal GDP": 93.08 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 15,
+"Policy": Invest Infrastructure,
+"GDP": 4.27 M,
+"Real Gdp": 4.25 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.38,
+"Stability": 62.37,
+"Debt": 0.00,
+"Cash": 2.22 M,
+"Population": 69.22 K,
+"Infrastructure": 34.00
+},
+},
+"Federal Reserve": 104.67 M,
+"Federal Operating Cash": 184.42 M
+"Federal Crash Count": 0.00
+"Federal GDP": 94.44 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 16,
+"Policy": Invest Infrastructure,
+"GDP": 4.31 M,
+"Real Gdp": 4.29 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 61.94,
+"Debt": 0.00,
+"Cash": 2.38 M,
+"Population": 69.91 K,
+"Infrastructure": 37.00
+},
+},
+"Federal Reserve": 112.15 M,
+"Federal Operating Cash": 197.21 M
+"Federal Crash Count": 0.00
+"Federal GDP": 95.64 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 17,
+"Policy": Invest Education,
+"GDP": 4.40 M,
+"Real Gdp": 4.35 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.38,
+"Stability": 62.20,
+"Debt": 0.00,
+"Cash": 2.57 M,
+"Population": 70.61 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 120.61 M,
+"Federal Operating Cash": 211.53 M
+"Federal Crash Count": 0.00
+"Federal GDP": 96.76 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 18,
+"Policy": Raise Taxes,
+"GDP": 4.41 M,
+"Real Gdp": 4.36 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 66.16,
+"Debt": 0.00,
+"Cash": 2.80 M,
+"Population": 71.12 K,
+"Infrastructure": 36.00
+},
+},
+"Federal Reserve": 128.84 M,
+"Federal Operating Cash": 225.62 M
+"Federal Crash Count": 0.00
+"Federal GDP": 97.99 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 19,
+"Policy": Invest Infrastructure,
+"GDP": 4.47 M,
+"Real Gdp": 4.43 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 63.30,
+"Debt": 0.00,
+"Cash": 2.93 M,
+"Population": 71.83 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 135.66 M,
+"Federal Operating Cash": 237.51 M
+"Federal Crash Count": 0.00
+"Federal GDP": 99.17 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 20,
+"Policy": Invest Education,
+"GDP": 4.55 M,
+"Real Gdp": 4.51 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 62.71,
+"Debt": 0.00,
+"Cash": 3.07 M,
+"Population": 72.55 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 142.32 M,
+"Federal Operating Cash": 249.19 M
+"Federal Crash Count": 0.00
+"Federal GDP": 100.47 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 21,
+"Policy": Invest Education,
+"GDP": 4.63 M,
+"Real Gdp": 4.59 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 62.49,
+"Debt": 0.00,
+"Cash": 3.22 M,
+"Population": 73.27 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 149.55 M,
+"Federal Operating Cash": 261.71 M
+"Federal Crash Count": 0.00
+"Federal GDP": 101.84 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 22,
+"Policy": Invest Education,
+"GDP": 4.70 M,
+"Real Gdp": 4.67 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.30,
+"Stability": 59.31,
+"Debt": 1.36 M,
+"Cash": 2.72 M,
+"Population": 74.00 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 157.60 M,
+"Federal Operating Cash": 275.54 M
+"Federal Crash Count": 0.00
+"Federal GDP": 103.17 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 23,
+"Policy": Austerity,
+"GDP": 4.78 M,
+"Real Gdp": 4.73 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 59.90,
+"Debt": 1.28 M,
+"Cash": 2.84 M,
+"Population": 74.74 K,
+"Infrastructure": 39.00
+},
+},
+"Federal Reserve": 164.05 M,
+"Federal Operating Cash": 286.90 M
+"Federal Crash Count": 0.00
+"Federal GDP": 104.54 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 24,
+"Policy": Invest Infrastructure,
+"GDP": 4.84 M,
+"Real Gdp": 4.80 M,
+"Growth": 0.01,
+"Inflation": 0.00,
+"Tax Rate": 0.31,
+"Stability": 55.54,
+"Debt": 1.89 M,
+"Cash": 2.61 M,
+"Population": 67.94 K,
+"Infrastructure": 42.00
+},
+},
+"Federal Reserve": 171.11 M,
+"Federal Operating Cash": 299.26 M
+"Federal Crash Count": 0.00
+"Federal GDP": 105.87 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 25,
+"Policy": Invest Infrastructure,
+"GDP": 4.89 M,
+"Real Gdp": 4.87 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 56.21,
+"Debt": 2.90 M,
+"Cash": 2.18 M,
+"Population": 68.62 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 178.94 M,
+"Federal Operating Cash": 312.88 M
+"Federal Crash Count": 0.00
+"Federal GDP": 107.02 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 26,
+"Policy": Austerity,
+"GDP": 5.00 M,
+"Real Gdp": 4.94 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.31,
+"Stability": 58.54,
+"Debt": 2.83 M,
+"Cash": 2.30 M,
+"Population": 69.30 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 185.27 M,
+"Federal Operating Cash": 324.12 M
+"Federal Crash Count": 0.00
+"Federal GDP": 108.37 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 27,
+"Policy": Raise Taxes,
+"GDP": 5.06 M,
+"Real Gdp": 4.99 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.35,
+"Stability": 59.86,
+"Debt": 2.73 M,
+"Cash": 2.45 M,
+"Population": 69.80 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 193.11 M,
+"Federal Operating Cash": 337.72 M
+"Federal Crash Count": 0.00
+"Federal GDP": 109.61 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 28,
+"Policy": Raise Taxes,
+"GDP": 5.13 M,
+"Real Gdp": 5.04 M,
+"Growth": 0.01,
+"Inflation": 0.02,
+"Tax Rate": 0.39,
+"Stability": 57.77,
+"Debt": 2.63 M,
+"Cash": 2.61 M,
+"Population": 70.29 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 200.35 M,
+"Federal Operating Cash": 350.51 M
+"Federal Crash Count": 0.00
+"Federal GDP": 110.79 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 29,
+"Policy": Boost Security,
+"GDP": 5.18 M,
+"Real Gdp": 5.10 M,
+"Growth": 0.01,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 59.70,
+"Debt": 3.58 M,
+"Cash": 2.23 M,
+"Population": 71.40 K,
+"Infrastructure": 44.00
+},
+},
+"Federal Reserve": 208.29 M,
+"Federal Operating Cash": 364.39 M
+"Federal Crash Count": 0.00
+"Federal GDP": 112.11 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 30,
+"Policy": Market Trader Support,
+"GDP": 5.26 M,
+"Real Gdp": 5.18 M,
+"Growth": 0.02,
+"Inflation": 0.01,
+"Tax Rate": 0.39,
+"Stability": 61.57,
+"Debt": 3.48 M,
+"Cash": 2.38 M,
+"Population": 72.11 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 216.24 M,
+"Federal Operating Cash": 378.30 M
+"Federal Crash Count": 0.00
+"Federal GDP": 113.47 M
+},
+{
+"STATE": {
+"ANAMBRA": {
+"Month": 31,
+"Policy": Raise Taxes,
+"GDP": 5.25 M,
+"Real Gdp": 5.19 M,
+"Growth": 0.00,
+"Inflation": 0.01,
+"Tax Rate": 0.34,
+"Stability": 61.09,
+"Debt": 3.39 M,
+"Cash": 2.53 M,
+"Population": 72.63 K,
+"Infrastructure": 45.00
+},
+},
+"Federal Reserve": 222.80 M,
+"Federal Operating Cash": 389.94 M
+"Federal Crash Count": 0.00
+"Federal GDP": 114.88 M
+}

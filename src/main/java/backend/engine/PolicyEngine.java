@@ -14,7 +14,7 @@ public class PolicyEngine {
         double lastCash = state.getCash();
         double lastInflation = state.getInflationRate();
 
-        double baseGrowth = 0.0025; // 0.25% per month
+        double baseGrowth = 0.0025; // 0.5% per month
         double growthRate;
         double infraFactor;
         double stabFactor;
@@ -46,7 +46,7 @@ public class PolicyEngine {
                 double infraSpend = state.getRealGdp() * 0.0325; //Each infrastructure expenditure costs 0.15% of state gdp
                 state.setInfrastructure(state.getInfrastructure() + 3);
                 state.setPolicySpend(state.getPolicySpend() + infraSpend);
-                double infraReturn = Math.log(1 + state.getInfrastructure()) * 0.003;
+                double infraReturn = Math.log(1 + state.getInfrastructure()) * 0.00015;
                 policyGrowth = (infraReturn * state.getAttributes().getInfraEfficiency()); //ATTRIBUTE ADJUSTMENT
                 break;
 
@@ -55,7 +55,7 @@ public class PolicyEngine {
                 double eduSpend = state.getRealGdp() * 0.02;  // 0.1% of gdp
                 state.setPolicySpend(state.getPolicySpend() + eduSpend);
                 state.setStability(state.getStability() + 1.2);  // gradual social effect
-                policyGrowth = (state.getAttributes().getEducationEfficiency() * 0.007);
+                policyGrowth = (state.getAttributes().getEducationEfficiency() * 0.0035);
                 break;
 
             case "Boost Security":
@@ -63,21 +63,21 @@ public class PolicyEngine {
                 double policyCost = (state.getRealGdp() * 0.006);
                 state.setPolicySpend(state.getPolicySpend() + policyCost); //Increase policy spend by 0.6% of GDP
                 state.setPopulation(state.getPopulation() + 400);
-                policyGrowth = 0.004;  // +0.4% slight boost
+                policyGrowth = 0.003;  // +0.4% slight boost
                 break;
 
             case "Subsidise Transport & Food":
                 double subsidyCost = state.getRealGdp() * 0.012;  // 0.8%
                 state.setPolicySpend(state.getPolicySpend() + subsidyCost);
                 state.setStability(state.getStability() + 2.0);
-                policyGrowth = 0.006;  // +0.6% slight boost
+                policyGrowth = 0.005;  // +0.6% slight boost
                 break;
 
             case "Market Trader Support":
                 double grantCost = state.getRealGdp() * 0.0105;  // 2%
                 state.setPolicySpend(state.getPolicySpend() + grantCost); // finance logic
                 state.setStability(state.getStability() + 1.8);
-                policyGrowth = 0.0075; //+0.75% productivity micro-boost
+                policyGrowth = 0.006; //+0.6% productivity micro-boost
                 state.setInfrastructure(state.getInfrastructure() + 1);  // soft boost
                 break;
 
@@ -92,11 +92,9 @@ public class PolicyEngine {
 
             case "Austerity":
                 //Austerity is harsh economic times. Cut govt. spending and raise tax aggressively.
-                //state.setMonthlySpend(state.getMonthlySpend() * 0.93);
                 state.setTaxRate(state.getTaxRate() + 0.002);  // smaller increase
                 state.setStability(state.getStability() - 2);
-                state.setPopulation(state.getPopulation() - 250);  // short-term contraction
-                state.setInflationRate(state.getInflationRate() * 1.1);
+                state.setInflationRate(state.getInflationRate() * 0.975); //Slight inflation drop.
                 break;
 
             default:
@@ -112,9 +110,9 @@ public class PolicyEngine {
         stabFactor = Math.max(0.75, Math.min(1.15, stabFactor)); //clamp the Stability factor between 0.75 and 1.15
 
         double t = state.getTaxRate();
-        if (t > 0.18) taxDistortion = (t - 0.18) * 0.08;
-        if (t > 0.30) taxDistortion += Math.pow(t - 0.30, 2) * 2.0;
-        taxDistortion = Math.min(0.02, taxDistortion);
+        if (t > 0.25) taxDistortion = (t - 0.25) * 0.04;
+        if (t > 0.35) taxDistortion += Math.pow(t - 0.35, 2) * 1.2;
+        taxDistortion = Math.min(0.015, taxDistortion);
         
         double debtRatio = state.getDebt() / Math.max(state.getRealGdp(), 1e-6);
         debtPenalty = 1 - Math.min(0.4, debtRatio * 0.25); //debt penalty should not be less than 0.4
@@ -124,7 +122,6 @@ public class PolicyEngine {
         growthRate += (infraEffect - taxDistortion);
 
         if (state.getInflationRate() < 0) growthRate += state.getInflationRate();
-        //if (state.getMonthlyProfit() < 0) { growthRate *= 0.95; }
 
         state.setDebtToGdpRatio(state.getDebt()/Math.max(state.getRealGdp(), 1e-6));
         if (state.getDebtToGdpRatio() > 0.80 && state.getDebtToGdpRatio() < 1.00) growthRate -= 0.005;
@@ -137,13 +134,20 @@ public class PolicyEngine {
         double inflationAdj = Math.max(-0.01, state.getInflationRate());
         state.setGdp(state.getRealGdp() * (1 + inflationAdj));
 
+        state.setStability(state.getStability() - Math.max(0, state.getInflationRate()) * 10); //Inflation effect
+        state.setStability(state.getStability() * state.getAttributes().getSecuritySensitivity()); //ATTRIBUTE ADJUSTMENT
+
+
         if (state.getGdpGrowth() < 0) state.setStability(state.getStability() + (state.getGdpGrowth() * 50));
         double effectiveStability = state.getStability()/(state.getStability() + 36) * 100;
-        
-
-        effectiveStability -= Math.max(0, state.getInflationRate()) * 10; //Inflation effect
-        effectiveStability *= state.getAttributes().getSecuritySensitivity(); //ATTRIBUTE ADJUSTMENT
         state.setStability(effectiveStability);
+
+        /*POPULATION GROWTH METRIC*/
+        double popGrowth = 0.008; // 0.8% monthly
+        if (state.getStability() < 45) popGrowth -= 0.002;
+        else popGrowth += 0.002;
+        state.setPopulation((long) Math.max(state.getPopulation() * (1 + popGrowth), 5000)); //Cap minimum population at 5000
+
 
         /*GOVERNMENT REVENUE GROWTH MODEL*/
         double taxRevenue;
@@ -162,10 +166,28 @@ public class PolicyEngine {
         double populationBurden = state.getPopulation() * Math.log(state.getPopulation()) * 0.5;
         state.setMonthlySpend(baseSpend + populationBurden + state.getPolicySpend());
 
+
         /*PROFIT AND LOSS ACCOUNTING*/
         state.setMonthlyProfit(state.getMonthlyRevenue() - state.getMonthlySpend());
         double realizedProfit = state.getMonthlyProfit() * (1 - (state.getAttributes().getCorruptionFactor() * 1.25));
         state.setMonthlyProfit(realizedProfit);
+
+
+        /*DEBT PAYMENT*/
+        if (state.getDebt() > 1) {
+            double interestPayment = state.getDebt() * federal.debtInterest;
+            state.setMonthlyProfit(state.getMonthlyProfit() - Math.max(interestPayment, 0));
+            state.setDebtPayment(interestPayment); // Amount of Debt Cleared (Interest only)
+            if (state.getInflationRate() > 0.06) state.setDebt(state.getDebt() * 1.025);
+
+            double principalRepayment = Math.max(state.getMonthlyProfit(), 0) * 0.15;
+            state.setMonthlyProfit(state.getMonthlyProfit() - principalRepayment);
+            state.setDebt(state.getDebt() - principalRepayment);
+            state.setDebtPayment(state.getDebtPayment() + principalRepayment);// If there's profit, monthly debt payment should also pay off principal
+        } else {
+            state.setDebt(0);
+            state.setDebtPayment(0);
+        }
         state.setCash(state.getCash() + (state.getMonthlyProfit() * 0.9)); //CORRUPTION Loss I guess
 
         /*State's Contribute 28% of their operating cash at the end of the month*/
@@ -177,23 +199,7 @@ public class PolicyEngine {
         federal.operatingCash += disasterContr;
 
         /*DEBT AND CASH MODEL */
-        federal.debtInterest = 0.02 + (state.getDebt() / Math.max(state.getRealGdp(), 1e-6)) * 0.05;
-
-        if (state.getDebt() > 1) {
-            double interestPayment = state.getDebt() * federal.debtInterest;
-            state.setCash(state.getCash() - interestPayment);
-            state.setDebtPayment(interestPayment); // Amount of Debt Cleared (Interest only)
-            if (state.getInflationRate() > 0.06) state.setDebt(state.getDebt() * 1.025);
-
-            double principalRepayment = state.getMonthlyProfit() * 0.15;
-            //if (principalRepayment > state.getDebt()) { principalRepayment = 0; }
-            state.setCash(state.getCash() - principalRepayment);
-            state.setDebt(state.getDebt() - principalRepayment);
-            state.setDebtPayment(state.getDebtPayment() + principalRepayment);// If there's profit, monthly debt payment should also pay off principal
-        } else {
-            state.setDebt(0);
-            state.setDebtPayment(0);
-        }
+        federal.debtInterest = Constants.FEDERAL_DEBT_INTEREST;
 
         /*STATE RESERVE ACCUMULATION*/
         if (state.getCash() > 0) {
@@ -216,12 +222,6 @@ public class PolicyEngine {
 
 
 
-        /*POPULATION GROWTH METRIC*/ 
-        double popGrowth = 0.008; // 0.5% monthly
-        if (state.getStability() < 40) popGrowth -= 0.0025;
-        if (state.getTaxRate() > 0.4) popGrowth -= 0.00175;
-
-        state.setPopulation((long) Math.max(state.getPopulation() * (1 + popGrowth), 5000)); //Cap minimum population at 5000
 
         /*CALCULATE NEXT MONTH'S INFLATION RATE*/
         //Calculate cash growth
@@ -256,14 +256,12 @@ public class PolicyEngine {
         state.setRealGdp(weirdDoubleChecks(state.getRealGdp(), Constants.MINIMUM_GDP));
         if (state.getTaxRate() > 0.4) state.setTaxRate(state.getTaxRate() * (0.85 - (Math.random()* 0.2)));
         if (AppMain.getSim().getCurrentMonth() % 8 == 0) state.setInfrastructure(state.getInfrastructure() - 1);
-        //state.setDebt(state.getDebt() * 1.0075);
     }
 
     public static double weirdDoubleChecks(double val, double min) {
         if ((Double.isNaN(val)) || (Double.isInfinite(val))) val = min;
         return val;
     }
-
 
 
 }

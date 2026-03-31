@@ -41,6 +41,7 @@ public class Telemetry {
 
                     writer.write("\"" + s.getName().toUpperCase() + "\": {\n");
                     writer.write("\"Month\": " + month + ",\n");
+                    writer.write("\"Policy\": " + s.getPolicy() + ",\n");
                     writer.write("\"GDP\": " + MyUtils.formatNumber(s.getGdp()) + ",\n");
                     writer.write("\"Real Gdp\": " + MyUtils.formatNumber(s.getRealGdp()) + ",\n");
                     writer.write("\"Growth\": " + MyUtils.formatNumber(s.getGdpGrowth()) + ",\n");

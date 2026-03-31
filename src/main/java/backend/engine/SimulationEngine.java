@@ -2,6 +2,7 @@ package engine;
 
 import java.util.*;
 
+import config.DisplayConfig;
 import data.Constants;
 import economies.FederalEconomy;
 import economies.StateEconomy;
@@ -9,7 +10,7 @@ import economies.SimulationResult;
 import events.EventTrigger;
 import election.ElectionEngine;
 import analytics.Telemetry;
-import metrics.PolicyChecks;
+import AI.PolicyChecks;
 import config.GameConfig;
 import utils.MyUtils;
 
@@ -17,14 +18,16 @@ public class SimulationEngine {
     private Map<String, StateEconomy> states;
     private FederalEconomy federal;
     private GameConfig config;
+    private DisplayConfig displayConfig;
     private ElectionEngine elect;
     private int currentMonth = 0;
 
-    public SimulationEngine(Map<String, StateEconomy> states, FederalEconomy federal, GameConfig config) {
+    public SimulationEngine(Map<String, StateEconomy> states, FederalEconomy federal, GameConfig config, DisplayConfig displayConfig) {
 
         this.states = states;
         this.federal = federal;
         this.config = config;
+        this.displayConfig = displayConfig;
     }
 
     public SimulationResult simulateMonth(String playerPolicy) {
@@ -63,7 +66,7 @@ public class SimulationEngine {
                 policyToApply = playerPolicy;
 
             } else {
-                policyToApply = AiPolicyMaker.smartChoice(s.getName(), config.getDifficulty());
+                policyToApply = AiPolicyMaker.smartChoice(s.getName(), displayConfig.getDifficulty());
                 s.setPolicy(policyToApply);
                 PolicyChecks.SimulationCheck(s.getName(), policyToApply);
             }

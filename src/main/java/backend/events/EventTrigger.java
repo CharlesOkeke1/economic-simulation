@@ -15,7 +15,7 @@ public class EventTrigger {
     private static String playerEventType = "";
 
     // event fires when risk crosses this
-    public static double eventThreshold = 0.6;
+    public static double eventThreshold = 0.5;
     public static boolean isEvent = false;
 
     public static void trigger(String stateName,int count) {

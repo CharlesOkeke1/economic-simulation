@@ -18,7 +18,6 @@ public class MenuScreen {
     private static boolean devType = false;
     private static GameDifficulty difficulty = GameDifficulty.MEDIUM;
 
-
     Stage window;
 
     private static final String[] nigerianStates = {
@@ -230,6 +229,10 @@ public class MenuScreen {
             AppMain.getConfig().setDevType(devType);
             AppMain.getConfig().setChosenState(state);
 
+            AppMain.getDisplayConfig().setDifficulty(difficulty);
+            AppMain.getDisplayConfig().setDevType(devType);
+            AppMain.getDisplayConfig().setDisplayState(state);
+
             System.out.println("Game starting with:");
             System.out.println("State: " + AppMain.getConfig().getChosenState());
             System.out.println("Months: " + AppMain.getConfig().getTotalMonths());
@@ -237,7 +240,6 @@ public class MenuScreen {
             System.out.println("Difficulty: " + AppMain.getConfig().getDifficulty());
 
             AppMain.switchRoot(HomeScreen.build());
-            //HomeScreen.refreshUI(); A screen reset method should be made to reset the screen on every restart.
             AppMain.gameLoop();
         });
 

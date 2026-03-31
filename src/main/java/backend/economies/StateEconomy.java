@@ -1,7 +1,7 @@
 package economies;
 
 import events.*;
-import metrics.AIMemory;
+import AI.AIMemory;
 
 public class StateEconomy {
 

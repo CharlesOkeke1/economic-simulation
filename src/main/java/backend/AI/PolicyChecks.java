@@ -1,11 +1,9 @@
-package metrics;
+package AI;
 
-import economies.FederalEconomy;
 import economies.StateEconomy;
 import gui.AppMain;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class PolicyChecks {
     public static void SimulationCheck(String name, String policyToApply) {
