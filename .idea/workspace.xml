@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/backend/config/DisplayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/SettingScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/ChangeLog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commit.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Abia_25-03-2026_12-21-19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Abuja_25-03-2026_10-43-55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Abuja_25-03-2026_10-46-55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Abuja_25-03-2026_12-18-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Abuja_25-03-2026_12-32-43.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Adamawa_25-03-2026_10-49-08.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Akwa Ibom_25-03-2026_12-23-36.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Akwa Ibom_25-03-2026_13-23-15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Anambra_25-03-2026_13-00-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Anambra_25-03-2026_13-35-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Anambra_25-03-2026_13-39-52.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Bauchi_25-03-2026_10-51-21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Bauchi_25-03-2026_13-41-52.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Bayelsa_25-03-2026_13-12-46.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Cross River_25-03-2026_13-44-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_24-03-2026_18-49-58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_24-03-2026_18-51-52.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_24-03-2026_18-57-14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-08-19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-08-57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-09-33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-11-04.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-15-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_12-20-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_13-00-54.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Lagos_25-03-2026_13-41-03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Rivers_25-03-2026_13-29-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Rivers_25-03-2026_13-57-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/release.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/analytics/Telemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/analytics/Telemetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/data/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/data/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/economies/StateEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/StateEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/AiPolicyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/AiPolicyMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/PolicyEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/PolicyEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/SimulationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/SimulationEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/events/EventTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/metrics/AIMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/AI/AIMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/metrics/PolicyChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/AI/PolicyChecks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/ConfirmationBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/ConfirmationBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/MenuScreen.java" afterDir="false" />
-    </list>
+    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,38 +69,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AppMain.executor": "Run",
-    "Application.HomeScreen.executor": "Run",
-    "Application.NewGameSetup.executor": "Run",
-    "Application.layoutPractice.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.economy-sim-game [run].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "recovery-branch",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/coolf/IdeaProjects/economy-sim-game",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/coolf/IdeaProjects/economy-sim-game/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AppMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomeScreen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewGameSetup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.layoutPractice.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.economy-sim-game [run].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;recovery-branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/coolf/IdeaProjects/economy-sim-game&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/coolf/IdeaProjects/economy-sim-game/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\coolf\IdeaProjects\economy-sim-game\src\main\java" />

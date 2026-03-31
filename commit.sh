@@ -6,7 +6,7 @@ read -p "Enter tag message: " tagMessage
 
 
 # Set source and target directories
-SOURCE="./logs"
+SOURCE="./log"
 TARGET="./LocalLogs"
 
 # Create target directory if it doesn't exist

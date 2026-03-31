@@ -5,7 +5,7 @@ read -p "Enter version tag (e.g. v1.2.3): " vTag
 read -p "Enter tag message: " tagMessage
 
 # Set source and target directories
-SOURCE="./logs"
+SOURCE="./log"
 TARGET="./LocalLogs"
 
 # Create target directory if it doesn't exist
