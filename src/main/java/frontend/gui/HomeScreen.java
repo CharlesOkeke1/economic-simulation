@@ -3,11 +3,13 @@ package gui;
 import data.Constants;
 import economies.StateEconomy;
 import engine.SimulationEngine;
+import events.EventDispObject;
 import utils.EnumToString;
 import events.EventTrigger;
 import utils.MyUtils;
 
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -27,20 +29,16 @@ public class HomeScreen {
     public static LineChart<Number, Number> inflaChart = createChart("Inflation", "Inflation Growth Rate", inflationSeries);
 
     public static XYChart.Series<Number, Number> cashSeries = new XYChart.Series<>();
-    public static LineChart<Number, Number> cashChart = createChart("Cash (Millions)", "Cash Growth Rate", cashSeries);
+    public static XYChart.Series<Number, Number> reserveSeries = new XYChart.Series<>();
+    public static XYChart.Series<Number, Number> debtSeries = new XYChart.Series<>();
+
+    public static XYChart.Series<Number, Number>[] array = new XYChart.Series[]{ cashSeries, reserveSeries, debtSeries };
+    public static LineChart<Number, Number> cashChart = createChart("Cash (Millions)", "Cash Growth Rate", array);
 
     public static String electionMessage = "";
-    public static String[] policyList = {
-            "Raise Taxes",
-            "Cut Taxes",
-            "Invest Infrastructure",
-            "Invest Education",
-            "Boost Security",
-            "Subsidise Transport & Food",
-            "Market Trader Support",
-            "Borrow",
-            "Austerity"
-    };
+    // Store last ranking positions by state name
+    private static Map<String, Integer> lastPositions = new HashMap<>();
+    public static String[] policyList = Constants.POLICY_LIST;
 
     /* ---- UI VALUE REFERENCES ---- */
     public static Label populationVal;
@@ -74,6 +72,8 @@ public class HomeScreen {
     private static Label playerEventType;
     private static Label govVal;
     private static Label stateVal;
+    private static Label top5Val;
+    private static Label top5PVal;
 
 
     public static Parent build() {
@@ -121,37 +121,20 @@ public class HomeScreen {
         restart.setOnMouseClicked(e -> ConfirmationBox.restart("Restart?", "Are you sure you want to restart?"));
 
 
-        Button exit = new Button("Exit");
+        Button exit = new Button("✕");
+        exit.setPrefWidth(60);
         exit.getStyleClass().add("card");
-        exit.setStyle("-fx-font-weight: bold;" + "-fx-text-fill: white;" + "-fx-font-size: 18;");
+        exit.setStyle("-fx-font-weight: bold;" + "-fx-text-fill: white;" + "-fx-font-size: 36;");
         exit.setOnAction(e -> {
             e.consume();
             ConfirmationBox.display("Leave?", "Are you sure you want to leave?");
         });
 
-        HBox top = new HBox(15, stateBox, diffBox, monthBox, policyBox, gov, crash, comp, exit, restart, settings);
+        HBox top = new HBox(15, stateBox, diffBox, monthBox, policyBox, gov, crash, comp,restart, settings, exit);
         top.setAlignment(Pos.TOP_LEFT);
 
         HBox topBar = new HBox(top);
         topBar.getStyleClass().add("top-bar");
-
-
-
-
-        /*BOTTOM BAR*/
-        VBox stateBoxx = createCard("State", AppMain.getConfig().getChosenState());
-        VBox diffBoxx = createCard("Difficulty",
-                EnumToString.convert(AppMain.getConfig().getDifficulty(), "_"));
-        VBox monthBoxx = createCard("Current Month",  AppMain.getSim().getCurrentMonth() + "");
-        VBox policyBoxx = createCard("Policy", "Raise Taxes");
-        HBox bottomBar = new HBox(stateBoxx, diffBoxx, monthBoxx, policyBoxx);
-        bottomBar.getStyleClass().add("top-bar");
-        bottomBar.setAlignment(Pos.BOTTOM_CENTER);
-
-        HBox bottomWrapper = new HBox(bottomBar);
-        bottomWrapper.setAlignment(Pos.CENTER);
-        bottomBar.setPrefWidth(600);
-        BorderPane.setMargin(bottomWrapper, new Insets(0,0,0,0));
 
         /*LEFT BAR*/
         HBox stats = createCardTitle("State Stats");
@@ -222,24 +205,19 @@ public class HomeScreen {
 
         /*Final wrapper identical to right bar structure*/
         VBox leftSection = new VBox(10, stats, scrollLeft);
-
         BorderPane.setMargin(leftSection, new Insets(15));
+
+
 
         /*RIGHT BAR*/
         HBox statss = createCardTitle("Recent Events");
 
-        VBox gdps = createNotification(
-                EventTrigger.getPlayerEventType(),
-                EventTrigger.getPlayerEventDisp()
-        );
+        VBox gdps = createNotification("No Event (Yours)", "No event is happening currently");
         HBox geader = (HBox) gdps.getChildren().get(0);
         playerEventType = (Label) geader.getChildren().getFirst();
         playerEventDispVal = (Label) gdps.getChildren().get(1);
 
-        VBox populations = createNotification(
-                EventTrigger.getEventType(),
-                EventTrigger.getEventDisp()
-        );
+        VBox populations = createNotification("No Event (Others)", "No event is happening currently");
 
         HBox header = (HBox) populations.getChildren().get(0);
         eventTypeVal = (Label) header.getChildren().getFirst();
@@ -257,12 +235,35 @@ public class HomeScreen {
         );
         electionVal = (Label) realGdps.getChildren().get(1);
 
-        VBox inflations = createNotification(
-                "Coming Soon!",
-                "Monthly events and notifications coming soon"
-        );
+        List<StateEconomy> top5List = states.values().stream()
+                .sorted(Comparator.comparingDouble(StateEconomy::getPosition))
+                .limit(Constants.TOP_STATES_COUNT)
+                .toList();
 
-        VBox rightBar = new VBox(10, populations, gdps, realGdps, inflations);
+        String result = top5List.stream()                 // first 5 elements
+                .map(s -> MyUtils.Ordinalize(s.getPosition()) + ". " + s.getName()) // extract the name
+                .collect(Collectors.joining("\n"));
+
+        result += "\n" + MyUtils.Ordinalize(playerState.getPosition())  + ". " + playerState.getName() + "(You)";
+
+        VBox inflations = createNotification(
+                "Top "+ Constants.TOP_STATES_COUNT + " States",
+                result
+        );
+        top5Val = (Label) inflations.getChildren().get(1);
+
+        String resultP = top5List.stream()
+                .map(s -> MyUtils.Ordinalize(s.getPosition()) + ". " + (s.getName().equals(playerState.getName()) ? s.getName() + " (You)" : s.getName()) + " Policy: " + s.getPolicy()) // extract the name
+                .collect(Collectors.joining("\n"));
+
+        VBox topPolicy = createNotification(
+                "Top "+ Constants.TOP_STATES_COUNT + " States' Policies",
+                resultP
+        );
+        topPolicy.setPrefHeight(270);
+        top5PVal = (Label) topPolicy.getChildren().get(1);
+
+        VBox rightBar = new VBox(10, topPolicy, populations, gdps, inflations, realGdps);
         rightBar.setStyle("-fx-background-color: #1f2937;");
         rightBar.setAlignment(Pos.TOP_RIGHT);
 
@@ -277,7 +278,7 @@ public class HomeScreen {
         BorderPane.setMargin(sb, new Insets(15));
 
         /* CENTER */
-        updateGraphData(playerState, currMonth); //Update the graph data
+        updateGraphData(AppMain.getStateMap().get(AppMain.getConfig().getChosenState()), currMonth); //Update the graph data
         VBox rank = createLargeCard("Position", MyUtils.Ordinalize(playerState.getPosition()));
         rankVal = (Label) rank.getChildren().get(1);
 
@@ -374,10 +375,10 @@ public class HomeScreen {
             });
         }
 
-        HBox policy = new HBox(10, policies, policyConfirm);
+        HBox bottom = new HBox(10, policies, policyConfirm);
         center.setAlignment(Pos.CENTER);
 
-        VBox chartPane = new VBox(30, chartLayer, center, policy);
+        VBox chartPane = new VBox(30, chartLayer, center, bottom);
         chartPane.setPadding(new Insets(50, 50, 0, 50));
         chartPane.setAlignment(Pos.TOP_CENTER);
 
@@ -404,7 +405,11 @@ public class HomeScreen {
         );
         inflationSeries.getNode().setStyle("-fx-stroke: #ef4444; -fx-stroke-width: 2px;");
         cashSeries.getData().add ( new XYChart.Data<>(currMonth, playerState.getCash()/1_000_000));
+        reserveSeries.getData().add ( new XYChart.Data<>(currMonth, playerState.getStateReserve()/1_000_000));
+        debtSeries.getData().add ( new XYChart.Data<>(currMonth, playerState.getDebt()/1_000_000));
         cashSeries.getNode().setStyle("-fx-stroke: #3b82f6; -fx-stroke-width: 2px;");
+        reserveSeries.getNode().setStyle("-fx-stroke: #ADD8E6; -fx-stroke-width: 2px;");
+        debtSeries.getNode().setStyle("-fx-stroke: orange; -fx-stroke-width: 2px;");
     }
 
     private static VBox createCard(String title, String value) {
@@ -418,7 +423,6 @@ public class HomeScreen {
         VBox box = new VBox(t, v);
         box.setAlignment(Pos.CENTER);
         box.setPrefWidth(125);
-        //box.setPrefHeight(30);
 
         box.getStyleClass().add("card");
 
@@ -502,6 +506,28 @@ public class HomeScreen {
         return chart;
     }
 
+    private static LineChart<Number, Number> createChart(String yLabel, String title,
+                                                         XYChart.Series<Number, Number>[] dataSeries2)
+    {
+        NumberAxis xAxis = new NumberAxis();
+        xAxis.setAutoRanging(false);
+        NumberAxis yAxis = new NumberAxis();
+        LineChart<Number, Number> chart = new LineChart<>(xAxis, yAxis);
+
+        xAxis.setLabel("Month");
+        yAxis.setLabel(yLabel);
+
+        for (XYChart.Series<Number, Number> numberNumberSeries : dataSeries2) {
+            chart.getData().add(numberNumberSeries);
+        }
+        chart.setPrefSize(360,245);
+
+        chart.setTitle(title);
+        chart.getStyleClass().add("chart");
+
+        return chart;
+    }
+
     private static void updateXAxis(LineChart<Number, Number> chart, int month) {
 
         NumberAxis xAxis = (NumberAxis) chart.getXAxis();
@@ -554,6 +580,31 @@ public class HomeScreen {
         stateVal.setText(states.get(AppMain.getDisplayConfig().getDisplayState()).getName());
         govVal.setText(EnumToString.convert(states.get(AppMain.getDisplayConfig().getDisplayState()).getGovernmentType(), "_"));
 
+        List<StateEconomy> top5List = states.values().stream()
+                .sorted(Comparator.comparingDouble(StateEconomy::getPosition))
+                .limit(Constants.TOP_STATES_COUNT)
+                .toList();
+
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < top5List.size(); i++) {
+            StateEconomy s = top5List.get(i);
+            int previousIndex = lastPositions.getOrDefault(s.getName(), i); // default = current index if first tick
+            String arrow;
+
+            if (i < previousIndex) arrow = " ↑";   // moved up
+            else if (i > previousIndex) arrow = " ↓"; // moved down
+            else arrow = " →";                     // no change
+            result.append(MyUtils.Ordinalize(s.getPosition()))
+                    .append(". ")
+                    .append(s.getName().equals(playerState.getName()) ? s.getName() + "(You)" : s.getName())
+                    .append(arrow)
+                    .append("\n");
+
+            // Update last position for next tick
+            lastPositions.put(s.getName(), i);
+        }
+        top5Val.setText(result.toString());
+
         if (currMonth % Constants.ELECTION_SPACING == 0 && currMonth != 0) {
             electionMessage = "The last election saw a sweeping victory. The cost on the government was ₦" + MyUtils.formatNumber(SimulationEngine.getElectCost()) + " and this was deducted from the state reserve";
         } else {
@@ -561,17 +612,40 @@ public class HomeScreen {
         }
         electionVal.setText(electionMessage);
 
-        eventTypeVal.setText(EventTrigger.getEventType());
-        eventDispVal.setText(EventTrigger.getEventDisp());
-        playerEventDispVal.setText(EventTrigger.getPlayerEventDisp());
-        playerEventType.setText(EventTrigger.getPlayerEventType());
+        HashMap<String, EventDispObject> dispMap = EventTrigger.getEventDispMap();
+        List<EventDispObject> list = dispMap.values().stream().toList();
+        Random ran = new Random();
+        int ranInt = ran.nextInt(list.size());
+
+
+        if (list.get(ranInt) != null) {
+            eventTypeVal.setText(list.get(ranInt).getEventType());
+            eventDispVal.setText(list.get(ranInt).getEventDisplay());
+        } else {
+            eventTypeVal.setText("No Events (Others)");
+            eventDispVal.setText("No Events is currently happening");
+        }
+
+        if (dispMap.get(AppMain.getDisplayConfig().getDisplayState()) != null) {
+            playerEventDispVal.setText(dispMap.get(AppMain.getDisplayConfig().getDisplayState()).getEventDisplay());
+            playerEventType.setText(dispMap.get(AppMain.getDisplayConfig().getDisplayState()).getEventType());
+        } else {
+            playerEventType.setText("No Events (Yours)");
+            playerEventDispVal.setText("No Events is currently happening");
+        }
+
+        String resultP = top5List.stream()
+                .map(s -> MyUtils.Ordinalize(s.getPosition()) + ". " + (s.getName().equals(playerState.getName()) ? s.getName() + " (You)" : s.getName()) + " Policy: " + s.getPolicy()) // extract the name
+                .collect(Collectors.joining("\n"));
+        top5PVal.setText(resultP);
     }
 
     public static void resetUI() {
         gdpSeries.getData().clear();
         inflationSeries.getData().clear();
         cashSeries.getData().clear();
+        reserveSeries.getData().clear();
+        debtSeries.getData().clear();
     }
-
 
 }

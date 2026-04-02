@@ -4,7 +4,6 @@ import events.*;
 import AI.AIMemory;
 
 public class StateEconomy {
-
     private String name;
     private double gdp;
     private double realGdp;

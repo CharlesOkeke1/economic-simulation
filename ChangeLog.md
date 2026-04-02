@@ -288,3 +288,14 @@ _This project uses **MAJOR.MINOR.PATCH** versioning:_
 - **Affected Packages** - `backend`, `frontend`.
 
 ---
+
+***Version 2.2.0*** - *31-03-2026*
+- **New Feature** - The recent events tab is now more interactive. 6 new policies have been added including `{"Close Tax Loopholes",
+                    "Expand VAT Base", "Invest Agriculture", "Invest Industry", "Defend Currency" and "Debt Restructuring"}`. Pool of 
+                    event output has been updated to `10` per event.
+- **Bug Fixes** - Events have been made less harsh. 
+- **Potential Weaknesses** - `Some errors may still arise especially with NaN values but these only occur at arount 150-200 months in
+                             but is currently being worked on`.
+- **Affected Packages** - `backend`, `frontend`.
+
+---

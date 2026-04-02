@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="" />
+    <list default="true" id="245a2d74-ba31-4578-83f3-8810984b629e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventDispObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/ChangeLog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/data/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/data/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/economies/StateEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/economies/StateEconomy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/AiPolicyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/AiPolicyMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/PolicyEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/PolicyEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/SimulationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/SimulationEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/engine/TurnRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/engine/TurnRandomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/events/ApplyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/ApplyEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/events/EventOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/events/EventTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/events/EventTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/ConfirmationBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/ConfirmationBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/gui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/gui/HomeScreen.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +98,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;recovery-branch&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/coolf/IdeaProjects/economy-sim-game&quot;,
@@ -208,6 +223,11 @@
       <workItem from="1774378961380" duration="164000" />
       <workItem from="1774435363303" duration="7601000" />
       <workItem from="1774968756734" duration="8279000" />
+      <workItem from="1774984506428" duration="10847000" />
+      <workItem from="1775030707951" duration="2046000" />
+      <workItem from="1775074034462" duration="8458000" />
+      <workItem from="1775117814971" duration="661000" />
+      <workItem from="1775143271491" duration="4745000" />
     </task>
     <servers />
   </component>

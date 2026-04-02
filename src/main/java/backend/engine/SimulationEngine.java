@@ -31,13 +31,13 @@ public class SimulationEngine {
     }
 
     public SimulationResult simulateMonth(String playerPolicy) {
-        String[] policies = {"Raise Taxes", "Cut Taxes", "Invest Infrastructure", "Invest Education", "Boost Security", "Borrow", "Austerity", "Market Trader Support", "Subsidise Transport & Food"};
         String playerStateName = config.getChosenState();
         StateEconomy playerState = states.get(playerStateName);
         
         /*FEDERATION ACCOUNTING */
         FederalAccountingEngine.federalAccounting();
         applyPolicies(playerState, playerPolicy);
+        EventTrigger.trigger();
 
         RankingEngine.calculateRank();
         currentMonth++;
@@ -60,7 +60,7 @@ public class SimulationEngine {
 
         for (StateEconomy s : states.values()) {
             String policyToApply;
-            EventTrigger.trigger(s.getName(), currentMonth);
+            //EventTrigger.trigger(s.getName(), currentMonth);
 
             if (s == playerState) {
                 policyToApply = playerPolicy;
@@ -74,20 +74,11 @@ public class SimulationEngine {
             /*STATE POLICY IMPLEMENTATION*/  
             if (s != playerState) {
                 PolicyEngine.applyPolicy(s.getName(), policyToApply);
-                EventTrigger.trigger(s.getName(), currentMonth);
             }else {
                 PolicyEngine.applyPolicy(playerStateName, policyToApply);
-                EventTrigger.trigger(playerStateName, currentMonth);
             }
         }
     }
-
-    public String getPolicy() {
-        Scanner sc = new Scanner(System.in);
-        MyUtils.SteppedPrinting("What is your " + MyUtils.Ordinalize(currentMonth) + "  month's policy", Constants.REPORT_DELAY_TIME);
-        return sc.nextLine();
-    }
-
     public int getCurrentMonth() {
         return currentMonth;
     }

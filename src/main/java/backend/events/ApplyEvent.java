@@ -11,50 +11,68 @@ public class ApplyEvent {
         FederalEconomy fed = AppMain.getFederal();
         StateEconomy state = AppMain.getStateMap().get(stateName);
 
-        /*EXAMPLE -> BASIC IMPLEMENTATION OF EVENT APPLICATION*/
         switch(type) {
-                case DEBT_CRISIS:
-                    state.setDebt(state.getDebt() + state.getCash() * 0.4);
-                    fed.debtInterest *= 1.5;
-                    state.setCash(state.getCash() * 0.8);
-                    state.setStability(state.getStability() * 0.95);
-                    break;
 
-                case WAR:
-                    state.setDebt(state.getDebt() + state.getCash() * 0.4);
-                    state.setCash(state.getCash() * 0.8);
-                    state.setStability(state.getStability() * 0.7);
-                    state.setPopulation((long)(state.getPopulation() * 0.85));
-                    break;
+            case DEBT_CRISIS:
+                double debtShock = state.getDebt() * 0.18 + state.getRealGdp() * 0.12;
+                state.setDebt(state.getDebt() + debtShock);
 
-                case INSURGENCY:
-                    state.setDebt(state.getDebt() + state.getCash() * 0.24);
-                    state.setCash(state.getCash() * 0.88);
-                    state.setStability(state.getStability() * 0.8);
-                    state.setPopulation((long)(state.getPopulation() * 0.9));
-                    break;
+                state.setCash(state.getCash() * 0.88);
+                state.setInflationRate(state.getInflationRate() * 1.15);
+                state.setStability(state.getStability() * 0.92);
 
-                case OIL_BOOM:
-                    fed.oilPriceIndex = fed.oilPriceIndex + 100;
-                    state.setStability(state.getStability() * 1.2);
-                    break;
+                // mild structural damage (recoverable)
+                state.setTaxRate(Math.max(0.05, state.getTaxRate() * 0.98));
 
-                case OIL_CRASH:
-                    fed.oilPriceIndex = fed.oilPriceIndex - 100;
-                    state.setStability(state.getStability() * 0.9);
-                    break;
+                // controlled global effect
+                fed.debtInterest = Math.min(fed.debtInterest * 1.08, 0.22);
+                break;
 
-                case PANDEMIC:
-                    state.setPopulation((long) (state.getPopulation() * 0.85));
-                    state.setGdp(state.getGdp() * 0.925);
-                    state.setStability(state.getStability() * 0.6);
-                    state.setInflationRate(state.getInflationRate() * 1.5);
-                    break;
+            case WAR:
+                state.setDebt(state.getDebt() + state.getRealGdp() * 0.22);
+                state.setCash(state.getCash() * 0.82);
+                state.setStability(state.getStability() * 0.78);
+                state.setPopulation((long)(state.getPopulation() * 0.92));
 
-                case FOREX_BOOM:
-                    state.setGdp(state.getGdp() * 1.15);
-                    break;
+                state.setInfrastructure(Math.max(0, state.getInfrastructure() - 4));
+                break;
 
+            case INSURGENCY:
+                state.setCash(state.getCash() * 0.9);
+                state.setDebt(state.getDebt() + state.getRealGdp() * 0.08);
+                state.setStability(state.getStability() * 0.88);
+
+                state.setInfrastructure(Math.max(0, state.getInfrastructure() - 2));
+                break;
+
+            case OIL_BOOM:
+                fed.oilPriceIndex *= 1.12;
+                state.setCash(state.getCash() * 1.07);
+                state.setStability(Math.min(100, state.getStability() * 1.05));
+                break;
+
+            case OIL_CRASH:
+                fed.oilPriceIndex *= 0.88;
+                state.setCash(state.getCash() * 0.93);
+                state.setStability(state.getStability() * 0.93);
+
+                // slight real impact
+                state.setRealGdp(state.getRealGdp() * 0.97);
+                break;
+
+            case PANDEMIC:
+                state.setPopulation((long)(state.getPopulation() * 0.93));
+                state.setRealGdp(state.getRealGdp() * 0.92);
+                state.setCash(state.getCash() * 0.9);
+                state.setStability(state.getStability() * 0.78);
+
+                state.setInflationRate(state.getInflationRate() * 1.2);
+                break;
+
+            case FOREX_BOOM:
+                state.setRealGdp(state.getRealGdp() * 1.08);
+                state.setCash(state.getCash() * 1.05);
+                break;
         }
     }
 }
